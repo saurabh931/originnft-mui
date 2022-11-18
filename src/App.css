@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: 'Futura Maxi CG Bold';
+    src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @font-face {
+    font-family: 'Futura Maxi CG Book';
+    src: url("../src/futuramaxicgbook/Futura\ Maxi\ CG\ Book.otf");
   }
-  to {
-    transform: rotate(360deg);
+  @font-face {
+    font-family: 'Century Gothic';
+    src: url("../src/century-gothic/Century\ Gothic.ttf");
   }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+  
+  
+  section {
+    background-image: linear-gradient(to right, #47474a, #73525c);
+  }
+h1{
+font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 600;
+font-size: 50px !important;
+line-height: 42px;
+color: #FFFFFF;
+}
+.button-primary{
+width: 155px;
+height: 56px;
+background: #E6E6E6;
+border-radius: 15px;
+border: none!important;
+font-family: 'Century Gothic' !important;
+font-style: normal;
+font-weight: 800;
+font-size: 16px !important;
+line-height: 20px;
+align-items: center;
+color: #101010;
+}
+.button-secondary{
+    width: 155px;
+height: 56px;
+background: #FEC200;
+border-radius: 15px;
+border: none!important;
+font-family: 'Century Gothic' !important;
+font-style: normal;
+font-weight: 800;
+font-size: 16px !important;
+line-height: 20px;
+align-items: center;
+color: #101010;
+
 }

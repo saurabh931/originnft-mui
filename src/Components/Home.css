@@ -1,0 +1,30 @@
+.container-fluid.background{
+    background-image: url("../Images/homeimage.png");
+    position: relative;
+    background-size: cover;
+    width: 100% ;
+    /* width: 1440px; */
+    height: 670px;
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+h1.header{
+    text-align: center;
+    padding-top: 220px;
+}
+.main-button{
+    text-align: center;
+    padding-top: 45px;
+}
+@media screen and (max-width:1280px) {
+    h1.header{
+        padding-top: 140px;
+    }
+    
+}
+/* h1.header{
+position: absolute;
+left: 50%;
+top: 32%;
+transform: translate(-45%);
+} */

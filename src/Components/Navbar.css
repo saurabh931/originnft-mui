@@ -1,0 +1,30 @@
+.header{
+    background-color: transparent rgb(205, 182, 182) !important;
+}
+main.MuiBox-root.css-19kzrtu {
+    padding: 0px;
+}
+nav.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    background: rgb(100, 150, 162, 0.9);
+    color: #000 !important;
+    box-shadow: none;
+    position: absolute;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: white;
+    font-size: 30px;
+}
+form.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1vm0r4s-MuiPaper-root {
+    width: 477.73px;
+    height: 41px;
+    left: 272.16px;
+    top: 19.06px;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 9.92153px;
+    background: rgba(166, 166, 166, 0.1);
+    box-shadow: none;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+    min-height: 0px;
+}
