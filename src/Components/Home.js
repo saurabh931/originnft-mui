@@ -9,7 +9,8 @@ import Image5 from "../Images/mainslider1.png";
 import Image6 from "../Images/mainslider2.png";
 import Image7 from "../Images/mainslider3.png";
 import Image8 from "../Images/mainslider4.png";
-import Image9 from "../Images/mainslider1.png"
+import Image9 from "../Images/mainslider1.png";
+import Hometabs from "./Hometabs"
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -19,14 +20,13 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 
 export default function Home() {
   return (
+    <>
     <div>
     <div className='container-fluid background'>
     <div>
       <h1 className='header'>Explore, collect, and sell NFTs</h1>
       <div className='main-button'> <button className='button-primary mx-3'>Explore</button>
       <button className='button-secondary'>Sell</button></div>
-    </div>
-
     </div>
     <div className="container-fluid py-5 swiper213 ">
         <Swiper
@@ -100,7 +100,11 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
       </div>
+    </div>
+    
       
     </div>
+    <div><Hometabs/></div>
+    </>
   )
 }
