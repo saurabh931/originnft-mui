@@ -5,7 +5,7 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Hometable from "./Hometable";
-import Grid from "@mui/material/Grid";
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -64,24 +64,10 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <Grid >
-          <Grid item lg={6}>
-            <Hometable />
-          </Grid>
-          <Grid item lg={6}>
-            <Hometable />
-          </Grid>
-        </Grid>
+        <Hometable />
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <Grid >
-          <Grid item lg={6}>
-            <Hometable />
-          </Grid>
-          <Grid item lg={6}>
-            <Hometable />
-          </Grid>
-        </Grid>
+        <Hometable />
       </TabPanel>
       {/* <TabPanel value={value} index={2}>
         Item Three
