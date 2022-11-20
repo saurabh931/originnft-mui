@@ -67,7 +67,7 @@ export default function BasicTable() {
     <Box>
     <Grid container spacing={2}>
     <Grid item xs={6}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table sx={{ minWidth: 600 }} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell>COLLECTION</TableCell>
@@ -102,8 +102,8 @@ export default function BasicTable() {
       
       
       
-      <Grid item xs={6}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Grid  item xs={6} className='table-2'>
+      <Table sx={{ minWidth: 600 }} aria-label="simple table" >
         <TableHead>
           <TableRow>
             <TableCell>COLLECTION</TableCell>

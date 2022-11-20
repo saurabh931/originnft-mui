@@ -178,3 +178,10 @@ span.nftamount{
 th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeMedium.css-1azl6jz-MuiTableCell-root {
   text-align: left;
 }
+
+@media screen and (max-width:1200) {
+  .table-2{
+    display: none;
+  }
+  
+}

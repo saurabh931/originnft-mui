@@ -25,7 +25,7 @@ export default function Home() {
     <div className='container-fluid background'>
     <div>
       <h1 className='header'>Explore, collect, and sell NFTs</h1>
-      <div className='main-button'> <button className='button-primary mx-3'>Explore</button>
+      <div className='main-button'> <button className='button-primary mx-3' href="/explore">Explore</button>
       <button className='button-secondary'>Sell</button></div>
     </div>
     <div className="container-fluid py-5 swiper213 ">
