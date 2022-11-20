@@ -39,6 +39,21 @@ line-height: 20px;
 align-items: center;
 color: #101010;
 }
+#button-1{
+  width: 200px !important;
+  height: 56px;
+  background: #E6E6E6;
+  border-radius: 15px;
+  border: none!important;
+  font-family: 'Century Gothic' !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 20px;
+  align-items: center;
+  color: #101010;
+padding: 16px 30px;
+}
 .button-secondary{
     width: 155px;
 height: 56px;

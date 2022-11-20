@@ -1,10 +1,11 @@
 import React from 'react'
+import "./Explore.css"
 
 function Explore() {
   return (
     <>
     <div className='background-image'>
-    
+    <h1>Explore</h1>
     </div>
     </>
   )
