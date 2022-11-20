@@ -87,17 +87,17 @@ export default function Home() {
             {" "}
             <img src={Image6} alt="" className="slider1" />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             {" "}
             <img src={Image7} alt="" className="slider1" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </SwiperSlide> */}
+         {/*  <SwiperSlide>
             {" "}
             <img src={Image8} alt="" className="slider1" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </SwiperSlide> */}
+         {/*  <SwiperSlide>
             <img src={Image9} alt="" className="slider1" />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>

@@ -36,7 +36,7 @@ import Browse2 from "../Images/Frame244.png"
 import Browse3 from "../Images/Frame245.png"
 import Browse4 from "../Images/Frame246.png"
 import Browse5 from "../Images/Frame247.png"
-import Browse6 from "../Images/Frame248.png"
+import Browse6 from "../Images/bannervideo.png"
 
 
 
