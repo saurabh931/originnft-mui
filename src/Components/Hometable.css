@@ -47,11 +47,21 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-size
 }
 .css-1ex1afd-MuiTableCell-root {
     border-bottom: none !important;
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+align-items: center;
+color: #353535;
 }
 .css-177gid-MuiTableCell-root {
     border-bottom: none !important;
 }
-
+.card {
+  border-top-left-radius: 13px !important;
+  border-top-right-radius: 13px !important;
+}
 #app {
     height: 100%;
   }
@@ -129,4 +139,42 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-size
 }
 .MuiGrid-root.MuiGrid-container.css-1jzi3sl-MuiGrid-root {
     margin-bottom: 25px;
+}
+span.s-no{
+  margin-right: 2rem;
+  font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+align-items: center;
+color: #353535;
+}
+img.tableimg{
+  margin-right: 2rem;
+}
+span.nftname{
+  margin-right: 0.5rem;
+  font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+align-items: center;
+color: #353535;
+}
+span.nftamount{
+    font-family: 'Futura Maxi CG Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* display: flex; */
+    align-items: center;
+    color: #353535;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeMedium.css-1azl6jz-MuiTableCell-root {
+  text-align: left;
 }

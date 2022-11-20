@@ -61,7 +61,7 @@ export default function BasicTabs() {
           
           
           {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
-          <Tab>ffffff<Dropdown >
+          <span><Dropdown >
           <Dropdown.Toggle variant="success" id="button-primary" className="">
             24 h
           </Dropdown.Toggle>
@@ -71,7 +71,17 @@ export default function BasicTabs() {
             <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
           </Dropdown.Menu>
-        </Dropdown></Tab>
+        </Dropdown></span><span><Dropdown >
+        <Dropdown.Toggle variant="success" id="button-primary" className="">
+          View all
+        </Dropdown.Toggle>
+  
+        <Dropdown.Menu>
+          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown></span>
         </Tabs>
         
       </Box>

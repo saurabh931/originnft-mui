@@ -64,15 +64,18 @@ export default function BasicTable() {
   return (
     <>
     <TableContainer component={Paper}>
+    <Box>
+    <Grid container spacing={2}>
+    <Grid item xs={6}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell>COLLECTION</TableCell>
             <TableCell align="right">FLOOR PRICE</TableCell>
             <TableCell align="right">VOLUME</TableCell>
-            <TableCell align="right">COLLECTION</TableCell>
+            {/* <TableCell align="right">COLLECTION</TableCell>
             <TableCell align="right">FLOOR PRICE</TableCell>
-            <TableCell align="right">VOLUME</TableCell>
+            <TableCell align="right">VOLUME</TableCell> */}
           </TableRow>
         </TableHead>
         <TableBody>
@@ -82,19 +85,61 @@ export default function BasicTable() {
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
-                <span>1</span><img src={Tabimage1} alt=''/><span>RENGA</span><img src={Tick} alt=''/>
+                <span className='s-no'>1</span><img src={Tabimage1} alt='' className='tableimg' /><span className='nftname'>RENGA</span><img src={Tick} alt=''/>
               </TableCell>
-              <TableCell align="right">{row.calories}</TableCell>
-              <TableCell align="right">{row.fat}</TableCell>
-              <TableCell align="right">{row.carbs}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
+              <TableCell align="left"><span className='nftamount'>3.09 ETH</span></TableCell>
+              <TableCell align="left"><span className='nftamount'>1,189 ETH</span></TableCell>
+          {/*   <TableCell align="right">{row.carbs}</TableCell>
+            <TableCell align="right">{row.protein}</TableCell>
+            <TableCell align="right">{row.protein}</TableCell> */}
             </TableRow>
+            
+            
           ))}
         </TableBody>
-      </Table>
+        
+      </Table></Grid>
+      
+      
+      
+      <Grid item xs={6}>
+      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>COLLECTION</TableCell>
+            <TableCell align="right">FLOOR PRICE</TableCell>
+            <TableCell align="right">VOLUME</TableCell>
+           {/*  <TableCell align="right">COLLECTION</TableCell>
+            <TableCell align="right">FLOOR PRICE</TableCell>
+            <TableCell align="right">VOLUME</TableCell> */}
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {rows.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+            >
+              <TableCell component="th" scope="row">
+                <span className='s-no'>1</span><img src={Tabimage1} alt='' className='tableimg'/><span className='nftname'>RENGA</span><img src={Tick} alt=''/>
+              </TableCell>
+              <TableCell align="left"><span className='nftamount'>3.09 ETH</span></TableCell>
+              <TableCell align="left"><span className='nftamount'>1,189 ETH</span></TableCell>
+              {/* <TableCell align="right">{row.carbs}</TableCell>
+              <TableCell align="right">{row.protein}</TableCell>
+              <TableCell align="right">{row.protein}</TableCell> */}
+            </TableRow>
+            
+            
+          ))}
+        </TableBody>
+        
+      </Table></Grid></Grid>
+      </Box>
+      
       
     </TableContainer>
+    
     {/* ----------------------------------------------------NEW AND NOTABLE------------------------------------------------------------- */}
     <Box><Typography variant='h3'>New And Notable</Typography></Box>
     <Box>
