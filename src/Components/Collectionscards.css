@@ -1,0 +1,66 @@
+button#simple-tab-2 {
+    font-family: 'Futura Maxi CG Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px !important;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #faf6f6;
+}
+.filter-button{
+width: 120px !important;
+height: 48px !important;
+background: rgba(246, 246, 246, 0.5) !important;
+border-radius: 15px !important;
+
+}
+.filter-tab{
+    font-family: 'Futura Maxi CG Book' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 126%;
+    color: #6A6A6A !important;
+    margin-left: 10px;
+}
+.refresh-button{
+    width: 46px !important;
+height: 48px !important;
+background: rgba(246, 246, 246, 0.5) !important;
+border-radius: 15px !important;
+}
+.search-input{
+    width: 700px;
+height: 48px;
+background: rgba(246, 246, 246, 0.5) !important;
+border-radius: 15px !important;
+}
+.recent-button{
+    width: 198px !important;
+    height: 48px !important;
+    background: rgba(246, 246, 246, 0.5) !important;
+    border-radius: 15px !important;
+}
+.view-button{
+width: 92px !important;
+height: 48px !important;
+background: rgba(246, 246, 246, 0.5) !important;
+border-radius: 15px !important;
+}
+.recent{
+font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 126%;
+color: #6A6A6A;
+}
+.grid{
+    background: white;
+    width: 32px;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px;
+    height: 30px;
+}
