@@ -12,6 +12,11 @@ import Refresh from "../Images/Reload-vector.png";
 import Viewgrid from "../Images/view-grid.png";
 import Viewgrid2 from "../Images/Group8926.png";
 
+import Card from "react-bootstrap/Card";
+import Image2 from "../Images/hotimg2.png";
+import small2 from "../Images/tabimage1.png";
+
+
 import { IoMdArrowDropdown } from "react-icons/io";
 
 import Cardimage from "../Images/notableimag3.png";
@@ -111,108 +116,136 @@ export default function Nftscards() {
             </Grid>
             <Grid container>
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-                <div
-                  className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={Cardimage}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Red Angrybol</h5>
-                    <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
-                </div>
+              <Card style={{ width: "25rem", marginTop:'50px' }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          {/* <span className="text32">Mohammad Ali</span> */}
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
               </Grid>
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-                <div
-                  className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={Cardimage}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Red Angrybol</h5>
-                    <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
-                </div>
+              <Card style={{ width: "25rem", marginTop:'50px' }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          {/* <span className="text32">Mohammad Ali</span> */}
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
               </Grid>
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-                <div
-                  className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={Cardimage}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Red Angrybol</h5>
-                    <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
-                </div>
+              <Card style={{ width: "25rem", marginTop:'50px' }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          {/* <span className="text32">Mohammad Ali</span> */}
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
               </Grid>
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-                <div
-                  className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={Cardimage}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Red Angrybol</h5>
-                    <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
-                </div>
+              <Card style={{ width: "25rem", marginTop:'50px' }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          {/* <span className="text32">Mohammad Ali</span> */}
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
               </Grid>
             </Grid>
           </Grid>

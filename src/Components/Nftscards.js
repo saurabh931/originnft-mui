@@ -113,7 +113,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
+                  style={{ width: "25rem", marginTop: "50px" }}
                 >
                   <img
                     className="card-img-top"
@@ -139,7 +139,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
+                  style={{ width: "25rem", marginTop: "50px" }}
                 >
                   <img
                     className="card-img-top"
@@ -165,7 +165,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
+                  style={{ width: "25rem", marginTop: "50px" }}
                 >
                   <img
                     className="card-img-top"
@@ -191,7 +191,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "40px" }}
+                  style={{ width: "25rem", marginTop: "50px" }}
                 >
                   <img
                     className="card-img-top"
