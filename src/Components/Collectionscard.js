@@ -115,7 +115,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "30rem" }}>
+                    <Card style={{ width: "25rem", marginTop:'50px' }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -150,7 +150,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "30rem" }}>
+                    <Card style={{ width: "25rem", marginTop:'50px' }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -185,7 +185,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "30rem" }}>
+                    <Card style={{ width: "25rem", marginTop:'50px' }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -220,7 +220,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "30rem" }}>
+                    <Card style={{ width: "25rem", marginTop:'50px' }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">
