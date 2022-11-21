@@ -179,9 +179,11 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-size
   text-align: left;
 }
 
-@media screen and (max-width:1200) {
+{/* MEDIA QUERY */}
+
+@media screen and (max-width:1100px) {
   .table-2{
-    display: none;
+    display: none !important;
   }
   
 }

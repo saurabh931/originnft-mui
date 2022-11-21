@@ -15,14 +15,14 @@ function Footer(props) {
         <div className="container-fluid  py-5 px-5 " style={{background:"#000", color:'#fff'}}>
           <div className="row" id="foter21">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-              <h3
+              <h4
                 className="keep-head"
                 // style={{
                 //   color: props.mode === "light" ? "black " : "white ",
                 // }}
               >
                 Keep posted
-              </h3>
+              </h4>
               <p
                 className="subs-para"
                 // style={{
@@ -56,14 +56,14 @@ function Footer(props) {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-              <h3
+              <h4
                 className="join-header"
                 // style={{
                 //   color: props.mode === "light" ? "black " : "white ",
                 // }}
               >
                 Join the community
-              </h3>
+              </h4>
               <div>
                 <ul className="icon">
                   <li className="twitter-icons">

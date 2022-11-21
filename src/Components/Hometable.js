@@ -114,7 +114,7 @@ export default function BasicTable() {
             <TableCell align="right">VOLUME</TableCell> */}
           </TableRow>
         </TableHead>
-        <TableBody>
+        <TableBody >
           {rows.map((row) => (
             <TableRow
               key={row.name}

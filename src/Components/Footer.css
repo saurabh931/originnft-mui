@@ -97,10 +97,11 @@
   .logo-icon {
     width: 3rem;
   }
+  
   @media screen and (max-width: 768px) {
     
     .list-heading {
-      text-align: center;
+      text-align: left;
     }
     .icon {
       justify-content: space-around;

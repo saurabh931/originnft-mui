@@ -52,7 +52,8 @@ color: #101010;
   line-height: 20px;
   align-items: center;
   color: #101010;
-padding: 16px 30px;
+padding: 18px 48px;
+text-decoration: none;
 }
 .button-secondary{
     width: 155px;
@@ -80,4 +81,9 @@ align-items: center;
 color: #000000 !important;
 margin-top: 50px !important;
 margin-bottom: 50px !important;
+}
+.h4{
+  font-family: 'Futura Maxi CG Bold';
+  font-size:'16px'
+  
 }
