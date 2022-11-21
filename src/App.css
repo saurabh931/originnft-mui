@@ -25,6 +25,14 @@ font-size: 50px !important;
 line-height: 42px;
 color: #FFFFFF;
 }
+.h2{
+  font-family: 'Futura Maxi CG Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px !important;
+  line-height: 66px;
+  color: #FFFFFF;
+}
 .button-primary{
 width: 155px;
 height: 56px;

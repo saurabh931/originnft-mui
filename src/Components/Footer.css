@@ -117,6 +117,15 @@
     .footer-opensea {
       text-align: center;
     }
+    h5.origins-head {
+      text-align: left;
+  }
+  p.origins-para {
+    text-align: left;
+}
+.join-header{
+  margin-left: 0px;
+}
   }
   @media screen and (max-width:912px) {
     h5.origins-head {

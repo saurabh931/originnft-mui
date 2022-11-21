@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Hometabs from "./Components/Hometabs"
 import Footer from "./Components/Footer";
 import Main from "./Components/Pages/Main";
+import Explore from "./Components/Explore"
 
 function App() {
   return (
@@ -13,10 +14,10 @@ function App() {
     <Router>
         <Routes>
           <Route exact path="/" element={<Main />} />
-         {/*  <Route
-            path="/nft"
-            element={<Nft1 mode={mode} toggleMode={toggleMode} />}
-          /> */}
+          <Route
+            path="/explore"
+            element={<Explore/>}
+          /> 
          {/*  <Route
             path="/exploreart"
             element={<Exploreart mode={mode} toggleMode={toggleMode} />}
