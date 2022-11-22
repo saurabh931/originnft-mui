@@ -31,7 +31,7 @@ background: rgba(246, 246, 246, 0.5) !important;
 border-radius: 15px !important;
 }
 .search-input{
-    width: 700px;
+   max-width: 700px;
 height: 48px;
 background: rgba(246, 246, 246, 0.5) !important;
 border-radius: 15px !important;
@@ -63,4 +63,8 @@ color: #6A6A6A;
     margin-right: 10px;
     padding: 2px;
     height: 30px;
+}
+.container-cards{
+    max-width: 25rem;
+    margin-top: 50px;
 }

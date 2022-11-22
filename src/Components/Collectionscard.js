@@ -67,19 +67,19 @@ export default function Nftscards() {
       <Box>
         <Grid>
           <Grid item xs={3}>
-            <Grid container>
-              <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+            <Grid container spacing={3} columns={12}>
+              <Grid item  xl={1} lg={6} md={12} sm={12} xs={12}>
                 <Button className="filter-button">
                   <img src={Filtericon} alt="" />
                   <span className="filter-tab">Filters</span>
                 </Button>
               </Grid>
-              <Grid item  xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+              <Grid item   xl={1} lg={6} md={12} sm={12} xs={12}>
                 <Button className="refresh-button">
                   <img src={Refresh} alt="" />
                 </Button>
               </Grid>
-              <Grid item xxl={5} xl={5} lg={5} md={12} sm={12} xs={12}>
+              <Grid item  xl={5} lg={6} md={12} sm={12} xs={12}>
                 <Search>
                   <SearchIconWrapper>
                     <SearchIcon />
@@ -91,8 +91,8 @@ export default function Nftscards() {
                   />
                 </Search>
               </Grid>
-              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}></Grid>
-              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+              <Grid item  xl={2} lg={6} md={12} sm={12} xs={12}></Grid>
+              <Grid item  xl={2} lg={6} md={12} sm={12} xs={12}>
                 <Button className="recent-button">
                   <span className="recent">Recently Listed </span>
                   <span>
@@ -100,7 +100,7 @@ export default function Nftscards() {
                   </span>
                 </Button>
               </Grid>
-              <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+              <Grid item  xl={1} lg={6} md={12} sm={12} xs={12}>
                 <Button className="view-button">
                   <span>
                     <img src={Viewgrid} alt="" className="grid" />
@@ -115,7 +115,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "25rem", marginTop:'50px' }}>
+                    <Card className="container-cards" >
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -150,7 +150,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "25rem", marginTop:'50px' }}>
+                    <Card className="container-cards" >
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -185,7 +185,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "25rem", marginTop:'50px' }}>
+                    <Card className="container-cards" >
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -220,7 +220,7 @@ export default function Nftscards() {
               <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
               <SwiperSlide>
                     {" "}
-                    <Card style={{ width: "25rem", marginTop:'50px' }}>
+                    <Card className="container-cards" >
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
                         <Card.Title className="card-body12">

@@ -67,17 +67,20 @@ export default function Nftscards() {
           <Grid item xs={3}>
             <Grid container>
               <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+              <div>
                 <Button className="filter-button">
                   <img src={Filtericon} alt="" />
                   <span className="filter-tab">Filters</span>
-                </Button>
+                </Button></div>
               </Grid>
               <Grid item  xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+              <div>
                 <Button className="refresh-button">
                   <img src={Refresh} alt="" />
-                </Button>
+                </Button></div>
               </Grid>
               <Grid item xxl={5} xl={5} lg={5} md={12} sm={12} xs={12}>
+              <div>
                 <Search>
                   <SearchIconWrapper>
                     <SearchIcon />
@@ -87,18 +90,19 @@ export default function Nftscards() {
                     placeholder="Search…"
                     inputProps={{ "aria-label": "search" }}
                   />
-                </Search>
+                </Search></div>
               </Grid>
               <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}></Grid>
               <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
-                <Button className="recent-button">
+               <div> <Button className="recent-button">
                   <span className="recent">Recently Listed </span>
                   <span>
                     <IoMdArrowDropdown className="recent" />
                   </span>
-                </Button>
+                </Button></div>
               </Grid>
               <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+              <div>
                 <Button className="view-button">
                   <span>
                     <img src={Viewgrid} alt="" className="grid" />
@@ -106,14 +110,14 @@ export default function Nftscards() {
                   <span>
                     <img src={Viewgrid2} alt="" />
                   </span>
-                </Button>
+                </Button></div>
               </Grid>
             </Grid>
             <Grid container>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "50px" }}
+                 
                 >
                   <img
                     className="card-img-top"
@@ -136,10 +140,10 @@ export default function Nftscards() {
                   </ul>
                 </div>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "50px" }}
+                  
                 >
                   <img
                     className="card-img-top"
@@ -162,10 +166,10 @@ export default function Nftscards() {
                   </ul>
                 </div>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "50px" }}
+                  
                 >
                   <img
                     className="card-img-top"
@@ -188,10 +192,10 @@ export default function Nftscards() {
                   </ul>
                 </div>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  style={{ width: "25rem", marginTop: "50px" }}
+                  
                 >
                   <img
                     className="card-img-top"

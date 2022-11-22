@@ -6,6 +6,7 @@ import Hometabs from "./Components/Hometabs"
 import Footer from "./Components/Footer";
 import Main from "./Components/Pages/Main";
 import Explore from "./Components/Explore"
+import Exploreinsidepage from "./Components/Exploreinsidepage";
 
 function App() {
   return (
@@ -18,11 +19,10 @@ function App() {
             path="/explore"
             element={<Explore/>}
           /> 
-         {/*  <Route
-            path="/exploreart"
-            element={<Exploreart mode={mode} toggleMode={toggleMode} />}
-          /> */}
-         
+        <Route 
+            path="/exploreinsidepage"
+            element={<Exploreinsidepage/>}
+          /> 
         </Routes>
       </Router>
     {/*   <Navbar />
@@ -33,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+

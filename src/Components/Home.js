@@ -16,6 +16,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 
+
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
 
@@ -28,7 +29,7 @@ export default function Home() {
     <div>
       <h1 className='header'>Explore, collect, and sell NFTs</h1>
       <div className='main-button'> <Link className='button-primary mx-3' id='button-1' to="/explore">Explore</Link>
-      <button className='button-secondary'>Sell</button></div>
+      <Link className='button-secondary' id='button-2' to='/exploreinsidepage'>Sell</Link></div>
     </div>
     <div className="container-fluid py-5 swiper213 ">
         <Swiper

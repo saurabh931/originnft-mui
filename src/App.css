@@ -77,6 +77,22 @@ line-height: 20px;
 align-items: center;
 color: #101010;
 }
+#button-2{
+  width: 200px !important;
+height: 56px !important;
+background: #FEC200;
+border-radius: 15px;
+border: none!important;
+font-family: 'Century Gothic' !important;
+font-style: normal;
+font-weight: 800;
+font-size: 16px !important;
+line-height: 20px;
+align-items: center;
+color: #101010;
+text-decoration: none;
+padding: 18px 48px;
+}
 
 h3{
   font-family: 'Futura Maxi CG Bold' !important;
@@ -93,5 +109,15 @@ margin-bottom: 50px !important;
 .h4{
   font-family: 'Futura Maxi CG Bold';
   font-size:'16px'
-  
+}
+p{
+  font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #FFFFFF !important;
+
 }
