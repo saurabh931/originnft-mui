@@ -20,3 +20,15 @@ background: linear-gradient(255.46deg, #FFBC39 18.86%, #DE5D34 40.83%, #F74242 8
 .explore-para{
     margin-left: 54px;
 }
+.button-see{
+    align-items: center;
+    margin-top: 20px;
+    width: 120.51px;
+    height: 50.04px;
+    border: 1px solid #6A6A6A;
+    border-radius: 15px;
+}
+.see-more-button{
+    text-align: center;
+    margin-top: 30px;
+}

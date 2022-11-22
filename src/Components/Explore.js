@@ -1,7 +1,7 @@
 import React from 'react'
 import Exploretabs from "./Exploretabs"
 import "./Explore.css"
-
+import Footer from "./Footer"
 
 
 
@@ -12,7 +12,9 @@ function Explore() {
     <div >
     <h1 className='explore-header'>Explore</h1>
     <Exploretabs/>
-    </div></div>
+   
+    </div> </div>
+   
     </>
   )
 }

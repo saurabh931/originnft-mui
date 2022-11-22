@@ -13,9 +13,9 @@ import Viewgrid from "../Images/view-grid.png";
 import Viewgrid2 from "../Images/Group8926.png";
 
 import Card from "react-bootstrap/Card";
-import Image2 from "../Images/hotimg2.png";
+import Image2 from "../Images/notableimag3.png";
 import small2 from "../Images/tabimage1.png";
-
+import Check from "../Images/tickimg.png";
 
 import { IoMdArrowDropdown } from "react-icons/io";
 
@@ -137,8 +137,8 @@ export default function Nftscards() {
                         <ul className="card-section1">
                           <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                              <span className="user-na">Hot Cheetos </span>
-                              <p className="user-na">1.76K Followers</p>
+                              <span className="user-na">Hot Cheetos <img src={Check} alt=""/></span>
+                              <p className="user-na1">1.76K Followers</p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                               <button className="follow-button">Follow</button>
@@ -170,8 +170,8 @@ export default function Nftscards() {
                         <ul className="card-section1">
                           <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                              <span className="user-na">Hot Cheetos </span>
-                              <p className="user-na">1.76K Followers</p>
+                              <span className="user-na">Hot Cheetos <img src={Check} alt=""/></span>
+                              <p className="user-na1">1.76K Followers</p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                               <button className="follow-button">Follow</button>
@@ -203,8 +203,8 @@ export default function Nftscards() {
                         <ul className="card-section1">
                           <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                              <span className="user-na">Hot Cheetos </span>
-                              <p className="user-na">1.76K Followers</p>
+                              <span className="user-na">Hot Cheetos <img src={Check} alt=""/></span>
+                              <p className="user-na1">1.76K Followers</p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                               <button className="follow-button">Follow</button>
@@ -236,8 +236,8 @@ export default function Nftscards() {
                         <ul className="card-section1">
                           <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                              <span className="user-na">Hot Cheetos </span>
-                              <p className="user-na">1.76K Followers</p>
+                              <span className="user-na">Hot Cheetos <img src={Check} alt=""/></span>
+                              <p className="user-na1">1.76K Followers</p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                               <button className="follow-button">Follow</button>

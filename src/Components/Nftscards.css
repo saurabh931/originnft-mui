@@ -70,3 +70,22 @@ max-width: 120px !important;
     max-width: 25rem;
     margin-top: 50px;
 }
+.card-title{
+  font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+align-items: center;
+color: #353535;
+}
+.card-text{
+  font-family: 'Futura Maxi CG Bold' !important;
+font-style: normal;
+font-weight: 400;
+font-size: 16px !important;
+line-height: 17px;
+/* identical to box height */
+align-items: center;
+color: #353535 !important;
+}

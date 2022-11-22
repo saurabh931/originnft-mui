@@ -64,3 +64,36 @@ color: #6A6A6A;
     padding: 2px;
     height: 30px;
 }
+.user-na{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+align-items: center;
+color: #353535 !important;
+margin-left: -20px !important;
+}
+.user-na1{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+align-items: center;
+color: #6A6A6A !important;
+margin-left: -20px !important;
+}
+.follow-button{
+width: 78.9px;
+height: 35.04px;
+background: #000000;
+border-radius: 10px;
+color: #fff;
+font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+}

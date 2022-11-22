@@ -68,3 +68,31 @@ color: #6A6A6A;
     max-width: 25rem;
     margin-top: 50px;
 }
+.card-section{
+    width: 303.46px;
+height: 70px;
+background: #F6F6F6;
+border-radius: 12px;
+}
+.card-he{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+align-items: center;
+
+/* Text secondary */
+
+color: #6A6A6A;
+}
+.card-se{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+align-items: center;
+
+color: #000000 !important;
+}
