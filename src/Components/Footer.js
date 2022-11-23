@@ -11,8 +11,8 @@ import "./Footer.css";
 function Footer(props) {
   return (
     <>
-      <div >
-        <div className="container-fluid  py-5 px-5 " style={{background:"#000", color:'#fff'}}>
+      <div  style={{background:"#000", color:'#fff'}}>
+        <div className="container-fluid  py-5 px-5 ">
           <div className="row" id="foter21">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <h4

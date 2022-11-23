@@ -14,7 +14,7 @@ function Explore() {
           <Exploretabs />
         </div>{" "}
       </div>
-      <Footer/>
+      
     </>
   );
 }
