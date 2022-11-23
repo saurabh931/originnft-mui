@@ -1,0 +1,10 @@
+.background-collections{
+    width: 1440px;
+    height: 415px;
+    /* background: linear-gradient(255.46deg, #F74242 18.86%, #DE5D34 40.83%, #FFBC39 82.55%); */
+    background: linear-gradient(255.46deg, #FFBC39 18.86%, #DE5D34 40.83%, #F74242 82.55%); 
+}
+.collection-head{
+    padding-top: 310px;
+    margin-left: 100px;
+}

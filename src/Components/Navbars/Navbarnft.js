@@ -28,6 +28,7 @@ import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -189,9 +190,9 @@ function Navbar() {
               </li>
               <ul className="dropdown-menu">
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <Link className="dropdown-item" to="/collectionsstate">
                     Rankings
-                  </a>
+                  </Link>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="/">

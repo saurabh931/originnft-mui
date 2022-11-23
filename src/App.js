@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./Components/Pages/Main";
 import Explore from "./Components/Explore"
 import Exploreinsidepage from "./Components/Exploreinsidepage";
+import Collectionsstate from "./Components/Collectionsstate"
 
 function App() {
   return (
@@ -20,7 +21,12 @@ function App() {
             path="/exploreinsidepage"
             element={<Exploreinsidepage/>}
           /> 
+           <Route 
+            path="/collectionsstate"
+            element={<Collectionsstate/>}
+          /> 
         </Routes>
+        
       </Router>
     {/*   <Navbar />
       <Home/>
