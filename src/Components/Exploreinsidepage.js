@@ -8,10 +8,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Card from "react-bootstrap/Card";
 import Image1 from "../Images/notableimag1.png";
 import Smallimg1 from "../Images/tabimage1.png";
+import Navbarnft from "../Components/Navbars/Navbarnft";
+import Footer from "./Footer";
 
 function ExploreInsidepage() {
   return (
     <>
+      <Navbarnft />
       <div className="container-fluid background-ex">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -41,12 +44,12 @@ function ExploreInsidepage() {
         </div>
         <div className="row">
           <div>
-            <h3>What’s hot</h3>
+            <h3 className="hot-section">What’s hot</h3>
           </div>
           <div className="row ">
             <div className="col-lg-4 col-md-4 col-sm-6 col-12">
               <SwiperSlide>
-                <Card>
+                <Card className="cards-explore-inside">
                   <Card.Img variant="top" src={Image1} />
                   <Card.Body>
                     <Card.Title className="card-body12">
@@ -116,6 +119,7 @@ function ExploreInsidepage() {
           </div>
         </div>
       </div>
+      
     </>
   );
 }

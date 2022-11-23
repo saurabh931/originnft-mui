@@ -15,15 +15,13 @@
   color: var(--white);
   font-weight: 600;
 }
-.origin-logo{
-    margin-top: 11px;
+.origin-logo {
+  margin-top: 11px;
 }
-
-
 .navbar {
-    background: rgba(166, 166, 166, 0.5) !important;
+  background: rgba(166, 166, 166, 0.5) !important;
   position: fixed !important;
-  top: 0 ;
+  top: 0;
   z-index: 2;
   background-image: url();
 }
@@ -31,7 +29,91 @@
   float: right;
   font-size: 2rem !important;
 }
-
+.dropdown-item {
+  font-family: "Futura Maxi CG Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  /* display: flex; */
+  align-items: center;
+  color: #353535;
+}
+.li-section {
+  border-bottom: 0.5px solid rgb(169, 168, 168);
+  padding: 5px 0px;
+  margin-right: 0px !important;
+}
+.ic {
+  margin-right: 5px;
+}
+.discord {
+  color: grey;
+  font-size: 25px;
+}
+.tele {
+  color: grey;
+  font-size: 25px;
+}
+.face {
+  color: rgb(6, 6, 6);
+  font-size: 25px;
+}
+.insta {
+  color: grey;
+  font-size: 25px;
+}
+.twitter {
+  color: grey;
+  font-size: 25px;
+}
+.tik {
+  color: grey;
+  font-size: 25px;
+}
+.cart-menu {
+  font-family: "Futura Maxi CG Bold" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6a6a6a;
+  padding: 10px !important;
+}
+.para-li {
+  font-family: "Futura Maxi CG Book" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px !important;
+  line-height: 15px;
+  align-items: center;
+  color: #6a6a6a !important;
+  margin-left: 10px;
+}
+.dropdown-menu.card-section {
+  margin-left: -180px;
+  width: 200px;
+  height: 220px;
+}
+.imgback {
+  width: 198px;
+}
+.dropdown-menu.card-section.image-bg {
+  background-image: url(./Navimg/Rectangle\ 684.png);
+  background-repeat: no-repeat;
+}
+.card-section-button {
+  height: 32px;
+  left: 39.34px;
+  top: 267.78px;
+  background: #e6e6e6;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-left: 25px;
+  margin-top: 65px;
+}
 /* media query */
 
 @media screen and (max-width: 1200px) {

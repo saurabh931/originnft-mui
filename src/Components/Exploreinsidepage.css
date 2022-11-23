@@ -15,10 +15,10 @@ background: linear-gradient(255.46deg, #FFBC39 18.86%, #DE5D34 40.83%, #F74242 8
 }
 .explore-art{
     margin-top: 200px;
-    margin-left: 54px;
+    margin-left: 100px;
 }
 .explore-para{
-    margin-left: 54px;
+    margin-left: 100px;
 }
 .button-see{
     align-items: center;
@@ -31,4 +31,10 @@ background: linear-gradient(255.46deg, #FFBC39 18.86%, #DE5D34 40.83%, #F74242 8
 .see-more-button{
     text-align: center;
     margin-top: 30px;
+}
+.cards-explore-inside{
+    width: 35rem;
+}
+.hot-section{
+    margin-left: 75px;
 }
