@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../Footer'
 import Home from '../Home'
-import Navbar from '../Navbar'
+import Navbarnft from '../Navbars/Navbarnft'
 
 export default function Main() {
   return (
-    <div><Navbar/>
+    <div><Navbarnft/>
     <Home/>
     <Footer/></div>
   )

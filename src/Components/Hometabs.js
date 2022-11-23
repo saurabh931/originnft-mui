@@ -5,7 +5,8 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Hometable from "./Hometable";
-import Dropdown from 'react-bootstrap/Dropdown';
+import Dropdown from "react-bootstrap/Dropdown";
+import "./Hometabs.css";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -57,33 +58,41 @@ export default function BasicTabs() {
         >
           <Tab label="Trending" {...a11yProps(0)} />
           <Tab label="Tops" {...a11yProps(1)} />
-         
-          
-          
+
           {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
-          <span><Dropdown >
-          <Dropdown.Toggle variant="success" id="button-primary" className="">
-            24 h
-          </Dropdown.Toggle>
-    
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown></span><span><Dropdown >
-        <Dropdown.Toggle variant="success" id="button-primary" className="">
-          View all
-        </Dropdown.Toggle>
-  
-        <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown></span>
+          <div className="tab-button">
+            <span>
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="success"
+                  id="button-22"
+                  className=""
+                >
+                  24 h
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </span>
+            <span className="view-bu">
+                <button
+                  variant="success"
+                  id="button-22"
+                  className=""
+                >
+                  View all
+                </button>
+            </span>
+          </div>
         </Tabs>
-        
       </Box>
       <TabPanel value={value} index={0}>
         <Hometable />

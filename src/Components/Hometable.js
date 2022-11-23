@@ -542,16 +542,16 @@ export default function BasicTable() {
      <Swiper
           slidesPerView={1}
           spaceBetween={10}
-          // pagination={{
-          //   clickable: true,
-          // }}
-          // navigation={{
-          //   clickable: true,
-          // }}
-          // autoplay={{
-          //   delay: 2500,
-          //   disableOnInteraction: false,
-          // }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={{
+            clickable: true,
+          }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             640: {
               slidesPerView: 2,

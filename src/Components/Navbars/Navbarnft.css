@@ -1,0 +1,46 @@
+.nav-list,
+.nav-icon {
+  display: flex;
+  list-style-type: none;
+  float: right;
+  font-size: 2rem;
+  color: var(--white);
+  font-weight: 600;
+  margin-top: 10px;
+}
+.nav-list li,
+.nav-icon li {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 600;
+}
+.origin-logo{
+    margin-top: 11px;
+}
+
+
+.navbar {
+    background: rgba(166, 166, 166, 0.5) !important;
+  position: fixed !important;
+  top: 0 ;
+  z-index: 2;
+  background-image: url();
+}
+.toggle-btn {
+  float: right;
+  font-size: 2rem !important;
+}
+
+/* media query */
+
+@media screen and (max-width: 1200px) {
+  .navbar-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .toggle-btn {
+    display: none;
+  }
+}

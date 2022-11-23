@@ -1,0 +1,25 @@
+.tab-button{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: end; */
+    /* float: right; */
+    margin-left: auto;
+    margin-right: 28px !important;
+}
+#button-22{
+    width: 85px;
+height: 40px;
+border: 1px solid #353535;
+border-radius: 8px;
+font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+align-items: center;
+color: #353535;
+background: #fff;
+}
+.view-bu{
+    margin-left: 25px;
+}
