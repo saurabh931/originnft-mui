@@ -2,7 +2,7 @@ button#simple-tab-0 {
     font-family: 'Futura Maxi CG Bold';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 25px;
     display: flex;
     align-items: center;
@@ -12,7 +12,7 @@ button#simple-tab-1 {
     font-family: 'Futura Maxi CG Bold';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 25px;
     display: flex;
     align-items: center;
@@ -140,41 +140,39 @@ color: #353535;
 .MuiGrid-root.MuiGrid-container.css-1jzi3sl-MuiGrid-root {
     margin-bottom: 25px;
 }
-span.s-no{
+/* span.s-no{
   margin-right: 2rem;
   font-family: 'Futura Maxi CG Bold';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 15px;
-/* identical to box height */
 align-items: center;
 color: #353535;
 }
 img.tableimg{
   margin-right: 2rem;
-}
-span.nftname{
+} */
+/* span.nftname{
   margin-right: 0.5rem;
   font-family: 'Futura Maxi CG Bold';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 15px;
-/* identical to box height */
 align-items: center;
 color: #353535;
-}
-span.nftamount{
+margin-right: 5px;
+} */
+/* span.nftamount{
     font-family: 'Futura Maxi CG Bold';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 15px;
-    /* display: flex; */
     align-items: center;
     color: #353535;
-}
+} */
 th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeMedium.css-1azl6jz-MuiTableCell-root {
   text-align: left;
 }

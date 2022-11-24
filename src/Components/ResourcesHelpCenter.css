@@ -1,0 +1,87 @@
+.background-resources{
+    background-image: url(../Images/Resourceshelpcenter-img.png);
+    width: 1440px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 485px;
+}
+.text-cont{
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.origin-para{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+align-items: center;
+text-align: center;
+color: #6A6A6A !important;
+}
+.origin-sections{
+    padding-top: 150px;
+    text-align: center;
+}
+.origin-part{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 47px;
+color: #222222;
+}
+.hhumjk{
+    width: 316px;
+height: 215.7px;
+left: 247.55px;
+top: 667.21px;
+
+background: rgba(241, 241, 241, 0.4);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+.partners{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 47px;
+color: #222222;
+text-align: center;
+}
+.text111{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+align-items: center;
+color: #353535 !important;
+display: flex;
+margin-top: 15px;
+}
+.place112{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+color: #000000;
+}
+.place1124{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 18px !important;
+line-height: 20px;
+color: #6A6A6A !important;
+}
+.ceo-info{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #000000;
+}

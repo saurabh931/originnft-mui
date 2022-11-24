@@ -5,6 +5,8 @@ import Main from "./Components/Pages/Main";
 import Explore from "./Components/Explore"
 import Exploreinsidepage from "./Components/Exploreinsidepage";
 import Collectionsstate from "./Components/Collectionsstate"
+import ResourcesHelpCenter from "./Components/ResourcesHelpCenter";
+import ResourcesNewsletter from "./Components/ResourcesNewsletter";
 
 function App() {
   return (
@@ -25,6 +27,12 @@ function App() {
             path="/collectionsstate"
             element={<Collectionsstate/>}
           /> 
+           <Route 
+            path="/resourceshelpcenter"
+            element={<ResourcesHelpCenter/>}
+          /> 
+          <Route path="/resourcesnewsletter"
+          element={<ResourcesNewsletter/>} />
         </Routes>
         
       </Router>

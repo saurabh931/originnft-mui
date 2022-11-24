@@ -7,6 +7,10 @@
     src: url("../src/futuramaxicgbook/Futura\ Maxi\ CG\ Book.otf");
   }
   @font-face {
+    font-family: "Futura Maxi CG Bold";
+    src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
+  }
+  @font-face {
     font-family: 'Century Gothic';
     src: url("../src/century-gothic/Century\ Gothic.ttf");
   }
@@ -25,13 +29,13 @@ font-size: 50px !important;
 line-height: 42px;
 color: #FFFFFF;
 }
-.h2{
+h2{
   font-family: 'Futura Maxi CG Bold';
   font-style: normal;
   font-weight: 400;
-  font-size: 64px !important;
+  font-size: 40px !important;
   line-height: 66px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 .button-primary{
 width: 155px;
@@ -123,4 +127,59 @@ color: #FFFFFF !important;
 
 .navbar {
   padding: 1rem 1%;
+}
+#table-header{
+font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+align-items: center;
+color: #6A6A6A;
+}
+span.nftname{
+  margin-right: 0.5rem;
+  font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+align-items: center;
+color: #353535;
+margin-right: 5px;
+}
+img.tableimg{
+  margin-right: 2rem;
+}
+span.s-no{
+  margin-right: 2rem;
+  font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+align-items: center;
+color: #353535;
+}
+span.nftamount{
+  font-family: 'Futura Maxi CG Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* display: flex; */
+  align-items: center;
+  color: #353535;
+}
+#data-table{
+font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+align-items: center;
+color: #353535;
+
 }

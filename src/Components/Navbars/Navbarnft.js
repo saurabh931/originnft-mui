@@ -206,6 +206,17 @@ function Navbar() {
                 Resources
               </li>
               <ul className="dropdown-menu">
+              <li className="li-section">
+                  <Link className="dropdown-item" to="/resourceshelpcenter" >
+                    Help Center
+                  </Link>
+                </li>
+                <li className="li-section">
+                  <Link className="dropdown-item" to="/resourcesnewsletter" >
+                   Newsletter
+                  </Link>
+                </li>
+              
                 <li className="li-section">
                   <a className="dropdown-item" href="/" >
                     Docs

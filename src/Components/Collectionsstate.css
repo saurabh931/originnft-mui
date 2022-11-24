@@ -8,3 +8,101 @@
     padding-top: 310px;
     margin-left: 100px;
 }
+.toggle-button{
+    width: 140px;
+    height: 48px;
+    background: #F6F6F6 !important;
+    border-radius: 15px;
+    color: #6a6969 !important;
+    font-family: 'Poppins' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 126%;
+color: #6A6A6A;
+border: none !important;
+}
+.timer-content{
+justify-content: space-evenly;
+width: 267.28px;
+height: 48px;
+background: #F6F6F6;
+border-radius: 15px;
+align-items: center;
+cursor: pointer;
+margin-right: 40px;
+
+}
+.hour-span{
+    background: white;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Futura Maxi CG Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    align-items: center;
+    color: #6A6A6A;
+}
+.categories-container{
+    /* float: right; */
+     margin-left: 50px; 
+    
+}
+.reload-button{
+width: 46.74px !important;
+    height: 48px !important;
+    background: #F6F6F6 !important;
+    border-radius: 15px !important;
+    cursor: pointer;
+}
+.timer-1{
+    font-family: 'Futura Maxi CG Bold' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 15px;
+    align-items: center;
+    color: #6A6A6A !important;
+}
+.button-explore{
+    width: 200px !important;
+    height: 56px !important;
+    background: #FEC200 !important;
+    border-radius: 15px !important;
+    border: none!important;
+    font-family: 'Century Gothic' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    align-items: center !important;
+    color: #101010 !important;
+    text-decoration: none !important;
+    padding: 26px 50px !important;
+}
+.content-section{
+    padding-top: 100px;
+    text-align: center;
+}
+@media screen and (max-width:1200px) {
+    .categories-container {
+        margin-left: 14px;
+    }
+}
+@media screen and (max-width:899px) {
+    .categories-container {
+        margin-left: 0px;
+    }
+    .reload-button{
+        margin: 10px 0px !important;
+    }
+}
+@media screen and (max-width:599px) {
+    .toggle-button{
+        margin-top: 10px;
+    }
+    
+}
