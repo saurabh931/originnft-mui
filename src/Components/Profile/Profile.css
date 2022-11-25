@@ -1,0 +1,76 @@
+.background-profile{
+    width: 1440px;
+height: 335px;
+left: 0.15px;
+top: -1.07px;
+
+/* Text secondary */
+
+background: #6A6A6A;
+}
+.profileimage{
+    margin: auto;
+    display: block;
+    margin-top: -70px;
+}
+.profile-detail{
+    text-align: center;
+}
+.edit-button{
+    width: 154.7px;
+    height: 52.18px;
+    left: 578.92px;
+    top: 622.78px;
+    border: 1px solid #C5C5C5;
+    border-radius: 15px;
+    font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+align-items: center;
+color: #101010;
+}
+.upload-bu{
+    width: 52.18px;
+    height: 68.18px;
+    left: 749.52px;
+    top: 622.78px;
+    border: 1px solid #C5C5C5;
+    border-radius: 25px;
+    padding: 12px 14px;
+    margin-left: 10px;
+}
+.up-bu{
+    margin-top: -5px;
+    color: #000000;
+}
+.edit{
+    text-align: center;
+    margin-top: 25px !important;
+}
+.profile-name{
+font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 26px;
+text-align: center;
+color: #000000;
+}
+.wallet{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #000000;
+}
+.www{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #6A6A6A;
+}

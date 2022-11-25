@@ -79,9 +79,9 @@ function Navbar() {
               <ul className="dropdown-menu">
                 <li className="li-section">
                   {" "}
-                  <a className="dropdown-item" href="/">
+                  <Link className="dropdown-item" to="/profile">
                     Profile
-                  </a>
+                  </Link>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="/">
@@ -96,14 +96,14 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <Link className="dropdown-item" to="/mycollections">
                     My Collections
-                  </a>
+                  </Link>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <Link className="dropdown-item" to="/profilesetting">
                     Settings
-                  </a>
+                  </Link>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="/">

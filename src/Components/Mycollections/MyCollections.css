@@ -1,0 +1,23 @@
+.background-collections-img{
+    background-image: url(../../Images/Resourceshelpcenter-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 485px;
+
+}
+.create-button{
+    padding: 6px 22px !important;
+}
+.collection-section{
+    padding-top: 180px;
+    padding-left: 50px;
+}
+.content-section11{
+    color: #6A6A6A !important;
+}
+.setting-collect{
+    align-items: center !important;
+    text-align: center !important;
+    height: 80vh;
+}

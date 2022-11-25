@@ -7,6 +7,9 @@ import Exploreinsidepage from "./Components/Exploreinsidepage";
 import Collectionsstate from "./Components/Collectionsstate"
 import ResourcesHelpCenter from "./Components/ResourcesHelpCenter";
 import ResourcesNewsletter from "./Components/ResourcesNewsletter";
+import Profile from "./Components/Profile/Profile";
+import MyCollections from "./Components/Mycollections/MyCollections";
+import ProfileSetting from "./Components/Profilesettingpage/ProfileSetting";
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
           /> 
           <Route path="/resourcesnewsletter"
           element={<ResourcesNewsletter/>} />
+          <Route path="/profile" element={<Profile/>}/>
+          <Route path="/mycollections" element={<MyCollections/>}/>
+          <Route path="/profilesetting" element={<ProfileSetting/>}/>
         </Routes>
         
       </Router>
