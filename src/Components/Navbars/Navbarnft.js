@@ -52,7 +52,7 @@ function Navbar() {
         <Grid item xl={9} lg={9} md={3} sm={3} xs={3} className="toggle-btn">
           <Navbaroffcanvas />
         </Grid>
-        <Grid
+      {/*   <Grid
           item
           xl={4}
           lg={3}
@@ -60,11 +60,11 @@ function Navbar() {
           sm={3}
           xs={3}
           className="navbar-desktop"
-        ></Grid>
+        ></Grid> */}
         <Grid
           item
-          xl={5}
-          lg={6}
+          xl={9}
+          lg={9}
           md={3}
           sm={3}
           xs={3}
