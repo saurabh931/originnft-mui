@@ -105,8 +105,6 @@ export default function Home() {
         </Swiper>
       </div>
     </div>
-    
-      
     </div>
     <div><Hometabs/></div>
     </>

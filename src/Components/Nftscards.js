@@ -65,23 +65,21 @@ export default function Nftscards() {
       <Box>
         <Grid>
           <Grid item xs={3}>
-            <Grid container>
-              <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+            <Grid container >
+              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
               <div>
                 <Button className="filter-button">
                   <img src={Filtericon} alt="" />
                   <span className="filter-tab">Filters</span>
-                </Button></div>
-              </Grid>
-              <Grid item  xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
-              <div>
+                </Button> 
                 <Button className="refresh-button">
-                  <img src={Refresh} alt="" />
-                </Button></div>
+                <img src={Refresh} alt="" />
+              </Button>
+                </div>
               </Grid>
-              <Grid item xxl={5} xl={5} lg={5} md={12} sm={12} xs={12}>
-              <div>
-                <Search>
+              <Grid item  xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+{/*               <div>
+             <Search>
                   <SearchIconWrapper>
                     <SearchIcon />
                   </SearchIconWrapper>
@@ -90,31 +88,31 @@ export default function Nftscards() {
                     placeholder="Search…"
                     inputProps={{ "aria-label": "search" }}
                   />
-                </Search></div>
+                </Search>
+                </div> */}
               </Grid>
-              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}></Grid>
-              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
-               <div> <Button className="recent-button">
-                  <span className="recent">Recently Listed </span>
-                  <span>
-                    <IoMdArrowDropdown className="recent" />
-                  </span>
-                </Button></div>
-              </Grid>
-              <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
               <div>
-                <Button className="view-button">
-                  <span>
-                    <img src={Viewgrid} alt="" className="grid" />
-                  </span>
-                  <span>
-                    <img src={Viewgrid2} alt="" />
-                  </span>
-                </Button></div>
+              <Button className="recent-button">
+              <span className="recent">Recently Listed </span>
+              <span>
+                <IoMdArrowDropdown className="recent" />
+              </span>
+            </Button>
+              <Button className="view-button">
+                <span>
+                  <img src={Viewgrid} alt="" className="grid" />
+                </span>
+                <span>
+                  <img src={Viewgrid2} alt="" />
+                </span>
+              </Button>
+              </div>
+        
               </Grid>
             </Grid>
             <Grid container>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
                 <div
                   className="card"
                  
@@ -128,7 +126,18 @@ export default function Nftscards() {
                     <h5 className="card-title">Red Angrybol</h5>
                     <p className="card-text">Recordian Headset</p>
                   </div>
-                  <ul className="list-group list-group-flush">
+                  <div className="explore-nft-card-price">
+                  <div >
+                  <span className="price-exlore-nft">Price</span><br/>
+                  <span >0.548 ETH</span>
+                  </div>
+                  <div >
+                  <span className="price-exlore-nft">Highest Bid</span><br/>
+                  <span>No bids yet</span>
+                  </div>
+                  
+                  </div>
+         {/*          <ul className="list-group list-group-flush">
                     <li className="list-group-item" style={{ display: "grid" }}>
                       <span>Price</span>0.548 ETH{" "}
                     </li>
@@ -136,14 +145,14 @@ export default function Nftscards() {
                       {" "}
                       <span>Highest Bid</span>No bids yet
                     </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
+     
+                  </ul> */}
                 </div>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
                 <div
                   className="card"
-                  
+                 
                 >
                   <img
                     className="card-img-top"
@@ -154,59 +163,18 @@ export default function Nftscards() {
                     <h5 className="card-title">Red Angrybol</h5>
                     <p className="card-text">Recordian Headset</p>
                   </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
-                </div>
-              </Grid>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
-                <div
-                  className="card"
-                  
-                >
-                  <img
-                    className="card-img-top"
-                    src={Cardimage}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Red Angrybol</h5>
-                    <p className="card-text">Recordian Headset</p>
+                  <div className="explore-nft-card-price">
+                  <div >
+                  <span className="price-exlore-nft">Price</span><br/>
+                  <span >0.548 ETH</span>
                   </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
-                </div>
-              </Grid>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
-                <div
-                  className="card"
-                  
-                >
-                  <img
-                    className="card-img-top"
-                    src={Cardimage}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Red Angrybol</h5>
-                    <p className="card-text">Recordian Headset</p>
+                  <div >
+                  <span className="price-exlore-nft">Highest Bid</span><br/>
+                  <span>No bids yet</span>
                   </div>
-                  <ul className="list-group list-group-flush">
+                  
+                  </div>
+         {/*          <ul className="list-group list-group-flush">
                     <li className="list-group-item" style={{ display: "grid" }}>
                       <span>Price</span>0.548 ETH{" "}
                     </li>
@@ -214,10 +182,84 @@ export default function Nftscards() {
                       {" "}
                       <span>Highest Bid</span>No bids yet
                     </li>
-                    {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                  </ul>
+     
+                  </ul> */}
                 </div>
               </Grid>
+              <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
+              <div
+                className="card"
+               
+              >
+                <img
+                  className="card-img-top"
+                  src={Cardimage}
+                  alt="Card image cap"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Red Angrybol</h5>
+                  <p className="card-text">Recordian Headset</p>
+                </div>
+                <div className="explore-nft-card-price">
+                <div >
+                <span className="price-exlore-nft">Price</span><br/>
+                <span >0.548 ETH</span>
+                </div>
+                <div >
+                <span className="price-exlore-nft">Highest Bid</span><br/>
+                <span>No bids yet</span>
+                </div>
+                
+                </div>
+       {/*          <ul className="list-group list-group-flush">
+                  <li className="list-group-item" style={{ display: "grid" }}>
+                    <span>Price</span>0.548 ETH{" "}
+                  </li>
+                  <li className="list-group-item" style={{ display: "grid" }}>
+                    {" "}
+                    <span>Highest Bid</span>No bids yet
+                  </li>
+   
+                </ul> */}
+              </div>
+            </Grid>
+            <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
+            <div
+              className="card"
+             
+            >
+              <img
+                className="card-img-top"
+                src={Cardimage}
+                alt="Card image cap"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Red Angrybol</h5>
+                <p className="card-text">Recordian Headset</p>
+              </div>
+              <div className="explore-nft-card-price">
+              <div >
+              <span className="price-exlore-nft">Price</span><br/>
+              <span >0.548 ETH</span>
+              </div>
+              <div >
+              <span className="price-exlore-nft">Highest Bid</span><br/>
+              <span>No bids yet</span>
+              </div>
+              
+              </div>
+     {/*          <ul className="list-group list-group-flush">
+                <li className="list-group-item" style={{ display: "grid" }}>
+                  <span>Price</span>0.548 ETH{" "}
+                </li>
+                <li className="list-group-item" style={{ display: "grid" }}>
+                  {" "}
+                  <span>Highest Bid</span>No bids yet
+                </li>
+ 
+              </ul> */}
+            </div>
+          </Grid>
             </Grid>
           </Grid>
           <Grid item xs={3}></Grid>

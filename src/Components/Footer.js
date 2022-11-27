@@ -11,10 +11,10 @@ import "./Footer.css";
 function Footer(props) {
   return (
     <>
-      <div  style={{background:"#000", color:'#fff'}}>
+      <div  className="Footer-left-spacing">
         <div className="container-fluid  py-5 px-5 ">
           <div className="row" id="foter21">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12" id="footer-posted-margin-bottom">
               <h4
                 className="keep-head"
                 // style={{
@@ -55,7 +55,7 @@ function Footer(props) {
                 </button>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12"  id="footer-posted-margin-bottom">
               <h4
                 className="join-header"
                 // style={{
@@ -91,14 +91,13 @@ function Footer(props) {
           </div>
           <div>
             <div className="row">
-              <div className="col-lg-4 col-md-12 col-sm-12 col-12 footer-opensea">
+              <div className="col-lg-5 col-md-12 col-sm-12 col-12 footer-opensea">
                 {/* <img
                   src="https://opensea.io/static/images/logos/opensea-white.svg"
                   alt=""
                   className="logo-icon"
                 /> */}
-                <br />
-                <br />
+               
                 <h5
                   className="origins-head"
                   // style={{
@@ -107,7 +106,7 @@ function Footer(props) {
                 >
                   Origins Marketplace
                 </h5>
-                <br />
+     
                 <p
                   className="origins-para"
                   // style={{
@@ -121,7 +120,7 @@ function Footer(props) {
                   profits from endeavours they are passionate about.
                 </p>
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-6 col-6">
+              <div className="col-lg col-md col-sm-12 col-12">
                 {" "}
                 <h5
                   className="list-heading"
@@ -185,7 +184,7 @@ function Footer(props) {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-6 col-6 profile-fo">
+              <div className="col-lg col-md col-sm-12 col-12 profile-fo">
                 {" "}
                 <h5
                   className="list-heading"
@@ -233,7 +232,7 @@ function Footer(props) {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-6 col-6">
+              <div className="col-lg col-md col-sm-12 col-12">
                 {" "}
                 <h5
                   className="list-heading"

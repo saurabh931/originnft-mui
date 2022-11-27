@@ -51,6 +51,7 @@
   }
   .origins-head {
     font-size: 2rem;
+    margin:1rem 0rem;
   }
   input::placeholder {
     font-size: 1.2rem !important;
@@ -74,30 +75,42 @@
     padding-inline-start: 0px !important;
   }
   ul.footer2-list li:hover {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     cursor: pointer;
   }
   ul.footer2-list li {
     margin-top: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .keep-head {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
   .subs-para {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
   .list-heading {
     margin: 16px 0px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .origins-para {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .logo-icon {
     width: 3rem;
   }
-  
+  .Footer-left-spacing{
+    margin-left: -12px;
+    margin-right: -12px;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+  }
+  .col-lg-5.col-md-12.col-sm-12.col-12.footer-opensea{
+    padding-right: 2rem;
+  }
+
   @media screen and (max-width: 768px) {
     
     .list-heading {
@@ -165,14 +178,18 @@
     }
   }
   #foter21 {
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
+  }
+  .form-control22::placeholder{
+color: white !important;
+
   }
   @media screen and (max-width: 1024px) {
     .profile-fo {
       margin-left: 40px;
     }
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
     .profile-fo {
       margin-left: 1px;
     }
@@ -183,4 +200,5 @@
     }
     
   } */
+
   

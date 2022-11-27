@@ -70,53 +70,55 @@ export default function Nftscards() {
       <Box>
         <Grid>
           <Grid item xs={3}>
+          <Grid container >
+          <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+          <div>
+            <Button className="filter-button">
+              <img src={Filtericon} alt="" />
+              <span className="filter-tab">Filters</span>
+            </Button> 
+            <Button className="refresh-button">
+            <img src={Refresh} alt="" />
+          </Button>
+            </div>
+          </Grid>
+          <Grid item  xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+{/*               <div>
+         <Search>
+              <SearchIconWrapper>
+                <SearchIcon />
+              </SearchIconWrapper>
+              <StyledInputBase
+                className="search-input"
+                placeholder="Search…"
+                inputProps={{ "aria-label": "search" }}
+              />
+            </Search>
+            </div> */}
+          </Grid>
+          <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
+          <div>
+          <Button className="recent-button">
+          <span className="recent">Recently Listed </span>
+          <span>
+            <IoMdArrowDropdown className="recent" />
+          </span>
+        </Button>
+          <Button className="view-button">
+            <span>
+              <img src={Viewgrid} alt="" className="grid" />
+            </span>
+            <span>
+              <img src={Viewgrid2} alt="" />
+            </span>
+          </Button>
+          </div>
+    
+          </Grid>
+        </Grid>
             <Grid container>
-              <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
-                <Button className="filter-button">
-                  <img src={Filtericon} alt="" />
-                  <span className="filter-tab">Filters</span>
-                </Button>
-              </Grid>
-              <Grid item  xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
-                <Button className="refresh-button">
-                  <img src={Refresh} alt="" />
-                </Button>
-              </Grid>
-              <Grid item xxl={5} xl={5} lg={5} md={12} sm={12} xs={12}>
-                <Search>
-                  <SearchIconWrapper>
-                    <SearchIcon />
-                  </SearchIconWrapper>
-                  <StyledInputBase
-                    className="search-input"
-                    placeholder="Search…"
-                    inputProps={{ "aria-label": "search" }}
-                  />
-                </Search>
-              </Grid>
-              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}></Grid>
-              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
-                <Button className="recent-button">
-                  <span className="recent">Recently Listed </span>
-                  <span>
-                    <IoMdArrowDropdown className="recent" />
-                  </span>
-                </Button>
-              </Grid>
-              <Grid item xxl={1} xl={1} lg={1} md={12} sm={12} xs={12}>
-                <Button className="view-button">
-                  <span>
-                    <img src={Viewgrid} alt="" className="grid" />
-                  </span>
-                  <span>
-                    <img src={Viewgrid2} alt="" />
-                  </span>
-                </Button>
-              </Grid>
-            </Grid>
-            <Grid container>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-              <Card style={{ width: "25rem", marginTop:'50px' }}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
+              <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -148,8 +150,8 @@ export default function Nftscards() {
                       </Card.Body>
                     </Card>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-              <Card style={{ width: "25rem", marginTop:'50px' }}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={6} xs={12}>
+              <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -181,8 +183,8 @@ export default function Nftscards() {
                       </Card.Body>
                     </Card>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-              <Card style={{ width: "25rem", marginTop:'50px' }}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={6} xs={12}>
+              <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>
                         <Card.Title className="card-body12">
@@ -214,8 +216,8 @@ export default function Nftscards() {
                       </Card.Body>
                     </Card>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={6} md={6} sm={12} xs={12}>
-              <Card style={{ width: "25rem", marginTop:'50px' }}>
+              <Grid item xxl={3} xl={3} lg={3} md={6} sm={6} xs={12}>
+              <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>
                         <Card.Title className="card-body12">

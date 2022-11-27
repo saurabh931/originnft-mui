@@ -9,7 +9,6 @@ button#simple-tab-2 {
   color: #faf6f6;
 }
 .filter-button {
-max-width: 120px !important;
   height: 48px !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
@@ -30,14 +29,14 @@ max-width: 120px !important;
   border-radius: 15px !important;
 }
 .search-input {
-  width: 700px;
+  /* width: 700px; */
   /* width: 90% !important; */
   height: 48px;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
 }
 .recent-button {
-  width: 198px !important;
+
   height: 48px !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
@@ -68,8 +67,11 @@ max-width: 120px !important;
   width: 0px !important;
 }
 .card{
-    max-width: 25rem;
-    margin-top: 50px;
+    /* max-width: 25rem; */
+    /* margin-top: 50px; */
+    margin: 0.5rem;
+    border-radius: 1rem !important;
+    box-shadow: 0px 5px 12px rgb(110 110 110);
 }
 .card-title{
   font-family: 'Futura Maxi CG Book';
@@ -89,4 +91,53 @@ line-height: 17px;
 /* identical to box height */
 align-items: center;
 color: #353535 !important;
+}
+.explore-nft-card-price{
+display: flex;
+color: black;
+justify-content: space-between;
+padding: 1rem;
+margin: 0rem 1rem 1rem 1rem;
+border-radius: 10px;
+background: rgb(243 243 243);
+}
+.explore-collection-card-price{
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  border-radius: 10px;
+  background: rgb(243 243 243);
+  }
+.price-exlore-nft{
+  font-size: 12px;
+  color: #6a6a6a;
+  font-weight: 600;
+
+}
+.css-19kzrtu {
+  padding: 0rem !important;
+}
+.search-input{
+  width: 100%;
+  min-width: 10rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+@media screen and (min-width:1200px) {
+  .filter-button{
+    width: 55%;
+    margin: 1rem !important; 
+  }
+  .recent-button{
+    width: 60%;
+    margin: 1rem !important;
+  }
+}
+@media screen and (max-width:1200px) {
+  .filter-button , .recent-button{
+    width: 60%;
+    margin: 1rem !important;
+  }
 }

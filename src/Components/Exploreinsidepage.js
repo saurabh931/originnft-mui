@@ -15,40 +15,45 @@ function ExploreInsidepage() {
   return (
     <>
       <Navbarnft />
-      <div className="container-fluid background-ex">
-        <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+      <div className="container-fluid ">
+        <div className="row background-ex">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-12  position-relative">
+          <div className="explore-art-text">
             <h1 className="explore-art">Explore Art</h1>
             <p className="explore-para">
               Lorem Ipsum dolor sit amet Lorem Ipsum dolor
               <br /> sit amet Lorem Ipsum dolor sit amet{" "}
             </p>
+            </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-12 explore-inside-page-image23">
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6 top-image1">
                 <img src={Topimg} alt="" className="topimg" />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div className="row img-gap">
-                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <img src={Topimg1} alt="" />
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <img src={Topimg2} alt="" className="topimg2" />
-                  </div>
-                </div>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+     
+              <div>
+                    <img src={Topimg1} alt="" className="topimg23" />
+                    </div>
+                    <div>
+            
+                    <img src={Topimg2} alt="" className="topimg23" />
+                    </div>
+       
               </div>
             </div>
           </div>
         </div>
+
+        <div className="container-explore-inside">
         <div className="row">
           <div>
             <h3 className="hot-section">What’s hot</h3>
           </div>
-          <div className="row ">
+          <div className="row g-0">
             <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <SwiperSlide>
+     
                 <Card className="cards-explore-inside">
                   <Card.Img variant="top" src={Image1} />
                   <Card.Body>
@@ -67,10 +72,10 @@ function ExploreInsidepage() {
                     </Card.Title>
                   </Card.Body>
                 </Card>
-              </SwiperSlide>
+     
             </div>
             <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <SwiperSlide>
+         
                 <Card>
                   <Card.Img variant="top" src={Image1} />
                   <Card.Body>
@@ -89,10 +94,10 @@ function ExploreInsidepage() {
                     </Card.Title>
                   </Card.Body>
                 </Card>
-              </SwiperSlide>
+        
             </div>
             <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <SwiperSlide>
+    
                 <Card>
                   <Card.Img variant="top" src={Image1} />
                   <Card.Body>
@@ -111,7 +116,7 @@ function ExploreInsidepage() {
                     </Card.Title>
                   </Card.Body>
                 </Card>
-              </SwiperSlide>
+      
             </div>
             <div className="see-more-button">
               <button className="button-see">See More</button>
@@ -119,7 +124,9 @@ function ExploreInsidepage() {
           </div>
         </div>
       </div>
-      
+
+      </div>
+
     </>
   );
 }
