@@ -246,7 +246,8 @@ export default function LabTabs() {
               </div>
               <div className="row setting-page">
                 <h5 className="content-text">No items to display</h5>
-              </div></TabPanel>
+              </div>
+              </TabPanel>
             <TabPanel value="5"> <div className="container-fluid">
                 <div className="row">
                   <div className="col-lg-1 col-md-1 col-sm-1 col-12">

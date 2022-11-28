@@ -14,7 +14,7 @@ export default function ResourcesHelpCenter() {
   return (
     <>
       <Navbarnft />
-      <div className="container-fluid background-resources">
+      <div className="container-fluid background-resources position-relative">
         <div className="text-cont">
           <h2>Welcome to Origins Marketplace </h2>
           <p>
@@ -33,40 +33,34 @@ export default function ResourcesHelpCenter() {
           libero finibus, vitae rutrum libero dictum.
         </p>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-            <div className="hhumjk"></div>
-          </div>
-          <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-            <div className="hhumjk"></div>
-          </div>
-          <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-            <div className="hhumjk"></div>
-          </div>
-        </div>
-      </div>
       <div className="container my-5">
-        <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+        <div className="row" style={{justifyContent:"center", alignItems:"center"}}>
+          <div className="col-lg-4 col-md-4 col-sm-6 col-12 my-3">
             <div className="hhumjk"></div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-4 col-sm-6 col-12 my-3">
             <div className="hhumjk"></div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-4 col-sm-6 col-12 my-3">
             <div className="hhumjk"></div>
           </div>
+          <div className="col-lg-4 col-md-4 col-sm-6 col-12 my-3">
+          <div className="hhumjk"></div>
+        </div>
+        <div className="col-lg-4 col-md-4 col-sm-6 col-12 my-3">
+        <div className="hhumjk"></div>
+       </div>
         </div>
       </div>
-      <div className="container-fluid">
+    
+      <div className="container-fluid my-5">
         <div>
           <h4 className="partners">Meet our partners</h4>
         </div>
       </div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -95,7 +89,7 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -124,7 +118,7 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -153,7 +147,7 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -182,9 +176,9 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+     
+ 
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -213,7 +207,7 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -242,7 +236,7 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -271,7 +265,7 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+          <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
             <SwiperSlide>
               <Card style={{ width: "45rem" }}>
                 <Card.Img variant="top" src={Image1} />
@@ -300,13 +294,13 @@ export default function ResourcesHelpCenter() {
               </Card>
             </SwiperSlide>
           </div>
-        </div>
+          </div>
       </div>
 
       <div className="container py-5 my-5">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <img src={Ceo} alt="" />
+            <img src={Ceo} alt="" className="ceo-image" />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <div>

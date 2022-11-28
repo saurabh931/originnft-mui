@@ -11,12 +11,12 @@ export default function ResourcesNewsletter() {
       <div className="container-fluid background-newsletter">
         <div className="container use-section">
           <div className="row containsection">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <div>
                 <img src={Sectionimg} alt="" className="sectionimg" />
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12 py-5">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12 py-5">
               <div>
                 <h4 className="head-news">
                   Be the first to know

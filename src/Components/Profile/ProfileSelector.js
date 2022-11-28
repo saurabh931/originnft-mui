@@ -112,7 +112,7 @@ function ProfileSelector() {
       <div className="container-fluid" style={{height:"100vh"}}>
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <Card style={{ width: "18rem" }}>
+            <Card>
               <Card.Img variant="top" src={Cards1img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
@@ -122,7 +122,7 @@ function ProfileSelector() {
             </Card>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <Card style={{ width: "18rem" }}>
+            <Card>
               <Card.Img variant="top" src={Cards2img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
@@ -132,7 +132,7 @@ function ProfileSelector() {
             </Card>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <Card style={{ width: "18rem" }}>
+            <Card>
               <Card.Img variant="top" src={Cards3img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
@@ -142,7 +142,7 @@ function ProfileSelector() {
             </Card>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <Card style={{ width: "18rem" }}>
+            <Card>
               <Card.Img variant="top" src={Cards1img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>

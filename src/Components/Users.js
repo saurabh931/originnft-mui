@@ -117,7 +117,7 @@ export default function Nftscards() {
           </Grid>
         </Grid>
             <Grid container>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
               <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>
@@ -150,7 +150,7 @@ export default function Nftscards() {
                       </Card.Body>
                     </Card>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={6} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
               <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>
@@ -183,7 +183,7 @@ export default function Nftscards() {
                       </Card.Body>
                     </Card>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={6} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
               <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>
@@ -216,7 +216,7 @@ export default function Nftscards() {
                       </Card.Body>
                     </Card>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={3} md={6} sm={6} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
               <Card style={{ marginTop:'50px' }}>
                       <Card.Img variant="top" src={Image2} />
                       <Card.Body>

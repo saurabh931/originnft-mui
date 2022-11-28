@@ -1,16 +1,23 @@
 .background-collections{
-    width: 1440px;
-    height: 415px;
+    /* width: 1440px; */
+    height: 25rem;
     /* background: linear-gradient(255.46deg, #F74242 18.86%, #DE5D34 40.83%, #FFBC39 82.55%); */
     background: linear-gradient(255.46deg, #FFBC39 18.86%, #DE5D34 40.83%, #F74242 82.55%); 
 }
+h1.collection-head-stats {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transform: translate(10%, -50%);
+}
 .collection-head{
-    padding-top: 310px;
-    margin-left: 100px;
+    padding-top: 18rem;
+    margin-left: 8rem;
 }
 .toggle-button{
-    width: 140px;
+    /* width: 140px; */
     height: 48px;
+    width: 100%;
     background: #F6F6F6 !important;
     border-radius: 15px;
     color: #6a6969 !important;
@@ -48,11 +55,12 @@ margin-right: 40px;
 }
 .categories-container{
     /* float: right; */
-     margin-left: 50px; 
+     /* margin-left: 50px;  */
     
 }
 .reload-button{
-width: 46.74px !important;
+/* width: 46.74px !important; */
+width: 100%;
     height: 48px !important;
     background: #F6F6F6 !important;
     border-radius: 15px !important;
@@ -84,8 +92,39 @@ width: 46.74px !important;
     padding: 26px 50px !important;
 }
 .content-section{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     text-align: center;
+    height: 30rem;
+}
+.nothing-explore{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.css-quj9j6-MuiTable-root {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    min-width: 1200px !important;
+}
+
+/* --------------------------------------------------- */
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    min-width: 0px !important;
+}
+/* ----------------------------------------------------- */
+.collection-watchlist-text{
+    color: #6A6A6A !important;
+    margin-bottom: 2rem !important;
+    font-size: 1.5rem !important;
+    
+}
+
+.categories-container.dropdown {
+    margin-left: 0.5rem;
 }
 @media screen and (max-width:1200px) {
     .categories-container {

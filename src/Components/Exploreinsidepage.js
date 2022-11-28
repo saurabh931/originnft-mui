@@ -17,7 +17,7 @@ function ExploreInsidepage() {
       <Navbarnft />
       <div className="container-fluid ">
         <div className="row background-ex">
-          <div className="col-lg-6 col-md-6 col-sm-12 col-12  position-relative">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-12  position-relative explore-art-text-lorem">
           <div className="explore-art-text">
             <h1 className="explore-art">Explore Art</h1>
             <p className="explore-para">

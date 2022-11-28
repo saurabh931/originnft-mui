@@ -58,9 +58,9 @@ export default function BasicTabs() {
   return (
     <>
       <Navbarnft />
-      <div className="container-fluid background-collections">
+      <div className="container-fluid background-collections position-relative">
         <div>
-          <h1 className="collection-head">Collection stats</h1>
+          <h1 className="collection-head-stats">Collection stats</h1>
         </div>
       </div>
       <Box sx={{ width: "100%" }}>
@@ -77,7 +77,9 @@ export default function BasicTabs() {
         </Box>
         <TabPanel value={value} index={0}>
           <Grid container>
-            <Grid item lg={2} md={2} sm={6} xs={12}>
+          <Grid item lg={3} md={4} sm={12} xs={12}>
+          <Grid container spacing={2}>
+            <Grid item lg={5} md={5} sm={5} xs={5}>
               <Dropdown className="categories-container">
                 <Dropdown.Toggle
                   variant="success"
@@ -98,7 +100,7 @@ export default function BasicTabs() {
                 </Dropdown.Menu>
               </Dropdown>
             </Grid>
-            <Grid item lg={2} md={2} sm={6} xs={12}>
+            <Grid item lg={5} md={5} sm={5} xs={5}>
               <Dropdown>
                 <Dropdown.Toggle
                   variant="success"
@@ -119,13 +121,15 @@ export default function BasicTabs() {
                 </Dropdown.Menu>
               </Dropdown>
             </Grid>
-            <Grid item lg={1} md={1} sm={6} xs={12}>
+            <Grid item lg={2} md={2} sm={2} xs={2}>
               <Button className="reload-button">
                 <img src={Reload} alt="" />
               </Button>
             </Grid>
-            <Grid item lg={4}></Grid>
-            <Grid item lg={3} md={7} sm={12} xs={12}>
+            </Grid>
+            </Grid>
+            <Grid item lg={6} md={4} sm={12} ></Grid>
+            <Grid item lg={3} md={4} sm={12} xs={12}>
               <Grid container spacing={0} className="timer-content">
                 <Grid item lg={1} md={2} sm={2} xs={2}>
                   <span className="timer-1">1h</span>
@@ -151,157 +155,165 @@ export default function BasicTabs() {
           <div><Collectionstatstable/></div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <Grid container>
-            <Grid item lg={2} md={2} sm={6} xs={12}>
-              <Dropdown className="categories-container">
-                <Dropdown.Toggle
-                  variant="success"
-                  id="dropdown-basic"
-                  className="toggle-button"
-                >
-                  Categories
-                </Dropdown.Toggle>
+        <Grid container>
+        <Grid item lg={3} md={4} sm={12} xs={12}>
+        <Grid container spacing={2}>
+          <Grid item lg={5} md={5} sm={5} xs={5}>
+            <Dropdown className="categories-container">
+              <Dropdown.Toggle
+                variant="success"
+                id="dropdown-basic"
+                className="toggle-button"
+              >
+                Categories
+              </Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Grid>
-            <Grid item lg={2} md={2} sm={6} xs={12}>
-              <Dropdown>
-                <Dropdown.Toggle
-                  variant="success"
-                  id="dropdown-basic"
-                  className="toggle-button"
-                >
-                  All Chains
-                </Dropdown.Toggle>
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  Another action
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Something else
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </Grid>
+          <Grid item lg={5} md={5} sm={5} xs={5}>
+            <Dropdown>
+              <Dropdown.Toggle
+                variant="success"
+                id="dropdown-basic"
+                className="toggle-button"
+              >
+                All Chains
+              </Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Grid>
-            <Grid item lg={1} md={2} sm={6} xs={12}>
-              <Button className="reload-button">
-                <img src={Reload} alt="" />
-              </Button>
-            </Grid>
-            <Grid item lg={4}></Grid>
-            <Grid item lg={3} md={7} sm={12} xs={12}>
-              <Grid container spacing={0} className="timer-content">
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">1h</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="hour-span" style={{ color: "black" }}>
-                    6h
-                  </span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">24h</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">7d</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">30d</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">all</span>
-                </Grid>
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  Another action
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Something else
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </Grid>
+          <Grid item lg={2} md={2} sm={2} xs={2}>
+            <Button className="reload-button">
+              <img src={Reload} alt="" />
+            </Button>
+          </Grid>
+          </Grid>
+          </Grid>
+          <Grid item lg={6} md={4} sm={12} ></Grid>
+          <Grid item lg={3} md={4} sm={12} xs={12}>
+            <Grid container spacing={0} className="timer-content">
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">1h</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="hour-span">6h</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">24h</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">7d</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">30d</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">all</span>
               </Grid>
             </Grid>
           </Grid>
+        </Grid>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <Grid container>
-            <Grid item lg={2} md={2} sm={6} xs={12}>
-              <Dropdown className="categories-container">
-                <Dropdown.Toggle
-                  variant="success"
-                  id="dropdown-basic"
-                  className="toggle-button"
-                >
-                  Categories
-                </Dropdown.Toggle>
+        <Grid container>
+        <Grid item lg={3} md={4} sm={12} xs={12}>
+        <Grid container spacing={2}>
+          <Grid item lg={5} md={5} sm={5} xs={5}>
+            <Dropdown className="categories-container">
+              <Dropdown.Toggle
+                variant="success"
+                id="dropdown-basic"
+                className="toggle-button"
+              >
+                Categories
+              </Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Grid>
-            <Grid item lg={2} md={2} sm={6} xs={12}>
-              <Dropdown>
-                <Dropdown.Toggle
-                  variant="success"
-                  id="dropdown-basic"
-                  className="toggle-button"
-                >
-                  All Chains
-                </Dropdown.Toggle>
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  Another action
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Something else
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </Grid>
+          <Grid item lg={5} md={5} sm={5} xs={5}>
+            <Dropdown>
+              <Dropdown.Toggle
+                variant="success"
+                id="dropdown-basic"
+                className="toggle-button"
+              >
+                All Chains
+              </Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Grid>
-            <Grid item lg={1} md={1} sm={6} xs={12}>
-              <Button className="reload-button">
-                <img src={Reload} alt="" />
-              </Button>
-            </Grid>
-            <Grid item lg={4}></Grid>
-            <Grid item lg={3} md={7} sm={12} xs={12}>
-              <Grid container spacing={0} className="timer-content">
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">1h</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="hour-span">6h</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">24h</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">7d</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">30d</span>
-                </Grid>
-                <Grid item lg={1} md={2} sm={2} xs={2}>
-                  <span className="timer-1">all</span>
-                </Grid>
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  Another action
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Something else
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </Grid>
+          <Grid item lg={2} md={2} sm={2} xs={2}>
+            <Button className="reload-button">
+              <img src={Reload} alt="" />
+            </Button>
+          </Grid>
+          </Grid>
+          </Grid>
+          <Grid item lg={6} md={4} sm={12} ></Grid>
+          <Grid item lg={3} md={4} sm={12} xs={12}>
+            <Grid container spacing={0} className="timer-content">
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">1h</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="hour-span">6h</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">24h</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">7d</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">30d</span>
+              </Grid>
+              <Grid item lg={1} md={2} sm={2} xs={2}>
+                <span className="timer-1">all</span>
               </Grid>
             </Grid>
           </Grid>
-          <Box className="content-section">
-            <Typography variant="h3" style={{color:'#000'}}>This is where your collections added to watchlist will appear.</Typography>
+        </Grid>
+          <Box className="content-section position-relative">
+          <Box className="nothing-explore">
+            <Typography  className="collection-watchlist-text">This is where your collections added to watchlist will appear.</Typography>
             <Button className="button-explore" >Explore Collections</Button>
+          </Box>
           </Box>
         </TabPanel>
       </Box>

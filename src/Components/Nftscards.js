@@ -112,7 +112,7 @@ export default function Nftscards() {
               </Grid>
             </Grid>
             <Grid container>
-              <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
                 <div
                   className="card"
                  
@@ -149,7 +149,7 @@ export default function Nftscards() {
                   </ul> */}
                 </div>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
                 <div
                   className="card"
                  
@@ -186,7 +186,7 @@ export default function Nftscards() {
                   </ul> */}
                 </div>
               </Grid>
-              <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
+              <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
               <div
                 className="card"
                
@@ -223,7 +223,7 @@ export default function Nftscards() {
                 </ul> */}
               </div>
             </Grid>
-            <Grid item xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
+            <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
             <div
               className="card"
              

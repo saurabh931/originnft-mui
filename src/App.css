@@ -18,6 +18,9 @@
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
   
   
+
+
+
   section {
     background-image: linear-gradient(to right, #47474a, #73525c);
   }
@@ -25,7 +28,7 @@ h1{
 font-family: 'Futura Maxi CG Bold';
 font-style: normal;
 font-weight: 600;
-font-size: 50px !important;
+font-size: 3rem !important;
 line-height: 42px;
 color: #FFFFFF;
 }
@@ -33,7 +36,7 @@ h2{
   font-family: 'Futura Maxi CG Bold';
   font-style: normal;
   font-weight: 400;
-  font-size: 40px !important;
+  font-size: 2.5rem !important;
   line-height: 66px;
   color: #FFFFFF !important;
 }
@@ -102,7 +105,7 @@ h3{
   font-family: 'Futura Maxi CG Bold' !important;
 font-style: normal !important;
 font-weight: 400 !important;
-font-size: 25px !important;
+font-size: 1.5rem !important;
 
 /* identical to box height */
 align-items: center;
@@ -112,13 +115,13 @@ margin-bottom: 1.5rem !important;
 }
 .h4{
   font-family: 'Futura Maxi CG Bold';
-  font-size:'16px'
+  
 }
  p{
   font-family: 'Futura Maxi CG Book';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 1.2rem;
 
 
 align-items: center;
@@ -190,4 +193,27 @@ color: #353535;
   #footer-posted-margin-bottom{
     margin-bottom: 2.5rem;
   }
+}
+
+
+html{
+  font-size: 100% !important;
+}
+@media screen and (max-width:1200px) {
+  html{
+    font-size: 90% !important;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  html{
+    font-size: 80% !important;
+  }
+  
+}
+@media screen and (max-width:600px) {
+  html {
+    font-size: 70% !important;
+  }
+  
 }
