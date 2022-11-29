@@ -26,3 +26,43 @@ display: flex;
   display: flex;
   align-items: center;
 }
+ul{
+    list-style: none;
+}
+.section-list{
+    /* width: 272px; */
+height: 40px;
+margin-top: 10px;
+}
+.content-style{
+font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #6A6A6A;
+}
+.icons-tabs{
+    color: #6A6A6A;
+    margin-right: 10px;
+}
+.iconsddd{
+    margin-right: 10px;
+}
+.listed-section{
+    margin-top: 50px;
+}
+.setting-sections{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+align-items: center;
+letter-spacing: 0.005em;
+color: #6A6A6A;
+}
+.section-color{
+    box-shadow: 3px 0px 10px #a1a1a1;
+}

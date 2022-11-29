@@ -21,7 +21,7 @@ export default function Profilesettingslide() {
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
-                  <Link to="/profilesetting">
+                  <Link to="/profilepage">
                     <li className="section-list">
                       <span>
                         <PermIdentityOutlinedIcon className="icons-tabs" />

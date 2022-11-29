@@ -7,8 +7,8 @@ function ProfileSetting() {
   return (
     <>
       <Navbarnft />
-      <div className="container-fluid background-profile-setting"></div>
-      <div >
+      <div className="container-fluid"></div>
+      <div>
         <Profilesettingslide />
       </div>
     </>
