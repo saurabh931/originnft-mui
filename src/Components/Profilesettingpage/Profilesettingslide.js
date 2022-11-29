@@ -2,7 +2,10 @@ import React from 'react'
 import "./Profilesettingslide.css"
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
-import Featuredvector from "../"
+import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined';
+import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined';
+import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
+import Featuredvector from "../../Images/Vector.png"
 
 export default function Profilesettingslide() {
   return (
@@ -15,12 +18,12 @@ export default function Profilesettingslide() {
     <div className='col-lg-2 col-md-2 col-sm-2 col-2 side-bar'>
     
     <div className='row'>
-    <div className='col-lg-6 col-md-6 col-sm col-6'><PermIdentityOutlinedIcon/></div>
+    <div className='col-lg-6 col-md-6 col-sm col-6'><PermIdentityOutlinedIcon style={{color:"#6A6A6A"}}/></div>
     <div className='col-lg-6 col-md-6 col-sm col-6'><span className='side-items'>Profile</span></div></div>
     </div>
     <div className='col-lg-2 col-md-2 col-sm-2 col-2 side-bar1'>
     <div className='row'>
-    <div className='col-lg-6 col-md-6 col-sm col-6'><NotificationsOutlinedIcon/></div>
+    <div className='col-lg-6 col-md-6 col-sm col-6'><NotificationsOutlinedIcon style={{color:"#6A6A6A"}}/></div>
     <div className='col-lg-6 col-md-6 col-sm col-6'><span className='side-items'>Notifications</span></div></div>
     </div>
     <div className='col-lg-2 col-md-2 col-sm-2 col-2 side-bar1'>
@@ -30,17 +33,17 @@ export default function Profilesettingslide() {
     </div>
     <div className='col-lg-2 col-md-2 col-sm-2 col-2 side-bar1'>
     <div className='row'>
-    <div className='col-lg-6 col-md-6 col-sm col-6'><PermIdentityOutlinedIcon/></div>
+    <div className='col-lg-6 col-md-6 col-sm col-6'><LocalOfferOutlinedIcon style={{color:"#6A6A6A"}}/></div>
     <div className='col-lg-6 col-md-6 col-sm col-6'><span className='side-items'>Offers</span></div></div>
     </div>
     <div className='col-lg-2 col-md-2 col-sm-2 col-2 side-bar1'>
     <div className='row'>
-    <div className='col-lg-6 col-md-6 col-sm col-6'><PermIdentityOutlinedIcon/></div>
+    <div className='col-lg-6 col-md-6 col-sm col-6'><VerifiedUserOutlinedIcon style={{color:"#6A6A6A"}}/></div>
     <div className='col-lg-6 col-md-6 col-sm col-6'><span className='side-items'>Account support </span></div></div>
     </div>
     <div className='col-lg-2 col-md-2 col-sm-2 col-2 side-bar1'>
     <div className='row'>
-    <div className='col-lg-6 col-md-6 col-sm col-6'><PermIdentityOutlinedIcon/></div>
+    <div className='col-lg-6 col-md-6 col-sm col-6'><MonetizationOnOutlinedIcon/></div>
     <div className='col-lg-6 col-md-6 col-sm col-6'><span className='side-items'>Earnings</span></div></div>
     </div>
 
