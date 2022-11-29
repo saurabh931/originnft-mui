@@ -8,7 +8,7 @@ function ProfileSetting() {
     <>
       <Navbarnft />
       <div className="container-fluid background-profile-setting"></div>
-      <div className="container">
+      <div >
         <Profilesettingslide />
       </div>
     </>

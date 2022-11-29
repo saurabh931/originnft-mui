@@ -121,7 +121,7 @@ export default function BasicTabs() {
                 </Dropdown.Menu>
               </Dropdown>
             </Grid>
-            <Grid item lg={2} md={2} sm={2} xs={2}>
+            <Grid item lg={2} md={2} sm={2} xs={2} className="grid-btn">
               <Button className="reload-button">
                 <img src={Reload} alt="" />
               </Button>
@@ -129,7 +129,7 @@ export default function BasicTabs() {
             </Grid>
             </Grid>
             <Grid item lg={6} md={4} sm={12} ></Grid>
-            <Grid item lg={3} md={4} sm={12} xs={12}>
+            <Grid item lg={3} md={4} sm={12} xs={12} className="timer-container">
               <Grid container spacing={0} className="timer-content">
                 <Grid item lg={1} md={2} sm={2} xs={2}>
                   <span className="timer-1">1h</span>

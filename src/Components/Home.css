@@ -46,3 +46,29 @@ span.swiper-pagination-bullet {
     }
     
 }
+@media screen and (max-width:600px) {
+  h1.header{
+    padding-top: 90px;
+    font-size: 30px !important;
+    
+  }
+  .main-button{
+    margin-top: -16px !important;
+  }
+}
+@media screen and (max-width:458px) {
+  h1.header{
+    padding-top: 80px;
+    font-size: 25px !important;
+  }
+  
+}
+@media screen and (max-width:414px) {
+  h1.header{
+    font-size: 20px !important;
+  }
+  .main-button{
+    margin-top: 2px !important;
+  }
+  
+}

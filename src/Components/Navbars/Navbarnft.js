@@ -211,11 +211,11 @@ function Navbar() {
                     Help Center
                   </Link>
                 </li>
-                <li className="li-section">
+                {/* <li className="li-section">
                   <Link className="dropdown-item" to="/resourcesnewsletter" >
                    Newsletter
                   </Link>
-                </li>
+                </li> */}
               
                 <li className="li-section">
                   <a className="dropdown-item" href="/" >
@@ -233,9 +233,9 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
-                    Newsletter
-                  </a>
+                <Link className="dropdown-item" to="/resourcesnewsletter" >
+                   Newsletter
+                  </Link>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="/">

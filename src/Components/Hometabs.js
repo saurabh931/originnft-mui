@@ -66,7 +66,7 @@ export default function BasicTabs() {
                 <Dropdown.Toggle
                   variant="success"
                   id="button-22"
-                  className=""
+                  className="time-button"
                 >
                   24 h
                 </Dropdown.Toggle>
@@ -86,7 +86,7 @@ export default function BasicTabs() {
                 <button
                   variant="success"
                   id="button-22"
-                  className=""
+                  className="view-all-button"
                 >
                   View all
                 </button>

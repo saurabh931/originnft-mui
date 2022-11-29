@@ -1,173 +1,168 @@
 @font-face {
-    font-family: 'Futura Maxi CG Bold';
-    src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
-  }
-  @font-face {
-    font-family: 'Futura Maxi CG Book';
-    src: url("../src/futuramaxicgbook/Futura\ Maxi\ CG\ Book.otf");
-  }
-  @font-face {
-    font-family: "Futura Maxi CG Bold";
-    src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
-  }
-  @font-face {
-    font-family: 'Century Gothic';
-    src: url("../src/century-gothic/Century\ Gothic.ttf");
-  }
-  
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-  
-  
-
-
-
-  section {
-    background-image: linear-gradient(to right, #47474a, #73525c);
-  }
-h1{
-font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 600;
-font-size: 3rem !important;
-line-height: 42px;
-color: #FFFFFF;
+  font-family: "Futura Maxi CG Bold";
+  src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
 }
-h2{
-  font-family: 'Futura Maxi CG Bold';
+@font-face {
+  font-family: "Futura Maxi CG Book";
+  src: url("../src/futuramaxicgbook/Futura\ Maxi\ CG\ Book.otf");
+}
+@font-face {
+  font-family: "Futura Maxi CG Bold";
+  src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
+}
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../src/century-gothic/Century\ Gothic.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+section {
+  background-image: linear-gradient(to right, #47474a, #73525c);
+}
+
+h1 {
+  font-family: "Futura Maxi CG Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem !important;
+  line-height: 42px;
+  color: #ffffff;
+}
+h2 {
+  font-family: "Futura Maxi CG Bold";
   font-style: normal;
   font-weight: 400;
   font-size: 2.5rem !important;
   line-height: 66px;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
-.button-primary{
-width: 155px;
-height: 56px;
-background: #E6E6E6;
-border-radius: 15px;
-border: none!important;
-font-family: 'Century Gothic' !important;
-font-style: normal;
-font-weight: 800;
-font-size: 16px !important;
-line-height: 20px;
-align-items: center;
-color: #101010;
-}
-#button-1{
-  width: 200px !important;
+.button-primary {
+  width: 155px;
   height: 56px;
-  background: #E6E6E6;
+  background: #e6e6e6;
   border-radius: 15px;
-  border: none!important;
-  font-family: 'Century Gothic' !important;
+  border: none !important;
+  font-family: "Century Gothic" !important;
   font-style: normal;
   font-weight: 800;
   font-size: 16px !important;
   line-height: 20px;
   align-items: center;
   color: #101010;
-padding: 18px 48px;
-text-decoration: none;
 }
-.button-secondary{
-    width: 155px;
-height: 56px;
-background: #FEC200;
-border-radius: 15px;
-border: none!important;
-font-family: 'Century Gothic' !important;
-font-style: normal;
-font-weight: 800;
-font-size: 16px !important;
-line-height: 20px;
-align-items: center;
-color: #101010;
-}
-#button-2{
+#button-1 {
   width: 200px !important;
-height: 56px !important;
-background: #FEC200;
-border-radius: 15px;
-border: none!important;
-font-family: 'Century Gothic' !important;
-font-style: normal;
-font-weight: 800;
-font-size: 16px !important;
-line-height: 20px;
-align-items: center;
-color: #101010;
-text-decoration: none;
-padding: 18px 48px;
+  height: 56px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  border: none !important;
+  font-family: "Century Gothic" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 20px;
+  align-items: center;
+  color: #101010;
+  padding: 18px 48px;
+  text-decoration: none;
+}
+.button-secondary {
+  width: 155px;
+  height: 56px;
+  background: #fec200;
+  border-radius: 15px;
+  border: none !important;
+  font-family: "Century Gothic" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 20px;
+  align-items: center;
+  color: #101010;
+}
+#button-2 {
+  width: 200px !important;
+  height: 56px !important;
+  background: #fec200;
+  border-radius: 15px;
+  border: none !important;
+  font-family: "Century Gothic" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 20px;
+  align-items: center;
+  color: #101010;
+  text-decoration: none;
+  padding: 18px 48px;
 }
 
-h3{
-  font-family: 'Futura Maxi CG Bold' !important;
-font-style: normal !important;
-font-weight: 400 !important;
-font-size: 1.5rem !important;
+h3 {
+  font-family: "Futura Maxi CG Bold" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 1.5rem !important;
 
-/* identical to box height */
-align-items: center;
-color: #000000 !important;
-margin-top: 50px !important;
-margin-bottom: 1.5rem !important;
+  /* identical to box height */
+  align-items: center;
+  color: #000000 !important;
+  margin-top: 50px !important;
+  margin-bottom: 1.5rem !important;
 }
-.h4{
-  font-family: 'Futura Maxi CG Bold';
-  
+.h4 {
+  font-family: "Futura Maxi CG Bold";
 }
- p{
-  font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 1.2rem;
+p {
+  font-family: "Futura Maxi CG Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
 
-
-align-items: center;
-color: #FFFFFF !important;
+  align-items: center;
+  color: #ffffff !important;
 }
 
 .navbar {
   padding: 1rem 1%;
 }
-#table-header{
-font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 10px;
-align-items: center;
-color: #6A6A6A;
+#table-header {
+  font-family: "Futura Maxi CG Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  align-items: center;
+  color: #6a6a6a;
 }
-span.nftname{
+span.nftname {
   margin-right: 0.5rem;
-  font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-/* identical to box height */
-align-items: center;
-color: #353535;
-margin-right: 5px;
+  font-family: "Futura Maxi CG Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height */
+  align-items: center;
+  color: #353535;
+  margin-right: 5px;
 }
-img.tableimg{
+img.tableimg {
   margin-right: 2rem;
 }
-span.s-no{
+span.s-no {
   margin-right: 2rem;
-  font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-/* identical to box height */
-align-items: center;
-color: #353535;
+  font-family: "Futura Maxi CG Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height */
+  align-items: center;
+  color: #353535;
 }
-span.nftamount{
-  font-family: 'Futura Maxi CG Bold';
+span.nftamount {
+  font-family: "Futura Maxi CG Bold";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -176,44 +171,60 @@ span.nftamount{
   align-items: center;
   color: #353535;
 }
-#data-table{
-font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-align-items: center;
-color: #353535;
-
+#data-table {
+  font-family: "Futura Maxi CG Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  align-items: center;
+  color: #353535;
 }
-#footer-posted-margin-bottom{
+#footer-posted-margin-bottom {
   margin-bottom: 4rem;
 }
-@media screen and (max-width:768px) {
-  #footer-posted-margin-bottom{
+@media screen and (max-width: 768px) {
+  #footer-posted-margin-bottom {
     margin-bottom: 2.5rem;
   }
 }
 
-
-html{
+html {
   font-size: 100% !important;
 }
-@media screen and (max-width:1200px) {
-  html{
+@media screen and (max-width: 1200px) {
+  html {
     font-size: 90% !important;
   }
-  
 }
-@media screen and (max-width:900px) {
-  html{
+@media screen and (max-width: 900px) {
+  html {
     font-size: 80% !important;
   }
-  
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 70% !important;
   }
+}
+@media screen and (max-width: 600px) {
+  #button-1 {
+    padding: 12px 35px;
+  }
+  #button-2{
+    padding: 12px 40px;
+  }
+ 
+}
+@media screen and (max-width:414px) {
+  #button-1{
+    padding: 8px 25px;
+  }
+  #button-2{
+    padding: 8px 25px;
+  }
+  
+}
+@media screen and (max-width:) {
   
 }
