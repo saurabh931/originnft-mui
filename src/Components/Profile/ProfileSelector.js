@@ -66,13 +66,13 @@ function ProfileSelector() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-lg-1 col-md-1 col-sm-1 col-12">
+        <div className="row py-3 pb-5">
+          <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
             <span>
               <FilterListIcon />
             </span>
           </div>
-          <div className="col-lg-7 col-md-7 col-sm-12 col-12">
+          <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
             <Search className="search-00">
               <SearchIconWrapper>
                 <SearchIcon />
@@ -83,12 +83,12 @@ function ProfileSelector() {
               />
             </Search>
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-6">
+          <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
             {" "}
             <Dropdown>
               <Dropdown.Toggle
                 variant="success"
-                id="dropdown-basic"
+                id="dropdown-basic recently-listed-dropdown"
                 className="profile-recently"
               >
                 Recently Listed
@@ -101,7 +101,7 @@ function ProfileSelector() {
               </Dropdown.Menu>
             </Dropdown>
           </div>
-          <div className="col--lg-2 col-md-2 col-sm-6 col-6 py-2    ">
+          <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
             <span className="view-bu">
               <img src={View} alt="" className="vv-bu" />
               <img src={View2} alt="" />
@@ -109,9 +109,9 @@ function ProfileSelector() {
           </div>
         </div>
       </div>
-      <div className="container-fluid" style={{height:"100vh"}}>
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <Card>
               <Card.Img variant="top" src={Cards1img} />
               <Card.Body>
@@ -121,7 +121,7 @@ function ProfileSelector() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <Card>
               <Card.Img variant="top" src={Cards2img} />
               <Card.Body>
@@ -131,7 +131,7 @@ function ProfileSelector() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <Card>
               <Card.Img variant="top" src={Cards3img} />
               <Card.Body>
@@ -141,7 +141,7 @@ function ProfileSelector() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <Card>
               <Card.Img variant="top" src={Cards1img} />
               <Card.Body>

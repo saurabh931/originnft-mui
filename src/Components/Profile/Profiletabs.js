@@ -92,52 +92,48 @@ export default function LabTabs() {
             </TabPanel>
             <TabPanel value="2">
               <div className="container-fluid">
-                <div className="row">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-12">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-7 col-sm-12 col-12">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic"
-                        className="profile-recently"
-                      >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col--lg-2 col-md-2 col-sm-6 col-6 py-2    ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
-                  </div>
-                </div>
+              <div className="row py-3 pb-5">
+              <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
+                <span>
+                  <FilterListIcon />
+                </span>
+              </div>
+              <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
+                <Search className="search-00">
+                  <SearchIconWrapper>
+                    <SearchIcon />
+                  </SearchIconWrapper>
+                  <StyledInputBase
+                    placeholder="Search by name"
+                    inputProps={{ "aria-label": "search" }}
+                  />
+                </Search>
+              </div>
+              <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                {" "}
+                <Dropdown>
+                  <Dropdown.Toggle
+                    variant="success"
+                    id="dropdown-basic recently-listed-dropdown"
+                    className="profile-recently"
+                  >
+                    Recently Listed
+                  </Dropdown.Toggle>
+    
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </div>
+              <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
+                <span className="view-bu">
+                  <img src={View} alt="" className="vv-bu" />
+                  <img src={View2} alt="" />
+                </span>
+              </div>
+            </div>
                 <div className="row setting-page">
                   <h5 className="content-text">No items to display</h5>
                 </div>
@@ -145,160 +141,149 @@ export default function LabTabs() {
             </TabPanel>
             <TabPanel value="3">
               <div className="container-fluid">
-                <div className="row">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-12">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-7 col-sm-12 col-12">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic"
-                        className="profile-recently"
-                      >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col--lg-2 col-md-2 col-sm-6 col-6 py-2    ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
-                  </div>
-                </div>
+              <div className="row py-3 pb-5">
+              <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
+                <span>
+                  <FilterListIcon />
+                </span>
+              </div>
+              <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
+                <Search className="search-00">
+                  <SearchIconWrapper>
+                    <SearchIcon />
+                  </SearchIconWrapper>
+                  <StyledInputBase
+                    placeholder="Search by name"
+                    inputProps={{ "aria-label": "search" }}
+                  />
+                </Search>
+              </div>
+              <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                {" "}
+                <Dropdown>
+                  <Dropdown.Toggle
+                    variant="success"
+                    id="dropdown-basic recently-listed-dropdown"
+                    className="profile-recently"
+                  >
+                    Recently Listed
+                  </Dropdown.Toggle>
+    
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </div>
+              <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
+                <span className="view-bu">
+                  <img src={View} alt="" className="vv-bu" />
+                  <img src={View2} alt="" />
+                </span>
+              </div>
+            </div>
               </div>
               <div className="row setting-page">
                 <h5 className="content-text">No items to display</h5>
               </div>
             </TabPanel>
             <TabPanel value="4"> <div className="container-fluid">
-                <div className="row">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-12">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-7 col-sm-12 col-12">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic"
-                        className="profile-recently"
-                      >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col--lg-2 col-md-2 col-sm-6 col-6 py-2    ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
-                  </div>
-                </div>
+            <div className="row py-3 pb-5">
+            <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
+              <span>
+                <FilterListIcon />
+              </span>
+            </div>
+            <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
+              <Search className="search-00">
+                <SearchIconWrapper>
+                  <SearchIcon />
+                </SearchIconWrapper>
+                <StyledInputBase
+                  placeholder="Search by name"
+                  inputProps={{ "aria-label": "search" }}
+                />
+              </Search>
+            </div>
+            <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+              {" "}
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic recently-listed-dropdown"
+                  className="profile-recently"
+                >
+                  Recently Listed
+                </Dropdown.Toggle>
+  
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </div>
+            <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
+              <span className="view-bu">
+                <img src={View} alt="" className="vv-bu" />
+                <img src={View2} alt="" />
+              </span>
+            </div>
+          </div>
               </div>
               <div className="row setting-page">
                 <h5 className="content-text">No items to display</h5>
               </div>
               </TabPanel>
             <TabPanel value="5"> <div className="container-fluid">
-                <div className="row">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-12">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-7 col-sm-12 col-12">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-sm-6 col-6">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic"
-                        className="profile-recently"
-                      >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col--lg-2 col-md-2 col-sm-6 col-6 py-2    ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
-                  </div>
-                </div>
+            <div className="row py-3 pb-5">
+            <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
+              <span>
+                <FilterListIcon />
+              </span>
+            </div>
+            <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
+              <Search className="search-00">
+                <SearchIconWrapper>
+                  <SearchIcon />
+                </SearchIconWrapper>
+                <StyledInputBase
+                  placeholder="Search by name"
+                  inputProps={{ "aria-label": "search" }}
+                />
+              </Search>
+            </div>
+            <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+              {" "}
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic recently-listed-dropdown"
+                  className="profile-recently"
+                >
+                  Recently Listed
+                </Dropdown.Toggle>
+  
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </div>
+            <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
+              <span className="view-bu">
+                <img src={View} alt="" className="vv-bu" />
+                <img src={View2} alt="" />
+              </span>
+            </div>
+          </div>
               </div>
               <div className="row setting-page">
                 <h5 className="content-text">No items to display</h5>
-              </div></TabPanel>
+              </div>
+              </TabPanel>
           </TabContext>
         </Box>
       </div>
