@@ -14,7 +14,10 @@
   font-family: "Century Gothic";
   src: url("../src/century-gothic/Century\ Gothic.ttf");
 }
-
+/* @font-face {
+  font-family: 'ITC Avant Garde Gothic Std';
+  src: url("../src/ITC\ Avant\ Garde\ Gothic\ Std\ Book/!important");
+} */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 section {

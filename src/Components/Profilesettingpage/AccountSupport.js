@@ -8,6 +8,8 @@ import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlin
 import Featuredvector from "../../Images/Vector.png";
 import { Link } from "react-router-dom";
 import Navbarnft from "../Navbars/Navbarnft";
+import "./AccountSupport.css"
+
 
 export default function Profilesettingslide() {
   return (
@@ -77,7 +79,12 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-10 col-md-10 col-sm-9 col-9"></div>
+            <div className="col-lg-10 col-md-10 col-sm-9 col-9">
+              <div>
+                <span className="account-head">Account support </span>
+                <p className="account-sec">We got you the help you need with your account.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

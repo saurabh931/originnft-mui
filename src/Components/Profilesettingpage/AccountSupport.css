@@ -1,0 +1,23 @@
+.account-head{
+    font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+color: #000000;
+}
+.account-sec{
+    font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Text secondary */
+
+color: #6A6A6A !important;
+
+}
