@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import Navbarnft from "../Navbars/Navbarnft";
 
 import "./Earnings.css";
+import Footer from "../Footer";
 
 export default function Profilesettingslide() {
   return (
@@ -109,6 +110,7 @@ export default function Profilesettingslide() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

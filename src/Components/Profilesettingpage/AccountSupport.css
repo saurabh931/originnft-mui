@@ -1,23 +1,104 @@
-.account-head{
-    font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-color: #000000;
+.account-head {
+  font-family: "Futura Maxi CG Bold" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 30px !important;
+  line-height: 35px !important;
+  color: #000000 !important;
 }
-.account-sec{
-    font-family: 'ITC Avant Garde Gothic Std';
+.account-sec {
+  font-family: "ITC Avant Garde Gothic Std" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 120% !important;
+  letter-spacing: 0.005em !important;
+  color: #6a6a6a !important;
+}
+.accordion-1 {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 126% !important;
+  color: #000000 !important;
+}
+.para-typography {
+  font-family: "ITC Avant Garde Gothic Std" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 120% !important;
+  letter-spacing: 0.005em !important;
+  color: #6a6a6a !important;
+}
+.accordion-width {
+  width: 50%;
+  margin-left: 0px;
+}
+#panel1a-header {
+  border-bottom: 0.5px solid #6a6a6a;
+}
+#panel2a-header {
+  border-bottom: 0.5px solid #6a6a6a;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+}
+.select-section{
+    font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 120%;
-/* or 19px */
-
-letter-spacing: 0.005em;
-
-/* Text secondary */
-
+line-height: 126%;
+color: #C5C5C5;
+}
+.lock-button{
+    width: 161px;
+    height: 53px;
+    left: 307px;
+    top: 842px;
+    border: 1px solid #DD0000;
+    border-radius: 10px;
+    margin-top: 25px;
+    background: #fff;
+font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 16px !important;
+line-height: 126% !important;
+color: #DD0000 !important;
+}
+.accordion-next{
+    width: 50%;
+}
+.para-typography11{
+    font-family: "ITC Avant Garde Gothic Std" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 120% !important;
+  letter-spacing: 0.005em !important;
+  color: #6a6a6a !important;
+  width: 50%;
+}
+.nothing-account{
+    width: 685px;
+    height: 53px;
+    /* left: 307px; */
+    /* top: 1048px; */
+    background: #F6F6F6;
+    border-radius:10px;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 16px !important;
+line-height: 126% !important;
 color: #6A6A6A !important;
-
+}
+.section-fit{
+    margin-top: 100px;
+    margin-left: 50px;
 }

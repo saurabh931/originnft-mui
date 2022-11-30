@@ -1,0 +1,128 @@
+.offer-head{
+    font-family: 'Futura Maxi CG Bold' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 30px !important;
+line-height: 35px !important;
+color: #000000 !important;
+}
+.set-para{
+    font-family: 'ITC Avant Garde Gothic Std' !important;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 120% !important;
+letter-spacing: 0.005em !important;
+color: #6A6A6A !important;
+}
+.offer-button{
+    width: 178.87px;
+    height: 53.4px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 126%;
+    color: #000000;
+    margin-left: 40px;
+}
+.offer11021{
+font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 16px !important;
+line-height: 126% !important;
+color: #000000 !important;
+margin-top: 50px;
+margin-left: 40px;
+}
+.ppo{
+    font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 5px !important;
+align-items: center !important;
+color: #535353 !important;
+margin-top: 10px;
+margin-left: 15px;
+}
+.section-offer{
+    display: flex;
+    margin-top: 20px;
+}
+.ppo10{
+    font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 5px !important;
+align-items: center !important;
+color: #535353 !important;
+margin-left: 15px;
+}
+.box-create{
+width: 150px !important;
+height: 49px;
+border: 1px solid #D9D9D9;
+filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
+border-radius: 10px;
+margin-top: 22px;
+}
+.basic-addon1{
+    border: none !important;
+}
+.hhus{
+    border: none !important;
+    background:#fff !important;
+}
+.jjjdd{
+    border: none !important;
+}
+input.jjjdd.form-control::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #535353;
+}
+.tag-bottom{
+    font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 10px !important;
+align-items: center !important;
+color: #C5C5C5 !important;
+margin-left: 5px;
+}
+.offer-save{
+    width: 119px;
+height: 56px;
+background: #FEC200;
+border-radius: 15px;
+border: none !important;
+font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+align-items: center;
+color: #101010;
+}
+.offer-bu{
+    text-align: center;
+    margin-top: 50px;
+}
+.section-offers{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.row.sser{
+    margin-left: 30px;
+}
