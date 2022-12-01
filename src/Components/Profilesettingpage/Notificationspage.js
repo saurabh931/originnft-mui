@@ -10,10 +10,9 @@ import { Link } from "react-router-dom";
 import Navbarnft from "../Navbars/Navbarnft";
 import Footer from "../Footer";
 import "./Notificationspage.css";
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Ethlogo from "./Imagesprofile/Ellipse 124.png"
-
+import Form from "react-bootstrap/Form";
+import InputGroup from "react-bootstrap/InputGroup";
+import Ethlogo from "./Imagesprofile/Ellipse 124.png";
 
 // IMPORT
 import Switch from "@mui/material/Switch";
@@ -80,7 +79,7 @@ export default function Profilesettingslide() {
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-lg-2 col-md-2 col-sm-3 col-3 section-color">
+            <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -141,7 +140,7 @@ export default function Profilesettingslide() {
               </div>
             </div>
             <div
-              className="col-lg-10 col-md-10 col-sm-9 col-9"
+              className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12"
               style={{ height: "120vh" }}
             >
               <div className="head-notification">
@@ -308,11 +307,21 @@ export default function Profilesettingslide() {
                   </span>
                 </div>
                 <div>
-                  
-      <InputGroup>
-        <InputGroup.Text><img src={Ethlogo} alt=""/><div style={{display:"grid", marginLeft:"10px"}}><span style={{textAlign:"justify"}}>ETH</span><span>Ethereum</span></div></InputGroup.Text>
-        <Form.Control as="textarea" aria-label="With textarea" placeholder="0.0000 ETH" />
-      </InputGroup>
+                  <InputGroup className="input-notification-eth">
+                    <InputGroup.Text>
+                      <img src={Ethlogo} alt="" />
+                      <div style={{ display: "grid", marginLeft: "10px" }}>
+                        <span className="eth-notification-input">ETH</span>
+                        <span className="etherum-notification">Ethereum</span>
+                      </div>
+                    </InputGroup.Text>
+                    <Form.Control
+                      as="textarea"
+                      aria-label="With textarea"
+                      placeholder="0.0000 ETH"
+                      className=""
+                    />
+                  </InputGroup>
                 </div>
                 <div>
                   <button className="save-notification">Save</button>

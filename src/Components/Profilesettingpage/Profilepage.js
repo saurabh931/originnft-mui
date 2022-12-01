@@ -8,6 +8,7 @@ import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlin
 import Featuredvector from "../../Images/Vector.png";
 import { Link } from "react-router-dom";
 import Navbarnft from "../Navbars/Navbarnft";
+import "./Profilepage.css";
 
 export default function Profilesettingslide() {
   return (
@@ -17,7 +18,7 @@ export default function Profilesettingslide() {
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-lg-2 col-md-2 col-sm-3 col-3 section-color">
+            <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -77,7 +78,11 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-10 col-md-10 col-sm-9 col-9"></div>
+            <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+              <div>
+                <h1 className="profile-heading">Profile details</h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>

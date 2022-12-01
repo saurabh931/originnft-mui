@@ -105,6 +105,14 @@
     background: #FEC200;
     border-radius: 15px;
     border: none;
+    font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+align-items: center;
+color: #101010;
+
 }
 .section-button-featured{
     text-align: center;

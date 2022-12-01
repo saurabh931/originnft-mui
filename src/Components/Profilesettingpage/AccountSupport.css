@@ -83,7 +83,7 @@ color: #DD0000 !important;
   width: 50%;
 }
 .nothing-account{
-    width: 685px;
+    width: 50%;
     height: 53px;
     /* left: 307px; */
     /* top: 1048px; */
@@ -101,4 +101,7 @@ color: #6A6A6A !important;
 .section-fit{
     margin-top: 100px;
     margin-left: 50px;
+}
+.issue-account{
+  width: 50% !important;
 }

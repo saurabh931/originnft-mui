@@ -55,7 +55,7 @@ margin-top: 25px !important;
     text-align: end;
 }
 .turn-all-ele{
-    font-family: 'ITC Avant Garde Gothic Std';
+font-family: 'ITC Avant Garde Gothic Std';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -65,7 +65,7 @@ text-decoration-line: underline;
 color: #FEC200;
 }
 .minimum-notification{
-    font-family: 'Futura Maxi CG Bold' !important;
+font-family: 'Futura Maxi CG Bold' !important;
 font-style: normal !important;
 font-weight: 400 !important;
 font-size: 18px !important;
@@ -100,4 +100,36 @@ margin-top: 40px;
 .head-notification{
     margin-top: 40px;
     margin-left: 40px;
+}
+.input-notification-eth{
+   width:550px !important;
+}
+.eth-notification-input{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 126%;
+    color: #000000;
+    text-align: justify;
+}
+.etherum-notification{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 126%;
+color: #6A6A6A;
+}
+textarea.form-control::placeholder{
+padding-top: 18px !important;
+font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 14px !important;
+line-height: 126% !important;
+color: #6A6A6A !important;
+}
+span.input-group-text{
+    background: #fff;
 }
