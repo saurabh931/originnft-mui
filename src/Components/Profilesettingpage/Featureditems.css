@@ -60,17 +60,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 8px;
+  line-height: 15px;
   display: flex;
   align-items: center;
   color: #353535 !important;
 }
 .card-create-section {
-  width: 594px !important;
-  height: 75px !important;
+  width: 96% !important;
+
   background: #f6f6f6 !important;
   border-radius: 15px !important;
-  margin-top: 30px !important;
+  margin-top: 10px !important;
   margin-left: 40px !important;
 }
 .icons-featured {
@@ -99,22 +99,54 @@
 .buttons-section-ddd {
   margin-left: 42px;
 }
-.featured-save-button{
-    width: 118.94px;
-    height: 56px;
-    background: #FEC200;
-    border-radius: 15px;
-    border: none;
-    font-family: 'Century Gothic';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-align-items: center;
-color: #101010;
-
+.featured-save-button {
+  width: 118.94px;
+  height: 56px;
+  background: #fec200;
+  border-radius: 15px;
+  border: none;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  color: #101010;
 }
-.section-button-featured{
-    text-align: center;
-    margin-top: 40px;
+.section-button-featured {
+  text-align: right;
+  margin-top: 40px;
+}
+@media screen and (max-width: 991px) {
+  .card-create-section {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 782px) {
+  .card-create-section {
+    width: 85% !important;
+  }
+  .view-section-button {
+    margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .card-create-section {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 428px) {
+  .buttons-section-ddd {
+    margin-left: 30px;
+  }
+  .card-create-section {
+    margin-left: 30px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-button-featured {
+    margin-left: 40px;
+    text-align: left;
+  }
 }

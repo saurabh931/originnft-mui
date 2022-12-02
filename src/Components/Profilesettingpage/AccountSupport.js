@@ -139,144 +139,151 @@ export default function Profilesettingslide() {
             </div>
             <div className="col-lg-10 col-md-10 col-sm-12 col-12">
               <div className="section-fit">
-                <div>
-                  <span className="account-head">Account support </span>
-                  <p className="account-sec">
-                    We got you the help you need with your account.
-                  </p>
-                </div>
-                <div className="accordion-width">
-                  <Accordion>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon />}
-                      aria-controls="panel1a-content"
-                      id="panel1a-header"
-                    >
-                      <Typography className="accordion-1">
-                        General help
-                      </Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                      <Typography className="para-typography">
-                        Visit our
-                        <strong style={{ color: "#FEC200" }}>
-                          {" "}
-                          help center{" "}
-                        </strong>
-                        to learn how to get started with buying, selling, and
-                        creating.
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
-                  <Accordion>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon />}
-                      aria-controls="panel2a-content"
-                      id="panel2a-header"
-                    >
-                      <Typography className="accordion-1">
-                        Contact Origins NFT Support
-                      </Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                      <Typography className="para-typography">
-                        Having trouble finding the exact answer to what you’re
-                        looking for? You can
-                        <strong style={{ color: "#FEC200" }}>
-                          {" "}
-                          submit a request{" "}
-                        </strong>
-                        here to contact our representative.
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
-                  <Accordion>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon />}
-                      aria-controls="panel2a-content"
-                      id="panel2a-header"
-                    >
-                      <Typography className="accordion-1">
-                        Help with a compromised account
-                      </Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                      <Typography className="para-typography">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Fusce condimentum purus non odio congue, ut consectetur
-                        metus malesuada. Integer augue nulla, dignissim at
-                        mauris quis, vehicula vulputate diam.
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
-                </div>
+                <div className="row">
+                  <div className="col-lg-8 col-md-9 col-sm-12 col-12">
+                    <div>
+                      <span className="account-head">Account support </span>
+                      <p className="account-sec">
+                        We got you the help you need with your account.
+                      </p>
+                    </div>
+                    <div className="accordion-width">
+                      <Accordion>
+                        <AccordionSummary
+                          expandIcon={<ExpandMoreIcon />}
+                          aria-controls="panel1a-content"
+                          id="panel1a-header"
+                        >
+                          <Typography className="accordion-1">
+                            General help
+                          </Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                          <Typography className="para-typography">
+                            Visit our
+                            <strong style={{ color: "#FEC200" }}>
+                              {" "}
+                              help center{" "}
+                            </strong>
+                            to learn how to get started with buying, selling,
+                            and creating.
+                          </Typography>
+                        </AccordionDetails>
+                      </Accordion>
+                      <Accordion>
+                        <AccordionSummary
+                          expandIcon={<ExpandMoreIcon />}
+                          aria-controls="panel2a-content"
+                          id="panel2a-header"
+                        >
+                          <Typography className="accordion-1">
+                            Contact Origins NFT Support
+                          </Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                          <Typography className="para-typography">
+                            Having trouble finding the exact answer to what
+                            you’re looking for? You can
+                            <strong style={{ color: "#FEC200" }}>
+                              {" "}
+                              submit a request{" "}
+                            </strong>
+                            here to contact our representative.
+                          </Typography>
+                        </AccordionDetails>
+                      </Accordion>
+                      <Accordion>
+                        <AccordionSummary
+                          expandIcon={<ExpandMoreIcon />}
+                          aria-controls="panel2a-content"
+                          id="panel2a-header"
+                        >
+                          <Typography className="accordion-1">
+                            Help with a compromised account
+                          </Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                          <Typography className="para-typography">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce condimentum purus non odio congue, ut
+                            consectetur metus malesuada. Integer augue nulla,
+                            dignissim at mauris quis, vehicula vulputate diam.
+                          </Typography>
+                        </AccordionDetails>
+                      </Accordion>
+                    </div>
 
-                {/* INPUT PLACEHOLDER */}
-                <div>
-                  <div>
-                    <FormControl
-                      sx={{ m: 0, width: 683, mt: 3 }}
-                      className="issue-account"
-                    >
-                      <Select
-                        multiple
-                        displayEmpty
-                        value={personName}
-                        onChange={handleChange}
-                        input={<OutlinedInput />}
-                        renderValue={(selected) => {
-                          if (selected.length === 0) {
-                            return (
-                              <em className="select-section">
-                                Let us know the issue
-                              </em>
-                            );
-                          }
+                    {/* INPUT PLACEHOLDER */}
+                    <div>
+                      <div>
+                        <FormControl
+                          sx={{ m: 0, width: 683, mt: 3 }}
+                          className="issue-account"
+                        >
+                          <Select
+                            multiple
+                            displayEmpty
+                            value={personName}
+                            onChange={handleChange}
+                            input={<OutlinedInput />}
+                            renderValue={(selected) => {
+                              if (selected.length === 0) {
+                                return (
+                                  <em className="select-section">
+                                    Let us know the issue
+                                  </em>
+                                );
+                              }
 
-                          return selected.join(", ");
-                        }}
-                        MenuProps={MenuProps}
-                        inputProps={{ "aria-label": "Without label" }}
-                      >
-                        <MenuItem disabled value="">
-                          <em>Placeholder</em>
-                        </MenuItem>
-                        {names.map((name) => (
-                          <MenuItem
-                            key={name}
-                            value={name}
-                            style={getStyles(name, personName, theme)}
+                              return selected.join(", ");
+                            }}
+                            MenuProps={MenuProps}
+                            inputProps={{ "aria-label": "Without label" }}
                           >
-                            {name}
-                          </MenuItem>
-                        ))}
-                      </Select>
-                    </FormControl>
+                            <MenuItem disabled value="">
+                              <em>Placeholder</em>
+                            </MenuItem>
+                            {names.map((name) => (
+                              <MenuItem
+                                key={name}
+                                value={name}
+                                style={getStyles(name, personName, theme)}
+                              >
+                                {name}
+                              </MenuItem>
+                            ))}
+                          </Select>
+                        </FormControl>
+                      </div>
+                    </div>
+                    <button className="lock-button">Lock account</button>
+                    <div>
+                      <div>
+                        <Accordion>
+                          <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel2a-content"
+                            id="panel2a-header"
+                            className="accordion-next"
+                          >
+                            <Typography className="accordion-1">
+                              Cancel all Ethereum listings and offers
+                            </Typography>
+                          </AccordionSummary>
+                          <AccordionDetails>
+                            <Typography className="para-typography11">
+                              This method saves gas compared to cancelling on
+                              individual listing or offer.
+                            </Typography>
+                          </AccordionDetails>
+                        </Accordion>
+                      </div>
+                      <button className="nothing-account">
+                        Nothing to show
+                      </button>
+                    </div>
                   </div>
-                </div>
-                <button className="lock-button">Lock account</button>
-                <div>
-                  <div>
-                    <Accordion>
-                      <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel2a-content"
-                        id="panel2a-header"
-                        className="accordion-next"
-                      >
-                        <Typography className="accordion-1">
-                          Cancel all Ethereum listings and offers
-                        </Typography>
-                      </AccordionSummary>
-                      <AccordionDetails>
-                        <Typography className="para-typography11">
-                          This method saves gas compared to cancelling on
-                          individual listing or offer.
-                        </Typography>
-                      </AccordionDetails>
-                    </Accordion>
-                  </div>
-                  <button className="nothing-account">Nothing to show</button>
+                  <div className="col-lg-4 col-md-3 col-sm-12 col-12"></div>
                 </div>
               </div>
             </div>

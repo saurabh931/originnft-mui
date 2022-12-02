@@ -211,6 +211,11 @@ function Navbar() {
                     Help Center
                   </Link>
                 </li>
+                <li className="li-section">
+                  <Link className="dropdown-item" to="/collectioninsidepage" >
+                    Collection-inside-page
+                  </Link>
+                </li>
                 {/* <li className="li-section">
                   <Link className="dropdown-item" to="/resourcesnewsletter" >
                    Newsletter

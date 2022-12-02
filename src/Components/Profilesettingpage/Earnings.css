@@ -22,8 +22,9 @@
   line-height: 35px;
 }
 .earning-box {
-  margin: 80px;
-  max-width: 40rem;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 80%;
 }
 .earning-content1102 {
   font-family: "Poppins" !important;
@@ -37,7 +38,12 @@
 }
 @media screen and (max-width:1200px) {
   .earning-box{
-    margin: 50px;
+    width: 100%;
+  }
+}
+@media screen and (max-width:767px) {
+  .earning-box{
+    width: 95%;
   }
 }
 @media screen and (max-width:980px) {

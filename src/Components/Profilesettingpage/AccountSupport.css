@@ -33,7 +33,7 @@
   color: #6a6a6a !important;
 }
 .accordion-width {
-  width: 50%;
+  width: 100%;
   margin-left: 0px;
 }
 #panel1a-header {
@@ -45,35 +45,33 @@
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
   box-shadow: none !important;
 }
-.select-section{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 126%;
-color: #C5C5C5;
+.select-section {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 126%;
+  color: #c5c5c5;
 }
-.lock-button{
-    width: 161px;
-    height: 53px;
-    left: 307px;
-    top: 842px;
-    border: 1px solid #DD0000;
-    border-radius: 10px;
-    margin-top: 25px;
-    background: #fff;
-font-family: 'Poppins' !important;
-font-style: normal !important;
-font-weight: 700 !important;
-font-size: 16px !important;
-line-height: 126% !important;
-color: #DD0000 !important;
+.lock-button {
+  width: 25%;
+  height: 53px;
+  border: 1px solid #dd0000;
+  border-radius: 10px;
+  margin-top: 25px;
+  background: #fff;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 126% !important;
+  color: #dd0000 !important;
 }
-.accordion-next{
-    width: 50%;
+.accordion-next {
+  width: 100%;
 }
-.para-typography11{
-    font-family: "ITC Avant Garde Gothic Std" !important;
+.para-typography11 {
+  font-family: "ITC Avant Garde Gothic Std" !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 16px !important;
@@ -82,26 +80,60 @@ color: #DD0000 !important;
   color: #6a6a6a !important;
   width: 50%;
 }
-.nothing-account{
+.nothing-account {
+  width: 100%;
+  height: 53px;
+  background: #f6f6f6;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 126% !important;
+  color: #6a6a6a !important;
+}
+.section-fit {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.issue-account {
+  width: 100% !important;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:1087px) {
+  .lock-button{
+    width: 30%;
+  }
+  .section-fit {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+}
+@media screen and (max-width:811px) {
+  .lock-button{
+    width: 35%;
+  }
+}
+@media screen and (max-width:766px) {
+  .section-fit {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+}
+@media screen and (max-width:408px) {
+  .lock-button{
+    width: 40%;
+  }
+  .section-fit {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+}
+@media screen and (max-width:330px) {
+  .lock-button{
     width: 50%;
-    height: 53px;
-    /* left: 307px; */
-    /* top: 1048px; */
-    background: #F6F6F6;
-    border-radius:10px;
-    margin-top: 20px;
-    border: none;
-    font-family: 'Poppins' !important;
-font-style: normal !important;
-font-weight: 700 !important;
-font-size: 16px !important;
-line-height: 126% !important;
-color: #6A6A6A !important;
-}
-.section-fit{
-    margin-top: 100px;
-    margin-left: 50px;
-}
-.issue-account{
-  width: 50% !important;
+  }
 }

@@ -15,6 +15,7 @@ import Offers from "./Components/Profilesettingpage/Offers";
 import Featureditems from "./Components/Profilesettingpage/Featureditems";
 import AccountSupport from "./Components/Profilesettingpage/AccountSupport";
 import Earnings from "./Components/Profilesettingpage/Earnings";
+import Collectioninsidepage from "./Components/Explore/Collectioninsidepage";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/featureditems" element={<Featureditems />} />
           <Route path="/accountsupport" element={<AccountSupport />} />
           <Route path="/earnings" element={<Earnings />} />
+          <Route path="/collectioninsidepage" element={<Collectioninsidepage/>}/>
         </Routes>
       </Router>
       {/*   <Navbar />

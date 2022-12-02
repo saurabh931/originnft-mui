@@ -82,8 +82,10 @@ export default function Profilesettingslide() {
           </div>
           <div
             className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12"
-            style={{ width: "65%" }}
+            // style={{ width: "65%" }}
           >
+          <div className="row">
+          <div className="col-lg-9 col-md-9 col-sm-12 col-12">
             <div className="earning-box">
               <h6 className="earnigs-head">Earnings</h6>
               <p className="earning-content">
@@ -108,7 +110,9 @@ export default function Profilesettingslide() {
                   sales using Origins NFT in 2021.{" "}
                 </p>
               </div>
+            </div></div>
             </div>
+            <div className="col-lg-3 col-md-3 col-sm-12 col-12"></div>
           </div>
         </div>
       </div>

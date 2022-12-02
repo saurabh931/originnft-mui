@@ -99,6 +99,8 @@ export default function Profilesettingslide() {
               </div>
               <button className="offer-button">View my offers</button>
               <p className="offer11021">View my offers</p>
+              <div className="row">
+              <div className="col-lg-8 col-md-8 col-sm-12 col-12">
               <div className="row sser">
                 <div className="row">
                   <div className="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -189,6 +191,11 @@ export default function Profilesettingslide() {
               </div>
               <div className="offer-bu">
                 <button className="offer-save">Save</button>
+              </div>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+
+              </div>
               </div>
             </div>
           </div>

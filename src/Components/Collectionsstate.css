@@ -79,7 +79,7 @@ h1.collection-head-stats {
   color: #6a6a6a !important;
 }
 .button-explore {
-  width: 200px !important;
+  /* width: 200px !important; */
   height: 56px !important;
   background: #fec200 !important;
   border-radius: 15px !important;

@@ -184,13 +184,13 @@ export default function Profilesettingslide() {
                   
                 </div>
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12">
-                  <div style={{ marginLeft: "40px" }}>
+                  <div className="profile-section-content" >
                     <span className="user-section-img">Profile image</span>
                     <div style={{ marginTop: "10px" }}>
                       <img src={Profileimg} alt="" />
                     </div>
                   </div>
-                  <div style={{ marginLeft: "40px", marginTop: "20px" }}>
+                  <div className="user-bio-section">
                     <span className="user-section-img">Bio</span>
                     <div>
                       <textarea

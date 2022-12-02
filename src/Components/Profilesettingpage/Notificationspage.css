@@ -1,135 +1,147 @@
-.notification-head{
-    font-family: "Futura Maxi CG Bold";
+.notification-head {
+  font-family: "Futura Maxi CG Bold";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 35px;
   color: #000000;
-  
 }
-.notification-para{
-    font-family: 'ITC Avant Garde Gothic Std' !important;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 120%;
-letter-spacing: 0.005em;
-color: #6A6A6A !important;
+.notification-para {
+  font-family: "ITC Avant Garde Gothic Std" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #6a6a6a !important;
+  margin-top: 20px;
 }
-.card-name-notifications{
-    font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 10px;
-letter-spacing: 0.005em;
-color: #6A6A6A !important;
+.card-name-notifications {
+  font-family: "Futura Maxi CG Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.005em;
+  color: #6a6a6a !important;
 }
-.card-name-notifications-ss{
-font-family: 'Futura Maxi CG Book' !important;
-font-style: normal !important;
-font-weight: 400 !important;
-font-size: 14px !important;
-line-height: 10px !important;
-align-items: center !important;
-letter-spacing: 0.008em !important;
-color: #969696 !important;
+.card-name-notifications-ss {
+  font-family: "Futura Maxi CG Book" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 15px !important;
+  align-items: center !important;
+  letter-spacing: 0.008em !important;
+  color: #969696 !important;
 }
-.notifiactions-sections-cards{
-    width: 550px;
-height: 70px;
-background: #F6F6F6;
-border-radius: 15px;
-margin-left: 25px !important;
-margin-top: 25px !important;
+.notifiactions-sections-cards {
+  width: 100%;
+  /* height: 70px; */
+  background: #f6f6f6;
+  border-radius: 15px;
+  margin-left: 25px !important;
+  margin-top: 8px !important;
 }
-.cards-notifiactions-element{
-    margin-left: 20px;
-    padding-top: 20px;
+.cards-notifiactions-element {
+  margin-left: 20px;
+  padding-top: 20px;
 }
-.toggle-button-notification{
-    margin-top: 17px;
-    margin-left: 18px;
+.toggle-button-notification {
+  margin-top: 17px;
+  margin-left: 18px;
 }
-.turn-section-component{
-    text-align: end;
+.turn-section-component {
+  float: right;
 }
-.turn-all-ele{
-font-family: 'ITC Avant Garde Gothic Std';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 120%;
-letter-spacing: 0.005em;
-text-decoration-line: underline;
-color: #FEC200;
+.section-mini {
+  margin-left: 30px;
+  width: 100%;
 }
-.minimum-notification{
-font-family: 'Futura Maxi CG Bold' !important;
-font-style: normal !important;
-font-weight: 400 !important;
-font-size: 18px !important;
-line-height: 19px !important;
-color: #6A6A6A !important;
-margin-top: 50px;
+.input-notification-section-eth {
+  margin-left: 30px;
+  margin-top: 20px;
 }
-.para-notification-section{
-    font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-color: #6A6A6A;
+.save-button-notification {
+  margin-left: 30px;
 }
-.save-notification{
-width: 118.94px;
-height: 56px;
-background: #FEC200;
-border-radius: 15px;
-border: none;
-font-family: 'Century Gothic' !important;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-align-items: center;
+.turn-all-ele {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  text-decoration-line: underline;
+  color: #fec200;
+}
+.minimum-notification {
+  font-family: "Futura Maxi CG Bold" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 19px !important;
+  color: #6a6a6a !important;
+  margin-top: 50px;
+}
+.para-notification-section {
+  font-family: "Futura Maxi CG Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6a6a6a;
+  width: 40%;
+}
+.save-notification {
+  width: 118.94px;
+  height: 56px;
+  background: #fec200;
+  border-radius: 15px;
+  border: none;
+  font-family: "Century Gothic" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
 
-color: #101010 !important;
-margin-top: 40px;
+  color: #101010 !important;
+  margin-top: 40px;
 }
-.head-notification{
-    margin-top: 40px;
-    margin-left: 40px;
+.head-notification {
+  margin-top: 40px;
+  margin-left: 40px;
 }
-.input-notification-eth{
-   width:550px !important;
+.input-notification-eth {
+  width: 100% !important;
 }
-.eth-notification-input{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 126%;
-    color: #000000;
-    text-align: justify;
+.eth-notification-input {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 126%;
+  color: #000000;
+  text-align: justify;
 }
-.etherum-notification{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 126%;
-color: #6A6A6A;
+.etherum-notification {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 126%;
+  color: #6a6a6a;
 }
-textarea.form-control::placeholder{
-padding-top: 18px !important;
-font-family: 'Poppins' !important;
-font-style: normal !important;
-font-weight: 700 !important;
-font-size: 14px !important;
-line-height: 126% !important;
-color: #6A6A6A !important;
+textarea.form-control::placeholder {
+  padding-top: 18px !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 126% !important;
+  color: #6a6a6a !important;
 }
-span.input-group-text{
-    background: #fff;
+span.input-group-text {
+  background: #fff;
 }

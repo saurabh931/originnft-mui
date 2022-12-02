@@ -71,3 +71,11 @@ line-height: 20px;
 align-items: center;
 color: #101010;
 }
+@media screen and (max-width:991px) {
+    .head-news {
+        margin-top: 0px;
+    }
+    .sectionimg{
+        margin-top: 20px;
+    }
+}
