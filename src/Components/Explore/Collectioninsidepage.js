@@ -41,6 +41,9 @@ import { TfiReload } from "react-icons/tfi";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+// IMPORT IMAGE
+import Cardimgcoll from "./Collection-images/Rectangle10.png"
+
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
   borderRadius: "2px solid black",
@@ -344,10 +347,12 @@ export default function Collectioninsidepage() {
 
           </div>
         </div>
+
+        {/*-------------------------------------------------------------------------CARDS-IMPORT-----------------------------------------------------------  */}
         <div className="col-lg-9 col-md-9 col-sm-12 col-12">
           <div>
           <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={Cardimgcoll} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
