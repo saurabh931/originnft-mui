@@ -101,10 +101,10 @@ export default function Collectioninsidepage() {
         <div className="row g-0 mx-5">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <img src={ProfileImage} alt="" className="profile-setting-img" />
-            <h6 className="profile-name-inside">
+            <h6 className="profile-name-inside mx-2">
               Gamefi Legends <img src={Checkvector} alt="" />
             </h6>
-            <h6 className="sub-title-profile">
+            <h6 className="sub-title-profile mx-2">
               by Crypto Khem
               <img src={Checkvector} alt="" />
             </h6>
