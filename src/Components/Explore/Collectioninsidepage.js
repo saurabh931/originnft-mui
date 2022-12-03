@@ -13,6 +13,7 @@ import ShareIcon from "@mui/icons-material/Share";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 // import { FaDiscord } from "react-icons/fa";
 import Discord from "./Collection-images/discord-img.png";
+import { RiArrowDropDownLine} from 'react-icons/ri';
 
 export default function Collectioninsidepage() {
   return (
@@ -54,10 +55,35 @@ export default function Collectioninsidepage() {
               <span style={{ marginLeft: "10px" }}>Creator Fee 10%</span>
               <span style={{ marginLeft: "10px" }}>Chain Ethereum</span>
               <p className="collection-inside-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam tellus, rhoncus sed eleifend</p>
-              <button className="see-button">See more</button>
+              <button className="see-button">See more <RiArrowDropDownLine/></button>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12"></div>
           </div>
+        </div>
+        <div className="container-fluid">
+        <div className="row">
+        <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+        <span>3,456 ETH</span>
+        <span>total volume</span>
+        </div>
+        <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+
+        </div>
+        <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+
+        </div>
+        <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+
+        </div>
+        <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+
+        </div>
+        <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+
+        </div>
+
+        </div>
+
         </div>
       </div>
     </>
