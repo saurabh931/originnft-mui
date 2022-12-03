@@ -109,7 +109,7 @@ padding: 15px;
 }
 .accordion-collect{
     border-bottom: none !important;
-    width: 427px !important;
+    width: 320px !important;
 }
 .side-bar-collection{
     margin-left: 80px !important;
@@ -140,4 +140,20 @@ font-weight: 400;
 font-size: 16px;
 line-height: 18px;
 color: #6A6A6A;
+}
+.end-time-card{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+color: #6A6A6A;
+}
+.cards-title-name{
+    font-family: 'Futura Maxi CG Book' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 15px !important;
+color: #353535 !important;
 }

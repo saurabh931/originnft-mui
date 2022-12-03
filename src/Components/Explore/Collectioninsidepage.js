@@ -17,15 +17,14 @@ import Discord from "./Collection-images/discord-img.png";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 // IMPORT CHECKBOX
-import Checkbox from '@mui/material/Checkbox';
+import Checkbox from "@mui/material/Checkbox";
 
 // ACCORDION IMPORT FILE
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 // IMPORT
 import FilterListIcon from "@mui/icons-material/FilterList";
@@ -38,11 +37,14 @@ import Dropdown from "react-bootstrap/Dropdown";
 import { TfiReload } from "react-icons/tfi";
 
 // IMPORT
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 // IMPORT IMAGE
-import Cardimgcoll from "./Collection-images/Rectangle10.png"
+import Cardimgcoll from "./Collection-images/Rectangle10.png";
+import Cardimgcoll1 from "./Collection-images/Rectangle11.png";
+import Cardimgcoll2 from "./Collection-images/Rectangle12.png";
+import Cardimgcoll3 from "./Collection-images/Rectangle13.png";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -87,8 +89,8 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-// CHECK BOX IMPORT 
-const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+// CHECK BOX IMPORT
+const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 export default function Collectioninsidepage() {
   return (
@@ -233,139 +235,183 @@ export default function Collectioninsidepage() {
           </div>
         </div>
         <div className="container-fluid">
-        <div className="row side-bar-collection">
-        <div className="col-lg-3 col-md-3 col-sm-12 col-12">
-          <div className="row">
-          <div className="status-tag">
-            <span>Status</span>
-          </div>
-          <div className="bu-toggle">
-          <div className="bu-nw-tag">Buy Now </div><div className="check-box-bu"> <Checkbox {...label} style={{color:"#c5c5c5"}} /></div>
-          </div>
-          <div className="bu-toggle">
-          <div className="bu-nw-tag"> On Auction</div> <div className="check-box-bu">  <Checkbox {...label} style={{color:"#c5c5c5"}} /></div>
-          </div>
-          <hr/>
-          <div className="coll-accordion-section">
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-          className="accordion-collect"
-        >
-          <Typography className="price-ac">Price</Typography>
-        </AccordionSummary>
-        {/* <AccordionDetails>
+          <div className="row side-bar-collection">
+            <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div className="row">
+                <div className="status-tag">
+                  <span>Status</span>
+                </div>
+                <div className="bu-toggle">
+                  <div className="bu-nw-tag">Buy Now </div>
+                  <div className="check-box-bu">
+                    {" "}
+                    <Checkbox {...label} style={{ color: "#c5c5c5" }} />
+                  </div>
+                </div>
+                <div className="bu-toggle">
+                  <div className="bu-nw-tag"> On Auction</div>{" "}
+                  <div className="check-box-bu">
+                    {" "}
+                    <Checkbox {...label} style={{ color: "#c5c5c5" }} />
+                  </div>
+                </div>
+                <hr />
+                <div className="coll-accordion-section">
+                  <Accordion>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      className="accordion-collect"
+                    >
+                      <Typography className="price-ac">Price</Typography>
+                    </AccordionSummary>
+                    {/* <AccordionDetails>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails> */}
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-          className="accordion-collect"
-        >
-          <Typography className="price-ac">Quantity</Typography>
-        </AccordionSummary>
-        {/* <AccordionDetails>
+                  </Accordion>
+                  <Accordion>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                      className="accordion-collect"
+                    >
+                      <Typography className="price-ac">Quantity</Typography>
+                    </AccordionSummary>
+                    {/* <AccordionDetails>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails> */}
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-          className="accordion-collect"
-        >
-          <Typography className="price-ac">Currency</Typography>
-        </AccordionSummary>
-        {/* <AccordionDetails>
+                  </Accordion>
+                  <Accordion>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                      className="accordion-collect"
+                    >
+                      <Typography className="price-ac">Currency</Typography>
+                    </AccordionSummary>
+                    {/* <AccordionDetails>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails> */}
-      </Accordion><hr/>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-          className="accordion-collect"
-        >
-          <Typography className="price-ac">category</Typography>
-        </AccordionSummary>
-        {/* <AccordionDetails>
+                  </Accordion>
+                  <hr />
+                  <Accordion>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                      className="accordion-collect"
+                    >
+                      <Typography className="price-ac">category</Typography>
+                    </AccordionSummary>
+                    {/* <AccordionDetails>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails> */}
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-          className="accordion-collect"
-        >
-          <Typography className="price-ac">category</Typography>
-        </AccordionSummary>
-        {/* <AccordionDetails>
+                  </Accordion>
+                  <Accordion>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                      className="accordion-collect"
+                    >
+                      <Typography className="price-ac">category</Typography>
+                    </AccordionSummary>
+                    {/* <AccordionDetails>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails> */}
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-          className="accordion-collect"
-        >
-          <Typography className="price-ac">category</Typography>
-        </AccordionSummary>
-        {/* <AccordionDetails>
+                  </Accordion>
+                  <Accordion>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                      className="accordion-collect"
+                    >
+                      <Typography className="price-ac">category</Typography>
+                    </AccordionSummary>
+                    {/* <AccordionDetails>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails> */}
-      </Accordion>
-    </div>
+                  </Accordion>
+                </div>
+              </div>
+            </div>
 
+            {/*-------------------------------------------------------------------------CARDS-IMPORT-----------------------------------------------------------  */}
+            <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div className="row">
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <Card  >
+                    <Card.Img variant="top" src={Cardimgcoll} />
+                    <Card.Body>
+                      <Card.Title className="cards-title-name">
+                        Red Angrybol
+                      </Card.Title>
+                      <Card.Text>0.003 ETH</Card.Text>
+                      <span className="end-time-card">Ends in 23 hours</span>
+                    </Card.Body>
+                  </Card>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <Card >
+                    <Card.Img variant="top" src={Cardimgcoll1} />
+                    <Card.Body>
+                      <Card.Title className="cards-title-name">
+                        Red Angrybol
+                      </Card.Title>
+                      <Card.Text>0.003 ETH</Card.Text>
+                      <span className="end-time-card">Ends in 23 hours</span>
+                    </Card.Body>
+                  </Card>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <Card >
+                    <Card.Img variant="top" src={Cardimgcoll2} />
+                    <Card.Body>
+                      <Card.Title className="cards-title-name">
+                        Red Angrybol
+                      </Card.Title>
+                      <Card.Text>0.003 ETH</Card.Text>
+                      <span className="end-time-card">Ends in 23 hours</span>
+                    </Card.Body>
+                  </Card>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <Card >
+                    <Card.Img variant="top" src={Cardimgcoll3} />
+                    <Card.Body>
+                      <Card.Title className="cards-title-name">
+                        Red Angrybol
+                      </Card.Title>
+                      <Card.Text>0.003 ETH</Card.Text>
+                      <span className="end-time-card">Ends in 23 hours</span>
+                    </Card.Body>
+                  </Card>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        {/*-------------------------------------------------------------------------CARDS-IMPORT-----------------------------------------------------------  */}
-        <div className="col-lg-9 col-md-9 col-sm-12 col-12">
-          <div>
-          <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Cardimgcoll} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-          </div>
-        </div>
-        </div>
-
         </div>
       </div>
       <Footer />
