@@ -97,8 +97,8 @@ export default function Collectioninsidepage() {
     <>
       <Navbar />
       <div className="container-fluid background-images-collections"></div>
-      <div className="container-fluid">
-        <div className="row">
+      <div className="container-fluid ">
+        <div className="row g-0 mx-5">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <img src={ProfileImage} alt="" className="profile-setting-img" />
             <h6 className="profile-name-inside">
@@ -121,11 +121,11 @@ export default function Collectioninsidepage() {
             </span>
           </div>
         </div>
-        <div className="container-fluid">
-          <div className="row">
+        <div className="container-fluid mx-5">
+          <div className="row g-0">
             <div
               className="col-lg-8 col-md-8 col-sm-12 col-12"
-              style={{ marginLeft: "90px" }}
+              // style={{ marginLeft: "90px" }}
             >
               <span>Items 3 </span>
               <span style={{ marginLeft: "10px" }}>Created Sep 2022</span>
@@ -142,10 +142,10 @@ export default function Collectioninsidepage() {
             <div className="col-lg-4 col-md-4 col-sm-12 col-12"></div>
           </div>
         </div>
-        <div className="container-fluid">
-          <div className="row">
+        <div className="container-fluid mx-5">
+          <div className="row g-0">
             <div className="col-lg-9 col-md-9 col-sm-12 col-12">
-              <div className="row content-collection-data">
+              <div className="row g-0 content-collection-data">
                 <div className="col-lg-2 col-md-2 col-sm-6 col-12">
                   <span className="eth-section">3,456 ETH</span>
                   <br />
@@ -180,8 +180,8 @@ export default function Collectioninsidepage() {
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-12"></div>
           </div>
-          <div className="container-fluid">
-            <div className="row section-collec py-3 pb-5">
+          <div className="container-fluid ">
+            <div className="row g-0 section-collec py-3 pb-5">
               <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
                 <span>
                   <FilterListIcon className="filterlist-icons" />
@@ -234,10 +234,10 @@ export default function Collectioninsidepage() {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
-          <div className="row side-bar-collection">
+        <div className="container-fluid mx-5">
+          <div className="row g-0 side-bar-collection">
             <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12">
-              <div className="row">
+              <div className="row g-0">
                 <div className="status-tag">
                   <span>Status</span>
                 </div>
@@ -360,9 +360,9 @@ export default function Collectioninsidepage() {
 
             {/*-------------------------------------------------------------------------CARDS-IMPORT-----------------------------------------------------------  */}
             <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-              <div className="row">
+              <div className="row g-0 mx-5">
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                  <Card  >
+                  <Card>
                     <Card.Img variant="top" src={Cardimgcoll} />
                     <Card.Body>
                       <Card.Title className="cards-title-name">
@@ -374,7 +374,7 @@ export default function Collectioninsidepage() {
                   </Card>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                  <Card >
+                  <Card>
                     <Card.Img variant="top" src={Cardimgcoll1} />
                     <Card.Body>
                       <Card.Title className="cards-title-name">
@@ -386,7 +386,7 @@ export default function Collectioninsidepage() {
                   </Card>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                  <Card >
+                  <Card>
                     <Card.Img variant="top" src={Cardimgcoll2} />
                     <Card.Body>
                       <Card.Title className="cards-title-name">
@@ -398,7 +398,7 @@ export default function Collectioninsidepage() {
                   </Card>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                  <Card >
+                  <Card>
                     <Card.Img variant="top" src={Cardimgcoll3} />
                     <Card.Body>
                       <Card.Title className="cards-title-name">

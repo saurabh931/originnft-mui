@@ -7,10 +7,10 @@
 }
 .profile-setting-img{
     margin-top: -170px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 .profile-name-inside{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 10px;
     font-family: 'Futura Maxi CG Bold';
     font-style: normal;
@@ -30,9 +30,9 @@
     margin-left: 15px;
     margin-right: 30px;
 }
-.sub-title-profile{
+/* .sub-title-profile{
     margin-left: 100px;
-}
+} */
 .collection-inside-bio{
     font-family: 'Futura Maxi CG Book';
 font-style: normal;
@@ -50,7 +50,7 @@ margin-top: 20px;
     padding: 5px 8px;
 }
 .content-collection-data{
-    margin-left: 80px !important;
+    /* margin-left: 80px !important; */
     margin-top: 40px !important;
 }
 .eth-section{
@@ -71,9 +71,9 @@ line-height: 18px;
 align-items: center;
 color: #6A6A6A;
 }
-.section-collec{
+/* .section-collec{
     margin-left: 80px !important;
-}
+} */
 .reload-bu{
 width: 46.74px;
 height: 48px;
@@ -111,12 +111,12 @@ padding: 15px;
     border-bottom: none !important;
     width: 320px !important;
 }
-.side-bar-collection{
+/* .side-bar-collection{
     margin-left: 80px !important;
-}
-.coll-accordion-section{
+} */
+/* .coll-accordion-section{
     margin-left: -14px !important;
-}
+} */
 .bu-toggle{
     display: flex;
     justify-content: space-between;
