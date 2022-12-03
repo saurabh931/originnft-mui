@@ -49,3 +49,95 @@ margin-top: 20px;
     border: none;
     padding: 5px 8px;
 }
+.content-collection-data{
+    margin-left: 80px !important;
+    margin-top: 40px !important;
+}
+.eth-section{
+font-family: 'Futura Maxi CG Bold';
+font-style: normal;
+font-weight: 400 ;
+font-size: 18px;
+line-height: 19px;
+align-items: center;
+color: #000000;
+}
+.co-volume-section{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+align-items: center;
+color: #6A6A6A;
+}
+.section-collec{
+    margin-left: 80px !important;
+}
+.reload-bu{
+width: 46.74px;
+height: 48px;
+background: rgba(246, 246, 246, 0.5);
+border-radius: 15px;
+margin-top: 15px;
+text-align: center;
+}
+.reolad-tfi-bu{
+    margin-top: 15px;
+    color: #6A6A6A;
+    font-size: 20px;
+    font-weight: 900;
+}
+.filterlist-icons{
+    margin-top: 10px;
+}
+.view-bu-collection{
+    width: 91.72px;
+height: 48px;
+background:  rgba(246, 246, 246, 0.5) !important;
+border-radius: 15px;
+padding: 15px;
+}
+.vv-bu1{
+    background: #fff;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 5px;
+}
+.price-ac{
+    color: #000000 !important;
+}
+.accordion-collect{
+    border-bottom: none !important;
+    width: 427px !important;
+}
+.side-bar-collection{
+    margin-left: 80px !important;
+}
+.coll-accordion-section{
+    margin-left: -14px !important;
+}
+.bu-toggle{
+    display: flex;
+    justify-content: space-between;
+}
+.check-box-bu{
+    margin-top: -7px;
+}
+.status-tag{
+    font-family: 'Futura Maxi CG Book' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    color: #000000 !important;
+    margin-bottom: 25px ;
+}
+.bu-nw-tag{
+    font-family: 'Futura Maxi CG Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #6A6A6A;
+}
