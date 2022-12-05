@@ -115,6 +115,21 @@
   margin-left: 25px;
   margin-top: 65px;
 }
+a.dropdown-item{
+  margin: 0.3rem 0rem;
+}
+ul.dropdown-menu.show {
+  width: 210px;
+}
+ul.dropdown-menu.show-profile.show {
+  margin-left: -40px;
+}
+.ios-switch{
+  margin-top: 0px !important;
+}
+.form-check.form-switch.text-light {
+  padding-left: 0px;
+}
 /* media query */
 
 @media screen and (max-width: 1200px) {

@@ -5,7 +5,7 @@ import Navbarnft from '../Navbars/Navbarnft'
 
 export default function Main() {
   return (
-    <div><Navbarnft/>
+    <div ><Navbarnft/>
     <Home/>
     <Footer/></div>
   )

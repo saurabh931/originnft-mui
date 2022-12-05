@@ -60,9 +60,10 @@ const rows = [
   createData('Gingerbread', 356, 16.0, 49, 3.9),
 ];
 
-export default function BasicTable() {
+export default function BasicTable(props) {
   return (
     <>
+    <div className={`Hometable  hometable-${props.mode} bg-${props.mode}`}>
     <TableContainer component={Paper}>
     <Box>
     <Grid container spacing={2}>
@@ -141,7 +142,9 @@ export default function BasicTable() {
     </TableContainer>
     
     {/* ----------------------------------------------------NEW AND NOTABLE------------------------------------------------------------- */}
-    <Box><Typography variant='h3'>New And Notable</Typography></Box>
+    <Box><Typography variant='h3' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>New And Notable</Typography></Box>
     <Box>
      <Swiper
           slidesPerView={1}
@@ -189,9 +192,14 @@ export default function BasicTable() {
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
+                      style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -221,9 +229,14 @@ export default function BasicTable() {
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
+                      style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -255,7 +268,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -287,7 +302,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -319,7 +336,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -340,7 +359,9 @@ export default function BasicTable() {
 {/* ---------------------------------------------------STORYTELLING NFT SPOLTLIGHT----------------------------------------------- */}
 
 
-        <Box><Typography variant='h3'>Storytelling NFTs spotlight</Typography></Box>
+        <Box><Typography variant='h3' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Storytelling NFTs spotlight</Typography></Box>
         <Box>
      <Swiper
           slidesPerView={1}
@@ -390,7 +411,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -422,7 +445,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -454,7 +479,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -486,7 +513,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -518,7 +547,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -537,7 +568,9 @@ export default function BasicTable() {
         </Box>
 
         {/* ----------------------------------------------------HOT-------------------------------------------------------------------- */}
-        <Box><Typography variant='h3'>Hot</Typography></Box>
+        <Box><Typography variant='h3' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Hot</Typography></Box>
         <Box>
      <Swiper
           slidesPerView={1}
@@ -587,7 +620,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -619,7 +654,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -651,7 +688,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -683,7 +722,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -715,7 +756,9 @@ export default function BasicTable() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR </span>
+                  <span className="text32" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Somnium Space VR </span>
                   <span className="tick-icons">
                   
                    
@@ -732,36 +775,50 @@ export default function BasicTable() {
           </Swiper>
           
         </Box>
-        <Box><Typography variant='h3'>Browse by category</Typography></Box>
+        <Box><Typography variant='h3' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}>Browse by category</Typography></Box>
         <Grid container rowSpacing={2}>
         <Grid item lg={4} md={4} sm={6} xs={12}>
-        <img src={Browse1} alt='' className='browse-images'/>
+        <img src={Browse1} alt='' className='browse-images' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}/>
         
         </Grid>
         <Grid item lg={4} md={4} sm={6} xs={12}>
-        <img src={Browse2} alt=''className='browse-images'/>
+        <img src={Browse2} alt=''className='browse-images' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}/>
         
         </Grid>
         <Grid item lg={4} md={4} sm={6} xs={12}>
-        <img src={Browse3} alt=''className='browse-images'/>
+        <img src={Browse3} alt=''className='browse-images' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}/>
         </Grid>
 
         </Grid>
         <Grid container rowSpacing={2}>
         <Grid item lg={4} md={4} sm={6} xs={12}>
-        <img src={Browse4} alt='' className='browse-images'/>
+        <img src={Browse4} alt='' className='browse-images' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}/>
         
         </Grid>
         <Grid item lg={4} md={4} sm={6} xs={12}>
-        <img src={Browse5} alt=''className='browse-images'/>
+        <img src={Browse5} alt=''className='browse-images' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}/>
         
         </Grid>
         <Grid item lg={4} md={4} sm={6} xs={12}>
-        <img src={Browse6} alt=''className='browse-images'/>
+        <img src={Browse6} alt=''className='browse-images' style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}/>
         </Grid>
 
         </Grid>
-
+        </div>
     </>
   );
 }

@@ -30,9 +30,66 @@ import { BsTwitter } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-function Navbar() {
-  const [show, setShow] = useState(false);
+// IMPORT SWITCH TAB FOR NIGHT MODE
+import { styled } from '@mui/material/styles';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Switch from '@mui/material/Switch';
 
+
+const IOSSwitch = styled((props) => (
+  <Switch focusVisibleClassName=".Mui-focusVisible" disableRipple {...props} />
+))(({ theme }) => ({
+  width: 42,
+  height: 26,
+  padding: 0,
+  '& .MuiSwitch-switchBase': {
+    padding: 0,
+    margin: 2,
+    transitionDuration: '300ms',
+    '&.Mui-checked': {
+      transform: 'translateX(16px)',
+      color: '#fff',
+      '& + .MuiSwitch-track': {
+        backgroundColor: theme.palette.mode === 'dark' ? '#2ECA45' : '#FEC200',
+        opacity: 1,
+        border: 0,
+      },
+      '&.Mui-disabled + .MuiSwitch-track': {
+        opacity: 0.5,
+      },
+    },
+    '&.Mui-focusVisible .MuiSwitch-thumb': {
+      color: '#33cf4d',
+      border: '6px solid #fff',
+    },
+    '&.Mui-disabled .MuiSwitch-thumb': {
+      color:
+        theme.palette.mode === 'light'
+          ? theme.palette.grey[100]
+          : theme.palette.grey[600],
+    },
+    '&.Mui-disabled + .MuiSwitch-track': {
+      opacity: theme.palette.mode === 'light' ? 0.7 : 0.3,
+    },
+  },
+  '& .MuiSwitch-thumb': {
+    boxSizing: 'border-box',
+    width: 22,
+    height: 22,
+  },
+  '& .MuiSwitch-track': {
+    borderRadius: 26 / 2,
+    backgroundColor: theme.palette.mode === 'light' ? '#E9E9EA' : '#39393D',
+    opacity: 1,
+    transition: theme.transitions.create(['background-color'], {
+      duration: 500,
+    }),
+  },
+}));
+
+function Navbar(props) {
+  const [show, setShow] = useState(false);
+  const [show1, setShow1] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -76,7 +133,7 @@ function Navbar() {
               <li type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src={avtaricon} alt="" />
               </li>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu show-profile">
                 <li className="li-section">
                   {" "}
                   <Link className="dropdown-item" to="/profile">
@@ -105,10 +162,17 @@ function Navbar() {
                     Settings
                   </Link>
                 </li>
-                <li className="li-section">
+                <li className="li-section d-flex">
                   <a className="dropdown-item" href="/">
                     Night Mode
-                  </a>
+                  </a><div className={`form-check form-switch  text-${
+                        props.mode === "light" ? "dark" : "light"
+                      }`}> <span onClick={() => {
+                          setShow1(!show1);
+                        }}><FormControlLabel
+        control={<IOSSwitch sx={{ m: 1 }} defaultChecked  className="ios-switch" onClick={props.toggleMode} /> }
+        // label="iOS style"
+      /></span></div>
                 </li>
               </ul>
             </div>
