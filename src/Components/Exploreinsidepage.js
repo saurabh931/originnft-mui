@@ -126,7 +126,7 @@ function ExploreInsidepage() {
       </div>
 
       </div>
-
+<Footer />
     </>
   );
 }
