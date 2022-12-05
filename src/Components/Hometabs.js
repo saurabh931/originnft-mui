@@ -41,7 +41,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs(props) {
+export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -50,7 +50,7 @@ export default function BasicTabs(props) {
 
   return (
     <>
-    <div className={`Hometabs  hometabs-${props.mode} bg-${props.mode}`}>
+    <div className="Hometabs">
     <Box sx={{ width: "100%" , padding:"30px"}}>
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
         <Tabs
@@ -58,12 +58,8 @@ export default function BasicTabs(props) {
           onChange={handleChange}
           aria-label="basic tabs example"
         >
-          <Tab label="Trending" {...a11yProps(0)}  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}/>
-          <Tab label="Tops" {...a11yProps(1)}  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }} />
+          <Tab label="Trending" {...a11yProps(0)}  />
+          <Tab label="Tops" {...a11yProps(1)}   />
 
           {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
           <div className="tab-button">
@@ -73,25 +69,17 @@ export default function BasicTabs(props) {
                   variant="success"
                   id="button-22"
                   className="time-button"
-                  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  
                 >
                   24 h
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}>Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}>
+                  <Dropdown.Item href="#/action-1"  >Action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2"  >
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}>
+                  <Dropdown.Item href="#/action-3"  >
                     Something else
                   </Dropdown.Item>
                 </Dropdown.Menu>
@@ -102,9 +90,7 @@ export default function BasicTabs(props) {
                   variant="success"
                   id="button-22"
                   className="view-all-button"
-                  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  
                 >
                   View all
                 </button>

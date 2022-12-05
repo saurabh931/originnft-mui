@@ -108,6 +108,10 @@
  
   
 }
+.form-switch{
+  padding-left: 1.5rem !important;
+}
+
 .card-section-button {
   height: 32px;
   left: 39.34px;

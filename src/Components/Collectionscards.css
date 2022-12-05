@@ -6,7 +6,7 @@ button#simple-tab-2 {
     line-height: 25px;
     display: flex;
     align-items: center;
-    color: #faf6f6;
+    color: var(--par-clr);
 }
 .filter-button{
 /* width: 120px !important; */

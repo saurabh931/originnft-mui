@@ -22,10 +22,10 @@ import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
 
 
-export default function Home(props) {
+export default function Home() {
   return (
     <>
-    <div className={`Home  home-${props.mode} bg-${props.mode}`}>
+    <div className="Home">
     <div className='container-fluid background'>
     <div>
       <h1 className='header'>Explore, collect, and sell NFTs</h1>
@@ -68,41 +68,29 @@ export default function Home(props) {
               src={Image1}
               alt=""
               className="slider1"
-              style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+             
              
             />
           </SwiperSlide>
           <SwiperSlide >
             {" "}
-            <img src={Image2} alt="" className="slider1"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}/>
+            <img src={Image2} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image3} alt="" className="slider1"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}/>
+            <img src={Image3} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image4} alt="" className="slider1"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}/>
+            <img src={Image4} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image5} alt="" className="slider1"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}/>
+            <img src={Image5} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image6} alt="" className="slider1"  style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}/>
+            <img src={Image6} alt="" className="slider1" />
           </SwiperSlide>
           {/* <SwiperSlide>
             {" "}

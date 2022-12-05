@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import Navbaroffcanvas from "./Navbaroffcanvas";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -106,6 +107,16 @@ function Navbar(props) {
     setSelectedValue(event.target.value);
   };
 
+  const [theme, setTheme] = useState("light-theme");
+  const toggleTheme = () => {
+   theme === "dark-theme" ? setTheme("light-theme") : setTheme("dark-theme");
+  };
+  useEffect(() => { 
+  document.body.className = theme;
+  },[theme]);
+  
+
+
   return (
     <>
       <Grid container className="navbar">
@@ -196,7 +207,7 @@ function Navbar(props) {
                             sx={{ m: 1 }}
                             defaultChecked
                             className="ios-switch"
-                            onClick={props.toggleMode}
+                         onClick = {() => toggleTheme()} 
                           />
                         }
                         // label="iOS style"

@@ -9,7 +9,7 @@
 #button-22{
     width: 85px;
 height: 40px;
-border: 1px solid #353535;
+border: 1px solid ;
 border-radius: 8px;
 font-family: 'Futura Maxi CG Bold';
 font-style: normal;
@@ -17,8 +17,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 15px;
 align-items: center;
-color: #353535;
-background: #fff;
+color: var(--border-clr);
+background: var(--bg-clr);
 }
 .view-bu{
     margin-left: 25px;

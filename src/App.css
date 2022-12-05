@@ -20,8 +20,30 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
+
+.dark-theme {
+--bg-clr: #212529;
+--para-clr: #fff;
+--bg-box-clr:rgba(81, 81, 81, 0.4);
+--border-clr:#fff;
+
+
+
+
+}
+.light-theme {
+  --bg-clr: #fff;
+  --para-clr: #000;
+  --bg-box-clr:auto;
+  --border-clr:#212529;
+  }
+
 section {
   background-image: linear-gradient(to right, #47474a, #73525c);
+}
+body{
+  background-color: var(--bg-clr) !important ;
+  color: var(--para-clr)  !important;
 }
 
 h1 {
@@ -30,7 +52,7 @@ h1 {
   font-weight: 600;
   font-size: 3rem !important;
   line-height: 42px;
-  color: #ffffff;
+  color: var(--para-clr);
 }
 h2 {
   font-family: "Futura Maxi CG Bold";
@@ -38,12 +60,12 @@ h2 {
   font-weight: 400;
   font-size: 2.5rem !important;
   line-height: 66px;
-  color: #ffffff !important;
+  color: var(--para-clr) !important;
 }
 .button-primary {
   width: 155px;
   height: 56px;
-  background: #e6e6e6;
+  /* background: #e6e6e6; */
   border-radius: 15px;
   border: none !important;
   font-family: "Century Gothic" !important;
@@ -109,7 +131,7 @@ h3 {
 
   /* identical to box height */
   align-items: center;
-  color: #000000 !important;
+  color: var(--para-clr) !important;
   margin-top: 50px !important;
   margin-bottom: 1.5rem !important;
 }
@@ -123,7 +145,7 @@ p {
   font-size: 1.2rem;
 
   align-items: center;
-  color: #ffffff !important;
+  color: var(--para-clr) !important;
 }
 
 .navbar {
@@ -147,7 +169,7 @@ span.nftname {
   line-height: 15px;
   /* identical to box height */
   align-items: center;
-  color: #353535;
+  color: var(--para-clr);
   margin-right: 5px;
 }
 img.tableimg {
@@ -162,7 +184,7 @@ span.s-no {
   line-height: 15px;
   /* identical to box height */
   align-items: center;
-  color: #353535;
+  color: var(--para-clr);
 }
 span.nftamount {
   font-family: "Futura Maxi CG Bold";
@@ -172,7 +194,7 @@ span.nftamount {
   line-height: 15px;
   /* display: flex; */
   align-items: center;
-  color: #353535;
+  color: var(--para-clr);
 }
 #data-table {
   font-family: "Futura Maxi CG Bold";
@@ -185,6 +207,22 @@ span.nftamount {
 }
 #footer-posted-margin-bottom {
   margin-bottom: 4rem;
+}
+.card-body{
+  background-color: var(--bg-box-clr);
+  color: var(--para-clr);
+
+}
+thead, tbody, tfoot, tr, td, th,.Hometable{
+  background-color: var(--bg-clr);
+  color: var(--para-clr);
+  
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item{
+  padding-left: 0px !important;
+}
+.card{
+  background-color: var(--bg-clr) !important;
 }
 @media screen and (max-width: 768px) {
   #footer-posted-margin-bottom {
@@ -226,8 +264,5 @@ html {
   #button-2{
     padding: 8px 25px;
   }
-  
-}
-@media screen and (max-width:) {
   
 }

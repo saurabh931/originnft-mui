@@ -45,6 +45,10 @@ background: linear-gradient(255.46deg, #FFBC39 18.86%, #DE5D34 40.83%, #F74242 8
 .cards-explore-inside{
     /* width: 35rem; */
 }
+.hot-section{
+    background-color: var(--bg-clr);
+    color: var(--par-clr);
+}
 /* .hot-section{
     margin-left: 75px;
 } */
