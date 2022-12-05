@@ -232,6 +232,9 @@ thead, tbody, tfoot, tr, td, th,.Hometable{
 .css-1u20msc{
   margin-top: 0px !important;
 }
+tbody, td, tfoot, th, thead, tr{
+  border-color: transparent !important;
+}
 
 @media screen and (max-width: 768px) {
   #footer-posted-margin-bottom {
