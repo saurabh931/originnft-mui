@@ -224,11 +224,21 @@ thead, tbody, tfoot, tr, td, th,.Hometable{
 .card{
   background-color: var(--bg-clr) !important;
 }
+
+/* .swiper-slide{
+  margin-right: 10px !important;
+} */
+
+.css-1u20msc{
+  margin-top: 0px !important;
+}
+
 @media screen and (max-width: 768px) {
   #footer-posted-margin-bottom {
     margin-bottom: 2.5rem;
   }
 }
+
 
 html {
   font-size: 100% !important;
