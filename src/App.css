@@ -235,6 +235,16 @@ thead, tbody, tfoot, tr, td, th,.Hometable{
 tbody, td, tfoot, th, thead, tr{
   border-color: transparent !important;
 }
+.css-isbt42 > .MuiGrid-item{
+  padding-left: 0px !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeMedium.css-1sgp6db {
+color: var(--para-clr);
+
+}
+.css-1bigob2{
+  color: var(--para-clr) !important;
+}
 
 @media screen and (max-width: 768px) {
   #footer-posted-margin-bottom {
