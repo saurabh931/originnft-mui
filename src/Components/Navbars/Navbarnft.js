@@ -244,7 +244,7 @@ function Navbar(props) {
           </ul>
           <ul className="nav-list">
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li type="button" data-bs-toggle="dropdown" aria-expanded="false" id="list-text">
                 Explore
               </li>
               <ul className="dropdown-menu">
@@ -294,8 +294,8 @@ function Navbar(props) {
             </div>
             {/* <li>Explore</li> */}
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                State
+              <li type="button" data-bs-toggle="dropdown" aria-expanded="false"  id="list-text">
+                Stats
               </li>
               <ul className="dropdown-menu">
                 <li className="li-section">
@@ -311,7 +311,7 @@ function Navbar(props) {
               </ul>
             </div>
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li type="button" data-bs-toggle="dropdown" aria-expanded="false"  id="list-text">
                 Resources
               </li>
               <ul className="dropdown-menu">
@@ -376,7 +376,7 @@ function Navbar(props) {
               </ul>
             </div>
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li type="button" data-bs-toggle="dropdown" aria-expanded="false"  id="list-text">
                 Create
               </li>
               {/* <ul className="dropdown-menu">

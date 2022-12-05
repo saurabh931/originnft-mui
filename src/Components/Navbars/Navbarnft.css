@@ -114,7 +114,9 @@
 .navbar{
   background-color: rgba(194, 194, 194, 0.5);
 }
-
+#list-text{
+  color: white !important;
+}
 .card-section-button {
   height: 32px;
   left: 39.34px;
