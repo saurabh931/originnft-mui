@@ -26,7 +26,7 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.css-1ygcj2i-MuiTa
     line-height: 10px;
     display: flex;
     align-items: center;
-    color: #353535;
+    color: var(--para-clr);
     border-bottom: none;
 }
 th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeMedium.css-1azl6jz-MuiTableCell-root {

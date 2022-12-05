@@ -205,7 +205,7 @@ function Navbar(props) {
                         control={
                           <IOSSwitch
                             sx={{ m: 1 }}
-                            defaultChecked
+                        
                             className="ios-switch"
                          onClick = {() => toggleTheme()} 
                           />
