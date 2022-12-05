@@ -42,23 +42,27 @@ export default function Home() {
           navigation={{
             clickable: false,
           }}
-          // autoplay={{
-          //   delay: 2500,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             640: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              // spaceBetween: 20,
             },
             768: {
               slidesPerView: 3,
-              spaceBetween: 40,
+              // spaceBetween: 40,
             },
             1024: {
               slidesPerView: 4,
-              spaceBetween: 50,
+              // spaceBetween: 50,
             },
+            1920:{
+              slidesPerView: 4,
+              // spaceBetween: 50,
+            }
           }}
           modules={[ Navigation, Pagination]}
           className="mySwiper"

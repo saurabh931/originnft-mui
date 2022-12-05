@@ -150,12 +150,7 @@ export default function BasicTable() {
 
         {/* ----------------------------------------------------NEW AND NOTABLE------------------------------------------------------------- */}
         <Box>
-          <Typography
-            variant="h3"
-
-          >
-            New And Notable
-          </Typography>
+          <Typography variant="h3">New And Notable</Typography>
         </Box>
         <Box>
           <Swiper
@@ -174,15 +169,19 @@ export default function BasicTable() {
             breakpoints={{
               640: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                // spaceBetween: 20,
               },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                // spaceBetween: 40,
               },
               1024: {
                 slidesPerView: 3,
-                spaceBetween: 50,
+                // spaceBetween: 50,
+              },
+              1920: {
+                slidesPerView: 3,
+                // spaceBetween: 50,
               },
             }}
             modules={[Autoplay, Pagination, Navigation]}
@@ -202,12 +201,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -232,12 +226,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -262,12 +251,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -292,12 +276,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -322,12 +301,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -344,12 +318,7 @@ export default function BasicTable() {
         {/* ---------------------------------------------------STORYTELLING NFT SPOLTLIGHT----------------------------------------------- */}
 
         <Box>
-          <Typography
-            variant="h3"
-
-          >
-            Storytelling NFTs spotlight
-          </Typography>
+          <Typography variant="h3">Storytelling NFTs spotlight</Typography>
         </Box>
         <Box>
           <Swiper
@@ -361,22 +330,25 @@ export default function BasicTable() {
             // navigation={{
             //   clickable: true,
             // }}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: true,
+            }}
             breakpoints={{
               640: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                // spaceBetween: 20,
               },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                // spaceBetween: 40,
               },
               1024: {
                 slidesPerView: 3,
-                spaceBetween: 50,
+                // spaceBetween: 50,
+              },
+              1920: {
+                slidesPerView: 3,
               },
             }}
             modules={[Autoplay, Pagination, Navigation]}
@@ -396,12 +368,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -426,12 +393,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -456,12 +418,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -486,12 +443,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -516,12 +468,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -537,12 +484,7 @@ export default function BasicTable() {
 
         {/* ----------------------------------------------------HOT-------------------------------------------------------------------- */}
         <Box>
-          <Typography
-            variant="h3"
-
-          >
-            Hot
-          </Typography>
+          <Typography variant="h3">Hot</Typography>
         </Box>
         <Box>
           <Swiper
@@ -561,16 +503,19 @@ export default function BasicTable() {
             breakpoints={{
               640: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                // spaceBetween: 20,
               },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                // spaceBetween: 40,
               },
               1024: {
                 slidesPerView: 3,
-                spaceBetween: 50,
+                // spaceBetween: 50,
               },
+              1920:{
+                slidesPerView: 3,
+              }
             }}
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
@@ -589,12 +534,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -619,12 +559,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -649,12 +584,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -679,12 +609,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -709,12 +634,7 @@ export default function BasicTable() {
                         className="card-image1"
                       />{" "}
                     </span>
-                    <span
-                      className="text32"
-                     
-                    >
-                      Somnium Space VR{" "}
-                    </span>
+                    <span className="text32">Somnium Space VR </span>
                     <span className="tick-icons"></span>
                   </Card.Title>
                   {/* <Card.Text>
@@ -728,63 +648,28 @@ export default function BasicTable() {
           </Swiper>
         </Box>
         <Box>
-          <Typography
-            variant="h3"
-
-          >
-            Browse by category
-          </Typography>
+          <Typography variant="h3">Browse by category</Typography>
         </Box>
         <Grid container rowSpacing={2}>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img
-              src={Browse1}
-              alt=""
-              className="browse-images"
-            
-            />
+            <img src={Browse1} alt="" className="browse-images" />
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img
-              src={Browse2}
-              alt=""
-              className="browse-images"
-            
-            />
+            <img src={Browse2} alt="" className="browse-images" />
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img
-              src={Browse3}
-              alt=""
-              className="browse-images"
-            
-            />
+            <img src={Browse3} alt="" className="browse-images" />
           </Grid>
         </Grid>
         <Grid container rowSpacing={2}>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img
-              src={Browse4}
-              alt=""
-              className="browse-images"
-            
-            />
+            <img src={Browse4} alt="" className="browse-images" />
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img
-              src={Browse5}
-              alt=""
-              className="browse-images"
-            
-            />
+            <img src={Browse5} alt="" className="browse-images" />
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img
-              src={Browse6}
-              alt=""
-              className="browse-images"
-            
-            />
+            <img src={Browse6} alt="" className="browse-images" />
           </Grid>
         </Grid>
       </div>
