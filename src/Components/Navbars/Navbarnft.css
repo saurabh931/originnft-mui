@@ -131,11 +131,23 @@
 a.dropdown-item{
   margin: 0.3rem 0rem;
 }
-
+#offcanvas-button-toggle{
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 1.5rem;
+  float: right;
+  margin-right: 1rem;
+}
+.offcanvas-header .btn-close{
+  font-size: 1rem;
+}
 ul.dropdown-menu.show-profile.show {
   margin-left: -40px;
   padding:0px;
 }
+/* .dropdown-menu[data-bs-popper]{
+  top: 40% !important;
+} */
 .ios-switch{
   margin-top: 0px !important;
 }
