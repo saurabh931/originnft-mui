@@ -2,19 +2,56 @@ import React from "react";
 import "./MyCollections.css";
 import Navbarnft from "../Navbars/Navbarnft";
 import Footer from "../Footer";
-
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-
+import MenuItem from "@mui/material/MenuItem";
+import OutlinedInput from "@mui/material/OutlinedInput";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+import { useTheme } from "@mui/material/styles";
 // IMPORT IMAGES AND LOGOS
 import CloseIcon from "@mui/icons-material/Close";
 import Dragimg from "./CollectionsImages/Vector.png";
-import Ethcollection from "./CollectionsImages/Eth.png";
+// import Ethcollection from "./CollectionsImages/Eth.png";
 
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
+// import Dropdown from "react-bootstrap/Dropdown";
+// import DropdownButton from "react-bootstrap/DropdownButton";
+import Eth1 from "./CollectionsImages/Eth.png";
+import Eth from "./CollectionsImages/Eth.png";
+
+const ITEM_HEIGHT = 48;
+const ITEM_PADDING_TOP = 8;
+const MenuProps = {
+  PaperProps: {
+    style: {
+      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+      width: 250,
+    },
+  },
+};
+
+const names = [
+  "Oliver Hansen",
+  "Van Henry",
+  "April Tucker",
+  "Ralph Hubbard",
+  "Omar Alexander",
+  "Carlos Abbott",
+  "Miriam Wagner",
+  "Bradley Wilkerson",
+  "Virginia Andrews",
+  "Kelly Snyder",
+];
+function getStyles(name, personName, theme) {
+  return {
+    fontWeight:
+      personName.indexOf(name) === -1
+        ? theme.typography.fontWeightRegular
+        : theme.typography.fontWeightMedium,
+  };
+}
 
 const style = {
   position: "absolute",
@@ -32,6 +69,19 @@ function MyCollections() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  const theme = useTheme();
+  const [personName, setPersonName] = React.useState([]);
+
+  const handleChange = (event) => {
+    const {
+      target: { value },
+    } = event;
+    setPersonName(
+      // On autofill we get a stringified value.
+      typeof value === "string" ? value.split(",") : value
+    );
+  };
   return (
     <>
       <Navbarnft />
@@ -193,24 +243,80 @@ function MyCollections() {
                         Phasellus diam tellus, rhoncus sed eleifend a, accumsan
                         vel massa.
                       </Typography>
-                      <span>
-                        <img src={Ethcollection} alt="" />
-                        <DropdownButton
-                          id="dropdown-basic-button"
-                          className="eth-bu-mycoll"
-                          title="Ethereum"
-                        >
-                          <Dropdown.Item href="#/action-1">
-                            Action
-                          </Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">
-                            Another action
-                          </Dropdown.Item>
-                          <Dropdown.Item href="#/action-3">
-                            Something else
-                          </Dropdown.Item>
-                        </DropdownButton>
-                      </span>
+                      <div>
+                        <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+                          <Select
+                            multiple
+                            displayEmpty
+                            value={personName}
+                            onChange={handleChange}
+                            input={<OutlinedInput />}
+                            renderValue={(selected) => {
+                              if (selected.length === 0) {
+                                return (
+                                  <em id="eth">
+                                    <span>
+                                      <img
+                                        src={Eth1}
+                                        alt=""
+                                        className="eth-icon"
+                                      />
+                                    </span>
+                                    Ethereum
+                                  </em>
+                                );
+                              }
+
+                              return selected.join(", ");
+                            }}
+                            MenuProps={MenuProps}
+                            inputProps={{ "aria-label": "Without label" }}
+                          >
+                            <MenuItem disabled value="">
+                              <em className="eth-name">Ethereum</em>
+                            </MenuItem>
+                            {names.map((name) => (
+                              <MenuItem
+                                key={name}
+                                value={name}
+                                style={getStyles(name, personName, theme)}
+                              >
+                                {name}
+                              </MenuItem>
+                            ))}
+                          </Select>
+                        </FormControl>
+                      </div>
+                      <div>
+                        <Typography className="highligh-section">
+                          Payment Tokens
+                        </Typography>
+                        <Typography className="content-form">
+                          These tokens can be used to buy and sell your items.
+                        </Typography>
+                        <button className="button-eth">
+                        <div className="row">
+                        <div className="col-3">
+                        <img src={Eth} alt=""/>
+                        </div>
+                        <div className="col-9">
+                        <div>
+                          <span>ETH</span><br/>
+                          <span>Ethereum</span>
+                        </div>
+                        </div>
+
+                        </div>
+                          {/* <p className="d-flex">
+                            <img src={Eth} alt="" />
+                          </p>
+                          <p className="d-flex">
+                            <span className="sp-et">ETH</span>
+                            <br/>
+                            <span>Ethereum</span>
+                          </p> */}
+                        </button>
+                      </div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-4 col-sm-4 col-4"></div>
