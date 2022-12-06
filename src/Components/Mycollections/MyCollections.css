@@ -77,7 +77,13 @@
 .css-1pv7cux{
     top: 50% !important;
     overflow-y: scroll !important;
-    height: 100vh;
+    height: 100vh !important;
+}
+.mycollections-sc{
+  overflow-y: scroll !important;
+  overflow-x:none !important ;
+  height: 100vh !important;
+  top:50% !important;
 }
 .recordion-in{
     width: 100%;
@@ -153,5 +159,76 @@ color: #000000;
   border-radius: 10px;
   width: 25%;
   padding: 12px;
-  
+  background: #fff;
+}
+.eth-card{
+  font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.ios-check-button{
+  float: right;
+  margin-top: 20px;
+}
+.save-bu{
+  background: rgba(228, 228, 228, 0.5);
+  border-radius: 15px;
+  width: 20%;
+  padding: 20px;
+  border: none;
+  color: #000000;
+  font-family: 'Century Gothic';
+  font-weight: 700;
+  font-size: 17px;
+}
+.save-bu22{
+  background: #FEC200;
+  border-radius: 15px;
+  width: 20%;
+  padding: 20px;
+  border: none;
+  color: #000000;
+  font-family: 'Century Gothic';
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.button-section{
+  text-align: center;
+  margin: 50px;
+}
+.link-input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D9D9D9;
+  border-top: none;
+  border-bottom: none;
+}
+.link-input::placeholder{
+  padding: 30px;
+}
+.link-input1{
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #D9D9D9;
+}
+.link-input1::placeholder{
+  padding: 30px;
+}
+.link-input3{
+  width: 100%;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #D9D9D9;
+  /* margin-left: 20px; */
+}
+.link-input3::placeholder{
+ padding: 30px;
+}
+
+.icons-input{
+  margin: 10px 10px;
 }
