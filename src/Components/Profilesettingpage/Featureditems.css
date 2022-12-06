@@ -4,7 +4,6 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 35px;
-  color: #000000;
 }
 .para-featured {
   font-family: "ITC Avant Garde Gothic Std" !important;
@@ -13,7 +12,6 @@
   font-size: 16px !important;
   line-height: 120% !important;
   letter-spacing: 0.005em !important;
-  color: #6a6a6a !important;
 }
 .create-bu {
   width: 178.87px;
@@ -53,7 +51,6 @@
   line-height: 0px !important;
   display: flex !important;
   align-items: center !important;
-  color: #353535 !important;
 }
 .nnhi-card {
   font-family: "Futura Maxi CG Book";
@@ -63,12 +60,11 @@
   line-height: 15px;
   display: flex;
   align-items: center;
-  color: #353535 !important;
 }
 .card-create-section {
   width: 96% !important;
 
-  background: #f6f6f6 !important;
+  background: var(--profile-notification-switch) !important;
   border-radius: 15px !important;
   margin-top: 10px !important;
   margin-left: 40px !important;

@@ -109,13 +109,11 @@ function Navbar(props) {
 
   const [theme, setTheme] = useState("light-theme");
   const toggleTheme = () => {
-   theme === "dark-theme" ? setTheme("light-theme") : setTheme("dark-theme");
+    theme === "dark-theme" ? setTheme("light-theme") : setTheme("dark-theme");
   };
-  useEffect(() => { 
-  document.body.className = theme;
-  },[theme]);
-  
-
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
 
   return (
     <>
@@ -187,9 +185,7 @@ function Navbar(props) {
                   </Link>
                 </li>
                 <li className="li-section d-flex">
-                  <a className="dropdown-item" href="/">
-                    Night Mode
-                  </a>
+                  <span className="dropdown-item">Night Mode</span>
                   <div
                     className={`form-check form-switch  text-${
                       props.mode === "light" ? "dark" : "light"
@@ -205,9 +201,8 @@ function Navbar(props) {
                         control={
                           <IOSSwitch
                             sx={{ m: 1 }}
-                        
                             className="ios-switch"
-                         onClick = {() => toggleTheme()} 
+                            onClick={() => toggleTheme()}
                           />
                         }
                         // label="iOS style"
@@ -244,7 +239,12 @@ function Navbar(props) {
           </ul>
           <ul className="nav-list">
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false" id="list-text">
+              <li
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="list-text"
+              >
                 Explore
               </li>
               <ul className="dropdown-menu">
@@ -294,7 +294,12 @@ function Navbar(props) {
             </div>
             {/* <li>Explore</li> */}
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false"  id="list-text">
+              <li
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="list-text"
+              >
                 Stats
               </li>
               <ul className="dropdown-menu">
@@ -311,7 +316,12 @@ function Navbar(props) {
               </ul>
             </div>
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false"  id="list-text">
+              <li
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="list-text"
+              >
                 Resources
               </li>
               <ul className="dropdown-menu">
@@ -376,7 +386,12 @@ function Navbar(props) {
               </ul>
             </div>
             <div className="dropdown">
-              <li type="button" data-bs-toggle="dropdown" aria-expanded="false"  id="list-text">
+              <li
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="list-text"
+              >
                 Create
               </li>
               {/* <ul className="dropdown-menu">

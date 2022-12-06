@@ -7,7 +7,7 @@ import Footer from "../Footer"
 function ProfileSetting() {
   return (
     <>
-      <Navbarnft />
+    {/*   <Navbarnft /> */}
       <div className="container-fluid"></div>
       <div>
         <Profilesettingslide />

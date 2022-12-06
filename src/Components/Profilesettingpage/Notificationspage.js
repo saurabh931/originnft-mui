@@ -74,12 +74,12 @@ const IOSSwitch = styled((props) => (
 export default function Profilesettingslide() {
   return (
     <>
-      <Navbarnft />
+ 
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 section-color">
+            <div className="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -93,11 +93,11 @@ export default function Profilesettingslide() {
                   </Link>
                   <Link to="/notifications">
                     {" "}
-                    <li className="section-list">
+                    <li className="section-list notification-setting">
                       <span>
                         <NotificationsOutlinedIcon className="icons-tabs" />
                       </span>
-                      <span className="content-style">Notifications</span>
+                      <span className="content-style ">Notifications</span>
                     </li>
                   </Link>
                   <Link to="/featureditems">
@@ -140,7 +140,7 @@ export default function Profilesettingslide() {
               </div>
             </div>
             <div
-              className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12"
+              className="col-xl-10 col-lg-9 col-md-12 col-sm-12 col-12"
               // style={{ height: "120vh" }}
             >
               <div className="row">
@@ -152,7 +152,7 @@ export default function Profilesettingslide() {
                     </p>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-12">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">Items sold</p>
                         <p className="card-name-notifications-ss">
@@ -160,7 +160,7 @@ export default function Profilesettingslide() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-12">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -170,7 +170,7 @@ export default function Profilesettingslide() {
                     </div>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-10">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">Bid activity</p>
                         <p className="card-name-notifications-ss">
@@ -178,7 +178,7 @@ export default function Profilesettingslide() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -188,7 +188,7 @@ export default function Profilesettingslide() {
                     </div>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-10">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">Price change</p>
                         <p className="card-name-notifications-ss">
@@ -196,7 +196,7 @@ export default function Profilesettingslide() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -206,7 +206,7 @@ export default function Profilesettingslide() {
                     </div>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-10">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">
                           Auction expired
@@ -216,7 +216,7 @@ export default function Profilesettingslide() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -226,7 +226,7 @@ export default function Profilesettingslide() {
                     </div>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-10">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">Outbid</p>
                         <p className="card-name-notifications-ss">
@@ -234,7 +234,7 @@ export default function Profilesettingslide() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -244,7 +244,7 @@ export default function Profilesettingslide() {
                     </div>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-10">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">
                           Owned item updates
@@ -254,7 +254,7 @@ export default function Profilesettingslide() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -264,7 +264,7 @@ export default function Profilesettingslide() {
                     </div>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-10">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">
                           Successful purchase
@@ -272,7 +272,7 @@ export default function Profilesettingslide() {
                         <p className="card-name-notifications-ss">Push, SMS</p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -282,7 +282,7 @@ export default function Profilesettingslide() {
                     </div>
                   </div>
                   <div className="row notifiactions-sections-cards">
-                    <div className="col-lg-10 col-md-10 col-sm-10 col-10">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-9">
                       <div className="cards-notifiactions-element">
                         <p className="card-name-notifications">
                           Origins NFT Newsletter
@@ -292,7 +292,7 @@ export default function Profilesettingslide() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                       <div className="toggle-button-notification">
                         <FormControlLabel
                           control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}

@@ -19,12 +19,12 @@ import vectorclick from "./Imagesprofile/Vector.png";
 export default function Profilesettingslide() {
   return (
     <>
-      <Navbarnft />
+
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-lg-2 col-md-2 col-sm-12 col-12 section-color">
+            <div className="col-xl-2 col-lg-4 col-md-3 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -47,7 +47,7 @@ export default function Profilesettingslide() {
                   </Link>
                   <Link to="/featureditems">
                     {" "}
-                    <li className="section-list">
+                    <li className="section-list featured-setting">
                       <span>
                         <img src={Featuredvector} alt="" className="iconsddd" />
                       </span>{" "}
@@ -84,7 +84,7 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-10 col-md-10 col-sm-12 col-12">
+            <div className="col-xl-10 col-lg-8 col-md-9 col-sm-12 col-12">
               <div className="row">
                 <div className="col-lg-8 col-md-8 col-sm-12 col-12">
                   <div className="section-feature-content">

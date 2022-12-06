@@ -136,6 +136,7 @@ ul.dropdown-menu.show {
 }
 ul.dropdown-menu.show-profile.show {
   margin-left: -40px;
+  padding:0px;
 }
 .ios-switch{
   margin-top: 0px !important;
@@ -256,6 +257,9 @@ color: #202020;
 }
 .ethllo{
   text-align: end;
+}
+span.dropdown-item{
+  margin: 0.3rem 0rem;
 }
 
 /* media query */

@@ -4,7 +4,6 @@ font-style: normal !important;
 font-weight: 400 !important;
 font-size: 30px !important;
 line-height: 35px !important;
-color: #000000 !important;
 }
 .set-para{
     font-family: 'ITC Avant Garde Gothic Std' !important;
@@ -13,7 +12,6 @@ font-weight: 500 !important;
 font-size: 16px !important;
 line-height: 120% !important;
 letter-spacing: 0.005em !important;
-color: #6A6A6A !important;
 }
 .offer-button{
     width: 178.87px;
@@ -34,7 +32,6 @@ font-style: normal !important;
 font-weight: 700 !important;
 font-size: 16px !important;
 line-height: 126% !important;
-color: #000000 !important;
 margin-top: 50px;
 margin-left: 40px;
 }
@@ -45,7 +42,6 @@ font-weight: 400 !important;
 font-size: 12px !important;
 line-height: 5px !important;
 align-items: center !important;
-color: #535353 !important;
 margin-top: 10px;
 margin-left: 15px;
 }
@@ -61,7 +57,6 @@ font-weight: 600 !important;
 font-size: 14px !important;
 line-height: 5px !important;
 align-items: center !important;
-color: #535353 !important;
 margin-left: 15px;
 }
 .box-create{

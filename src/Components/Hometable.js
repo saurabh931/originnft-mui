@@ -155,7 +155,7 @@ export default function BasicTable() {
         <Box>
           <Swiper
             slidesPerView={1}
-            spaceBetween={10}
+            // spaceBetween={10}
             // pagination={{
             //   clickable: true,
             // }}
@@ -169,19 +169,19 @@ export default function BasicTable() {
             breakpoints={{
               640: {
                 slidesPerView: 2,
-                // spaceBetween: 20,
+                spaceBetween: 10,
               },
               768: {
                 slidesPerView: 2,
-                // spaceBetween: 40,
+                spaceBetween: 10,
               },
               1024: {
                 slidesPerView: 3,
-                // spaceBetween: 50,
+                spaceBetween: 10,
               },
               1920: {
-                slidesPerView: 3,
-                // spaceBetween: 50,
+                slidesPerView: 4,
+                spaceBetween: 10,
               },
             }}
             modules={[Autoplay, Pagination, Navigation]}
@@ -348,7 +348,7 @@ export default function BasicTable() {
                 // spaceBetween: 50,
               },
               1920: {
-                slidesPerView: 3,
+                slidesPerView: 4,
               },
             }}
             modules={[Autoplay, Pagination, Navigation]}
@@ -490,12 +490,12 @@ export default function BasicTable() {
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={{
-              clickable: true,
-            }}
+            // pagination={{
+            //   clickable: true,
+            // }}
+            // navigation={{
+            //   clickable: true,
+            // }}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
@@ -513,9 +513,9 @@ export default function BasicTable() {
                 slidesPerView: 3,
                 // spaceBetween: 50,
               },
-              1920:{
-                slidesPerView: 3,
-              }
+              1920: {
+                slidesPerView: 4,
+              },
             }}
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
@@ -647,6 +647,9 @@ export default function BasicTable() {
             </SwiperSlide>
           </Swiper>
         </Box>
+
+        {/* --------------------------Browse----------------------------------- */}
+
         <Box>
           <Typography variant="h3">Browse by category</Typography>
         </Box>
@@ -660,17 +663,16 @@ export default function BasicTable() {
           <Grid item lg={4} md={4} sm={6} xs={12}>
             <img src={Browse3} alt="" className="browse-images" />
           </Grid>
+     
+        <Grid item lg={4} md={4} sm={6} xs={12}>
+          <img src={Browse4} alt="" className="browse-images" />
         </Grid>
-        <Grid container rowSpacing={2}>
-          <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img src={Browse4} alt="" className="browse-images" />
-          </Grid>
-          <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img src={Browse5} alt="" className="browse-images" />
-          </Grid>
-          <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img src={Browse6} alt="" className="browse-images" />
-          </Grid>
+        <Grid item lg={4} md={4} sm={6} xs={12}>
+          <img src={Browse5} alt="" className="browse-images" />
+        </Grid>
+        <Grid item lg={4} md={4} sm={6} xs={12}>
+          <img src={Browse6} alt="" className="browse-images" />
+        </Grid>
         </Grid>
       </div>
     </>

@@ -11,7 +11,7 @@
   src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
 }
 @font-face {
-  font-family: "Century Gothic" ;
+  font-family: "Century Gothic";
   src: url("../src/century-gothic/Century\ Gothic.ttf");
 }
 @font-face {
@@ -20,30 +20,36 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-
 .dark-theme {
---bg-clr: #212529;
---para-clr: #fff;
---bg-box-clr:rgba(81, 81, 81, 0.4);
---border-clr:#fff;
+  --bg-clr: #212529;
+  --para-clr: #fff;
+  --bg-box-clr: rgba(81, 81, 81, 0.4);
 
-
-
-
+  --bg-profile-box-clr: rgba(81, 81, 81, 0.4);
+  --border-clr: #fff;
+  --box-shadow-clr: rgba(0, 0, 0, 0.25);
+  --profile-setting-tab-clr: rgb(191, 191, 191, 0.15);
+  --profile-notification-switch:rgba(81, 81, 81, 0.4);
+  --secondary-para-clr:white;
 }
 .light-theme {
   --bg-clr: #fff;
   --para-clr: #000;
-  --bg-box-clr:auto;
-  --border-clr:#212529;
-  }
+  --secondary-para-clr:#6a6a6a;
+  --bg-box-clr: auto;
+  --border-clr: #212529;
+  --box-shadow-clr: rgba(0, 0, 0, 0.25);
+  --profile-setting-tab-clr: rgb(254, 194, 0, 0.15);
+  --bg-profile-box-clr: #f6f6f6;
+  --profile-notification-switch:#F6F6F6;
+}
 
 section {
   background-image: linear-gradient(to right, #47474a, #73525c);
 }
-body{
+body {
   background-color: var(--bg-clr) !important ;
-  color: var(--para-clr)  !important;
+  color: var(--para-clr) !important;
 }
 
 h1 {
@@ -145,7 +151,6 @@ p {
   font-size: 1.2rem;
 
   align-items: center;
-
 }
 
 .navbar {
@@ -208,20 +213,24 @@ span.nftamount {
 #footer-posted-margin-bottom {
   margin-bottom: 4rem;
 }
-.card-body{
+.card-body {
   background-color: var(--bg-box-clr);
   color: var(--para-clr);
-
 }
-thead, tbody, tfoot, tr, td, th,.Hometable{
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th,
+.Hometable {
   background-color: var(--bg-clr);
   color: var(--para-clr);
-  
 }
-.css-mhc70k-MuiGrid-root>.MuiGrid-item{
+.css-mhc70k-MuiGrid-root > .MuiGrid-item {
   padding-left: 0px !important;
 }
-.card{
+.card {
   background-color: var(--bg-clr) !important;
 }
 
@@ -229,29 +238,33 @@ thead, tbody, tfoot, tr, td, th,.Hometable{
   margin-right: 10px !important;
 } */
 
-.css-1u20msc{
+.css-1u20msc {
   margin-top: 0px !important;
 }
-tbody, td, tfoot, th, thead, tr{
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
   border-color: transparent !important;
 }
-.css-isbt42 > .MuiGrid-item{
+.css-isbt42 > .MuiGrid-item {
   padding-left: 0px !important;
 }
 th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeMedium.css-1sgp6db {
-color: var(--para-clr);
-
+  color: var(--para-clr);
 }
-.css-1bigob2{
+.css-1bigob2 {
   color: var(--para-clr) !important;
 }
 .css-1sgp6db {
-text-align: left;
+  text-align: left;
 }
-.css-13xy2my{
+.css-13xy2my {
   box-shadow: none !important;
 }
-.css-1sgp6db{
+.css-1sgp6db {
   text-align: left !important;
 }
 @media screen and (max-width: 768px) {
@@ -259,7 +272,6 @@ text-align: left;
     margin-bottom: 2.5rem;
   }
 }
-
 
 html {
   font-size: 100% !important;
@@ -283,17 +295,15 @@ html {
   #button-1 {
     padding: 12px 35px;
   }
-  #button-2{
+  #button-2 {
     padding: 12px 40px;
   }
- 
 }
-@media screen and (max-width:414px) {
-  #button-1{
+@media screen and (max-width: 414px) {
+  #button-1 {
     padding: 8px 25px;
   }
-  #button-2{
+  #button-2 {
     padding: 8px 25px;
   }
-  
 }

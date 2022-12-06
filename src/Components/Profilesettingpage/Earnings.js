@@ -15,12 +15,12 @@ import Footer from "../Footer";
 export default function Profilesettingslide() {
   return (
     <>
-      <Navbarnft />
+
       <div className="container-fluid background-profile-setting"></div>
 
       <div className="container-fluid">
         <div className="row ">
-          <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 section-color">
+          <div className="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12 section-color">
             <div>
               <ul className="listed-section">
                 <span className="setting-sections">Setting</span>
@@ -70,7 +70,7 @@ export default function Profilesettingslide() {
                 </Link>
                 <Link to="/earnings">
                   {" "}
-                  <li className="section-list">
+                  <li className="section-list earning-setting">
                     <span>
                       <MonetizationOnOutlinedIcon className="icons-tabs" />
                     </span>
@@ -81,7 +81,7 @@ export default function Profilesettingslide() {
             </div>
           </div>
           <div
-            className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12"
+            className="col-xl-10 col-lg-9 col-md-12 col-sm-12 col-12"
             // style={{ width: "65%" }}
           >
           <div className="row">
@@ -105,10 +105,10 @@ export default function Profilesettingslide() {
                 ligula, ac viverra mauris aliquam sit amet.
               </p>
               <div className="button-section990">
-                <p className="earning-content1102">
+                <div className="earning-content1102">
                   This wallet address does not have any creator earnings from
                   sales using Origins NFT in 2021.{" "}
-                </p>
+                </div>
               </div>
             </div></div>
             </div>

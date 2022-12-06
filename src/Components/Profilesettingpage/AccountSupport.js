@@ -72,12 +72,12 @@ export default function Profilesettingslide() {
   };
   return (
     <>
-      <Navbarnft />
+
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-lg-2 col-md-2 col-sm-12 col-12 section-color">
+            <div className="col-lg-2 col-md-3 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -118,7 +118,7 @@ export default function Profilesettingslide() {
                   </Link>
                   <Link to="/accountsupport">
                     {" "}
-                    <li className="section-list">
+                    <li className="section-list account-setting">
                       <span>
                         <VerifiedUserOutlinedIcon className="icons-tabs" />
                       </span>
@@ -137,7 +137,7 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-10 col-md-10 col-sm-12 col-12">
+            <div className="col-lg-10 col-md-9 col-sm-12 col-12">
               <div className="section-fit">
                 <div className="row">
                   <div className="col-lg-8 col-md-9 col-sm-12 col-12">

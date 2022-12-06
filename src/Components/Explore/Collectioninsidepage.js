@@ -95,7 +95,7 @@ const label = { inputProps: { "aria-label": "Checkbox demo" } };
 export default function Collectioninsidepage() {
   return (
     <>
-      <Navbar />
+      <Navbar /> 
       <div className="container-fluid background-images-collections"></div>
       <div className="container-fluid ">
         <div className="row g-0 mx-5">

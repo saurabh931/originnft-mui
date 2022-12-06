@@ -13,7 +13,7 @@ import Footer from "../Footer";
 function Profile() {
   return (
     <>
-      <Navbarnft />
+ {/*      <Navbarnft /> */}
       <div className="container-fluid background-profile"></div>
       <div className="container-fluid">
         <div className="row">

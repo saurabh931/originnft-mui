@@ -22,17 +22,17 @@ import Profileimg from "./Imagesprofile/profileimg.png";
 export default function Profilesettingslide() {
   return (
     <>
-      <Navbarnft />
-      <div className="container-fluid background-profile-setting"></div>
+
+      <div className="container-fluid background-profile-setting "></div>
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12 section-color">
+            <div className="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
                   <Link to="/profilesetting">
-                    <li className="section-list">
+                    <li className="section-list profile-setting">
                       <span>
                         <PermIdentityOutlinedIcon className="icons-tabs" />
                       </span>{" "}
@@ -87,7 +87,7 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div className="col-xl-10 col-lg-9 col-md-12 col-sm-12 col-12">
               <div className="profile-head-section">
                 <span className="profile-heading">Profile details</span>
                 <span className="preview-profile-button">

@@ -16,6 +16,7 @@ import Featureditems from "./Components/Profilesettingpage/Featureditems";
 import AccountSupport from "./Components/Profilesettingpage/AccountSupport";
 import Earnings from "./Components/Profilesettingpage/Earnings";
 import Collectioninsidepage from "./Components/Explore/Collectioninsidepage";
+import Navbarnft from "./Components/Navbars/Navbarnft";
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -35,7 +36,9 @@ function App() {
   return (
     <div className="App">
       <Router>
+      <Navbarnft />
         <Routes>
+
           <Route exact path="/" element={<Main />} />
           <Route path="/explore" element={<Explore mode={mode} toggleMode={toggleMode}/>} />
           <Route path="/exploreinsidepage" element={<Exploreinsidepage mode={mode} toggleMode={toggleMode}/>} />

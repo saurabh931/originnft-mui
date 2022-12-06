@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Footer from '../Footer';
-import Home from '../Home';
-import Navbarnft from '../Navbars/Navbarnft';
+import Footer from "../Footer";
+import Home from "../Home";
+import Navbarnft from "../Navbars/Navbarnft";
 
 export default function Main() {
   const [mode, setMode] = useState("dark");
@@ -17,8 +17,10 @@ export default function Main() {
     }
   };
   return (
-    <div ><Navbarnft mode={mode} toggleMode={toggleMode} />
-    <Home  mode={mode} toggleMode={toggleMode}/>
-    <Footer/></div>
-  )
+    <div>
+      {/* <Navbarnft mode={mode} toggleMode={toggleMode} /> */}
+      <Home mode={mode} toggleMode={toggleMode} />
+      <Footer />
+    </div>
+  );
 }
