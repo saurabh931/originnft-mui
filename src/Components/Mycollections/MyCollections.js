@@ -144,8 +144,8 @@ function MyCollections() {
       <Navbarnft />
       <div className="container-fluid background-collections-img">
         <div className="collection-section ">
-          <h1>My Collections</h1>
-          <p>
+          <h1 className="mycoll-head">My Collections</h1>
+          <p className="mycoll-head">
             Create, curate, and manage collections of unique NFT’s to share and
             sell
           </p>

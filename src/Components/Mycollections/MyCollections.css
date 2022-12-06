@@ -12,8 +12,11 @@
   padding-top: 180px;
   padding-left: 50px;
 }
-.content-section11 {
+/* .content-section11 {
   color: #6a6a6a !important;
+} */
+.mycoll-head{
+  color: #fff;
 }
 .setting-collect {
   align-items: center !important;

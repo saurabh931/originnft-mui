@@ -175,7 +175,7 @@ ul {
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
-  color: #6a6a6a !important;
+  /* color: #6a6a6a !important; */
   margin-left: 40px;
 }
 .twit {
@@ -185,7 +185,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #6a6a6a;
+  /* color: #6a6a6a; */
 }
 .section-twitter {
   margin-left: 40px;
