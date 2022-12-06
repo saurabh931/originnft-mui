@@ -15,8 +15,8 @@ export default function ResourcesHelpCenter() {
     <>
       <Navbarnft />
       <div className="container-fluid background-resources position-relative">
-        <div className="text-cont">
-          <h2>Welcome to Origins Marketplace </h2>
+        <div className="text-cont welcome-text">
+          <h2 className="welcome-text">Welcome to Origins Marketplace </h2>
           <p>
             Lorem Ipsum dolor sit amet Lorem Ipsum dolor
             <br /> sit amet Lorem Ipsum dolor sit amet{" "}

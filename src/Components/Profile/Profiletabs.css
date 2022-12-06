@@ -9,7 +9,7 @@
   font-size: 16px !important;
   line-height: 17px !important;
   align-items: center !important;
-  color: #222222 !important;
+  color: var(--para-clr) !important;
 }
 .tab1:hover {
   color: rgb(120, 119, 119) !important;
@@ -27,4 +27,7 @@ color: #6A6A6A;
     height: 100vh;
     align-items: center;
     text-align: center;
+}
+.dropdown-menu{
+  padding: 0 !important;
 }

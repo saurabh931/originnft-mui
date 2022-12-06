@@ -24,7 +24,7 @@ function Profile() {
             <h5 className="profile-name">Jane Doe</h5>
             <span className="wallet">
               0xasddffqe23r...0fd3
-              <FiCopy style={{ marginLeft: "10px", color:"grey" }} />
+              <FiCopy style={{ marginLeft: "10px" }} />
             </span>
             <br />
             <br />

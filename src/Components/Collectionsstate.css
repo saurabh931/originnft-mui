@@ -22,31 +22,30 @@ h1.collection-head-stats {
 .toggle-button {
   /* width: 140px; */
   height: 48px;
-  width: 100%;
-  background: #f6f6f6 !important;
+  background: var(--profile-notification-switch) !important;
   border-radius: 15px;
-  color: #6a6969 !important;
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 600 !important;
   font-size: 16px !important;
   line-height: 126%;
-  color: #6a6a6a;
+  color: var(--para-clr) !important;
   border: none !important;
 }
 .timer-content {
+  width: 90% !important;
   justify-content: space-evenly;
-  width: 267.28px;
+  /* width: 267.28px; */
   height: 48px;
-  background: #f6f6f6;
+  background: var(--profile-notification-switch);
   border-radius: 15px;
   align-items: center;
   cursor: pointer;
   margin-right: 40px;
 }
 .hour-span {
-  background: white;
-  padding: 10px 10px;
+  /* background: white;
+  padding: 10px 10px; */
   border-radius: 8px;
   cursor: pointer;
   font-family: "Futura Maxi CG Bold";
@@ -55,7 +54,6 @@ h1.collection-head-stats {
   font-size: 14px;
   line-height: 15px;
   align-items: center;
-  color: #6a6a6a;
 }
 .categories-container {
   /* float: right; */
@@ -65,7 +63,7 @@ h1.collection-head-stats {
   /* width: 46.74px !important; */
   width: 100%;
   height: 48px !important;
-  background: #f6f6f6 !important;
+  background: var(--profile-notification-switch) !important;
   border-radius: 15px !important;
   cursor: pointer;
 }
@@ -76,7 +74,6 @@ h1.collection-head-stats {
   font-size: 14px !important;
   line-height: 15px;
   align-items: center;
-  color: #6a6a6a !important;
 }
 .button-explore {
   /* width: 200px !important; */
@@ -120,7 +117,6 @@ h1.collection-head-stats {
 } */
 /* ----------------------------------------------------- */
 .collection-watchlist-text {
-  color: #6a6a6a !important;
   margin-bottom: 2rem !important;
   font-size: 1.5rem !important;
 }

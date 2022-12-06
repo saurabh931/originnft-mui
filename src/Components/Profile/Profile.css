@@ -29,7 +29,8 @@ font-weight: 700;
 font-size: 16px;
 line-height: 20px;
 align-items: center;
-color: #101010;
+color: var(--para-clr);
+background-color: transparent !important;
 }
 .upload-bu{
     width: 52.18px;
@@ -43,7 +44,6 @@ color: #101010;
 }
 .up-bu{
     margin-top: -5px;
-    color: #000000;
 }
 .edit{
     text-align: center;
@@ -56,21 +56,17 @@ font-weight: 400;
 font-size: 25px;
 line-height: 26px;
 text-align: center;
-color: #000000;
 }
 .wallet{
     font-family: 'Futura Maxi CG Book';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 20px;
-color: #000000;
 }
 .www{
     font-family: 'Futura Maxi CG Book';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 20px;
-color: #6A6A6A;
+
 }

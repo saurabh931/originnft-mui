@@ -163,7 +163,6 @@ p {
   font-size: 10px;
   line-height: 10px;
   align-items: center;
-  color: #6a6a6a;
 }
 span.nftname {
   margin-right: 0.5rem;
@@ -208,7 +207,7 @@ span.nftamount {
   font-size: 14px;
   line-height: 15px;
   align-items: center;
-  color: #353535;
+  color: var(--para-clr);
 }
 #footer-posted-margin-bottom {
   margin-bottom: 4rem;

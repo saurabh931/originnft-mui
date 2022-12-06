@@ -84,7 +84,8 @@ export default function BasicTabs() {
                 <Dropdown.Toggle
                   variant="success"
                   id="dropdown-basic"
-                  className="toggle-button"
+                  className="toggle-button mx-3"
+                  style={{}}
                 >
                   Categories
                 </Dropdown.Toggle>
@@ -105,7 +106,7 @@ export default function BasicTabs() {
                 <Dropdown.Toggle
                   variant="success"
                   id="dropdown-basic"
-                  className="toggle-button"
+                  className="toggle-button mx-3"
                 >
                   All Chains
                 </Dropdown.Toggle>
@@ -128,8 +129,8 @@ export default function BasicTabs() {
             </Grid>
             </Grid>
             </Grid>
-            <Grid item lg={6} md={4} sm={12} ></Grid>
-            <Grid item lg={3} md={4} sm={12} xs={12} className="timer-container">
+            <Grid item lg={5} md={4} sm={12} ></Grid>
+            <Grid item lg={4} md={4} sm={12} xs={12} className="timer-container">
               <Grid container spacing={0} className="timer-content">
                 <Grid item lg={1} md={2} sm={2} xs={2}>
                   <span className="timer-1">1h</span>
