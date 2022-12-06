@@ -94,21 +94,21 @@ color: var(--para-clr) !important;
 }
 .explore-nft-card-price{
 display: flex;
-color: black;
+/* color: black; */
 justify-content: space-between;
 padding: 1rem;
 margin: 0rem 1rem 1rem 1rem;
 border-radius: 10px;
-background: rgb(243 243 243);
+/* background: rgb(243 243 243); */
 }
 .explore-collection-card-price{
   display: flex;
-  color: black;
+  /* color: black; */
   justify-content: space-between;
   padding: 1rem;
   margin: 1rem 0rem;
   border-radius: 10px;
-  background: rgb(243 243 243);
+  /* background: rgb(243 243 243); */
   }
 .price-exlore-nft{
   font-size: 12px;

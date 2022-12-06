@@ -1,6 +1,5 @@
 .tab-select {
   margin-top: 30px;
-
 }
 .tab1 {
   font-family: "Futura Maxi CG Bold" !important;
@@ -21,7 +20,7 @@ font-weight: 400;
 font-size: 24px;
 line-height: 26px;
 align-items: center;
-color: #6A6A6A;
+/* color: #6A6A6A; */
 }
 .setting-page{
     height: 100vh;
@@ -30,4 +29,8 @@ color: #6A6A6A;
 }
 .dropdown-menu{
   padding: 0 !important;
+}
+.profile-recently{
+  background: var(--profile-notification-switch) !important;
+  color: var(--secondary-para-clr);
 }
