@@ -26,3 +26,10 @@ background: var(--bg-clr);
 .time-button{
     margin-top: 15px;
 }
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    opacity: 0.5;
+   text-transform: capitalize !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    opacity: 1 !important;
+}

@@ -50,6 +50,7 @@ export default function BasicTabs() {
 
   return (
     <>
+ 
       <div className="Hometabs">
         <Box sx={{ width: "100%", padding: "30px" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -59,7 +60,7 @@ export default function BasicTabs() {
               aria-label="basic tabs example"
             >
               <Tab label="Trending" {...a11yProps(0)} />
-              <Tab label="Tops" {...a11yProps(1)} />
+              <Tab label="Top" {...a11yProps(1)} />
 
               {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
               <div className="tab-button">
@@ -108,6 +109,7 @@ export default function BasicTabs() {
       </TabPanel> */}
         </Box>
       </div>
+ 
     </>
   );
 }

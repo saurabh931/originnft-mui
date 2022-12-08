@@ -43,6 +43,9 @@
   --bg-profile-box-clr: #f6f6f6;
   --profile-notification-switch:#F6F6F6;
 }
+.Section{
+  margin:7rem auto;
+}
 
 section {
   background-image: linear-gradient(to right, #47474a, #73525c);
@@ -52,7 +55,7 @@ body {
   color: var(--para-clr) !important;
 }
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 h1 {
@@ -269,6 +272,7 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-size
 .css-1sgp6db {
   text-align: left !important;
 }
+
 @media screen and (max-width: 768px) {
   #footer-posted-margin-bottom {
     margin-bottom: 2.5rem;

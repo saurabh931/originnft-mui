@@ -37,6 +37,10 @@ import Browse3 from "../Images/Frame245.png";
 import Browse4 from "../Images/Frame246.png";
 import Browse5 from "../Images/Frame247.png";
 import Browse6 from "../Images/bannervideo.png";
+import Notableslider from "./Notableslider";
+import Storytellingslider from "./Storytellingslider";
+import Hotslider from "./Hotslider";
+import Tab from "./Tab";
 
 import Card from "react-bootstrap/Card";
 import "swiper/css";
@@ -59,61 +63,603 @@ const rows = [
 export default function BasicTable() {
   return (
     <>
+
       <div className="Hometable">
-        <TableContainer component={Paper}>
-          <Box>
-            <Grid container spacing={2}>
-              <Grid item lg={6}  md={12} sm={12} xs={12}>
-                <Table sx={{ minWidth: 600 }} aria-label="simple table">
-                  <TableHead>
-                    <TableRow>
-                      <TableCell>COLLECTION</TableCell>
-                      <TableCell align="right">FLOOR PRICE</TableCell>
-                      <TableCell align="right">VOLUME</TableCell>
-                      {/* <TableCell align="right">COLLECTION</TableCell>
-            <TableCell align="right">FLOOR PRICE</TableCell>
-            <TableCell align="right">VOLUME</TableCell> */}
-                    </TableRow>
-                  </TableHead>
-                  <TableBody>
-                    {rows.map((row) => (
-                      <TableRow
-                        key={row.name}
-                        sx={{
-                          "&:last-child td, &:last-child th": { border: 0 },
-                        }}
-                      >
-                        <TableCell component="th" scope="row">
-                          <span className="s-no">1</span>
-                          <img src={Tabimage1} alt="" className="tableimg" />
-                          <span className="nftname">RENGA</span>
-                          <img src={Tick} alt="" />
-                        </TableCell>
-                        <TableCell align="left">
-                          <span className="nftamount">3.09 ETH</span>
-                        </TableCell>
-                        <TableCell align="left">
-                          <span className="nftamount">1,189 ETH</span>
-                        </TableCell>
-                        {/*   <TableCell align="right">{row.carbs}</TableCell>
-            <TableCell align="right">{row.protein}</TableCell>
-            <TableCell align="right">{row.protein}</TableCell> */}
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
+   
+          <Box >
+            <Grid container spacing={6}>
+              <Grid item lg={6} md={12} sm={12} xs={12}>
+                <Grid container>
+                  <Grid container>
+                    <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection"
+                    >
+                      COLLECTION
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor collection floortexteth"
+                      id="floor"
+                    >
+                      FLOOR PRICE
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor collection"
+                      id="floor"
+                    >
+                      VOLUME
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                    <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                </Grid>
               </Grid>
 
               <Grid item xs={6} className="table-2">
-                <Table sx={{ minWidth: 600 }} aria-label="simple table">
+                <Grid container>
+                  <Grid container>
+                    <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection"
+                    >
+                      COLLECTION
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor collection floortexteth"
+                      id="floor"
+                    >
+                      FLOOR PRICE
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor collection"
+                      id="floor"
+                    >
+                      VOLUME
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                  <Grid container>
+                   <Grid
+                      item
+                      lg={6}
+                      md={6}
+                      sm={6}
+                      xs={9}
+                      className="collection d-flex"
+                    >
+                      <div>
+                        <span>1</span>
+                        <span>
+                          <img
+                            src={Tabimage1}
+                            alt=""
+                            className="tableimg table-image-renga"
+                          />
+                        </span>
+                      </div>
+                      <div>
+                      <span className="nftname">RENGA</span>
+                      <span>
+                        <img src={Tick} alt="" />
+                      </span>
+                      <br/>
+                      <span className="floor-eth-price">Floor : 0.25Eth</span>
+                      </div>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor floortexteth"
+                      id="floor"
+                    >
+                      <span className="nftamount">3.09 ETH</span>
+                    </Grid>
+                    <Grid
+                      item
+                      lg={3}
+                      md={3}
+                      sm={3}
+                      xs={3}
+                      className="floor"
+                      id="floor"
+                    >
+                      <span className="nftamount">1,189 ETH</span>
+                    </Grid>
+                  </Grid>
+                </Grid>
+                {/*    <Table sx={{ minWidth: 600 }} aria-label="simple table">
                   <TableHead>
                     <TableRow>
                       <TableCell>COLLECTION</TableCell>
                       <TableCell align="right">FLOOR PRICE</TableCell>
                       <TableCell align="right">VOLUME</TableCell>
-                      {/*  <TableCell align="right">COLLECTION</TableCell>
-            <TableCell align="right">FLOOR PRICE</TableCell>
-            <TableCell align="right">VOLUME</TableCell> */}
                     </TableRow>
                   </TableHead>
                   <TableBody>
@@ -128,552 +674,77 @@ export default function BasicTable() {
                           <span className="s-no">1</span>
                           <img src={Tabimage1} alt="" className="tableimg" />
                           <span className="nftname">RENGA</span>
-                          <img src={Tick} alt="" />
+                          <img src={Tick} floortextethalt="" />
                         </TableCell>
-                        <TableCell align="left">
+                        <TableCell ali3n="left">
                           <span className="nftamount">3.09 ETH</span>
                         </TableCell>
                         <TableCell align="left">
                           <span className="nftamount">1,189 ETH</span>
                         </TableCell>
-                        {/* <TableCell align="right">{row.carbs}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell> */}
                       </TableRow>
                     ))}
                   </TableBody>
-                </Table>
+                </Table> */}
               </Grid>
             </Grid>
           </Box>
-        </TableContainer>
+
+          <Tab/>
+
 
         {/* ----------------------------------------------------NEW AND NOTABLE------------------------------------------------------------- */}
-        <Box>
-          <Typography variant="h3">New And Notable</Typography>
-        </Box>
-        <Box>
-          <Swiper
-            slidesPerView={1}
-            // spaceBetween={10}
-            // pagination={{
-            //   clickable: true,
-            // }}
-            // navigation={{
-            //   clickable: true,
-            // }}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
-            breakpoints={{
-              640: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-              },
-              768: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-              },
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 10,
-              },
-              1920: {
-                slidesPerView: 4,
-                spaceBetween: 10,
-              },
-            }}
-            modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image1} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg1}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image2} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg2}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image3} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg3}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image1} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg1}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image2} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg2}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-          </Swiper>
-        </Box>
+        <div className="Section">
+          <Box>
+            <Typography variant="h3">New And Notable</Typography>
+          </Box>
 
+          <Notableslider />
+        </div>
         {/* ---------------------------------------------------STORYTELLING NFT SPOLTLIGHT----------------------------------------------- */}
+        <div className="Section">
+          <Box>
+            <Typography variant="h3">Storytelling NFTs spotlight</Typography>
+          </Box>
 
-        <Box>
-          <Typography variant="h3">Storytelling NFTs spotlight</Typography>
-        </Box>
-        <Box>
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
-            // pagination={{
-            //   clickable: true,
-            // }}
-            // navigation={{
-            //   clickable: true,
-            // }}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: true,
-            }}
-            breakpoints={{
-              640: {
-                slidesPerView: 2,
-                // spaceBetween: 20,
-              },
-              768: {
-                slidesPerView: 2,
-                // spaceBetween: 40,
-              },
-              1024: {
-                slidesPerView: 3,
-                // spaceBetween: 50,
-              },
-              1920: {
-                slidesPerView: 4,
-              },
-            }}
-            modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Storyimage1} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Storysmallimg1}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Storyimage2} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Storysmallimg2}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Storyimage3} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Storysmallimage3}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image1} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg1}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image2} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg2}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-          </Swiper>
-        </Box>
-
+          <Storytellingslider />
+        </div>
         {/* ----------------------------------------------------HOT-------------------------------------------------------------------- */}
-        <Box>
-          <Typography variant="h3">Hot</Typography>
-        </Box>
-        <Box>
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
-            // pagination={{
-            //   clickable: true,
-            // }}
-            // navigation={{
-            //   clickable: true,
-            // }}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            breakpoints={{
-              640: {
-                slidesPerView: 2,
-                // spaceBetween: 20,
-              },
-              768: {
-                slidesPerView: 2,
-                // spaceBetween: 40,
-              },
-              1024: {
-                slidesPerView: 3,
-                // spaceBetween: 50,
-              },
-              1920: {
-                slidesPerView: 4,
-              },
-            }}
-            modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Hotimg1} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Hotsmallimg1}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Hotimg2} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Hotsmallimg2}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Hotimg3} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Hotsmallimg3}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image1} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg1}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
-                <Card.Img variant="top" src={Image2} />
-                <Card.Body>
-                  <Card.Title className="card-body12">
-                    <span>
-                      {" "}
-                      <img
-                        src={Smallimg2}
-                        alt=""
-                        style={{ display: "inline-flex" }}
-                        className="card-image1"
-                      />{" "}
-                    </span>
-                    <span className="text32">Somnium Space VR </span>
-                    <span className="tick-icons"></span>
-                  </Card.Title>
-                  {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                  {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-          </Swiper>
-        </Box>
 
+        <div className="Section">
+          <Box>
+            <Typography variant="h3">Hot</Typography>
+          </Box>
+
+          <Hotslider />
+        </div>
         {/* --------------------------Browse----------------------------------- */}
+        <div className="Section">
+          <Box>
+            <Typography variant="h3">Browse by category</Typography>
+          </Box>
+          <Grid container spacing={4}>
+            <Grid item lg={4} md={4} sm={6} xs={12}>
+              <img src={Browse1} alt="" className="browse-images" />
+            </Grid>
+            <Grid item lg={4} md={4} sm={6} xs={12}>
+              <img src={Browse2} alt="" className="browse-images" />
+            </Grid>
+            <Grid item lg={4} md={4} sm={6} xs={12}>
+              <img src={Browse3} alt="" className="browse-images" />
+            </Grid>
 
-        <Box>
-          <Typography variant="h3">Browse by category</Typography>
-        </Box>
-        <Grid container spacing={4}>
-          <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img src={Browse1} alt="" className="browse-images" />
+            <Grid item lg={4} md={4} sm={6} xs={12}>
+              <img src={Browse4} alt="" className="browse-images" />
+            </Grid>
+            <Grid item lg={4} md={4} sm={6} xs={12}>
+              <img src={Browse5} alt="" className="browse-images" />
+            </Grid>
+            <Grid item lg={4} md={4} sm={6} xs={12}>
+              <img src={Browse6} alt="" className="browse-images" />
+            </Grid>
           </Grid>
-          <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img src={Browse2} alt="" className="browse-images" />
-          </Grid>
-          <Grid item lg={4} md={4} sm={6} xs={12}>
-            <img src={Browse3} alt="" className="browse-images" />
-          </Grid>
-     
-        <Grid item lg={4} md={4} sm={6} xs={12}>
-          <img src={Browse4} alt="" className="browse-images" />
-        </Grid>
-        <Grid item lg={4} md={4} sm={6} xs={12}>
-          <img src={Browse5} alt="" className="browse-images" />
-        </Grid>
-        <Grid item lg={4} md={4} sm={6} xs={12}>
-          <img src={Browse6} alt="" className="browse-images" />
-        </Grid>
-        </Grid>
+        </div>
       </div>
     </>
   );

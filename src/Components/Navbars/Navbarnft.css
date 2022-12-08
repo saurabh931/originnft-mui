@@ -144,6 +144,14 @@ a.dropdown-item{
 .offcanvas-header .btn-close{
   font-size: 1rem;
 }
+.create-offcanvas a{
+  color: black;
+  font-size: 1rem;
+}
+.create-offcanvas a:active{
+  color: black;
+
+}
 ul.dropdown-menu.show-profile.show {
   margin-left: -40px;
   padding:0px;
@@ -275,6 +283,94 @@ span.dropdown-item{
   margin: 0.3rem 0rem;
 }
 
+/* -----------------dropdown offcanvas-------------------------- */
+
+.dropbtn-offcanvas-link1 {
+
+  color: white;
+  padding: 16px;
+  font-size: 1rem;
+
+  cursor: pointer;
+  margin: 0.5rem 0rem;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  border: 1px solid;
+}
+
+.dropdown-offcanvas-link1 {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content-offcanvas-link1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-offcanvas-link1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+}
+
+.dropdown-content-offcanvas-link1 a:hover {background-color: #f1f1f1}
+
+.dropdown-offcanvas-link1:hover .dropdown-content-offcanvas-link1 {
+  display: block;
+}
+
+.dropdown-offcanvas-link1:hover .dropbtn-offcanvas-link1 {
+
+}
+.offcanvas{
+  max-width: 90% !important;
+}
+.inputtext-navbar{
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+}
+.inputtext-navbar::placeholder{
+  color: white;
+}
+.search-nav{
+
+  /* border: 1px solid white; */
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.input-nav{
+  display: flex;
+}
+.search-icon{
+  margin-right: 1rem;
+}
+
+
+.css-1vm0r4s-MuiPaper-root{
+background: transparent !important;
+width: 100% !important;
+border: 1px solid white;
+color: white;
+border-radius: 10px !important;
+  
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
+  fill: white !important;
+}
+input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input{
+  color: white;
+}
 /* media query */
 
 @media screen and (max-width: 1200px) {

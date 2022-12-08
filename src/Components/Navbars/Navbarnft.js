@@ -26,6 +26,7 @@ import Imgback from "./Navimg/Rectangle 684.png";
 import Imgcarts from "./Navimg/cartimg.png";
 import Imgcarts1 from "./Navimg/cartimg2.png";
 import Checkicons from "./Navimg/che.png";
+import searchicon from "./Navimg/search-icon.png";
 
 // ICONS
 import { FaDiscord } from "react-icons/fa";
@@ -36,6 +37,13 @@ import { BsTwitter } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Radio from "@mui/material/Radio";
+import Paper from "@mui/material/Paper";
+import InputBase from "@mui/material/InputBase";
+import Divider from "@mui/material/Divider";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
+import SearchIcon from "@mui/icons-material/Search";
+import DirectionsIcon from "@mui/icons-material/Directions";
 
 // IMPORT SWITCH TAB FOR NIGHT MODE
 import { styled } from "@mui/material/styles";
@@ -170,134 +178,53 @@ function Navbar(props) {
                   </span>
                 </li>
               </ul>
-              <div class="dropdown mt-3">
-                <div>
-                  <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-bs-toggle="dropdown"
-                  >
-                    Explore
-                  </button>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        All NFTs
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Recordion
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Art
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Collectibles
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Music
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Photography
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Videos
-                      </a>
-                    </li>
-                  </ul>
+              <div class="dropdown-offcanvas-link1">
+                <button class="dropbtn-offcanvas-link1">Explore</button>
+                <div class="dropdown-content-offcanvas-link1">
+                  <a href="#"> All NFTs</a>
+                  <a href="#"> Recordion</a>
+                  <a href="#"> Art</a>
+                  <a href="#"> Collectibles</a>
+                  <a href="#"> Music</a>
+                  <a href="#"> Photography</a>
+                  <a href="#"> Videos</a>
                 </div>
-                <div>
-                  <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton2"
-                    data-bs-toggle="dropdown"
-                  >
-                    Stats
-                  </button>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton2"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Rankings
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Activities
-                      </a>
-                    </li>
-                  </ul>
+              </div>
+              <div class="dropdown-offcanvas-link1">
+                <button class="dropbtn-offcanvas-link1">Stats</button>
+                <div class="dropdown-content-offcanvas-link1">
+                  <a href="#">Rankings</a>
+                  <a href="#">Activities</a>
                 </div>
-                <div>
-                  <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton3"
-                    data-bs-toggle="dropdown"
-                  >
-                    Resources
-                  </button>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton3"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Help Center
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Collection-inside-page
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                      Docs
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                     Partners
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                      Advertisement
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                      Newsletter
-                      </a>
-                    </li>
-                {/*     <li>
-                      <a class="dropdown-item" href="#">
-                        Collection-inside-page
-                      </a>
-                    </li> */}
-                  </ul>
-                  
+              </div>
+              <div class="dropdown-offcanvas-link1">
+                <button class="dropbtn-offcanvas-link1">Resources</button>
+                <div class="dropdown-content-offcanvas-link1">
+                  <a href="#">Docs</a>
+                  <a href="#">Partners</a>
+                  <a href="#">Advertisement</a>
+                  <a href="#">Newsletter</a>
                 </div>
-                <div>Create</div>
+              </div>
+              <div class="dropdown-offcanvas-link1">
+                <button class="dropbtn-offcanvas-link1">Create</button>
+              </div>
+              <div class="dropdown-offcanvas-link1">
+                <button class="dropbtn-offcanvas-link1">Profile-icon</button>
+                <div class="dropdown-content-offcanvas-link1">
+                  <a href="/profile">Profile</a>
+                  <a href="#">Favourites</a>
+                  <a href="#">Watchlist</a>
+                  <a href="#">My Collections</a>
+                  <a href="/profile-setting">Settings</a>
+                  <a href="#">Night Mode</a>
+                </div>
+              </div>
+              <div class="dropdown-offcanvas-link1">
+                <button class="dropbtn-offcanvas-link1">Wallet-icon</button>
+              </div>
+              <div class="dropdown-offcanvas-link1">
+                <button class="dropbtn-offcanvas-link1">Cart-icon</button>
               </div>
             </div>
           </div>
@@ -313,8 +240,43 @@ function Navbar(props) {
         ></Grid> */}
         <Grid
           item
-          xl={9}
-          lg={9}
+          xl={3}
+          lg={2}
+          md={3}
+          sm={3}
+          xs={3}
+          className="navbar-desktop"
+        >
+          <div className="search-nav">
+            <div className="input-nav">
+              <Paper
+                component="form"
+                sx={{
+                  p: "2px 4px",
+                  display: "flex",
+                  alignItems: "center",
+                  width: 400,
+                }}
+              >
+                <IconButton
+                  type="button"
+                  sx={{ p: "10px" }}
+                  aria-label="search"
+                >
+                  <SearchIcon />
+                </IconButton>
+                <InputBase
+                  sx={{ ml: 1, flex: 1 }}
+                  placeholder="Search items, collections, accounts"
+                />
+              </Paper>
+            </div>
+          </div>
+        </Grid>
+        <Grid
+          item
+          xl={6}
+          lg={7}
           md={3}
           sm={3}
           xs={3}
