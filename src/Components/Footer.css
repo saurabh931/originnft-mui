@@ -43,7 +43,7 @@
     background: #fff;
     color: #000;
     border-radius: 5px;
-    padding: 1rem;
+    padding: 0.5rem 1rem 0.7rem;
   }
   .join-header {
     margin-left: 20px;
@@ -101,8 +101,8 @@
     width: 3rem;
   }
   .Footer-left-spacing{
-    margin-left: -12px;
-    margin-right: -12px;
+    /* margin-left: -12px;
+    margin-right: -12px; */
     background-color: black;
     color: white;
     margin-top: 3rem;

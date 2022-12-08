@@ -13,6 +13,7 @@ import Image9 from "../Images/mainslider1.png";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from "@mui/material";
 import Hometabs from "./Hometabs";
+import HeaderSlider from "./HeaderSlider";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -47,75 +48,7 @@ export default function Home() {
             </div>
           </div>
           <div className="container-fluid py-5  swiper213 ">
-            <Swiper
-              slidesPerView={1}
-              spaceBetween={10}
-              pagination={{
-                clickable: false,
-              }}
-              navigation={{
-                clickable: false,
-              }}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              breakpoints={{
-                640: {
-                  slidesPerView: 2,
-                  // spaceBetween: 20,
-                },
-                768: {
-                  slidesPerView: 3,
-                  // spaceBetween: 40,
-                },
-                1024: {
-                  slidesPerView: 4,
-                  // spaceBetween: 50,
-                },
-                1920: {
-                  slidesPerView: 4,
-                  // spaceBetween: 50,
-                },
-              }}
-              modules={[Navigation, Pagination]}
-              className="mySwiper"
-            >
-              <SwiperSlide>
-                <img src={Image1} alt="" className="slider1" />
-              </SwiperSlide>
-              <SwiperSlide>
-                {" "}
-                <img src={Image2} alt="" className="slider1" />
-              </SwiperSlide>
-              <SwiperSlide>
-                {" "}
-                <img src={Image3} alt="" className="slider1" />
-              </SwiperSlide>
-              <SwiperSlide>
-                {" "}
-                <img src={Image4} alt="" className="slider1" />
-              </SwiperSlide>
-              <SwiperSlide>
-                {" "}
-                <img src={Image5} alt="" className="slider1" />
-              </SwiperSlide>
-              <SwiperSlide>
-                {" "}
-                <img src={Image6} alt="" className="slider1" />
-              </SwiperSlide>
-              {/* <SwiperSlide>
-            {" "}
-            <img src={Image7} alt="" className="slider1" />
-          </SwiperSlide> */}
-              {/*  <SwiperSlide>
-            {" "}
-            <img src={Image8} alt="" className="slider1" />
-          </SwiperSlide> */}
-              {/*  <SwiperSlide>
-            <img src={Image9} alt="" className="slider1" />
-          </SwiperSlide> */}
-            </Swiper>
+            <HeaderSlider />
           </div>
         </div>
       </div>

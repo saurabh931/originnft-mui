@@ -157,7 +157,7 @@ function Navbar(props) {
               ></button>
             </div>
             <div class="offcanvas-body">
-              <ul className="sidebar-list-img">
+              <ul className="sidebar-list-img offcanvas-logo">
                 <li>
                   {" "}
                   <span>
@@ -171,99 +171,133 @@ function Navbar(props) {
                 </li>
               </ul>
               <div class="dropdown mt-3">
-              <div>
-                <button
-                  class="btn btn-secondary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-bs-toggle="dropdown"
-                >
-                  Explore
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      All NFTs
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Recordion
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Art
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Collectibles
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Music
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Photography
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Videos
-                    </a>
-                  </li>
-                </ul>
+                <div>
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-bs-toggle="dropdown"
+                  >
+                    Explore
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        All NFTs
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Recordion
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Art
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Collectibles
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Music
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Photography
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Videos
+                      </a>
+                    </li>
+                  </ul>
                 </div>
                 <div>
-                <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton2"
-                data-bs-toggle="dropdown"
-              >
-                Stats
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Rankings
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Activities
-                  </a>
-                </li>
-               
-              </ul>
-              </div>
-              <div>
-              <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton3"
-              data-bs-toggle="dropdown"
-            >
-              Resources
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-              <li>
-                <a class="dropdown-item" href="#">
-                  Rankings
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">
-                  Activities
-                </a>
-              </li>
-             
-            </ul>
-            </div>
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown"
+                  >
+                    Stats
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton2"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Rankings
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Activities
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton3"
+                    data-bs-toggle="dropdown"
+                  >
+                    Resources
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton3"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Help Center
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Collection-inside-page
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      Docs
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                     Partners
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      Advertisement
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      Newsletter
+                      </a>
+                    </li>
+                {/*     <li>
+                      <a class="dropdown-item" href="#">
+                        Collection-inside-page
+                      </a>
+                    </li> */}
+                  </ul>
+                  
+                </div>
+                <div>Create</div>
               </div>
             </div>
           </div>

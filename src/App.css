@@ -51,6 +51,9 @@ body {
   background-color: var(--bg-clr) !important ;
   color: var(--para-clr) !important;
 }
+body{
+  overflow-x: hidden;
+}
 
 h1 {
   font-family: "Futura Maxi CG Bold";

@@ -63,7 +63,7 @@ export default function BasicTable() {
         <TableContainer component={Paper}>
           <Box>
             <Grid container spacing={2}>
-              <Grid item xs={6}>
+              <Grid item lg={6}  md={12} sm={12} xs={12}>
                 <Table sx={{ minWidth: 600 }} aria-label="simple table">
                   <TableHead>
                     <TableRow>
@@ -653,7 +653,7 @@ export default function BasicTable() {
         <Box>
           <Typography variant="h3">Browse by category</Typography>
         </Box>
-        <Grid container rowSpacing={2}>
+        <Grid container spacing={4}>
           <Grid item lg={4} md={4} sm={6} xs={12}>
             <img src={Browse1} alt="" className="browse-images" />
           </Grid>
