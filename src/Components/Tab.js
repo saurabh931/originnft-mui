@@ -1,5 +1,6 @@
 import React from "react";
 import "./Tab.css";
+import Dropdown from "react-bootstrap/Dropdown";
 
 function Tab() {
   return (
@@ -47,7 +48,41 @@ function Tab() {
             Contact
           </button>
         </li>
-       
+        <li className="dropdown-tab-origin">
+          {" "}
+          <div className="tab-button">
+            <span>
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="success"
+                  id="button-22"
+                  className="time-button"
+                >
+                  24 h
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </span>
+            <span className="view-bu">
+              <button
+                variant="success"
+                id="button-22"
+                className="view-all-button"
+              >
+                View all
+              </button>
+            </span>
+          </div>
+        </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
         <div
@@ -57,7 +92,7 @@ function Tab() {
           aria-labelledby="pills-home-tab"
           tabindex="0"
         >
-     a
+          a
         </div>
         <div
           class="tab-pane fade"
@@ -66,7 +101,7 @@ function Tab() {
           aria-labelledby="pills-profile-tab"
           tabindex="0"
         >
-     b
+          b
         </div>
         <div
           class="tab-pane fade"
@@ -75,7 +110,7 @@ function Tab() {
           aria-labelledby="pills-contact-tab"
           tabindex="0"
         >
-  c
+          c
         </div>
         <div
           class="tab-pane fade"
@@ -84,7 +119,7 @@ function Tab() {
           aria-labelledby="pills-disabled-tab"
           tabindex="0"
         >
-    d
+          d
         </div>
       </div>
     </div>

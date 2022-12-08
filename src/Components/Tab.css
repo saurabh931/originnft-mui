@@ -10,3 +10,6 @@
     color: black;
     opacity: 0.5;
 }
+.dropdown-tab-origin{
+    float: right !important;
+}
