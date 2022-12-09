@@ -355,13 +355,18 @@ span.dropdown-item {
   margin-right: 1rem;
 }
 
-
 .css-1u80wl {
   background: transparent !important;
   width: 100% !important;
   border: 1px solid white !important;
   color: white !important;
   border-radius: 10px !important;
+}
+.css-mnn31 {
+  color: white !important;
+}
+.css-vubbuv {
+  color: white;
 }
 .connect-wallet-button-nav {
   border: none;
@@ -372,7 +377,7 @@ span.dropdown-item {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.connect-wallet-button{
+.connect-wallet-button {
   padding: 20px;
 }
 svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
