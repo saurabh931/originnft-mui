@@ -14,6 +14,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { Link } from "@mui/material";
 import Hometabs from "./Hometabs";
 import HeaderSlider from "./HeaderSlider";
+import Tab from "./Tab";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -53,7 +54,8 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <Hometabs />
+      {/*   <Hometabs /> */}
+        <Tab/>  
       </div>
     </>
   );

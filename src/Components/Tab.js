@@ -1,10 +1,12 @@
 import React from "react";
 import "./Tab.css";
 import Dropdown from "react-bootstrap/Dropdown";
-{/* import Hometable from "./Hometable"; */}
+ import Hometable from "./Hometable"; 
+ import {Box} from "@mui/material";
 
 function Tab() {
   return (
+    <Box sx={{ width: "100%", padding: "30px" }}>
     <div>
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
@@ -81,7 +83,7 @@ function Tab() {
           tabindex="0"
         >
           {" "}
-          {/*  <Hometable /> */}
+         <Hometable /> 
         </div>
         <div
           class="tab-pane fade"
@@ -90,10 +92,11 @@ function Tab() {
           aria-labelledby="pills-profile-tab"
           tabindex="0"
         >
-          {/*    <Hometable /> */}
+          <Hometable />
         </div>
       </div>
     </div>
+    </Box>
   );
 }
 
