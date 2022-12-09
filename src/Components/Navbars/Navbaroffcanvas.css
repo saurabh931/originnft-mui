@@ -158,6 +158,9 @@ label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-
 div#offcanvasExample ,  button.dropbtn1{
   background-color: var(--bg-clr) !important;
 }
+ul#pills-tab {
+  border-bottom: 1px solid #cbcbcb !important;
+}
 
 /* ----------------------------------------------------------------MEDIA QUERY ---------------------------------------------------------------------------------------*/
 
