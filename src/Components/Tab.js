@@ -3,11 +3,13 @@ import "./Tab.css";
 import Dropdown from "react-bootstrap/Dropdown";
  import Hometable from "./Hometable"; 
  import {Box} from "@mui/material";
+ import Table from "./Table";
+
 
 function Tab() {
   return (
-    <Box sx={{ width: "100%", padding: "30px" }}>
-    <div>
+    <Box sx={{ width: "100%", padding: "0px 30px" }}>
+    <div className="Table-Section">
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
           <button
@@ -83,7 +85,7 @@ function Tab() {
           tabindex="0"
         >
           {" "}
-         <Hometable /> 
+    <Table />
         </div>
         <div
           class="tab-pane fade"
@@ -92,10 +94,11 @@ function Tab() {
           aria-labelledby="pills-profile-tab"
           tabindex="0"
         >
-          <Hometable />
+        <Table />
         </div>
       </div>
     </div>
+    <Hometable />
     </Box>
   );
 }

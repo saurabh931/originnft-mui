@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Offcanvasorigin from "./Offcanvasorigin";
 import "./Navbarnft.css";
+import "./Navbaroffcanvas.css";
 import { Grid } from "@mui/material";
 import { AiOutlineMenu } from "react-icons/ai";
 
@@ -27,6 +28,7 @@ import Imgcarts from "./Navimg/cartimg.png";
 import Imgcarts1 from "./Navimg/cartimg2.png";
 import Checkicons from "./Navimg/che.png";
 import searchicon from "./Navimg/search-icon.png";
+import logo21 from "./Navimg/origin-logo-dark.png";
 
 // ICONS
 import { FaDiscord } from "react-icons/fa";
@@ -44,6 +46,16 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import DirectionsIcon from "@mui/icons-material/Directions";
+
+import { AiFillYoutube } from "react-icons/ai";
+import { MdOutlineExplore } from "react-icons/md";
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { IoIosStats } from "react-icons/io";
+import { MdOutlineLibraryBooks } from "react-icons/md";
+import { MdOutlineCreate } from "react-icons/md";
+import { BsFillMoonFill } from "react-icons/bs";
+
+import { SiDiscord } from "react-icons/si";
 
 // IMPORT SWITCH TAB FOR NIGHT MODE
 import { styled } from "@mui/material/styles";
@@ -150,81 +162,156 @@ function Navbar(props) {
             <AiOutlineMenu />
           </a>
           <div
-            class="offcanvas offcanvas-start"
+            className="offcanvas offcanvas-start"
             tabindex="-1"
             id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel"
           >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasExampleLabel">
+                <span>
+                  <img src={logo} alt="" />
+                  <img src={logo21} alt="" />
+                </span>
+              </h5>
               <button
                 type="button"
-                class="btn-close text-reset"
+                className="btn-close text-reset"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body">
-              <ul className="sidebar-list-img offcanvas-logo">
-                <li>
+            <div className="mobile-side-bar">
+              <div className="dropdown1">
+                <button className="dropbtn1">
+                  <a className="navItem-icons">
+                    <MdOutlineExplore className="navItem-icons tagIcons" />
+                    Explore
+                  </a>
+                  <a className="navItem-icons navmobile-subarrow-icons">
+                    <MdKeyboardArrowRight />
+                  </a>
+                </button>
+                <div className="dropdown-content1">
+                  <a href="/">All NFTs</a>
+                  <a href="/">Recordions</a>
+                  <a href="/">Art</a>
+                  <a href="/">Collectibles</a>
+                  <a href="/">Music</a>
+                  <a href="/">Photography</a>
+                  <a href="/">Videos</a>
+                </div>
+              </div>
+
+              <div className="dropdown1">
+                <button className="dropbtn1">
+                  <a className="navItem-icons">
+                    <IoIosStats className="navItem-icons tagIcons" />
+                    Stats
+                  </a>
+                  <a
+                    className="navItem-icons navmobile-subarrow-icons"
+                    href="/"
+                  >
+                    <MdKeyboardArrowRight />
+                  </a>
+                </button>
+                <div className="dropdown-content1">
+                  <a href="/">Rankings</a>
+                  <a href="/">Activities</a>
+                </div>
+              </div>
+              <div className="dropdown1">
+                <button className="dropbtn1">
+                  <a className="navItem-icons">
+                    <MdOutlineLibraryBooks className="navItem-icons tagIcons" />
+                    Resources
+                  </a>
+                  <a
+                    className="navItem-icons navmobile-subarrow-icons"
+                    href="/"
+                  >
+                    <MdKeyboardArrowRight />
+                  </a>
+                </button>
+                <div className="dropdown-content1">
+                  <a href="/">Docs</a>
+                  <a href="/">Partners</a>
+                  <a href="/">Advertisement</a>
+                  <a href="/">Newsletters</a>
+                </div>
+              </div>
+              <div className="dropdown1">
+                <button className="dropbtn1">
+                  <a className="navItem-icons">
+                    <MdOutlineCreate className="navItem-icons tagIcons" />
+                    Create
+                  </a>
+                  <a
+                    className="navItem-icons navmobile-subarrow-icons"
+                    href="/"
+                  >
+                    <MdKeyboardArrowRight />
+                  </a>
+                </button>
+              </div>
+              <div className="dropdown1">
+                <button className="dropbtn1">
+                  <a className="navItem-icons">
+                    <BsFillMoonFill className="navItem-icons tagIcons" />
+                    Night Mode
+                  </a>
+                  <a
+                    className="navItem-icons navmobile-subarrow-icons"
+                    href="/"
+                  >
+                    <FormControlLabel
+                      control={<IOSSwitch sx={{ m: 1 }} />}
+                      // label="iOS style"
+                      onClick={() => toggleTheme()}
+                    />
+                  </a>
+                </button>
+              </div>
+              <div className="dropdown1 connect-wallet-button">
+                <button className="primary-button connect-wallet-button-nav">
+                  Connect Wallet
+                </button>
+              </div>
+            </div>
+            <div className="mobilenav-bottom-container">
+              <div className="row mx-3 my-4">
+                <div className="col-2">
+                  <span>
+                    <SiDiscord className="icons-social officons" />
+                  </span>
+                </div>
+                <div className="col-2">
+                  <span>
+                    <FaTelegramPlane className="icons-social officons" />
+                  </span>
+                </div>
+                <div className="col-2">
                   {" "}
                   <span>
-                    {" "}
-                    <img src={logo} alt="" />
+                    <BsFacebook className="icons-social officons" />
                   </span>
+                </div>
+                <div className="col-2">
                   <span>
-                    {" "}
-                    <img src={logoorigin} alt="" />
+                    <BsInstagram className="icons-social officons" />
                   </span>
-                </li>
-              </ul>
-              <div class="dropdown-offcanvas-link1">
-                <button class="dropbtn-offcanvas-link1">Explore</button>
-                <div class="dropdown-content-offcanvas-link1">
-                  <a href="#"> All NFTs</a>
-                  <a href="#"> Recordion</a>
-                  <a href="#"> Art</a>
-                  <a href="#"> Collectibles</a>
-                  <a href="#"> Music</a>
-                  <a href="#"> Photography</a>
-                  <a href="#"> Videos</a>
                 </div>
-              </div>
-              <div class="dropdown-offcanvas-link1">
-                <button class="dropbtn-offcanvas-link1">Stats</button>
-                <div class="dropdown-content-offcanvas-link1">
-                  <a href="#">Rankings</a>
-                  <a href="#">Activities</a>
+                <div className="col-2">
+                  <span>
+                    <BsTwitter className="icons-social officons" />
+                  </span>
                 </div>
-              </div>
-              <div class="dropdown-offcanvas-link1">
-                <button class="dropbtn-offcanvas-link1">Resources</button>
-                <div class="dropdown-content-offcanvas-link1">
-                  <a href="#">Docs</a>
-                  <a href="#">Partners</a>
-                  <a href="#">Advertisement</a>
-                  <a href="#">Newsletter</a>
+                <div className="col-2">
+                  <span>
+                    <AiFillYoutube className="icons-social officons" />
+                  </span>
                 </div>
-              </div>
-              <div class="dropdown-offcanvas-link1">
-                <button class="dropbtn-offcanvas-link1">Create</button>
-              </div>
-              <div class="dropdown-offcanvas-link1">
-                <button class="dropbtn-offcanvas-link1">Profile-icon</button>
-                <div class="dropdown-content-offcanvas-link1">
-                  <a href="/profile">Profile</a>
-                  <a href="#">Favourites</a>
-                  <a href="#">Watchlist</a>
-                  <a href="#">My Collections</a>
-                  <a href="/profile-setting">Settings</a>
-                  <a href="#">Night Mode</a>
-                </div>
-              </div>
-              <div class="dropdown-offcanvas-link1">
-                <button class="dropbtn-offcanvas-link1">Wallet-icon</button>
-              </div>
-              <div class="dropdown-offcanvas-link1">
-                <button class="dropbtn-offcanvas-link1">Cart-icon</button>
               </div>
             </div>
           </div>

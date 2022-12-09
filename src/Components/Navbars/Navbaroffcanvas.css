@@ -1,34 +1,236 @@
 #toggleButton {
-    float: right;
-    font-size: 2rem;
-    color: var(--white) !important;
+  float: right;
+  font-size: 2rem;
+  color: var(--white) !important;
+}
+button#toggle-Button {
+  float: right;
+  color: white;
+  font-size: 2rem;
+}
+.sidebar-list,
+.sidebar-list-img {
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+.sidebar-list li {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.dropdown-offcanvas {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-offcanvas {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+/* ----------------------------------------------- */
+.nav-items {
+  display: flex;
+  color: white;
+  list-style: none;
+  float: right;
+  /* margin-left: 5rem; */
+}
+.ser {
+  background: var(--bg-clr);
+}
+.head-tag {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--para-clr);
+  font-weight: 400;
+  font-family: "Futura Maxi CG Bold";
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  padding: 1.8rem;
+}
+.icons {
+  font-size: 2rem !important;
+}
+.nav-items.icons {
+  justify-content: space-evenly;
+}
+
+/*  DESKTOP-DROPDOWN CODE*/
+button.head-tag {
+  background: none;
+  border: none;
+}
+
+/* -----------------------------------------------------------------------------------------OFFCANVAS------------------------------------------------------------- */
+.toggle-icons {
+  font-size: 30px !important;
+}
+.dropdown1 {
+  position: relative !important;
+}
+label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root {
+  margin-right: 0px !important;
+}
+.css-113qkos-MuiSwitch-root
+  .MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  background-color: #fec200 !important;
+}
+.dropdown-content1 {
+  display: none !important;
+  position: absolute !important;
+  background-color: #f9f9f9 !important;
+  min-width: 160px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+  z-index: 1 !important;
+}
+.dropbtn1 {
+  background-color: #fff !important;
+  color: #000 !important;
+  padding: 20px !important;
+  border: none !important;
+  cursor: pointer !important;
+  font-size: 1.5rem !important;
+  font-family: "Futura Maxi CG Bold";
+  width: 100%;
+}
+.dropdown-content1 a {
+  color: black !important;
+  padding: 12px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #f1f1f1 !important;
+}
+.dropdown1:hover .dropdown-content1 {
+  display: block !important;
+}
+/* .dropdown1:hover .dropbtn1 {
+    background-color: #FEC200 !important;
+  } */
+.navItem-icons.navmobile-subarrow-icons {
+  /* margin-left: 10rem; */
+  float: right !important;
+}
+
+.icons-social.officons {
+  color: rgb(138, 147, 155) !important;
+}
+.mobile-side-bar {
+  height: 85vh;
+}
+.mobilenav-bottom-container {
+  height: 8vh;
+  /* background: var(--bg-clr) !important; */
+  border-top: 1px solid rgb(229, 232, 235);
+}
+.navItem-icons {
+  color: var(--para-clr);
+  text-decoration: none;
+  float: left !important;
+}
+.tagIcons {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+.MuiGrid-root.MuiGrid-container.nav-item.css-11lq3yg-MuiGrid-root {
+  justify-content: end !important;
+}
+.btn-primary {
+  background: none !important;
+  border: none !important;
+}
+div#offcanvasExample ,  button.dropbtn1{
+  background-color: var(--bg-clr) !important;
+}
+
+/* ----------------------------------------------------------------MEDIA QUERY ---------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+  /* .offcanvas-toggle {
+      display: none !important;
+    } */
+  .search-input {
+    display: none !important;
   }
-  button#toggle-Button {
-    float: right;
-    color: white;
-    font-size: 2rem;
+}
+@media screen and (max-width: 1400px) {
+  .offcanvas-toggle {
+    display: none !important;
   }
-  .sidebar-list,
-  .sidebar-list-img {
-    list-style-type: none;
-    margin-bottom: 3rem;
+}
+@media screen and (min-width: 1400px) {
+  .offcanvas-mobile {
+    display: none !important;
   }
-  .sidebar-list li {
-    font-size: 2rem;
-    margin-top: 2rem;
-    font-weight: 600;
+}
+/* @media screen and (min-width:1300px) {
+    .offcanvas-toggle2{
+      display:none !important;
+    }
   }
-  .dropdown-offcanvas {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content-offcanvas {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
+  @media screen and (max-width:1300px) {
+    .offcanvas-mobile2{
+      display: none !important;
+    }
+  } */
+
+/*  */
+/* DROPDOWN */
+
+.dropbtn0 {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown0 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content0 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content0 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content0 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown0:hover .dropdown-content0 {
+  display: block;
+}
+
+.dropdown0:hover .dropbtn0 {
+  background-color: #3e8e41;
+}

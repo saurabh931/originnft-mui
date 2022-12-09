@@ -61,7 +61,7 @@ button.enter-button {
   background-color: var(--para-clr);
   content: "";
   text-align: center;
-  opacity: 0.2;
+  opacity: 0.6;
   margin-top: 20px;
 }
 

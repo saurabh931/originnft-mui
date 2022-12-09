@@ -46,6 +46,9 @@
 .Section{
   margin:7rem auto;
 }
+.Table-Section{
+  margin:2rem 0rem;
+}
 
 section {
   background-image: linear-gradient(to right, #47474a, #73525c);
