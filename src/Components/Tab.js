@@ -1,7 +1,7 @@
 import React from "react";
 import "./Tab.css";
 import Dropdown from "react-bootstrap/Dropdown";
-import Hometable from "./Hometable";
+{/* import Hometable from "./Hometable"; */}
 
 function Tab() {
   return (
@@ -79,7 +79,10 @@ function Tab() {
           role="tabpanel"
           aria-labelledby="pills-home-tab"
           tabindex="0"
-        >    <Hometable /></div>
+        >
+          {" "}
+          {/*  <Hometable /> */}
+        </div>
         <div
           class="tab-pane fade"
           id="pills-profile"
@@ -87,7 +90,7 @@ function Tab() {
           aria-labelledby="pills-profile-tab"
           tabindex="0"
         >
-        <Hometable />
+          {/*    <Hometable /> */}
         </div>
       </div>
     </div>

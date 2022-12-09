@@ -674,7 +674,7 @@ export default function BasicTable() {
           </Grid>
         </Box>
 
-             <Tab/> 
+         {/*     <Tab/>  */}
 
         {/* ----------------------------------------------------NEW AND NOTABLE------------------------------------------------------------- */}
         <div className="Section">
