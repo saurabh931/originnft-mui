@@ -65,39 +65,42 @@
   position: absolute !important;
   width: 100% !important;
   bottom: 0 !important;
-  background-color: rgb(41, 41, 41) !important;
-  opacity: 0.7 !important;
+  /* background-color: rgba(172, 172, 172, 0.4) !important; */
+  background-image: linear-gradient(
+    rgba(188, 188, 188, 0.7) 0%,
+    rgba(71, 71, 72, 0.4) 100%
+  );
+
+  /* opacity: 0.7 !important; */
 }
 .card-title1 {
   color: white !important;
-  font-size: 25px !important;
+  font-size: 2rem !important;
+  font-weight: 900 !important;
+  font-family: "Futura Maxi CG Bold";
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   /* .browse-card{
     margin-top: 10px !important;
   } */
 }
 
-
 /* RESPONSIVE */
-@media screen and (max-width:768px) {
-  .card-title1{
+@media screen and (max-width: 768px) {
+  .card-title1 {
     margin-top: -15px !important;
     font-size: 1.4rem !important;
   }
-  
 }
-@media screen and (max-width:840px) {
-  .card-title1{
+@media screen and (max-width: 840px) {
+  .card-title1 {
     margin-top: -15px !important;
     font-size: 1.4rem !important;
   }
-  
 }
-@media screen and (max-width:912px) {
-  .card-title1{
+@media screen and (max-width: 912px) {
+  .card-title1 {
     margin-top: -8px !important;
     font-size: 1.4rem !important;
   }
-  
 }
