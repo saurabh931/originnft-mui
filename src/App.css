@@ -58,7 +58,7 @@ body {
   color: var(--para-clr) !important;
 }
 body{
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 h1 {
