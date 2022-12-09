@@ -359,8 +359,8 @@ span.dropdown-item {
 .css-1u80wl {
   background: transparent !important;
   width: 100% !important;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid white !important;
+  color: white !important;
   border-radius: 10px !important;
 }
 .connect-wallet-button-nav {
