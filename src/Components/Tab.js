@@ -1,6 +1,7 @@
 import React from "react";
 import "./Tab.css";
 import Dropdown from "react-bootstrap/Dropdown";
+import Hometable from "./Hometable";
 
 function Tab() {
   return (
@@ -17,7 +18,7 @@ function Tab() {
             aria-controls="pills-home"
             aria-selected="true"
           >
-            Home
+            Trending
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -31,23 +32,10 @@ function Tab() {
             aria-controls="pills-profile"
             aria-selected="false"
           >
-            Profile
+            Top
           </button>
         </li>
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
-            id="pills-contact-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-contact"
-            type="button"
-            role="tab"
-            aria-controls="pills-contact"
-            aria-selected="false"
-          >
-            Contact
-          </button>
-        </li>
+
         <li className="dropdown-tab-origin">
           {" "}
           <div className="tab-button">
@@ -91,9 +79,7 @@ function Tab() {
           role="tabpanel"
           aria-labelledby="pills-home-tab"
           tabindex="0"
-        >
-          a
-        </div>
+        >    <Hometable /></div>
         <div
           class="tab-pane fade"
           id="pills-profile"
@@ -101,25 +87,7 @@ function Tab() {
           aria-labelledby="pills-profile-tab"
           tabindex="0"
         >
-          b
-        </div>
-        <div
-          class="tab-pane fade"
-          id="pills-contact"
-          role="tabpanel"
-          aria-labelledby="pills-contact-tab"
-          tabindex="0"
-        >
-          c
-        </div>
-        <div
-          class="tab-pane fade"
-          id="pills-disabled"
-          role="tabpanel"
-          aria-labelledby="pills-disabled-tab"
-          tabindex="0"
-        >
-          d
+        <Hometable />
         </div>
       </div>
     </div>
