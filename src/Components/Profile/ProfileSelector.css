@@ -20,7 +20,7 @@ color: #6A6A6A !important;
 border: none !important;
 }
 .view-bu{
-    padding: 14px;
+    /* padding-top: 14px; */
     /* background: rgba(246, 246, 246, 0.5) !important; */
     border-radius: 15px;
 }

@@ -21,11 +21,11 @@ color: var(--border-clr);
 background: var(--bg-clr);
 }
 .view-bu{
-    margin-left: 25px;
+    margin-left: 10px;
 }
-.time-button{
+/* .time-button{
     margin-top: 15px;
-}
+} */
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
     opacity: 0.5;
    text-transform: capitalize !important;
