@@ -112,8 +112,12 @@
 .form-switch {
   padding-left: 1.5rem !important;
 }
-.navbar {
-  background-color: rgba(194, 194, 194, 0.5);
+.navbar{
+  background-color: rgba(166, 166, 166, 0.5);
+}
+
+.navbar.colorChange{
+  background-color: rgba(28, 28, 28, 0.5);
 }
 #list-text {
   color: white !important;

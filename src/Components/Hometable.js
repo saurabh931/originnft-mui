@@ -76,7 +76,7 @@ export default function BasicTable() {
         {/* ---------------------------------------------------STORYTELLING NFT SPOLTLIGHT----------------------------------------------- */}
         <div className="Section">
           <Box>
-            <Typography variant="h3">Storytelling NFTs spotlight</Typography>
+            <Typography variant="h3">Storytelling NFTs Spotlight</Typography>
           </Box>
 
           <Storytellingslider />

@@ -2,6 +2,7 @@ import React from 'react'
 import {Grid , Box} from "@mui/material";
 import Tick from "../Images/tickimg.png";
 import Tabimage1 from "../Images/tabimage1.png";
+import "./Table.css";
 
 function Table() {
   return (
@@ -59,7 +60,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -110,7 +111,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -161,7 +162,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -212,7 +213,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -263,7 +264,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -346,7 +347,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -397,7 +398,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -448,7 +449,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -499,7 +500,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>
@@ -550,7 +551,7 @@ function Table() {
                     <div>
                       <span className="nftname">RENGA</span>
                       <span>
-                        <img src={Tick} alt="" />
+                        <img src={Tick} alt="" className='tick-image' />
                       </span>
                       <br />
                       <span className="floor-eth-price">Floor : 0.25Eth</span>

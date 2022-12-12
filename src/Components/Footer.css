@@ -19,15 +19,15 @@
     width: 130px;
     font-weight: 700;
     color: #000 !important;
-    background: #fec200 !important;
+    background: #fff !important;
     border: none;
     border-radius: 10px;
     /* border-top-left-radius: 15px !important;
     border-bottom-left-radius: 15px !important; */
   }
-  .signup:hover {
+  /* .signup:hover {
     background-color: #4c91d6 !important;
-  }
+  } */
   .form-control22 {
     padding: 8px !important;
     border-radius: 10px !important;
@@ -40,14 +40,14 @@
     width: 100%;
   }
   .twitter-icons {
-    background: #fff;
+    background: #fec200;
     color: #000;
     border-radius: 5px;
     padding: 0.5rem 1rem 0.7rem;
   }
   .join-header {
-    margin-left: 20px;
-    font-size: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
   }
   .origins-head {
     font-size: 2rem;
@@ -75,7 +75,7 @@
     padding-inline-start: 0px !important;
   }
   ul.footer2-list li:hover {
-    font-size: 1.1rem;
+  text-decoration: underline;
     cursor: pointer;
   }
   ul.footer2-list li {
@@ -83,12 +83,21 @@
     font-size: 1rem;
   }
   .keep-head {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
   .subs-para {
     font-size: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .subs-para,.input-group1,.origins-para{
+    max-width:25rem;
+  }
+  @media screen and (min-width:1600px) {
+    .subs-para,.input-group1,.origins-para{
+      max-width:47rem;
+    }
   }
   .list-heading {
     margin: 16px 0px;

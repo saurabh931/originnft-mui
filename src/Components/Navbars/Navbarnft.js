@@ -129,6 +129,10 @@ function Navbar(props) {
     setSelectedValue(event.target.value);
   };
 
+  var navbar = document.querySelector('nav')
+
+
+
   const [theme, setTheme] = useState("light-theme");
   const toggleTheme = () => {
     theme === "dark-theme" ? setTheme("light-theme") : setTheme("dark-theme");
@@ -137,9 +141,22 @@ function Navbar(props) {
     document.body.className = theme;
   }, [theme]);
 
+
+ 
+    const [colorChange, setColorchange] = useState(false);
+    const changeNavbarColor = () =>{
+       if(window.scrollY >= 5){
+         setColorchange(true);
+       }
+       else{
+         setColorchange(false);
+       }
+    };
+    window.addEventListener('scroll', changeNavbarColor);
+
   return (
     <>
-      <Grid container className="navbar">
+      <Grid container className={colorChange ? 'navbar colorChange' : 'navbar'}>
         <Grid item xl={3} lg={3} md={9} sm={9} xs={9} className="d-flex">
           <span>
             {" "}
@@ -845,4 +862,4 @@ function Navbar(props) {
   );
 }
 
-export default Navbar;
+  export default Navbar;

@@ -11,18 +11,21 @@ import "./Footer.css";
 function Footer(props) {
   return (
     <>
-      <div  className="Footer-left-spacing">
+      <div className="Footer-left-spacing">
         <div className="container-fluid  py-5 px-5 ">
-          <div className="row" id="foter21">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12" id="footer-posted-margin-bottom">
-              <h4
+          <div className="row" id="foter21" >
+            <div
+              className="col-lg-5 col-md-12 col-sm-12 col-12"
+              id="footer-posted-margin-bottom"
+            >
+              <h5
                 className="keep-head"
                 // style={{
                 //   color: props.mode === "light" ? "black " : "white ",
                 // }}
               >
                 Keep posted
-              </h4>
+              </h5>
               <p
                 className="subs-para"
                 // style={{
@@ -30,8 +33,7 @@ function Footer(props) {
                 // }}
               >
                 Subscribe to our newsletter to stay in the loop with our newest
-                feature
-                <br /> release, NFT drops, and tips and tricks for navigating
+                feature release, NFT drops, and tips and tricks for navigating
                 Origins Marketplace.
               </p>
               <div className="input-group1 mb-3">
@@ -45,25 +47,23 @@ function Footer(props) {
                   //   color: props.mode === "light" ? "black " : "white ",
                   // }}
                 />
-                <button
-                  className="signup"
-                  type="button"
-                  id="button-addon2"
-                  
-                >
+                <button className="signup" type="button" id="button-addon2">
                   Subscribe
                 </button>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12"  id="footer-posted-margin-bottom">
-              <h4
+            <div
+              className="col-lg-6 col-md-12 col-sm-12 col-12"
+              id="footer-posted-margin-bottom"
+            >
+              <h5
                 className="join-header"
                 // style={{
                 //   color: props.mode === "light" ? "black " : "white ",
                 // }}
               >
                 Join the community
-              </h4>
+              </h5>
               <div>
                 <ul className="icon">
                   <li className="twitter-icons">
@@ -97,16 +97,16 @@ function Footer(props) {
                   alt=""
                   className="logo-icon"
                 /> */}
-               
+
                 <h5
-                  className="origins-head"
+                  className="list-heading"
                   // style={{
                   //   color: props.mode === "light" ? "black " : "white ",
                   // }}
                 >
                   Origins Marketplace
                 </h5>
-     
+
                 <p
                   className="origins-para"
                   // style={{
@@ -132,53 +132,53 @@ function Footer(props) {
                 </h5>
                 <ul className="footer2-list">
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     All NFTs
                   </li>
 
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Art
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Collectibles
                   </li>
 
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Photography
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Recordian
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Videos
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Trending
                   </li>
@@ -196,37 +196,37 @@ function Footer(props) {
                 </h5>
                 <ul className="footer2-list">
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Overview
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Favourites
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Watchlist
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     My Collections
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Settings
                   </li>
@@ -244,37 +244,37 @@ function Footer(props) {
                 </h5>
                 <ul className="footer2-list">
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Docs
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Partners
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Advertisement
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Newsletter
                   </li>
                   <li
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                  // style={{
+                  //   color: props.mode === "light" ? "black " : "white ",
+                  // }}
                   >
                     Socials
                   </li>
@@ -289,4 +289,3 @@ function Footer(props) {
 }
 
 export default Footer;
-

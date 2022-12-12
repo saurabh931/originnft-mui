@@ -5,17 +5,20 @@ img.safu-img {
   width: 250px;
   margin: 50px 30px 20px;
 }
+
 img.game-img {
   width: 250px;
   display: block;
   margin-right: auto;
 }
+
 .slider-container {
   margin-top: 112px;
   width: 100%;
   /* background: #48ff7b; */
   border-radius: 20px;
 }
+
 button.enter-button {
   width: 170px;
   height: 60px;
@@ -26,6 +29,7 @@ button.enter-button {
   border-radius: 20px;
   border: none;
 }
+
 .slick-dots li {
   position: relative;
   display: inline-block;
@@ -35,6 +39,7 @@ button.enter-button {
   padding: 0;
   cursor: pointer !important;
 }
+
 .slick-dots li button {
   font-size: 0;
   line-height: 0;
@@ -48,6 +53,7 @@ button.enter-button {
   outline: none;
   background: transparent;
 }
+
 .slick-dots li button:before {
   font-family: "slick";
   font-size: 6px;
@@ -61,8 +67,11 @@ button.enter-button {
   background-color: var(--para-clr);
   content: "";
   text-align: center;
-  opacity: 0.6;
+  /* opacity: 1; */
   margin-top: 20px;
+}
+.slick-prev:before, .slick-next:before{
+  opacity: 1 !important;
 }
 
 /* button.slick-arrow.slick-prev {
@@ -71,23 +80,28 @@ button.enter-button {
 button.slick-arrow.slick-next {
   display: none !important;
 } */
- .slick-next {
+.slick-next {
   transform: translate(-142%, -50%) !important;
 }
+
 .slick-prev {
   transform: translate(60%, -50%) !important;
 }
 
 
 
-.slick-prev:before, .slick-next:before{
-  color: rgb(133, 133, 133) !important;
- 
+.slick-prev:before,
+.slick-next:before {
+  color: #FEC200 !important;
+
   font-size: 2.5rem;
 }
-.slick-prev, .slick-next{
+
+.slick-prev,
+.slick-next {
   z-index: 1 !important;
 }
+
 /* .slick-prev{
   left: -50px !important;
 } */
@@ -96,28 +110,34 @@ button.slick-arrow.slick-next {
   .slider-container {
     width: 100%;
   }
+
   img.safu-img {
     width: 250px;
     margin: 50px 30px 20px;
   }
+
   img.game-img {
     width: 250px;
     display: block;
     margin: auto;
   }
 }
+
 @media screen and(max-width:480px) {
   .slider-container {
     width: 100%;
   }
 }
+
 .slick-active button {
   color: #000000 !important;
 }
+
 .slick-dots li.slick-active button:before {
   color: #48ff7b !important;
   background-color: var(--para-clr) !important;
 }
+
 #enter-12 {
   color: black !important;
 }
