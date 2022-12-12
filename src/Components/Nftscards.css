@@ -22,6 +22,10 @@ button#simple-tab-2 {
   color: #6a6a6a !important;
   margin-left: 10px;
 }
+form.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1vm0r4s-MuiPaper-root {
+width: 100%;
+margin-top: 8px;
+}
 .refresh-button {
   width: 46px !important;
   height: 48px !important;

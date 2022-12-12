@@ -6,6 +6,12 @@ import { styled, alpha } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
+import Paper from "@mui/material/Paper";
+
+import Divider from "@mui/material/Divider";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
+
 
 import Filtericon from "../Images/filter-vector.png";
 import Refresh from "../Images/Reload-vector.png";
@@ -78,6 +84,31 @@ export default function Nftscards() {
                 </div>
               </Grid>
               <Grid item  xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+              <div className="search-nav">
+              <div className="input-nav">
+                <Paper
+                  component="form"
+                  sx={{
+                    p: "2px 4px",
+                    display: "flex",
+                    alignItems: "center",
+                    width: 400,
+                  }}
+                >
+                  <IconButton
+                    type="button"
+                    sx={{ p: "10px" }}
+                    aria-label="search"
+                  >
+                    <SearchIcon />
+                  </IconButton>
+                  <InputBase
+                    sx={{ ml: 1, flex: 1 }}
+                    placeholder="Search by NFTs"
+                  />
+                </Paper>
+              </div>
+            </div>
 {/*               <div>
              <Search>
                   <SearchIconWrapper>
