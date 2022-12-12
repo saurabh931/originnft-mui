@@ -12,6 +12,18 @@ button#simple-tab-2 {
   height: 48px !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
+  color: #6A6A6A !important;
+}
+#form-search-input{
+  border:none !important;
+  background: rgba(246, 246, 246, 0.5) !important;
+  border-radius: 15px !important;
+}
+#search-icon-text{
+  color: #6A6A6A !important;
+}
+#search-icon{
+  fill: #6A6A6A !important;
 }
 .filter-tab {
   font-family: "Futura Maxi CG Book" !important;
