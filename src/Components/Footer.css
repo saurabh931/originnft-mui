@@ -6,6 +6,7 @@
   .icon li {
     margin: 10px;
     font-size: 1.5rem;
+    cursor: pointer;
   }
   /* .icon li :hover{
     margin: 1rem;

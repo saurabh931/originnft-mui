@@ -158,19 +158,20 @@ export default function Nftscards() {
                     </h5>
 
                     <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <div className="explore-nft-card-price">
-                    <div>
-                      <span className="price-exlore-nft">Price</span>
-                      <br />
-                      <span>0.548 ETH</span>
+                    <div className="explore-nft-card-price">
+                      <div>
+                        <span className="price-exlore-nft">Price</span>
+                        <br />
+                        <span>0.548 ETH</span>
+                      </div>
+                      <div>
+                        <span className="price-exlore-nft">Highest Bid</span>
+                        <br />
+                        <span>No bids yet</span>
+                      </div>
                     </div>
-                    <div>
-                      <span className="price-exlore-nft">Highest Bid</span>
-                      <br />
-                      <span>No bids yet</span>
-                    </div>
                   </div>
+
                   {/*          <ul className="list-group list-group-flush">
                     <li className="list-group-item" style={{ display: "grid" }}>
                       <span>Price</span>0.548 ETH{" "}
@@ -184,7 +185,7 @@ export default function Nftscards() {
                 </div>
               </Grid>
               <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
-                <div className="card">
+              <div className="card">
                   <img
                     className="card-img-top"
                     src={Cardimage}
@@ -197,19 +198,20 @@ export default function Nftscards() {
                     </h5>
 
                     <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <div className="explore-nft-card-price">
-                    <div>
-                      <span className="price-exlore-nft">Price</span>
-                      <br />
-                      <span>0.548 ETH</span>
+                    <div className="explore-nft-card-price">
+                      <div>
+                        <span className="price-exlore-nft">Price</span>
+                        <br />
+                        <span>0.548 ETH</span>
+                      </div>
+                      <div>
+                        <span className="price-exlore-nft">Highest Bid</span>
+                        <br />
+                        <span>No bids yet</span>
+                      </div>
                     </div>
-                    <div>
-                      <span className="price-exlore-nft">Highest Bid</span>
-                      <br />
-                      <span>No bids yet</span>
-                    </div>
                   </div>
+
                   {/*          <ul className="list-group list-group-flush">
                     <li className="list-group-item" style={{ display: "grid" }}>
                       <span>Price</span>0.548 ETH{" "}
@@ -223,7 +225,7 @@ export default function Nftscards() {
                 </div>
               </Grid>
               <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
-                <div className="card">
+              <div className="card">
                   <img
                     className="card-img-top"
                     src={Cardimage}
@@ -236,33 +238,34 @@ export default function Nftscards() {
                     </h5>
 
                     <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <div className="explore-nft-card-price">
-                    <div>
-                      <span className="price-exlore-nft">Price</span>
-                      <br />
-                      <span>0.548 ETH</span>
+                    <div className="explore-nft-card-price">
+                      <div>
+                        <span className="price-exlore-nft">Price</span>
+                        <br />
+                        <span>0.548 ETH</span>
+                      </div>
+                      <div>
+                        <span className="price-exlore-nft">Highest Bid</span>
+                        <br />
+                        <span>No bids yet</span>
+                      </div>
                     </div>
-                    <div>
-                      <span className="price-exlore-nft">Highest Bid</span>
-                      <br />
-                      <span>No bids yet</span>
-                    </div>
                   </div>
+
                   {/*          <ul className="list-group list-group-flush">
-                  <li className="list-group-item" style={{ display: "grid" }}>
-                    <span>Price</span>0.548 ETH{" "}
-                  </li>
-                  <li className="list-group-item" style={{ display: "grid" }}>
-                    {" "}
-                    <span>Highest Bid</span>No bids yet
-                  </li>
-   
-                </ul> */}
+                    <li className="list-group-item" style={{ display: "grid" }}>
+                      <span>Price</span>0.548 ETH{" "}
+                    </li>
+                    <li className="list-group-item" style={{ display: "grid" }}>
+                      {" "}
+                      <span>Highest Bid</span>No bids yet
+                    </li>
+     
+                  </ul> */}
                 </div>
               </Grid>
               <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
-                <div className="card">
+              <div className="card">
                   <img
                     className="card-img-top"
                     src={Cardimage}
@@ -275,29 +278,30 @@ export default function Nftscards() {
                     </h5>
 
                     <p className="card-text">Recordian Headset</p>
-                  </div>
-                  <div className="explore-nft-card-price">
-                    <div>
-                      <span className="price-exlore-nft">Price</span>
-                      <br />
-                      <span>0.548 ETH</span>
+                    <div className="explore-nft-card-price">
+                      <div>
+                        <span className="price-exlore-nft">Price</span>
+                        <br />
+                        <span>0.548 ETH</span>
+                      </div>
+                      <div>
+                        <span className="price-exlore-nft">Highest Bid</span>
+                        <br />
+                        <span>No bids yet</span>
+                      </div>
                     </div>
-                    <div>
-                      <span className="price-exlore-nft">Highest Bid</span>
-                      <br />
-                      <span>No bids yet</span>
-                    </div>
                   </div>
+
                   {/*          <ul className="list-group list-group-flush">
-                <li className="list-group-item" style={{ display: "grid" }}>
-                  <span>Price</span>0.548 ETH{" "}
-                </li>
-                <li className="list-group-item" style={{ display: "grid" }}>
-                  {" "}
-                  <span>Highest Bid</span>No bids yet
-                </li>
- 
-              </ul> */}
+                    <li className="list-group-item" style={{ display: "grid" }}>
+                      <span>Price</span>0.548 ETH{" "}
+                    </li>
+                    <li className="list-group-item" style={{ display: "grid" }}>
+                      {" "}
+                      <span>Highest Bid</span>No bids yet
+                    </li>
+     
+                  </ul> */}
                 </div>
               </Grid>
             </Grid>

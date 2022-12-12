@@ -29,25 +29,27 @@
   --border-clr: #fff;
   --box-shadow-clr: rgba(0, 0, 0, 0.25);
   --profile-setting-tab-clr: rgb(191, 191, 191, 0.15);
-  --profile-notification-switch:rgba(81, 81, 81, 0.4);
-  --secondary-para-clr:white;
+  --profile-notification-switch: rgba(81, 81, 81, 0.4);
+  --secondary-para-clr: white;
+  --background-nft-card: rgb(74, 74, 74);
 }
 .light-theme {
   --bg-clr: #fff;
   --para-clr: #000;
-  --secondary-para-clr:#6a6a6a;
+  --secondary-para-clr: #6a6a6a;
   --bg-box-clr: auto;
   --border-clr: #212529;
   --box-shadow-clr: rgba(0, 0, 0, 0.25);
   --profile-setting-tab-clr: rgb(254, 194, 0, 0.15);
   --bg-profile-box-clr: #f6f6f6;
-  --profile-notification-switch:#F6F6F6;
+  --profile-notification-switch: #f6f6f6;
+  --background-nft-card: #f6f6f6;
 }
-.Section{
-  margin:7rem auto;
+.Section {
+  margin: 7rem auto;
 }
-.Table-Section{
-  margin:2rem 0rem;
+.Table-Section {
+  margin: 2rem 0rem;
 }
 
 section {
@@ -57,7 +59,7 @@ body {
   background-color: var(--bg-clr) !important ;
   color: var(--para-clr) !important;
 }
-body{
+body {
   overflow-x: hidden;
 }
 
