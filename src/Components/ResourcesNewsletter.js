@@ -7,7 +7,7 @@ import Sectionimg from "../Images/testimonial-bg-remove.png";
 export default function ResourcesNewsletter() {
   return (
     <>
-      <Navbarnft />
+    
       <div className="container-fluid background-newsletter">
         <div className="container use-section">
           <div className="row containsection">

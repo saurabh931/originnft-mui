@@ -25,6 +25,7 @@
 }
 .icons-setting-width{
     margin-left: 15px;
+    fill: var(--para-clr);
 }
 .icons-setting-width11{
     margin-left: 15px;
@@ -47,7 +48,10 @@ margin-top: 20px;
     /* background: linear-gradient(130.18deg, rgba(188, 188, 188, 0.21) 54.86%, rgba(71, 71, 72, 0.12) 97.18%); */
     border-radius: 13.8265px;
     border: none;
-    padding: 5px 8px;
+    padding: 0.5rem 1rem;
+    color: var(--para-clr);
+    border:1px solid var(--para-clr);
+    background-color:var(--bg-clr);
 }
 .content-collection-data{
     /* margin-left: 80px !important; */

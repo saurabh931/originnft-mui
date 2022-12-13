@@ -98,7 +98,7 @@ export default function LabTabs() {
                   <FilterListIcon />
                 </span>
               </div>
-              <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
+              <div className="col-lg-7 col-md-7 col-sm-11 col-11  py-3">
                 <Search className="search-00">
                   <SearchIconWrapper>
                     <SearchIcon />
@@ -109,7 +109,7 @@ export default function LabTabs() {
                   />
                 </Search>
               </div>
-              <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+              <div className="col-lg-2 col-md-2 col-sm-6 col-6 py-3">
                 {" "}
                 <Dropdown>
                   <Dropdown.Toggle

@@ -14,7 +14,7 @@ import Footer from "./Footer";
 function ExploreInsidepage() {
   return (
     <>
-      <Navbarnft />
+ 
       <div className="container-fluid ">
         <div className="row background-ex">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12  position-relative explore-art-text-lorem">
@@ -46,7 +46,7 @@ function ExploreInsidepage() {
           </div>
         </div>
 
-        <div className="container-explore-inside">
+        <div className="container-explore-inside explore-hot">
         <div className="row">
           <div>
             <h3 className="hot-section">What’s hot</h3>

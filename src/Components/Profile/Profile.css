@@ -16,6 +16,13 @@ background: #6A6A6A;
 .profile-detail{
     text-align: center;
 }
+ul.listed-section{
+    padding-inline-start: 0px;
+    padding: 1rem;
+}
+ul.listed-section li{
+    padding: 1rem;
+}
 .edit-button{
     width: 154.7px;
     height: 52.18px;

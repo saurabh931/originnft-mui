@@ -117,7 +117,7 @@
 }
 
 .navbar.colorChange{
-  background-color: rgba(28, 28, 28, 0.5);
+  background-color: rgba(28, 28, 28, 0.8);
 }
 #list-text {
   color: white !important;
@@ -385,7 +385,7 @@ span.dropdown-item {
   padding: 20px;
 }
 svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
-  fill: white !important;
+  fill: var(--para-clr) !important;
 }
 input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input {
   color: white;

@@ -141,7 +141,7 @@ function MyCollections() {
   };
   return (
     <>
-      <Navbarnft />
+     
       <div className="container-fluid background-collections-img">
         <div className="collection-section ">
           <h1 className="mycoll-head">My Collections</h1>

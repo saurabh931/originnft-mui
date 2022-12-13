@@ -57,13 +57,13 @@ export default function BasicTabs() {
 
   return (
     <>
-      <Navbarnft />
+    
       <div className="container-fluid background-collections position-relative">
         <div>
           <h1 className="collection-head-stats">Collection stats</h1>
         </div>
       </div>
-      <Box sx={{ width: "100%" }}>
+      <Box sx={{ width: "100%" }} className="collections-state">
         <Box sx={{ borderBottom: 1, borderColor: "divider", margin: "20px" }}>
           <Tabs
             value={value}
@@ -76,7 +76,7 @@ export default function BasicTabs() {
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <Grid container>
+          <Grid container className="px-3">
           <Grid item lg={3} md={4} sm={12} xs={12}>
           <Grid container spacing={2}>
             <Grid item lg={5} md={5} sm={5} xs={5}>
@@ -156,7 +156,7 @@ export default function BasicTabs() {
           <div><Collectionstatstable/></div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-        <Grid container>
+        <Grid container className="px-3">
         <Grid item lg={3} md={4} sm={12} xs={12}>
         <Grid container spacing={2}>
           <Grid item lg={5} md={5} sm={5} xs={5}>
@@ -164,7 +164,8 @@ export default function BasicTabs() {
               <Dropdown.Toggle
                 variant="success"
                 id="dropdown-basic"
-                className="toggle-button"
+                className="toggle-button mx-3"
+                style={{}}
               >
                 Categories
               </Dropdown.Toggle>
@@ -185,7 +186,7 @@ export default function BasicTabs() {
               <Dropdown.Toggle
                 variant="success"
                 id="dropdown-basic"
-                className="toggle-button"
+                className="toggle-button mx-3"
               >
                 All Chains
               </Dropdown.Toggle>
@@ -201,15 +202,15 @@ export default function BasicTabs() {
               </Dropdown.Menu>
             </Dropdown>
           </Grid>
-          <Grid item lg={2} md={2} sm={2} xs={2}>
+          <Grid item lg={2} md={2} sm={2} xs={2} className="grid-btn">
             <Button className="reload-button">
               <img src={Reload} alt="" />
             </Button>
           </Grid>
           </Grid>
           </Grid>
-          <Grid item lg={6} md={4} sm={12} ></Grid>
-          <Grid item lg={3} md={4} sm={12} xs={12}>
+          <Grid item lg={5} md={4} sm={12} ></Grid>
+          <Grid item lg={4} md={4} sm={12} xs={12} className="timer-container">
             <Grid container spacing={0} className="timer-content">
               <Grid item lg={1} md={2} sm={2} xs={2}>
                 <span className="timer-1">1h</span>
@@ -234,7 +235,7 @@ export default function BasicTabs() {
         </Grid>
         </TabPanel>
         <TabPanel value={value} index={2}>
-        <Grid container>
+        <Grid container className="px-3">
         <Grid item lg={3} md={4} sm={12} xs={12}>
         <Grid container spacing={2}>
           <Grid item lg={5} md={5} sm={5} xs={5}>
@@ -242,7 +243,8 @@ export default function BasicTabs() {
               <Dropdown.Toggle
                 variant="success"
                 id="dropdown-basic"
-                className="toggle-button"
+                className="toggle-button mx-3"
+                style={{}}
               >
                 Categories
               </Dropdown.Toggle>
@@ -263,7 +265,7 @@ export default function BasicTabs() {
               <Dropdown.Toggle
                 variant="success"
                 id="dropdown-basic"
-                className="toggle-button"
+                className="toggle-button mx-3"
               >
                 All Chains
               </Dropdown.Toggle>
@@ -279,15 +281,15 @@ export default function BasicTabs() {
               </Dropdown.Menu>
             </Dropdown>
           </Grid>
-          <Grid item lg={2} md={2} sm={2} xs={2}>
+          <Grid item lg={2} md={2} sm={2} xs={2} className="grid-btn">
             <Button className="reload-button">
               <img src={Reload} alt="" />
             </Button>
           </Grid>
           </Grid>
           </Grid>
-          <Grid item lg={6} md={4} sm={12} ></Grid>
-          <Grid item lg={3} md={4} sm={12} xs={12}>
+          <Grid item lg={5} md={4} sm={12} ></Grid>
+          <Grid item lg={4} md={4} sm={12} xs={12} className="timer-container">
             <Grid container spacing={0} className="timer-content">
               <Grid item lg={1} md={2} sm={2} xs={2}>
                 <span className="timer-1">1h</span>

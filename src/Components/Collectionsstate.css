@@ -14,10 +14,14 @@ h1.collection-head-stats {
   bottom: 5%;
   left: 5%;
   transform: translate(10%, -50%);
+  color: white;
 }
 .collection-head {
   padding-top: 18rem;
   margin-left: 8rem;
+}
+.collections-state{
+  margin-bottom: 5rem;
 }
 .toggle-button {
   /* width: 140px; */
@@ -33,7 +37,7 @@ h1.collection-head-stats {
   border: none !important;
 }
 .timer-content {
-  width: 90% !important;
+ 
   justify-content: space-evenly;
   /* width: 267.28px; */
   height: 48px;
@@ -41,7 +45,7 @@ h1.collection-head-stats {
   border-radius: 15px;
   align-items: center;
   cursor: pointer;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 .hour-span {
   /* background: white;
@@ -159,9 +163,9 @@ h1.collection-head-stats {
   .grid-btn {
     text-align: center !important;
   }
-  .timer-container {
+  /* .timer-container {
     margin-left: 22px !important;
-  }
+  } */
   .timer-content {
     width: 96% !important;
   }

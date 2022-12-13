@@ -75,7 +75,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 1.2rem !important;
 line-height: 20px;
-color: #6A6A6A !important;
+}
+button#dropdown-basic\ recently-listed-dropdown{
+    color: var(--para-clr);
 }
 .ceo-info{
     font-family: 'Futura Maxi CG Bold';

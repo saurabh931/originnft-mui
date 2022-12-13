@@ -15,7 +15,11 @@
 .topimg {
   margin-top: 100px;
 }
-.explore-art {
+.explore-hot{
+  margin-bottom: 3rem !important;
+}
+.explore-art,.explore-para {
+  color: #fff;
   /* margin-top: 200px;
     margin-left: 100px; */
 }
@@ -27,8 +31,10 @@
   margin-top: 20px;
   width: 120.51px;
   height: 50.04px;
-  border: 1px solid #6a6a6a;
+  border: 1px solid var(--para-clr) ;
+  background-color: var(--bg-clr);
   border-radius: 15px;
+  color: var(--para-clr);
 }
 .see-more-button {
   text-align: center;

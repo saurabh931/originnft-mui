@@ -13,7 +13,7 @@ import Footer from "./Footer";
 export default function ResourcesHelpCenter() {
   return (
     <>
-      <Navbarnft />
+     
       <div className="container-fluid background-resources position-relative">
         <div className="text-cont welcome-text">
           <h2 className="welcome-text">Welcome to Origins Marketplace </h2>
