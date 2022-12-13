@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./MyCollections.css";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 import Navbarnft from "../Navbars/Navbarnft";
 import Footer from "../Footer";
@@ -157,10 +157,386 @@ function MyCollections() {
           </p>
           {/* <button id='button-2' className='create-button'>Create Collection</button> */}
           <div>
-            <Button variant="primary" onClick={handleShow1}>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              id="create-collection-button"
+            >
               Create Collection
-            </Button>
-{/* 
+            </button>
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div className="">
+                      <div>
+                        <Typography
+                          id="modal-modal-title"
+                          variant="h6"
+                          component="h2"
+                          sx={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          Create a Collection <div></div>
+                        </Typography>
+                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                          <strong style={{ color: "red" }}>*</strong>Required
+                          Fields
+                        </Typography>
+                        <div className="row mycollections-sc">
+                          <div className="col-lg-8 col-md-8 col-sm-12 col-12">
+                            <div className="section-collection">
+                              <Typography className="highligh-section">
+                                Logo image
+                                <strong style={{ color: "red" }}>*</strong>
+                              </Typography>
+                              <Typography className="content-form">
+                                This image will also be used for navigation. 350
+                                x 350 recommended
+                              </Typography>
+                              <div className="row">
+                                <div className="col-9">
+                                  <div>
+                                    <div className="img-drag-circle my-3">
+                                      <img src={Dragimg} alt="" />
+                                      <Typography className="tag-image-name-drop">
+                                        Drop image here
+                                        <br />
+                                        or browse
+                                      </Typography>
+                                      <div></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div className="col-3"></div>
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div>
+                                <Typography className="highligh-section">
+                                  Featured Image
+                                </Typography>
+                                <Typography className="content-form">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Phasellus diam tellus,
+                                  rhoncus sed eleifend a, accumsan vel massa.
+                                </Typography>
+                              </div>
+                              <div>
+                                <div className="featured-img-box my-3">
+                                  <div className="fe-bo">
+                                    <img src={Dragimg} alt="" />
+                                    <Typography className="tag-image-name-drop">
+                                      Drop image here
+                                      <br />
+                                      or browse
+                                    </Typography>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div>
+                                <Typography className="highligh-section">
+                                  Banner Image
+                                </Typography>
+                                <Typography className="content-form">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Phasellus diam tellus,
+                                  rhoncus sed eleifend a, accumsan vel massa.
+                                </Typography>
+                              </div>
+                              <div>
+                                <div className="featured-img-box2 my-3">
+                                  <div className="fe-bo">
+                                    <img src={Dragimg} alt="" />
+                                    <Typography className="tag-image-name-drop">
+                                      Drop image here
+                                      <br />
+                                      or browse
+                                    </Typography>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div>
+                                <Typography className="highligh-section">
+                                  Name{" "}
+                                  <strong style={{ color: "red" }}>*</strong>
+                                </Typography>
+                                <input
+                                  placeholder="Example: The Recordion Music"
+                                  className="recordion-in"
+                                />
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div>
+                                <Typography className="highligh-section">
+                                  URL
+                                </Typography>
+                                <Typography className="content-form">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Phasellus diam tellus,
+                                  rhoncus sed eleifend a, accumsan vel massa.
+                                </Typography>
+                                <input
+                                  placeholder="therecordianmusic"
+                                  className="recordion-in my-3"
+                                />
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div>
+                                <Typography className="highligh-section">
+                                  URL
+                                </Typography>
+                                <Typography className="content-form">
+                                  <strong style={{ color: "#FEC200" }}>
+                                    Markdown
+                                  </strong>{" "}
+                                  syntax is supported. 0 of 1000 characters used
+                                </Typography>
+                                <textarea className="text-area-mycollections my-4"></textarea>
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div>
+                                <Typography className="highligh-section">
+                                  Category
+                                </Typography>
+                                <Typography className="content-form">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Phasellus diam tellus,
+                                  rhoncus sed eleifend a, accumsan vel massa.
+                                </Typography>
+                                <button className="cate-bu my-3">
+                                  + Add category
+                                </button>
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div>
+                                <Typography className="highligh-section">
+                                  Links
+                                </Typography>
+                                <div className="position-relative">
+                                  <LanguageIcon className="position-absolute icons-input" />{" "}
+                                  <input
+                                    className="link-input1"
+                                    placeholder="yoursite.io"
+                                  />
+                                  <br />
+                                  <img
+                                    src={Micons}
+                                    alt=""
+                                    className="position-absolute icons-input"
+                                  />{" "}
+                                  <input
+                                    className="link-input"
+                                    placeholder="https://www.medium.com/@mediumhandle"
+                                  />
+                                  <br />
+                                  <TelegramIcon className="position-absolute icons-input" />{" "}
+                                  <input
+                                    className="link-input3"
+                                    placeholder="https://t.me/"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+
+                            <div>
+                              <div className="section-collection">
+                                <Typography className="highligh-section">
+                                  Blockchain
+                                </Typography>
+                                <Typography className="content-form mb-3">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Phasellus diam tellus,
+                                  rhoncus sed eleifend a, accumsan vel massa.
+                                </Typography>
+                                <div>
+                                  <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+                                    <Select
+                                      multiple
+                                      displayEmpty
+                                      value={personName}
+                                      onChange={handleChange}
+                                      input={<OutlinedInput />}
+                                      renderValue={(selected) => {
+                                        if (selected.length === 0) {
+                                          return (
+                                            <em id="eth">
+                                              <span>
+                                                <img
+                                                  src={Eth1}
+                                                  alt=""
+                                                  className="eth-icon"
+                                                />
+                                              </span>
+                                              Ethereum
+                                            </em>
+                                          );
+                                        }
+
+                                        return selected.join(", ");
+                                      }}
+                                      MenuProps={MenuProps}
+                                      inputProps={{
+                                        "aria-label": "Without label",
+                                      }}
+                                    >
+                                      <MenuItem disabled value="">
+                                        <em className="eth-name">Ethereum</em>
+                                      </MenuItem>
+                                      {names.map((name) => (
+                                        <MenuItem
+                                          key={name}
+                                          value={name}
+                                          style={getStyles(
+                                            name,
+                                            personName,
+                                            theme
+                                          )}
+                                        >
+                                          {name}
+                                        </MenuItem>
+                                      ))}
+                                    </Select>
+                                  </FormControl>
+                                </div>
+                              </div>
+                              <div className="section-collection">
+                                <div>
+                                  <Typography className="highligh-section">
+                                    Payment Tokens
+                                  </Typography>
+                                  <Typography className="content-form">
+                                    These tokens can be used to buy and sell
+                                    your items.
+                                  </Typography>
+                                  <button className="button-eth my-3">
+                                    <div className="row ">
+                                      <div className="col-3">
+                                        <img src={Eth} alt="" />
+                                      </div>
+                                      <div className="col-9">
+                                        <div style={{ textAlign: "justify" }}>
+                                          <span className="eth-card">ETH</span>
+                                          <br />
+                                          <span>Ethereum</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </button>
+                                  <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+                                    <Select
+                                      multiple
+                                      displayEmpty
+                                      value={personName}
+                                      onChange={handleChange}
+                                      input={<OutlinedInput />}
+                                      renderValue={(selected) => {
+                                        if (selected.length === 0) {
+                                          return (
+                                            <em id="eth">
+                                              <span></span>+ Add token
+                                            </em>
+                                          );
+                                        }
+
+                                        return selected.join(", ");
+                                      }}
+                                      MenuProps={MenuProps}
+                                      inputProps={{
+                                        "aria-label": "Without label",
+                                      }}
+                                    >
+                                      <MenuItem disabled value="">
+                                        <em className="eth-name">
+                                          + Add token
+                                        </em>
+                                      </MenuItem>
+                                      {names.map((name) => (
+                                        <MenuItem
+                                          key={name}
+                                          value={name}
+                                          style={getStyles(
+                                            name,
+                                            personName,
+                                            theme
+                                          )}
+                                        >
+                                          {name}
+                                        </MenuItem>
+                                      ))}
+                                    </Select>
+                                  </FormControl>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="section-collection">
+                              <div className="row">
+                                <div className="col-8">
+                                  <Typography className="highligh-section">
+                                    Explicit & sensitive content
+                                  </Typography>
+                                  <Typography className="content-form">
+                                    Set this collections as explicit & sensitive
+                                    content
+                                  </Typography>
+                                </div>
+                                <div className="col-4">
+                                  <span className="ios-check-button">
+                                    <FormControlLabel
+                                      control={
+                                        <IOSSwitch
+                                          sx={{ m: 1 }}
+                                          defaultChecked
+                                        />
+                                      }
+                                    />
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-md-4 col-sm-12 col-12"></div>
+                          <div className="col-md-8 col-sm-12">
+                            <div className="button-section">
+                              <button className="save-bu">Save as draft</button>
+                              <button className="save-bu22">Create</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 
             <Modal show={show1} onHide={handleClose1}>
               <Modal.Header closeButton>
                 <Modal.Title>Modal heading</Modal.Title>
@@ -169,7 +545,7 @@ function MyCollections() {
                 Woohoo, you're reading this text in a modal!
               </Modal.Body>
             </Modal> */}
-         {/*    <Modal
+            {/*   <Modal
               open={open}
               onClose={handleClose}
               aria-labelledby="modal-modal-title"

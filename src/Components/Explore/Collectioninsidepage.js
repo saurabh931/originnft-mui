@@ -96,10 +96,9 @@ const label = { inputProps: { "aria-label": "Checkbox demo" } };
 export default function Collectioninsidepage() {
   return (
     <>
-   
       <div className="container-fluid background-images-collections"></div>
-      <div className="container-fluid ">
-        <div className="row g-0 mx-5">
+      <div className="container-fluid collection-container ">
+        <div className="row g-0 " id="collection-inside-margin">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <img src={ProfileImage} alt="" className="profile-setting-img" />
             <h6 className="profile-name-inside mx-2">
@@ -114,7 +113,6 @@ export default function Collectioninsidepage() {
             <span className="icons-collections-inside">
               <LanguageOutlinedIcon style={{ color: "#6A6A6A" }} />
               <svg
-            
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 width="24px"
@@ -131,7 +129,7 @@ export default function Collectioninsidepage() {
             </span>
           </div>
         </div>
-        <div className="container-fluid mx-5">
+        <div className="container-fluid ">
           <div className="row g-0">
             <div
               className="col-lg-8 col-md-8 col-sm-12 col-12"
@@ -152,36 +150,36 @@ export default function Collectioninsidepage() {
             <div className="col-lg-4 col-md-4 col-sm-12 col-12"></div>
           </div>
         </div>
-        <div className="container-fluid mx-5">
-          <div className="row g-0">
+        <div className="container-fluid ">
+          <div className="row">
             <div className="col-lg-9 col-md-9 col-sm-12 col-12">
-              <div className="row g-0 content-collection-data">
-                <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+              <div className="row content-collection-data">
+                <div className="col-lg-2 col-md-2 col-sm-6 col-12 py-3">
                   <span className="eth-section">3,456 ETH</span>
                   <br />
                   <span className="co-volume-section">total volume</span>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+                <div className="col-lg-2 col-md-2 col-sm-6 col-12 py-3">
                   <span className="eth-section">0.002 ETH</span>
                   <br />
                   <span className="co-volume-section">floor price</span>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+                <div className="col-lg-2 col-md-2 col-sm-6 col-12 py-3">
                   <span className="eth-section">0.003 ETH</span>
                   <br />
                   <span className="co-volume-section">best offer</span>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+                <div className="col-lg-2 col-md-2 col-sm-6 col-12 py-3">
                   <span className="eth-section">73%</span>
                   <br />
                   <span className="co-volume-section">listed</span>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+                <div className="col-lg-2 col-md-2 col-sm-6 col-12 py-3">
                   <span className="eth-section">9,456</span>
                   <br />
                   <span className="co-volume-section">owners</span>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+                <div className="col-lg-2 col-md-2 col-sm-6 col-12 py-3">
                   <span className="eth-section">4%</span>
                   <br />
                   <span className="co-volume-section">unique owners</span>
@@ -191,13 +189,12 @@ export default function Collectioninsidepage() {
             <div className="col-lg-3 col-md-3 col-sm-12 col-12"></div>
           </div>
           <div className="container-fluid ">
-            <div className="row g-0 section-collec py-3 pb-5">
-              <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
+            <div className="row section-collec py-3 pb-5">
+              <div className="col-lg-1 col-md-1 col-sm-1 col-12 py-3 d-flex">
                 <span>
                   <FilterListIcon className="filterlist-icons" />
                 </span>
-              </div>
-              <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+
                 <div className="reload-bu">
                   <TfiReload className="reolad-tfi-bu" />
                 </div>
@@ -244,8 +241,8 @@ export default function Collectioninsidepage() {
             </div>
           </div>
         </div>
-        <div className="container-fluid mx-5">
-          <div className="row g-0 side-bar-collection">
+        <div className="container-fluid ">
+          <div className="row side-bar-collection">
             <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12">
               <div className="row g-0">
                 <div className="status-tag">
@@ -370,7 +367,7 @@ export default function Collectioninsidepage() {
 
             {/*-------------------------------------------------------------------------CARDS-IMPORT-----------------------------------------------------------  */}
             <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-              <div className="row g-0 mx-5">
+              <div className="row g-0 ">
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                   <Card>
                     <Card.Img variant="top" src={Cardimgcoll} />
