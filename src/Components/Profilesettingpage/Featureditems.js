@@ -24,7 +24,7 @@ export default function Profilesettingslide() {
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-xl-2 col-lg-4 col-md-3 col-sm-12 col-12 section-color">
+            <div className="col-lg-3 col-md-12 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -84,9 +84,9 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-xl-10 col-lg-8 col-md-9 col-sm-12 col-12">
+            <div className=" col-lg-9 col-md-12 col-sm-12 col-12">
               <div className="row">
-                <div className="col-lg-8 col-md-8 col-sm-12 col-12">
+                <div className="col-lg-8 col-md-8 col-sm-12 col-12 mb-5">
                   <div className="section-feature-content">
                     <h1 className="featured-head">Featured Items</h1>
                     <p className="para-featured">

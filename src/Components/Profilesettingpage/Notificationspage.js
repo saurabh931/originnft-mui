@@ -79,7 +79,7 @@ export default function Profilesettingslide() {
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12 section-color">
+            <div className="col-lg-3 col-md-12 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -140,11 +140,11 @@ export default function Profilesettingslide() {
               </div>
             </div>
             <div
-              className="col-xl-10 col-lg-9 col-md-12 col-sm-12 col-12"
+              className="col-lg-9 col-md-12 col-sm-12 col-12"
               // style={{ height: "120vh" }}
             >
               <div className="row">
-                <div className="col-lg-7 col-md-7 col-sm-9 co-12">
+                <div className="col-lg-7 col-md-7 col-sm-9 co-12 mb-5">
                   <div className="head-notification">
                     <h1 className="notification-head">Notification Settings</h1>
                     <p className="notification-para">

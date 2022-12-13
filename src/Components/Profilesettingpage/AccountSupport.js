@@ -77,7 +77,7 @@ export default function Profilesettingslide() {
       <div>
         <div className="container-fluid">
           <div className="row ">
-            <div className="col-lg-2 col-md-3 col-sm-12 col-12 section-color">
+            <div className="col-lg-3 col-md-12 col-sm-12 col-12 section-color">
               <div>
                 <ul className="listed-section">
                   <span className="setting-sections">Setting</span>
@@ -137,7 +137,7 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-10 col-md-9 col-sm-12 col-12">
+            <div className="col-lg-9 col-md-12 col-sm-12 col-12 mb-5">
               <div className="section-fit">
                 <div className="row">
                   <div className="col-lg-8 col-md-9 col-sm-12 col-12">

@@ -83,7 +83,7 @@ ul {
 .preview-profile-button {
   width: 120px;
   height: 43px;
-  background: #f7f7f7;
+  background: var(--bg-clr);
   border-radius: 15px;
   margin-left: 40px;
   padding: 10px;
@@ -94,7 +94,8 @@ ul {
   font-size: 14px;
   line-height: 15px;
   align-items: center;
-  color: #000000;
+  color: var(--para-clr);
+  border: 1px solid var(--para-clr);
 }
 .profile-section-banner {
   font-family: "Futura Maxi CG Bold" !important;
@@ -214,10 +215,11 @@ ul {
   border-radius: 9.92153px;
   margin-left: 40px;
 }
-input.form-control , span.input-group-text{
+input.form-control,
+span.input-group-text {
   background: var(--bg-profile-box-clr);
 }
-span.input-group-text{
+span.input-group-text {
   background: var(--bg-profile-box-clr);
 }
 .save-bu-pro {
