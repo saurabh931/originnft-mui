@@ -24,7 +24,7 @@ function Footer(props) {
                 //   color: props.mode === "light" ? "black " : "white ",
                 // }}
               >
-                Keep posted
+                Keep Posted
               </h5>
               <p
                 className="subs-para"

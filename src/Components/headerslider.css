@@ -80,13 +80,13 @@ button.enter-button {
 button.slick-arrow.slick-next {
   display: none !important;
 } */
-.slick-next {
-  transform: translate(-142%, -50%) !important;
-}
+/* .slick-next {
+  transform: translate(-185%, -50%) !important;
+} */
 
-.slick-prev {
-  transform: translate(60%, -50%) !important;
-}
+/* .slick-prev {
+  transform: translate(89%, -50%) !important;
+} */
 
 
 
@@ -140,4 +140,15 @@ button.slick-arrow.slick-next {
 
 #enter-12 {
   color: black !important;
+}
+.slick-prev {
+  left: -5px !important;
+}
+.slick-next {
+  right: 15px;
+}
+@media screen and (max-width:768px) {
+  .slick-prev {
+    left: 5px !important;
+  }
 }
