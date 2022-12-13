@@ -127,20 +127,17 @@
     .list-heading {
       text-align: left;
     }
-    .icon {
+    /* .icon {
       justify-content: space-around;
-    }
+    } */
     h3.join-header {
       margin-left: 0px;
   }
-  ul.icon {
+  /* ul.icon {
     justify-content: space-between;
-  }
+  } */
   }
   @media screen and (max-width: 992px) {
-    .footer-opensea {
-      text-align: center;
-    }
     h5.origins-head {
       text-align: left;
   }
@@ -177,9 +174,9 @@
     .icon li {
       margin: 0.4rem;
     }
-    .twitter-icons {
+    /* .twitter-icons {
       padding: 0.4rem;
-    }
+    } */
     .input-group1 {
       position: relative;
       display: flex;
