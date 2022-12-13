@@ -84,7 +84,7 @@ export default function Nftscards() {
                 </div>
               </Grid>
               <Grid item xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
-                <div className="search-nav">
+                <div className="search-nav search-text-field">
                   <div className="input-nav">
                     <Paper
                       component="form"

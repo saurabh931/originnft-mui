@@ -19,11 +19,15 @@ button#simple-tab-2 {
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
 }
+.search-text-field{
+  margin-top: 0.5rem !important;
+}
 #search-icon-text{
   color: #6A6A6A !important;
 }
 #search-icon{
   fill: #6A6A6A !important;
+  font-size: 1.8rem;
 }
 .filter-tab {
   font-family: "Futura Maxi CG Book" !important;
