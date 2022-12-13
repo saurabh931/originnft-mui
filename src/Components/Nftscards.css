@@ -29,6 +29,13 @@ button#simple-tab-2 {
   fill: #6A6A6A !important;
   font-size: 1.8rem;
 }
+.input-nav {
+  display: flex;
+  height: 3rem;
+}
+p.explore-para {
+  padding-left: 2px;
+}
 .filter-tab {
   font-family: "Futura Maxi CG Book" !important;
   font-style: normal;
