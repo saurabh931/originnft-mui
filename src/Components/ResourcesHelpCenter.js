@@ -59,10 +59,10 @@ export default function ResourcesHelpCenter() {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="row">
+        <div className="row g-0">
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -87,11 +87,11 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -116,11 +116,11 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -145,11 +145,11 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -174,13 +174,13 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
      
  
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -205,11 +205,11 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -234,11 +234,11 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -263,11 +263,11 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-            <SwiperSlide>
-              <Card style={{ width: "45rem" }}>
+       
+              <Card>
                 <Card.Img variant="top" src={Image1} />
                 <Card.Body>
                   <Card.Title className="card-body12">
@@ -292,7 +292,7 @@ export default function ResourcesHelpCenter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+       
           </div>
           </div>
       </div>
