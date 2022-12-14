@@ -1,35 +1,32 @@
-.tab-button{
+.tab-button {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: end; */
-    /* float: right; */
     margin-left: auto;
-    /* margin-right: 42px !important; */
 }
-#button-22{
+
+#button-22 {
     width: 85px;
-height: 40px;
-border: 1px solid ;
-border-radius: 8px;
-font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-align-items: center;
-color: var(--border-clr);
-background: var(--bg-clr);
+    height: 40px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-family: 'Futura Maxi CG Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    align-items: center;
+    color: var(--border-clr);
+    background: var(--bg-clr);
 }
-.view-bu{
+
+.view-bu {
     margin-left: 10px;
 }
-/* .time-button{
-    margin-top: 15px;
-} */
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
     opacity: 0.5;
-   text-transform: capitalize !important;
+    text-transform: capitalize !important;
 }
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
     opacity: 1 !important;
 }

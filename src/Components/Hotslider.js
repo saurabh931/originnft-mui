@@ -5,7 +5,6 @@ import Image1 from "../Images/notableimag1.png";
 import Image2 from "../Images/notableimag2.png";
 import Image3 from "../Images/notableimag3.png";
 
-
 import Smallimg2 from "../Images/smallimage2.png";
 import Smallimg1 from "../Images/tabimage4.png";
 
@@ -16,7 +15,6 @@ import Hotimg2 from "../Images/hotimage2.png";
 import Hotsmallimg2 from "../Images/tabimage1.png";
 import Hotimg3 from "../Images/hotimage3.png";
 import Hotsmallimg3 from "../Images/tabimage2.png";
-
 
 export default class Responsive extends Component {
   render() {
@@ -59,115 +57,107 @@ export default class Responsive extends Component {
       <div>
         <Slider {...settings}>
           <div>
-          <Card>
-          <Card.Img variant="top" src={Hotimg1} />
-          <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src={Hotsmallimg1}
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Somnium Space VR </span>
-              <span className="tick-icons"></span>
-            </Card.Title>
-           
-          </Card.Body>
-        </Card>
+            <Card>
+              <Card.Img variant="top" src={Hotimg1} />
+              <Card.Body>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src={Hotsmallimg1}
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Somnium Space VR </span>
+                  <span className="tick-icons"></span>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </div>
           <div>
-          <Card>
-          <Card.Img variant="top" src={Hotimg2} />
-          <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src={Hotsmallimg2}
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Somnium Space VR </span>
-              <span className="tick-icons"></span>
-            </Card.Title>
-           
-          </Card.Body>
-        </Card>
+            <Card>
+              <Card.Img variant="top" src={Hotimg2} />
+              <Card.Body>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src={Hotsmallimg2}
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Somnium Space VR </span>
+                  <span className="tick-icons"></span>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </div>
           <div>
-          <Card>
-          <Card.Img variant="top" src={Hotimg3} />
-          <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src={Hotsmallimg3}
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Somnium Space VR </span>
-              <span className="tick-icons"></span>
-            </Card.Title>
-           
-          </Card.Body>
-        </Card>
+            <Card>
+              <Card.Img variant="top" src={Hotimg3} />
+              <Card.Body>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src={Hotsmallimg3}
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Somnium Space VR </span>
+                  <span className="tick-icons"></span>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </div>
           <div>
-          <Card>
-          <Card.Img variant="top" src={Hotimg1} />
-          <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src={Hotsmallimg1}
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Somnium Space VR </span>
-              <span className="tick-icons"></span>
-            </Card.Title>
-           
-          </Card.Body>
-        </Card>
+            <Card>
+              <Card.Img variant="top" src={Hotimg1} />
+              <Card.Body>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src={Hotsmallimg1}
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Somnium Space VR </span>
+                  <span className="tick-icons"></span>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </div>
           <div>
-          <Card>
-          <Card.Img variant="top" src={Hotimg2} />
-          <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src={Hotsmallimg2}
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Somnium Space VR </span>
-              <span className="tick-icons"></span>
-            </Card.Title>
-           
-          </Card.Body>
-        </Card>
+            <Card>
+              <Card.Img variant="top" src={Hotimg2} />
+              <Card.Body>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src={Hotsmallimg2}
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Somnium Space VR </span>
+                  <span className="tick-icons"></span>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </div>
         </Slider>
       </div>
     );
   }
 }
-
-
-

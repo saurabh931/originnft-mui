@@ -1,6 +1,7 @@
 .tab-select {
   margin-top: 30px;
 }
+
 .tab1 {
   font-family: "Futura Maxi CG Bold" !important;
   font-style: normal !important;
@@ -10,27 +11,31 @@
   align-items: center !important;
   color: var(--para-clr) !important;
 }
+
 .tab1:hover {
   color: rgb(120, 119, 119) !important;
 }
-.content-text{
-font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 26px;
-align-items: center;
-/* color: #6A6A6A; */
+
+.content-text {
+  font-family: 'Futura Maxi CG Book';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  align-items: center;
 }
-.setting-page{
-    height: 100vh;
-    align-items: center;
-    text-align: center;
+
+.setting-page {
+  height: 100vh;
+  align-items: center;
+  text-align: center;
 }
-.dropdown-menu{
+
+.dropdown-menu {
   padding: 0 !important;
 }
-.profile-recently{
+
+.profile-recently {
   background: var(--profile-notification-switch) !important;
   color: var(--secondary-para-clr);
 }

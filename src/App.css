@@ -2,22 +2,27 @@
   font-family: "Futura Maxi CG Bold";
   src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
 }
+
 @font-face {
   font-family: "Futura Maxi CG Book";
   src: url("../src/futuramaxicgbook/Futura\ Maxi\ CG\ Book.otf");
 }
+
 @font-face {
   font-family: "Futura Maxi CG Bold";
   src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
 }
+
 @font-face {
   font-family: "Century Gothic";
   src: url("../src/century-gothic/Century\ Gothic.ttf");
 }
+
 @font-face {
   font-family: "ITC Avant Garde Gothic Std";
   src: url("../src/itcavantgardestdmdobl/ITCAvantGardeStd-BoldCnObl.otf");
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .dark-theme {
@@ -33,6 +38,7 @@
   --secondary-para-clr: white;
   --background-nft-card: rgb(74, 74, 74);
 }
+
 .light-theme {
   --bg-clr: #fff;
   --para-clr: #000;
@@ -45,9 +51,11 @@
   --profile-notification-switch: #f6f6f6;
   --background-nft-card: #f6f6f6;
 }
+
 .Section {
   margin: 7rem auto;
 }
+
 .Table-Section {
   margin: 2rem 0rem;
 }
@@ -55,10 +63,12 @@
 section {
   background-image: linear-gradient(to right, #47474a, #73525c);
 }
+
 body {
-  background-color: var(--bg-clr) !important ;
+  background-color: var(--bg-clr) !important;
   color: var(--para-clr) !important;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -71,6 +81,7 @@ h1 {
   line-height: 42px;
   color: var(--para-clr);
 }
+
 h2 {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -79,10 +90,10 @@ h2 {
   line-height: 66px;
   color: var(--para-clr) !important;
 }
+
 .button-primary {
   width: 155px;
   height: 56px;
-  /* background: #e6e6e6; */
   border-radius: 15px;
   border: none !important;
   font-family: "Century Gothic" !important;
@@ -93,9 +104,8 @@ h2 {
   align-items: center;
   color: #101010;
 }
+
 #button-1 {
-  /* width: 200px !important; */
-  /* height: 56px; */
   background: #e6e6e6;
   border-radius: 15px;
   border: none !important;
@@ -109,6 +119,7 @@ h2 {
   padding: 18px 48px !important;
   text-decoration: none !important;
 }
+
 .button-secondary {
   width: 155px;
   height: 56px;
@@ -123,9 +134,8 @@ h2 {
   align-items: center;
   color: #101010;
 }
+
 #button-2 {
-  /* width: 200px !important; */
-  /* height: 56px !important; */
   background: #fec200;
   border-radius: 15px;
   border: none !important;
@@ -145,28 +155,28 @@ h3 {
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 1.5rem !important;
-
-  /* identical to box height */
   align-items: center;
   color: var(--para-clr) !important;
   margin-top: 50px !important;
   margin-bottom: 1.5rem !important;
 }
+
 .h4 {
   font-family: "Futura Maxi CG Bold";
 }
+
 p {
   font-family: "Futura Maxi CG Book";
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
-
   align-items: center;
 }
 
 .navbar {
   padding: 1rem 1%;
 }
+
 #table-header {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -175,6 +185,7 @@ p {
   line-height: 10px;
   align-items: center;
 }
+
 span.nftname {
   margin-right: 0.5rem;
   font-family: "Futura Maxi CG Bold";
@@ -182,14 +193,15 @@ span.nftname {
   font-weight: 400;
   font-size: 14px;
   line-height: 15px;
-  /* identical to box height */
   align-items: center;
   color: var(--para-clr);
   margin-right: 5px;
 }
+
 img.tableimg {
   margin-right: 2rem;
 }
+
 span.s-no {
   margin-right: 2rem;
   font-family: "Futura Maxi CG Bold";
@@ -197,20 +209,20 @@ span.s-no {
   font-weight: 400;
   font-size: 14px;
   line-height: 15px;
-  /* identical to box height */
   align-items: center;
   color: var(--para-clr);
 }
+
 span.nftamount {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 15px;
-  /* display: flex; */
   align-items: center;
   color: var(--para-clr);
 }
+
 #data-table {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -220,13 +232,16 @@ span.nftamount {
   align-items: center;
   color: var(--para-clr);
 }
+
 #footer-posted-margin-bottom {
   margin-bottom: 4rem;
 }
+
 .card-body {
   background-color: var(--bg-box-clr);
   color: var(--para-clr);
 }
+
 thead,
 tbody,
 tfoot,
@@ -237,20 +252,19 @@ th,
   background-color: var(--bg-clr);
   color: var(--para-clr);
 }
-.css-mhc70k-MuiGrid-root > .MuiGrid-item {
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
   padding-left: 0px !important;
 }
+
 .card {
   background-color: var(--bg-clr) !important;
 }
 
-/* .swiper-slide{
-  margin-right: 10px !important;
-} */
-
 .css-1u20msc {
   margin-top: 0px !important;
 }
+
 tbody,
 td,
 tfoot,
@@ -259,21 +273,27 @@ thead,
 tr {
   border-color: transparent !important;
 }
-.css-isbt42 > .MuiGrid-item {
+
+.css-isbt42>.MuiGrid-item {
   padding-left: 0px !important;
 }
+
 th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-sizeMedium.css-1sgp6db {
   color: var(--para-clr);
 }
+
 .css-1bigob2 {
   color: var(--para-clr) !important;
 }
+
 .css-1sgp6db {
   text-align: left;
 }
+
 .css-13xy2my {
   box-shadow: none !important;
 }
+
 .css-1sgp6db {
   text-align: left !important;
 }
@@ -287,33 +307,40 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-size
 html {
   font-size: 100% !important;
 }
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 90% !important;
   }
 }
+
 @media screen and (max-width: 900px) {
   html {
     font-size: 80% !important;
   }
 }
+
 @media screen and (max-width: 600px) {
   html {
     font-size: 70% !important;
   }
 }
+
 @media screen and (max-width: 600px) {
   #button-1 {
     padding: 12px 35px;
   }
+
   #button-2 {
     padding: 12px 40px;
   }
 }
+
 @media screen and (max-width: 414px) {
   #button-1 {
     padding: 8px 25px;
   }
+
   #button-2 {
     padding: 8px 25px;
   }

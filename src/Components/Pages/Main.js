@@ -18,7 +18,6 @@ export default function Main() {
   };
   return (
     <div>
-      {/* <Navbarnft mode={mode} toggleMode={toggleMode} /> */}
       <Home mode={mode} toggleMode={toggleMode} />
       <Footer />
     </div>

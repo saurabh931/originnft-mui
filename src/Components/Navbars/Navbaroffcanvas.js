@@ -55,7 +55,9 @@ export default function TemporaryDrawer() {
         </li>
       </ul>
       <ul className="sidebar-list">
-        <a href="/explore"><li>Explore</li></a>
+        <a href="/explore">
+          <li>Explore</li>
+        </a>
         <li>Stats</li>
         <li>Resources</li>
         <li>Create</li>

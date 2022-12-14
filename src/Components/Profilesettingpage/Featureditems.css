@@ -5,6 +5,7 @@
   font-size: 30px;
   line-height: 35px;
 }
+
 .para-featured {
   font-family: "ITC Avant Garde Gothic Std" !important;
   font-style: normal !important;
@@ -13,6 +14,7 @@
   line-height: 120% !important;
   letter-spacing: 0.005em !important;
 }
+
 .create-bu {
   width: 178.87px;
   height: 53.4px;
@@ -28,6 +30,7 @@
   line-height: 126% !important;
   color: #000000 !important;
 }
+
 .view-section-button {
   width: 178.87px;
   height: 53.4px;
@@ -43,6 +46,7 @@
   line-height: 126% !important;
   color: #000000 !important;
 }
+
 .name-card {
   font-family: "Futura Maxi CG Bold" !important;
   font-style: normal !important;
@@ -52,6 +56,7 @@
   display: flex !important;
   align-items: center !important;
 }
+
 .nnhi-card {
   font-family: "Futura Maxi CG Book";
   font-style: normal;
@@ -61,6 +66,7 @@
   display: flex;
   align-items: center;
 }
+
 .card-create-section {
   width: 96% !important;
 
@@ -69,6 +75,7 @@
   margin-top: 10px !important;
   margin-left: 40px !important;
 }
+
 .icons-featured {
   width: 40px;
   height: 41.38px;
@@ -76,25 +83,31 @@
   border-radius: 8px;
   margin-left: 10px;
 }
+
 .horizonicon {
   margin-top: 20px;
   margin-left: 15px;
   color: #6a6a6a;
 }
+
 .images-sections-featured {
   float: right;
 }
+
 .cards-name-ddd {
   margin-top: 30px;
   margin-left: 12px;
 }
+
 .section-feature-content {
   margin-top: 40px;
   margin-left: 40px;
 }
+
 .buttons-section-ddd {
   margin-left: 42px;
 }
+
 .featured-save-button {
   width: 118.94px;
   height: 56px;
@@ -109,19 +122,23 @@
   align-items: center;
   color: #101010;
 }
+
 .section-button-featured {
   text-align: right;
   margin-top: 40px;
 }
+
 @media screen and (max-width: 991px) {
   .card-create-section {
     width: 80% !important;
   }
 }
+
 @media screen and (max-width: 782px) {
   .card-create-section {
     width: 85% !important;
   }
+
   .view-section-button {
     margin-left: 12px;
   }
@@ -132,14 +149,17 @@
     width: 90% !important;
   }
 }
+
 @media screen and (max-width: 428px) {
   .buttons-section-ddd {
     margin-left: 30px;
   }
+
   .card-create-section {
     margin-left: 30px !important;
   }
 }
+
 @media screen and (max-width: 767px) {
   .section-button-featured {
     margin-left: 40px;

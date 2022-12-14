@@ -14,16 +14,15 @@ import Footer from "./Footer";
 function ExploreInsidepage() {
   return (
     <>
- 
       <div className="container-fluid ">
         <div className="row background-ex">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12  position-relative explore-art-text-lorem">
-          <div className="explore-art-text">
-            <h1 className="explore-art">Explore Art</h1>
-            <p className="explore-para">
-              Lorem Ipsum dolor sit amet Lorem Ipsum dolor
-              <br /> sit amet Lorem Ipsum dolor sit amet{" "}
-            </p>
+            <div className="explore-art-text">
+              <h1 className="explore-art">Explore Art</h1>
+              <p className="explore-para">
+                Lorem Ipsum dolor sit amet Lorem Ipsum dolor
+                <br /> sit amet Lorem Ipsum dolor sit amet{" "}
+              </p>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-12 explore-inside-page-image23">
@@ -32,28 +31,24 @@ function ExploreInsidepage() {
                 <img src={Topimg} alt="" className="topimg" />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-     
-              <div>
-                    <img src={Topimg1} alt="" className="topimg23" />
-                    </div>
-                    <div>
-            
-                    <img src={Topimg2} alt="" className="topimg23" />
-                    </div>
-       
+                <div>
+                  <img src={Topimg1} alt="" className="topimg23" />
+                </div>
+                <div>
+                  <img src={Topimg2} alt="" className="topimg23" />
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div className="container-explore-inside explore-hot">
-        <div className="row">
-          <div>
-            <h3 className="hot-section">What’s hot</h3>
-          </div>
-          <div className="row g-0">
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-     
+          <div className="row">
+            <div>
+              <h3 className="hot-section">What’s hot</h3>
+            </div>
+            <div className="row g-0">
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                 <Card className="cards-explore-inside">
                   <Card.Img variant="top" src={Image1} />
                   <Card.Body>
@@ -72,10 +67,8 @@ function ExploreInsidepage() {
                     </Card.Title>
                   </Card.Body>
                 </Card>
-     
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-         
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                 <Card>
                   <Card.Img variant="top" src={Image1} />
                   <Card.Body>
@@ -94,10 +87,8 @@ function ExploreInsidepage() {
                     </Card.Title>
                   </Card.Body>
                 </Card>
-        
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-    
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                 <Card>
                   <Card.Img variant="top" src={Image1} />
                   <Card.Body>
@@ -116,17 +107,15 @@ function ExploreInsidepage() {
                     </Card.Title>
                   </Card.Body>
                 </Card>
-      
-            </div>
-            <div className="see-more-button">
-              <button className="button-see">See More</button>
+              </div>
+              <div className="see-more-button">
+                <button className="button-see">See More</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      </div>
-<Footer />
+      <Footer />
     </>
   );
 }

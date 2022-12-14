@@ -5,7 +5,6 @@ import { BsTwitter } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { FiInstagram } from "react-icons/fi";
-// import { CgMail } from "react-icons/cg";
 import "./Footer.css";
 
 function Footer(props) {
@@ -13,25 +12,13 @@ function Footer(props) {
     <>
       <div className="Footer-left-spacing">
         <div className="container-fluid  py-5 px-5 ">
-          <div className="row" id="foter21" >
+          <div className="row" id="foter21">
             <div
               className="col-lg-5 col-md-12 col-sm-12 col-12"
               id="footer-posted-margin-bottom"
             >
-              <h5
-                className="keep-head"
-                // style={{
-                //   color: props.mode === "light" ? "black " : "white ",
-                // }}
-              >
-                Keep Posted
-              </h5>
-              <p
-                className="subs-para"
-                // style={{
-                //   color: props.mode === "light" ? "black " : "white ",
-                // }}
-              >
+              <h5 className="keep-head">Keep Posted</h5>
+              <p className="subs-para">
                 Subscribe to our newsletter to stay in the loop with our newest
                 feature release, NFT drops, and tips and tricks for navigating
                 Origins Marketplace.
@@ -43,9 +30,6 @@ function Footer(props) {
                   placeholder="Enter email address..."
                   aria-label="Recipient's username"
                   aria-describedby="button-addon2"
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
                 />
                 <button className="signup" type="button" id="button-addon2">
                   Subscribe
@@ -56,14 +40,7 @@ function Footer(props) {
               className="col-lg-6 col-md-12 col-sm-12 col-12"
               id="footer-posted-margin-bottom"
             >
-              <h5
-                className="join-header"
-                // style={{
-                //   color: props.mode === "light" ? "black " : "white ",
-                // }}
-              >
-                Join the community
-              </h5>
+              <h5 className="join-header">Join the community</h5>
               <div>
                 <ul className="icon">
                   <li className="twitter-icons">
@@ -92,27 +69,9 @@ function Footer(props) {
           <div>
             <div className="row">
               <div className="col-lg-5 col-md-12 col-sm-12 col-12 footer-opensea">
-                {/* <img
-                  src="https://opensea.io/static/images/logos/opensea-white.svg"
-                  alt=""
-                  className="logo-icon"
-                /> */}
+                <h5 className="list-heading">Origins Marketplace</h5>
 
-                <h5
-                  className="list-heading"
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                >
-                  Origins Marketplace
-                </h5>
-
-                <p
-                  className="origins-para"
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                >
+                <p className="origins-para">
                   The Origins Token ($ORGNS) is an intercontinental
                   cryptocurrency primed to become an integral part of a global
                   ecosystem where artist, creators, investors and the general
@@ -122,162 +81,39 @@ function Footer(props) {
               </div>
               <div className="col-lg col-md col-sm-12 col-12">
                 {" "}
-                <h5
-                  className="list-heading"
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                >
-                  Marketplace
-                </h5>
+                <h5 className="list-heading">Marketplace</h5>
                 <ul className="footer2-list">
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    All NFTs
-                  </li>
+                  <li>All NFTs</li>
 
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Art
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Collectibles
-                  </li>
+                  <li>Art</li>
+                  <li>Collectibles</li>
 
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Photography
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Recordian
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Videos
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Trending
-                  </li>
+                  <li>Photography</li>
+                  <li>Recordian</li>
+                  <li>Videos</li>
+                  <li>Trending</li>
                 </ul>
               </div>
               <div className="col-lg col-md col-sm-12 col-12 profile-fo">
                 {" "}
-                <h5
-                  className="list-heading"
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                >
-                  My Profile
-                </h5>
+                <h5 className="list-heading">My Profile</h5>
                 <ul className="footer2-list">
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Overview
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Favourites
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Watchlist
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    My Collections
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Settings
-                  </li>
+                  <li>Overview</li>
+                  <li>Favourites</li>
+                  <li>Watchlist</li>
+                  <li>My Collections</li>
+                  <li>Settings</li>
                 </ul>
               </div>
               <div className="col-lg col-md col-sm-12 col-12">
                 {" "}
-                <h5
-                  className="list-heading"
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                >
-                  Resources
-                </h5>
+                <h5 className="list-heading">Resources</h5>
                 <ul className="footer2-list">
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Docs
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Partners
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Advertisement
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Newsletter
-                  </li>
-                  <li
-                  // style={{
-                  //   color: props.mode === "light" ? "black " : "white ",
-                  // }}
-                  >
-                    Socials
-                  </li>
+                  <li>Docs</li>
+                  <li>Partners</li>
+                  <li>Advertisement</li>
+                  <li>Newsletter</li>
+                  <li>Socials</li>
                 </ul>
               </div>
             </div>

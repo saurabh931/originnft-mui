@@ -72,7 +72,6 @@ export default function Profilesettingslide() {
   };
   return (
     <>
-
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">
@@ -217,7 +216,7 @@ export default function Profilesettingslide() {
                     <div>
                       <div>
                         <FormControl
-                          sx={{ m: 0, width: 683, mt: 3, }}
+                          sx={{ m: 0, width: 683, mt: 3 }}
                           className="issue-account"
                         >
                           <Select

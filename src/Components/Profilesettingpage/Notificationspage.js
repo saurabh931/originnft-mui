@@ -74,7 +74,6 @@ const IOSSwitch = styled((props) => (
 export default function Profilesettingslide() {
   return (
     <>
- 
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">
@@ -139,10 +138,7 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div
-              className="col-lg-9 col-md-12 col-sm-12 col-12"
-              // style={{ height: "120vh" }}
-            >
+            <div className="col-lg-9 col-md-12 col-sm-12 col-12">
               <div className="row">
                 <div className="col-lg-7 col-md-7 col-sm-9 co-12 mb-5">
                   <div className="head-notification">
@@ -301,11 +297,11 @@ export default function Profilesettingslide() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="turn-section-component">
                     <span className="turn-all-ele">Turn all off</span>
                   </div>
-                  
+
                   <div className="section-mini">
                     <p className="minimum-notification">
                       Minimum Bid Threshold
@@ -339,7 +335,6 @@ export default function Profilesettingslide() {
               </div>
               <div className="col-lg-5 col-md-5 col-sm-3 col-12"></div>
             </div>
-            
           </div>
         </div>
       </div>

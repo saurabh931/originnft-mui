@@ -8,14 +8,15 @@ button#simple-tab-2 {
     align-items: center;
     color: var(--para-clr);
 }
-.filter-button{
-/* width: 120px !important; */
-height: 48px !important;
-background: rgba(246, 246, 246, 0.5) !important;
-border-radius: 15px !important;
+
+.filter-button {
+    height: 48px !important;
+    background: rgba(246, 246, 246, 0.5) !important;
+    border-radius: 15px !important;
 
 }
-.filter-tab{
+
+.filter-tab {
     font-family: 'Futura Maxi CG Book' !important;
     font-style: normal;
     font-weight: 400;
@@ -24,40 +25,43 @@ border-radius: 15px !important;
     color: #6A6A6A !important;
     margin-left: 10px;
 }
-.refresh-button{
-    width: 46px !important;
-height: 48px !important;
-background: rgba(246, 246, 246, 0.5) !important;
-border-radius: 15px !important;
-}
-.search-input{
-    /* width: 700px; */
-    /* width: 90% !important; */
-height: 48px;
-background: rgba(246, 246, 246, 0.5) !important;
-border-radius: 15px !important;
-}
-.recent-button{
 
+.refresh-button {
+    width: 46px !important;
     height: 48px !important;
     background: rgba(246, 246, 246, 0.5) !important;
     border-radius: 15px !important;
 }
-.view-button{
-width: 92px !important;
-height: 48px !important;
-background: rgba(246, 246, 246, 0.5) !important;
-border-radius: 15px !important;
+
+.search-input {
+    height: 48px;
+    background: rgba(246, 246, 246, 0.5) !important;
+    border-radius: 15px !important;
 }
-.recent{
-font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 126%;
-color: #6A6A6A;
+
+.recent-button {
+    height: 48px !important;
+    background: rgba(246, 246, 246, 0.5) !important;
+    border-radius: 15px !important;
 }
-.grid{
+
+.view-button {
+    width: 92px !important;
+    height: 48px !important;
+    background: rgba(246, 246, 246, 0.5) !important;
+    border-radius: 15px !important;
+}
+
+.recent {
+    font-family: 'Futura Maxi CG Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 126%;
+    color: #6A6A6A;
+}
+
+.grid {
     background: white;
     width: 32px;
     border-radius: 5px;
@@ -65,36 +69,39 @@ color: #6A6A6A;
     padding: 2px;
     height: 30px;
 }
-.user-na{
+
+.user-na {
     font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-align-items: center;
-margin-left: -20px !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    align-items: center;
+    margin-left: -20px !important;
 }
-.user-na1{
+
+.user-na1 {
     font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-align-items: center;
-color: var(--border-clr) !important;
-margin-left: -20px !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    align-items: center;
+    color: var(--border-clr) !important;
+    margin-left: -20px !important;
 }
-.follow-button{
+
+.follow-button {
     float: right;
-width: 78.9px;
-height: 35.04px;
-background: #000000;
-border-radius: 10px;
-color: #fff;
-font-family: 'Century Gothic';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
+    width: 78.9px;
+    height: 35.04px;
+    background: #000000;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
 
 }

@@ -581,38 +581,6 @@ function Table() {
                 </Grid>
               </Grid>
             </Grid>
-            {/*    <Table sx={{ minWidth: 600 }} aria-label="simple table">
-                  <TableHead>
-                    <TableRow>
-                      <TableCell>COLLECTION</TableCell>
-                      <TableCell align="right">FLOOR PRICE</TableCell>
-                      <TableCell align="right">VOLUME</TableCell>
-                    </TableRow>
-                  </TableHead>
-                  <TableBody>
-                    {rows.map((row) => (
-                      <TableRow
-                        key={row.name}
-                        sx={{
-                          "&:last-child td, &:last-child th": { border: 0 },
-                        }}
-                      >
-                        <TableCell component="th" scope="row">
-                          <span className="s-no">1</span>
-                          <img src={Tabimage1} alt="" className="tableimg" />
-                          <span className="nftname">RENGA</span>
-                          <img src={Tick} floortextethalt="" />
-                        </TableCell>
-                        <TableCell ali3n="left">
-                          <span className="nftamount">3.09 ETH</span>
-                        </TableCell>
-                        <TableCell align="left">
-                          <span className="nftamount">1,189 ETH</span>
-                        </TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table> */}
           </Grid>
         </Grid>
       </Box>

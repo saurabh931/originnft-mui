@@ -7,14 +7,12 @@ import Footer from "./Footer";
 function Explore() {
   return (
     <>
-
       <div className="container-fluid background-image mx-0">
         <div className="mx-0">
           <h1 className="explore-header">Explore</h1>
           <Exploretabs />
         </div>{" "}
       </div>
-      
     </>
   );
 }

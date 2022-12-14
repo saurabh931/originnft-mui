@@ -1,29 +1,34 @@
-.background-profile{
+.background-profile {
     width: 1440px;
-height: 335px;
-left: 0.15px;
-top: -1.07px;
+    height: 335px;
+    left: 0.15px;
+    top: -1.07px;
 
-/* Text secondary */
+    /* Text secondary */
 
-background: #6A6A6A;
+    background: #6A6A6A;
 }
-.profileimage{
+
+.profileimage {
     margin: auto;
     display: block;
     margin-top: -70px;
 }
-.profile-detail{
+
+.profile-detail {
     text-align: center;
 }
-ul.listed-section{
+
+ul.listed-section {
     padding-inline-start: 0px;
     padding: 1rem;
 }
-ul.listed-section li{
+
+ul.listed-section li {
     padding: 1rem;
 }
-.edit-button{
+
+.edit-button {
     width: 154.7px;
     height: 52.18px;
     left: 578.92px;
@@ -31,15 +36,16 @@ ul.listed-section li{
     border: 1px solid #C5C5C5;
     border-radius: 15px;
     font-family: 'Century Gothic';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-align-items: center;
-color: var(--para-clr);
-background-color: transparent !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: var(--para-clr);
+    background-color: transparent !important;
 }
-.upload-bu{
+
+.upload-bu {
     width: 52.18px;
     height: 68.18px;
     left: 749.52px;
@@ -49,31 +55,36 @@ background-color: transparent !important;
     padding: 12px 14px;
     margin-left: 10px;
 }
-.up-bu{
+
+.up-bu {
     margin-top: -5px;
 }
-.edit{
+
+.edit {
     text-align: center;
     margin-top: 25px !important;
 }
-.profile-name{
-font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 26px;
-text-align: center;
+
+.profile-name {
+    font-family: 'Futura Maxi CG Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
 }
-.wallet{
+
+.wallet {
     font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
 }
-.www{
+
+.www {
     font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
 
 }

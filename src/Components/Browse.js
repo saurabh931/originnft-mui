@@ -11,7 +11,7 @@ import "./Browse.css";
 
 export default function Browse(props) {
   return (
-    <div >
+    <div>
       <div className="  browse32" id="browse23">
         <div className="row ">
           <div className="col-lg-4 col-md-4 col-sm-6 col-12">
@@ -53,47 +53,46 @@ export default function Browse(props) {
               </Card.Body>
             </Card>
           </div>
-     
 
-        <div className="col-lg-4 col-md-4 col-sm-6 col-12 browse-card">
-          <Card className="cards4">
-            <Card.Img variant="top" src={Browse4} className="card-img-top1" />
-            <Card.Body className="card-body1">
-              <Card.Title
-                style={{ textAlign: "center" }}
-                className="card-title1"
-              >
-                Photography
-              </Card.Title>
-            </Card.Body>
-          </Card>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-6 col-12 browse-card">
-          <Card className="cards5">
-            <Card.Img variant="top" src={Browse5} className="card-img-top1" />
-            <Card.Body className="card-body1">
-              <Card.Title
-                style={{ textAlign: "center" }}
-                className="card-title1"
-              >
-                Recordion
-              </Card.Title>
-            </Card.Body>
-          </Card>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-6 col-12 browse-card">
-          <Card className="cards6">
-            <Card.Img variant="top" src={Browse6} className="card-img-top1" />
-            <Card.Body className="card-body1">
-              <Card.Title
-                style={{ textAlign: "center" }}
-                className="card-title1"
-              >
-                Videos
-              </Card.Title>
-            </Card.Body>
-          </Card>
-        </div>
+          <div className="col-lg-4 col-md-4 col-sm-6 col-12 browse-card">
+            <Card className="cards4">
+              <Card.Img variant="top" src={Browse4} className="card-img-top1" />
+              <Card.Body className="card-body1">
+                <Card.Title
+                  style={{ textAlign: "center" }}
+                  className="card-title1"
+                >
+                  Photography
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-6 col-12 browse-card">
+            <Card className="cards5">
+              <Card.Img variant="top" src={Browse5} className="card-img-top1" />
+              <Card.Body className="card-body1">
+                <Card.Title
+                  style={{ textAlign: "center" }}
+                  className="card-title1"
+                >
+                  Recordion
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-6 col-12 browse-card">
+            <Card className="cards6">
+              <Card.Img variant="top" src={Browse6} className="card-img-top1" />
+              <Card.Body className="card-body1">
+                <Card.Title
+                  style={{ textAlign: "center" }}
+                  className="card-title1"
+                >
+                  Videos
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
       </div>
     </div>

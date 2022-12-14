@@ -54,8 +54,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-      {/*   <Hometabs /> */}
-        <Tab/>  
+        <Tab />
       </div>
     </>
   );

@@ -19,7 +19,6 @@ import vectorclick from "./Imagesprofile/Vector.png";
 export default function Profilesettingslide() {
   return (
     <>
-
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">

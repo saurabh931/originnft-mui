@@ -93,32 +93,6 @@ export default function BasicTable() {
         {/* --------------------------Browse----------------------------------- */}
 
         <Browse />
-        {/*  <div className="Section">
-          <Box>
-            <Typography variant="h3">Browse by category</Typography>
-          </Box>
-          <Grid container spacing={4}>
-            <Grid item lg={4} md={4} sm={6} xs={12}>
-              <img src={Browse1} alt="" className="browse-images" />
-            </Grid>
-            <Grid item lg={4} md={4} sm={6} xs={12}>
-              <img src={Browse2} alt="" className="browse-images" />
-            </Grid>
-            <Grid item lg={4} md={4} sm={6} xs={12}>
-              <img src={Browse3} alt="" className="browse-images" />
-            </Grid>
-
-            <Grid item lg={4} md={4} sm={6} xs={12}>
-              <img src={Browse4} alt="" className="browse-images" />
-            </Grid>
-            <Grid item lg={4} md={4} sm={6} xs={12}>
-              <img src={Browse5} alt="" className="browse-images" />
-            </Grid>
-            <Grid item lg={4} md={4} sm={6} xs={12}>
-              <img src={Browse6} alt="" className="browse-images" />
-            </Grid>
-          </Grid>
-        </div> */}
       </div>
     </>
   );

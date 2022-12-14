@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Offcanvasorigin() {
-  return (
-    <div>Offcanvasorigin</div>
-  )
+  return <div>Offcanvasorigin</div>;
 }
 
-export default Offcanvasorigin
+export default Offcanvasorigin;

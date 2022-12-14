@@ -5,6 +5,7 @@
   font-size: 30px !important;
   line-height: 35px !important;
 }
+
 .account-sec {
   font-family: "ITC Avant Garde Gothic Std" !important;
   font-style: normal !important;
@@ -14,6 +15,7 @@
   letter-spacing: 0.005em !important;
 
 }
+
 .accordion-1 {
   font-family: "Poppins" !important;
   font-style: normal !important;
@@ -21,6 +23,7 @@
   font-size: 16px !important;
   line-height: 126% !important;
 }
+
 .para-typography {
   font-family: "ITC Avant Garde Gothic Std" !important;
   font-style: normal !important;
@@ -30,26 +33,33 @@
   letter-spacing: 0.005em !important;
   color: var(--para-clr) !important;
 }
+
 .accordion-width {
   width: 100%;
   margin-left: 0px;
 }
+
 #panel1a-header {
   border-bottom: 0.5px solid #6a6a6a;
 }
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
   background-color: none !important;
   color: var(--para-clr) !important;
 }
-.css-i4bv87-MuiSvgIcon-root{
+
+.css-i4bv87-MuiSvgIcon-root {
   fill: var(--para-clr) !important;
 }
+
 #panel2a-header {
   border-bottom: 0.5px solid #6a6a6a;
 }
+
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
   box-shadow: none !important;
 }
+
 .select-section {
   font-family: "Poppins";
   font-style: normal;
@@ -58,13 +68,14 @@
   line-height: 126%;
   color: var(--para-clr);
 }
+
 .lock-button {
   width: 25%;
   height: 53px;
   border: 1px solid #dd0000;
   border-radius: 10px;
   margin-top: 25px;
-background-color: transparent !important;
+  background-color: transparent !important;
   font-family: "Poppins" !important;
   font-style: normal !important;
   font-weight: 700 !important;
@@ -72,9 +83,11 @@ background-color: transparent !important;
   line-height: 126% !important;
   color: #dd0000 !important;
 }
+
 .accordion-next {
   width: 100%;
 }
+
 .para-typography11 {
   font-family: "ITC Avant Garde Gothic Std" !important;
   font-style: normal !important;
@@ -85,6 +98,7 @@ background-color: transparent !important;
   color: var(--para-clr) !important;
   width: 50%;
 }
+
 .nothing-account {
   width: 100%;
   height: 53px;
@@ -99,54 +113,64 @@ background-color: transparent !important;
   line-height: 126% !important;
   color: var(--para-clr) !important;
 }
+
 .section-fit {
   margin-top: 100px;
   margin-left: 50px;
 }
+
 .issue-account {
   width: 100% !important;
   border-radius: 10px;
   border: 1px solid var(--para-clr) !important;
 }
-.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
   color: var(--para-clr) !important;
 }
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
   background-color: transparent !important;
 }
 
 /* MEDIA QUERY */
 @media screen and (max-width:1087px) {
-  .lock-button{
+  .lock-button {
     width: 30%;
   }
+
   .section-fit {
     margin-top: 50px;
     margin-left: 35px;
+  }
 }
-}
+
 @media screen and (max-width:811px) {
-  .lock-button{
+  .lock-button {
     width: 35%;
   }
 }
+
 @media screen and (max-width:766px) {
   .section-fit {
     margin-top: 50px;
     margin-left: 15px;
+  }
 }
-}
+
 @media screen and (max-width:408px) {
-  .lock-button{
+  .lock-button {
     width: 40%;
   }
+
   .section-fit {
     margin-top: 40px;
     margin-left: 15px;
+  }
 }
-}
+
 @media screen and (max-width:330px) {
-  .lock-button{
+  .lock-button {
     width: 50%;
   }
 }

@@ -110,19 +110,7 @@ export default function Nftscards() {
                       />
                     </Paper>
                   </div>
-                </div> 
-                {/*               <div>
-         <Search>
-              <SearchIconWrapper>
-                <SearchIcon />
-              </SearchIconWrapper>
-              <StyledInputBase
-                className="search-input"
-                placeholder="Search…"
-                inputProps={{ "aria-label": "search" }}
-              />
-            </Search>
-            </div> */}
+                </div>
               </Grid>
               <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
                 <div>
@@ -159,7 +147,10 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      <span className="text32">Hot Cheetos &nbsp;  <img src={tick} className="tick-image-nft" /> </span>
+                      <span className="text32">
+                        Hot Cheetos &nbsp;{" "}
+                        <img src={tick} className="tick-image-nft" />{" "}
+                      </span>
                       <span className="tick-icons"></span>
                     </Card.Title>
                     <div className="explore-collection-card-price">
@@ -194,7 +185,10 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      <span className="text32">Hot Cheetos &nbsp;  <img src={tick} className="tick-image-nft" /> </span>
+                      <span className="text32">
+                        Hot Cheetos &nbsp;{" "}
+                        <img src={tick} className="tick-image-nft" />{" "}
+                      </span>
                       <span className="tick-icons"></span>
                     </Card.Title>
                     <div className="explore-collection-card-price">
@@ -229,7 +223,10 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      <span className="text32">Hot Cheetos &nbsp;  <img src={tick} className="tick-image-nft" /> </span>
+                      <span className="text32">
+                        Hot Cheetos &nbsp;{" "}
+                        <img src={tick} className="tick-image-nft" />{" "}
+                      </span>
                       <span className="tick-icons"></span>
                     </Card.Title>
                     <div className="explore-collection-card-price">
@@ -264,7 +261,10 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      <span className="text32">Hot Cheetos &nbsp;  <img src={tick} className="tick-image-nft" /> </span>
+                      <span className="text32">
+                        Hot Cheetos &nbsp;{" "}
+                        <img src={tick} className="tick-image-nft" />{" "}
+                      </span>
                       <span className="tick-icons"></span>
                     </Card.Title>
                     <div className="explore-collection-card-price">

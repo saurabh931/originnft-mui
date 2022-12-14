@@ -11,7 +11,7 @@ import View from "../../Images/view-grid.png";
 import View2 from "../../Images/Group8926.png";
 import Cards1img from "../../Images/Rectangle10.png";
 import Cards2img from "../../Images/Rectangle11.png";
-import Cards3img from "../../Images/Rectangle12.png"
+import Cards3img from "../../Images/Rectangle12.png";
 
 //IMPORT CARDS
 
@@ -117,7 +117,6 @@ function ProfileSelector() {
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
                 <Card.Text>Recordian Headset</Card.Text>
-                {/* <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
             </Card>
           </div>
@@ -127,7 +126,6 @@ function ProfileSelector() {
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
                 <Card.Text>Recordian Headset</Card.Text>
-                {/* <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
             </Card>
           </div>
@@ -137,7 +135,6 @@ function ProfileSelector() {
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
                 <Card.Text>Recordian Headset</Card.Text>
-                {/* <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
             </Card>
           </div>
@@ -147,7 +144,6 @@ function ProfileSelector() {
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
                 <Card.Text>Recordian Headset</Card.Text>
-                {/* <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
             </Card>
           </div>

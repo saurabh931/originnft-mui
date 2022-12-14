@@ -1,9 +1,8 @@
 .row.side-bar {
   display: grid;
   border-right: 1px solid rgb(80, 79, 79);
-  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    height: 800px; */
 }
+
 .side-items {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -13,6 +12,7 @@
   letter-spacing: 0.005em;
   color: #6a6a6a;
 }
+
 .side-bar {
   width: 272px;
   height: 56px;
@@ -20,23 +20,26 @@
   background: rgb(254, 194, 0, 0.15);
   align-items: center;
 }
+
 .side-bar1 {
   width: 272px;
   height: 56px;
   display: flex;
   align-items: center;
 }
+
 ul {
   list-style: none;
 }
+
 .profile-setting {
   background-color: var(--profile-setting-tab-clr);
 }
-.section-list {
-  /* width: 272px; */
 
+.section-list {
   margin-top: 10px;
 }
+
 .content-style {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -46,17 +49,21 @@ ul {
   letter-spacing: 0.005em;
   color: var(--para-clr);
 }
+
 .icons-tabs {
   color: var(--para-clr);
   margin-right: 10px;
 }
+
 .iconsddd {
   margin-right: 10px;
   color: var(--para-clr) !important;
 }
+
 .listed-section {
   margin-top: 50px;
 }
+
 .setting-sections {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -67,6 +74,7 @@ ul {
   letter-spacing: 0.005em;
   color: var(--para-clr);
 }
+
 .section-color {
   box-shadow: 3px 0px 10px var(--box-shadow-clr);
 }
@@ -80,6 +88,7 @@ ul {
   line-height: 35px !important;
   color: var(--para-clr) !important;
 }
+
 .preview-profile-button {
   width: 120px;
   height: 43px;
@@ -97,6 +106,7 @@ ul {
   color: var(--para-clr);
   border: 1px solid var(--para-clr);
 }
+
 .profile-section-banner {
   font-family: "Futura Maxi CG Bold" !important;
   font-style: normal !important;
@@ -107,6 +117,7 @@ ul {
   margin-top: 40px;
   margin-left: 40px;
 }
+
 .section-profile-line {
   width: 50%;
   height: 175px;
@@ -114,11 +125,12 @@ ul {
   border-radius: 30px;
   margin-left: 40px;
 }
+
 .drop-section-image {
   text-align: center;
-  /* height: 20vh; */
   padding-top: 30px;
 }
+
 .img-span {
   font-family: "Futura Maxi CG Book";
   font-style: normal;
@@ -130,13 +142,16 @@ ul {
   letter-spacing: 0.005em;
   color: #c5c5c5;
 }
+
 .profile-head-section {
   margin-top: 40px;
   margin-left: 40px;
 }
+
 .icons-eye {
   margin-right: 12px;
 }
+
 .user-section {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -145,6 +160,7 @@ ul {
   line-height: 19px;
   margin-left: 40px;
 }
+
 .user-section-img {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -152,6 +168,7 @@ ul {
   font-size: 18px;
   line-height: 19px;
 }
+
 .place-input-profile {
   width: 100%;
   height: 53px;
@@ -161,6 +178,7 @@ ul {
   border-radius: 10px;
   background-color: var(--bg-clr) !important;
 }
+
 .place-input-profile::placeholder {
   font-family: "Poppins" !important;
   font-style: normal !important;
@@ -170,15 +188,16 @@ ul {
   color: #c5c5c5 !important;
   padding-left: 20px;
 }
+
 .profile-line {
   font-family: "Futura Maxi CG Book" !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
-  /* color: #6a6a6a !important; */
   margin-left: 40px;
 }
+
 .twit {
   margin-left: 20px;
   font-family: "Futura Maxi CG Book";
@@ -186,12 +205,13 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  /* color: #6a6a6a; */
 }
+
 .section-twitter {
   margin-left: 40px;
   margin-top: 7px;
 }
+
 .connect-bu {
   width: 101px;
   height: 42px;
@@ -207,6 +227,7 @@ ul {
   color: #101010 !important;
   float: right;
 }
+
 .inputgrp {
   width: 100% !important;
   height: 53px;
@@ -215,13 +236,16 @@ ul {
   border-radius: 9.92153px;
   margin-left: 40px;
 }
+
 input.form-control,
 span.input-group-text {
   background: var(--bg-profile-box-clr);
 }
+
 span.input-group-text {
   background: var(--bg-profile-box-clr);
 }
+
 .save-bu-pro {
   width: 118.94px;
   height: 56px;
@@ -235,11 +259,11 @@ span.input-group-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  /* display: flex; */
   align-items: center;
   color: #101010;
   margin-left: 40px;
 }
+
 .input-bio {
   width: 262px;
   height: 371px;
@@ -247,6 +271,7 @@ span.input-group-text {
   background: var(--bg-profile-box-clr);
   border-radius: 9.92153px;
 }
+
 .input-bio::placeholder {
   font-family: "Poppins";
   font-style: normal;
@@ -256,56 +281,71 @@ span.input-group-text {
   color: #c5c5c5;
   padding: 15px;
 }
+
 .profile-section-content {
   margin-left: 40px;
 }
+
 .user-bio-section {
   margin-left: 40px;
   margin-top: 20px;
 }
+
 a {
   text-decoration: none !important;
 }
+
 @media screen and (max-width: 767px) {
   .place-input-profile {
     margin-left: 20px;
   }
+
   .section-profile-line {
     margin-left: 20px;
   }
+
   .profile-head-section {
     margin-left: 20px;
   }
+
   .profile-section-banner {
     margin-left: 20px;
   }
+
   .user-section {
     margin-left: 20px;
   }
+
   .profile-line {
     margin-left: 20px;
   }
+
   .section-twitter {
     margin-left: 20px;
   }
+
   .profile-section-content {
     margin-left: 20px;
   }
+
   .user-bio-section {
     margin-left: 20px;
-    /* margin-top: 20px; */
   }
+
   .inputgrp {
     margin-left: 20px;
   }
+
   .save-bu-pro {
     margin-left: 20px;
   }
 }
+
 @media screen and (max-width: 410px) {
   .preview-profile-button {
     margin-left: 0px;
   }
+
   .profile-head-section {
     display: grid;
   }

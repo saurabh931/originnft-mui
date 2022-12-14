@@ -3,21 +3,25 @@
   font-size: 2rem;
   color: var(--white) !important;
 }
+
 button#toggle-Button {
   float: right;
   color: white;
   font-size: 2rem;
 }
+
 .sidebar-list,
 .sidebar-list-img {
   list-style-type: none;
   margin-bottom: 3rem;
 }
+
 .sidebar-list li {
   font-size: 2rem;
   margin-top: 2rem;
   font-weight: 600;
 }
+
 .dropdown-offcanvas {
   position: relative;
   display: inline-block;
@@ -41,9 +45,11 @@ button#toggle-Button {
   float: right;
   /* margin-left: 5rem; */
 }
+
 .ser {
   background: var(--bg-clr);
 }
+
 .head-tag {
   margin-right: 0.5rem;
   font-size: 1.25rem;
@@ -54,16 +60,20 @@ button#toggle-Button {
   margin-top: 1rem;
   margin-left: 1.5rem;
 }
+
 .nav-item {
   display: flex;
   align-items: center;
 }
+
 .navbar {
   padding: 1.8rem;
 }
+
 .icons {
   font-size: 2rem !important;
 }
+
 .nav-items.icons {
   justify-content: space-evenly;
 }
@@ -78,17 +88,19 @@ button.head-tag {
 .toggle-icons {
   font-size: 30px !important;
 }
+
 .dropdown1 {
   position: relative !important;
 }
+
 label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root {
   margin-right: 0px !important;
 }
-.css-113qkos-MuiSwitch-root
-  .MuiSwitch-switchBase.Mui-checked
-  + .MuiSwitch-track {
+
+.css-113qkos-MuiSwitch-root .MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
   background-color: #fec200 !important;
 }
+
 .dropdown-content1 {
   display: none !important;
   position: absolute !important;
@@ -97,6 +109,7 @@ label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
   z-index: 1 !important;
 }
+
 .dropbtn1 {
   background-color: #fff !important;
   color: #000 !important;
@@ -107,6 +120,7 @@ label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-
   font-family: "Futura Maxi CG Bold";
   width: 100%;
 }
+
 .dropdown-content1 a {
   color: black !important;
   padding: 12px 16px !important;
@@ -117,45 +131,50 @@ label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-
 .dropdown-content1 a:hover {
   background-color: #f1f1f1 !important;
 }
+
 .dropdown1:hover .dropdown-content1 {
   display: block !important;
 }
-/* .dropdown1:hover .dropbtn1 {
-    background-color: #FEC200 !important;
-  } */
+
 .navItem-icons.navmobile-subarrow-icons {
-  /* margin-left: 10rem; */
   float: right !important;
 }
 
 .icons-social.officons {
   color: rgb(138, 147, 155) !important;
 }
+
 .mobile-side-bar {
   height: 85vh;
 }
+
 .mobilenav-bottom-container {
   height: 8vh;
-  /* background: var(--bg-clr) !important; */
   border-top: 1px solid rgb(229, 232, 235);
 }
+
 .navItem-icons {
   color: var(--para-clr);
   text-decoration: none;
   float: left !important;
 }
+
 .tagIcons {
   margin-right: 1rem;
   font-size: 2rem;
 }
+
 .MuiGrid-root.MuiGrid-container.nav-item.css-11lq3yg-MuiGrid-root {
   justify-content: end !important;
 }
+
 .btn-primary {
   background: none !important;
   border: none !important;
 }
-div#offcanvasExample ,  button.dropbtn1{
+
+div#offcanvasExample,
+button.dropbtn1 {
   background-color: var(--bg-clr) !important;
 }
 
@@ -163,35 +182,23 @@ div#offcanvasExample ,  button.dropbtn1{
 /* ----------------------------------------------------------------MEDIA QUERY ---------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1200px) {
-  /* .offcanvas-toggle {
-      display: none !important;
-    } */
   .search-input {
     display: none !important;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .offcanvas-toggle {
     display: none !important;
   }
 }
+
 @media screen and (min-width: 1400px) {
   .offcanvas-mobile {
     display: none !important;
   }
 }
-/* @media screen and (min-width:1300px) {
-    .offcanvas-toggle2{
-      display:none !important;
-    }
-  }
-  @media screen and (max-width:1300px) {
-    .offcanvas-mobile2{
-      display: none !important;
-    }
-  } */
 
-/*  */
 /* DROPDOWN */
 
 .dropbtn0 {

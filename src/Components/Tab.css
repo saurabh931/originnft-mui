@@ -1,26 +1,31 @@
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
   background-color: transparent !important;
   color: var(--para-clr) !important;
   border-bottom: 3px solid var(--para-clr) !important;
   border-radius: 0px !important;
   opacity: 1;
 }
+
 .nav-pills .nav-link {
   color: var(--para-clr);
   opacity: 0.5;
   font-size: 1.5rem;
   font-family: "Futura Maxi CG Bold";
 }
+
 .nav-pills .nav-link:hover {
   color: var(--para-clr);
 }
+
 .dropdown-tab-origin {
   margin-left: auto;
 }
+
 ul#pills-tab {
   border-bottom: 1px solid #9c9c9c !important;
 }
+
 @media screen and (max-width: 768px) {
   .nav-pills .nav-link {
     color: var(--para-clr);
@@ -28,6 +33,7 @@ ul#pills-tab {
     font-size: 1rem;
     font-family: "Futura Maxi CG Bold";
   }
+
   #button-22 {
     font-size: 1rem;
   }

@@ -111,18 +111,6 @@ export default function Nftscards() {
                     </Paper>
                   </div>
                 </div>
-                {/*               <div>
-             <Search>
-                  <SearchIconWrapper>
-                    <SearchIcon />
-                  </SearchIconWrapper>
-                  <StyledInputBase
-                    className="search-input"
-                    placeholder="Search…"
-                    inputProps={{ "aria-label": "search" }}
-                  />
-                </Search>
-                </div> */}
               </Grid>
               <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
                 <div>
@@ -171,21 +159,10 @@ export default function Nftscards() {
                       </div>
                     </div>
                   </div>
-
-                  {/*          <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-     
-                  </ul> */}
                 </div>
               </Grid>
               <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
-              <div className="card">
+                <div className="card">
                   <img
                     className="card-img-top"
                     src={Cardimage}
@@ -211,21 +188,10 @@ export default function Nftscards() {
                       </div>
                     </div>
                   </div>
-
-                  {/*          <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-     
-                  </ul> */}
                 </div>
               </Grid>
               <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
-              <div className="card">
+                <div className="card">
                   <img
                     className="card-img-top"
                     src={Cardimage}
@@ -251,21 +217,10 @@ export default function Nftscards() {
                       </div>
                     </div>
                   </div>
-
-                  {/*          <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-     
-                  </ul> */}
                 </div>
               </Grid>
               <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
-              <div className="card">
+                <div className="card">
                   <img
                     className="card-img-top"
                     src={Cardimage}
@@ -276,7 +231,6 @@ export default function Nftscards() {
                       Red Angrybol &nbsp;{" "}
                       <img src={tick} className="tick-image-nft" />
                     </h5>
-
                     <p className="card-text">Recordian Headset</p>
                     <div className="explore-nft-card-price">
                       <div>
@@ -291,17 +245,6 @@ export default function Nftscards() {
                       </div>
                     </div>
                   </div>
-
-                  {/*          <ul className="list-group list-group-flush">
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      <span>Price</span>0.548 ETH{" "}
-                    </li>
-                    <li className="list-group-item" style={{ display: "grid" }}>
-                      {" "}
-                      <span>Highest Bid</span>No bids yet
-                    </li>
-     
-                  </ul> */}
                 </div>
               </Grid>
             </Grid>

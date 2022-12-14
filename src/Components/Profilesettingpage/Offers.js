@@ -24,7 +24,6 @@ import Eth from "./Imagesprofile/Ellipse 124.png";
 export default function Profilesettingslide() {
   return (
     <>
-   
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">
@@ -100,102 +99,100 @@ export default function Profilesettingslide() {
               <button className="offer-button">View my offers</button>
               <p className="offer11021">View my offers</p>
               <div className="row">
-              <div className="col-lg-8 col-md-8 col-sm-12 col-12">
-              <div className="row sser">
-                <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div className="section-offer">
-                      <img src={Imgside1} alt="" />
-                      <span>
-                        <p className="ppo">3 items</p>
-                        <p className="ppo10">Cloud Ball</p>
-                        <p className="ppo">Floor price: 0 ETH</p>
-                      </span>
+                <div className="col-lg-8 col-md-8 col-sm-12 col-12">
+                  <div className="row sser">
+                    <div className="row">
+                      <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div className="section-offer">
+                          <img src={Imgside1} alt="" />
+                          <span>
+                            <p className="ppo">3 items</p>
+                            <p className="ppo10">Cloud Ball</p>
+                            <p className="ppo">Floor price: 0 ETH</p>
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <InputGroup className="mb-3 box-create">
+                          <InputGroup.Text id="basic-addon1" className="hhus">
+                            <img src={Eth} alt="" />
+                          </InputGroup.Text>
+                          <Form.Control
+                            placeholder="0"
+                            aria-label="Username"
+                            aria-describedby="basic-addon1"
+                            className="jjjdd"
+                          />
+                        </InputGroup>
+                        <div>
+                          <p className="usd">$ 0 USD</p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <InputGroup className="mb-3 box-create">
-                      <InputGroup.Text id="basic-addon1" className="hhus">
-                        <img src={Eth} alt="" />
-                      </InputGroup.Text>
-                      <Form.Control
-                        placeholder="0"
-                        aria-label="Username"
-                        aria-describedby="basic-addon1"
-                        className="jjjdd"
-                      />
-                    </InputGroup>
-                    <div>
-                      <p className="usd">$ 0 USD</p>
+                    <div className="row">
+                      <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div className="section-offer">
+                          <img src={Imgside2} alt="" />
+                          <span>
+                            <p className="ppo">134 items</p>
+                            <p className="ppo10">Loop_1k</p>
+                            <p className="ppo">Floor price: 0.12 ETH</p>
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div>
+                          <InputGroup className="mb-3 box-create">
+                            <InputGroup.Text id="basic-addon1" className="hhus">
+                              <img src={Eth} alt="" />
+                            </InputGroup.Text>
+                            <Form.Control
+                              placeholder="0"
+                              aria-label="Username"
+                              aria-describedby="basic-addon1"
+                              className="jjjdd"
+                            />
+                          </InputGroup>
+                          <div>
+                            <p className="usd">$ 0 USD</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div className="section-offer">
-                      <img src={Imgside2} alt="" />
-                      <span>
-                        <p className="ppo">134 items</p>
-                        <p className="ppo10">Loop_1k</p>
-                        <p className="ppo">Floor price: 0.12 ETH</p>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div>
-                      <InputGroup className="mb-3 box-create">
-                        <InputGroup.Text id="basic-addon1" className="hhus">
-                          <img src={Eth} alt="" />
-                        </InputGroup.Text>
-                        <Form.Control
-                          placeholder="0"
-                          aria-label="Username"
-                          aria-describedby="basic-addon1"
-                          className="jjjdd"
-                        />
-                      </InputGroup>
-                      <div>
-                        <p className="usd">$ 0 USD</p>
+                    <div className="row">
+                      <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div className="section-offer">
+                          <img src={Imgside3} alt="" />
+                          <span>
+                            <p className="ppo">3 items</p>
+                            <p className="ppo10">hindsight</p>
+                            <p className="ppo">Floor price: 0.12 ETH</p>
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <InputGroup className="mb-3 box-create">
+                          <InputGroup.Text id="basic-addon1" className="hhus">
+                            <img src={Eth} alt="" />
+                          </InputGroup.Text>
+                          <Form.Control
+                            placeholder="0"
+                            aria-label="Username"
+                            aria-describedby="basic-addon1"
+                            className="jjjdd"
+                          />
+                        </InputGroup>
+                        <div>
+                          <p className="usd">$ 0 USD</p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div className="section-offer">
-                      <img src={Imgside3} alt="" />
-                      <span>
-                        <p className="ppo">3 items</p>
-                        <p className="ppo10">hindsight</p>
-                        <p className="ppo">Floor price: 0.12 ETH</p>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <InputGroup className="mb-3 box-create">
-                      <InputGroup.Text id="basic-addon1" className="hhus">
-                        <img src={Eth} alt="" />
-                      </InputGroup.Text>
-                      <Form.Control
-                        placeholder="0"
-                        aria-label="Username"
-                        aria-describedby="basic-addon1"
-                        className="jjjdd"
-                      />
-                    </InputGroup>
-                    <div>
-                      <p className="usd">$ 0 USD</p>
-                    </div>
+                  <div className="offer-bu">
+                    <button className="offer-save">Save</button>
                   </div>
                 </div>
-              </div>
-              <div className="offer-bu">
-                <button className="offer-save">Save</button>
-              </div>
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-
-              </div>
+                <div className="col-lg-4 col-md-4 col-sm-12 col-12"></div>
               </div>
             </div>
           </div>

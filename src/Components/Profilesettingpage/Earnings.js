@@ -8,16 +8,13 @@ import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlin
 import Featuredvector from "../../Images/Vector.png";
 import { Link } from "react-router-dom";
 import Navbarnft from "../Navbars/Navbarnft";
-
 import "./Earnings.css";
 import Footer from "../Footer";
 
 export default function Profilesettingslide() {
   return (
     <>
-
       <div className="container-fluid background-profile-setting"></div>
-
       <div className="container-fluid">
         <div className="row ">
           <div className="col-lg-3 col-md-12 col-sm-12 col-12 section-color">
@@ -80,43 +77,40 @@ export default function Profilesettingslide() {
               </ul>
             </div>
           </div>
-          <div
-            className="col-lg-9 col-md-12 col-sm-12 col-12"
-            // style={{ width: "65%" }}
-          >
-          <div className="row">
-          <div className="col-lg-9 col-md-9 col-sm-12 col-12">
-            <div className="earning-box">
-              <h6 className="earnigs-head">Earnings</h6>
-              <p className="earning-content">
-                To access your 2021 Creator Earnings from NFT sales with this
-                wallet using Origins NFT, see below.
-              </p>
-              <p className="earning-content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                condimentum purus non odio congue, ut consectetur metus
-                malesuada. Integer augue nulla, dignissim at mauris quis,
-                vehicula vulputate diam.{" "}
-              </p>
-              <p className="earning-content">
-                Ut vitae nunc porttitor, dictum ex quis, sollicitudin neque.
-                Vestibulum quam neque, tristique at erat nec, iaculis facilisis
-                lectus. Maecenas pretium malesuada ultricies. Ut porttitor metus
-                ligula, ac viverra mauris aliquam sit amet.
-              </p>
-              <div className="button-section990">
-                <div className="earning-content1102">
-                  This wallet address does not have any creator earnings from
-                  sales using Origins NFT in 2021.{" "}
+          <div className="col-lg-9 col-md-12 col-sm-12 col-12">
+            <div className="row">
+              <div className="col-lg-9 col-md-9 col-sm-12 col-12">
+                <div className="earning-box">
+                  <h6 className="earnigs-head">Earnings</h6>
+                  <p className="earning-content">
+                    To access your 2021 Creator Earnings from NFT sales with
+                    this wallet using Origins NFT, see below.
+                  </p>
+                  <p className="earning-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce condimentum purus non odio congue, ut consectetur
+                    metus malesuada. Integer augue nulla, dignissim at mauris
+                    quis, vehicula vulputate diam.{" "}
+                  </p>
+                  <p className="earning-content">
+                    Ut vitae nunc porttitor, dictum ex quis, sollicitudin neque.
+                    Vestibulum quam neque, tristique at erat nec, iaculis
+                    facilisis lectus. Maecenas pretium malesuada ultricies. Ut
+                    porttitor metus ligula, ac viverra mauris aliquam sit amet.
+                  </p>
+                  <div className="button-section990">
+                    <div className="earning-content1102">
+                      This wallet address does not have any creator earnings
+                      from sales using Origins NFT in 2021.{" "}
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div></div>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-12"></div>
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );

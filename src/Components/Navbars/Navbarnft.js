@@ -54,16 +54,13 @@ import { IoIosStats } from "react-icons/io";
 import { MdOutlineLibraryBooks } from "react-icons/md";
 import { MdOutlineCreate } from "react-icons/md";
 import { BsFillMoonFill } from "react-icons/bs";
-
 import { SiDiscord } from "react-icons/si";
 
 // IMPORT SWITCH TAB FOR NIGHT MODE
 import { styled } from "@mui/material/styles";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
-
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
-
 import CheckIcon from "@mui/icons-material/Check";
 
 const IOSSwitch = styled((props) => (
@@ -129,9 +126,7 @@ function Navbar(props) {
     setSelectedValue(event.target.value);
   };
 
-  var navbar = document.querySelector('nav')
-
-
+  var navbar = document.querySelector("nav");
 
   const [theme, setTheme] = useState("light-theme");
   const toggleTheme = () => {
@@ -141,22 +136,19 @@ function Navbar(props) {
     document.body.className = theme;
   }, [theme]);
 
-
- 
-    const [colorChange, setColorchange] = useState(false);
-    const changeNavbarColor = () =>{
-       if(window.scrollY >= 5){
-         setColorchange(true);
-       }
-       else{
-         setColorchange(false);
-       }
-    };
-    window.addEventListener('scroll', changeNavbarColor);
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 5) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
 
   return (
     <>
-      <Grid container className={colorChange ? 'navbar colorChange' : 'navbar'}>
+      <Grid container className={colorChange ? "navbar colorChange" : "navbar"}>
         <Grid item xl={3} lg={3} md={9} sm={9} xs={9} className="d-flex">
           <span>
             {" "}
@@ -333,15 +325,6 @@ function Navbar(props) {
             </div>
           </div>
         </Grid>
-        {/*   <Grid
-          item
-          xl={4}
-          lg={3}
-          md={3}
-          sm={3}
-          xs={3}
-          className="navbar-desktop"
-        ></Grid> */}
         <Grid
           item
           xl={3}
@@ -470,7 +453,6 @@ function Navbar(props) {
                     Explore Recordian NFT
                   </button>
                 </li>
-                <li>{/* <img src={Imgback} alt="" className="imgback"/> */}</li>
               </ul>
             </div>
           </ul>
@@ -529,7 +511,6 @@ function Navbar(props) {
                 </li>
               </ul>
             </div>
-            {/* <li>Explore</li> */}
             <div className="dropdown">
               <li
                 type="button"
@@ -572,12 +553,6 @@ function Navbar(props) {
                     Collection-inside-page
                   </Link>
                 </li>
-                {/* <li className="li-section">
-                  <Link className="dropdown-item" to="/resourcesnewsletter" >
-                   Newsletter
-                  </Link>
-                </li> */}
-
                 <li className="li-section">
                   <a className="dropdown-item" href="/">
                     Docs
@@ -631,235 +606,12 @@ function Navbar(props) {
               >
                 Create
               </li>
-              {/* <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="/">Action</a></li>
-    <li><a className="dropdown-item" href="/">Another action</a></li>
-    <li><a className="dropdown-item" href="/">Something else here</a></li>
-  </ul> */}
             </div>
           </ul>
-          {/* <div className="cart-box-section">
-            <div className="row py-5 px-3">
-              <div className="col-6 mb-3">
-                <span className="beg-section ">
-                  Beg <strong className="num-redco">2</strong>
-                </span>
-              </div>
-              <div className="col-6 ">
-                <div className="icons-cross">
-                  <HighlightOffIcon />
-                </div>{" "}
-              </div>
-              <div className="row ">
-                <div className="col-4">
-                  <img src={Imgcarts} alt="" />
-                </div>
-                <div className="col-4" style={{ lineHeight: "12px" }}>
-                  <span className="loop-section">Loop(Common..)</span>
-                  <br />
-                  <span className="loop-section1">
-                    Red Angrybol
-                    <img src={Checkicons} alt="" />
-                  </span>
-
-                  <span className="loop-section1">Creator fee: 10%</span>
-                </div>
-                <div className="col-4">
-                  <span className="amount-cart-item">6.5667 ETH</span>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-4">
-                  <img src={Imgcarts1} alt="" />
-                </div>
-                <div className="col-4" style={{ lineHeight: "12px" }}>
-                  <span className="loop-section">Loop(Common..)</span>
-                  <br />
-                  <span className="loop-section1">
-                    Red Angrybol
-                    <img src={Checkicons} alt="" />
-                  </span>
-
-                  <span className="loop-section1">Creator fee: 10%</span>
-                </div>
-                <div className="col-4">
-                  <span className="amount-cart-item">6.5667 ETH</span>
-                </div>
-              </div>
-              <div className="row py-5 px-4">
-                <div className="section-eth-amount">
-                  <div className="col-6">
-                    <span>Total</span>
-                  </div>
-                  <div className="col-6 ethllo">
-                    <span>6.5667 ETH</span>
-                  </div>
-                </div>
-              </div>
-              <div className="row py-5 px-4">
-                <div className="section-eth-amount1">
-                  <span className="check-out11">Check Out</span>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="cart-box-section">
-            <div className="row py-5 px-3">
-              <div className="col-6 mb-3">
-                <span className="beg-section ">
-                  Beg <strong className="num-redco">2</strong>
-                </span>
-              </div>
-              <div className="col-6 ">
-                <div className="icons-cross">
-                  <HighlightOffIcon />
-                </div>{" "}
-              </div>
-              <div className="row ">
-                <div className="col-4">
-                  <img src={Imgcarts} alt="" />
-                </div>
-                <div className="col-4" style={{ lineHeight: "12px" }}>
-                  <span className="loop-section">Loop(Common..)</span>
-                  <br />
-                  <span className="loop-section1">
-                    Red Angrybol
-                    <img src={Checkicons} alt="" />
-                  </span>
-                  <span className="loop-section1">Creator fee: 10%</span>
-                </div>
-                <div className="col-4">
-                  <span className="amount-cart-item">6.5667 ETH</span>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-4">
-                  <img src={Imgcarts1} alt="" />
-                </div>
-                <div className="col-4" style={{ lineHeight: "12px" }}>
-                  <span className="loop-section">Loop(Common..)</span>
-                  <br />
-                  <span className="loop-section1">
-                    Red Angrybol
-                    <img src={Checkicons} alt="" />
-                  </span>
-                  <span className="loop-section1">Creator fee: 10%</span>
-                </div>
-                <div className="col-4">
-                  <span className="amount-cart-item">6.5667 ETH</span>
-                </div>
-              </div>
-              <div className="row py-5 px-4">
-                <div className="section-eth-amount">
-                  <div className="col-6">
-                    <span>Total</span>
-                  </div>
-                  <div className="col-6 ethllo">
-                    <span>6.5667 ETH</span>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="row">
-                  <span>Payment method</span>
-                  <div className="col-3">
-                    <div>
-                      <Radio
-                        checked={selectedValue === "a"}
-                        onChange={handleChange}
-                        value="a"
-                        name="radio-buttons"
-                        inputProps={{ "aria-label": "A" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-9">
-                    <span>CRYPTO</span>
-                    <br />
-                    <span>Ethereum</span>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-3">
-                    <div>
-                      <Radio
-                        checked={selectedValue === "a"}
-                        onChange={handleChange}
-                        value="a"
-                        name="radio-buttons"
-                        inputProps={{ "aria-label": "A" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-9">
-                    <span>Credit or debit card</span>
-                    <br />
-                    <span>*******9095</span>
-                  </div>
-                </div>
-              </div>
-              <div className="row py-5 px-4">
-                <div className="section-eth-amount1">
-                  <span className="check-out11">Complete Purchase</span>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="cart-box-section">
-            <div className="row py-5 px-3">
-              <div className="col-6 mb-3">
-                
-              </div>
-              <div className="col-6 ">
-                <div className="icons-cross">
-                  <HighlightOffIcon />
-                </div>{" "}
-              </div>
-              <div className="row ">
-                <div className="chek">
-                  <CheckIcon className="cor-dd" />
-                </div>
-                <div className="pur-div">
-                  <span className="purchse-com">Purchase complete</span>
-                </div>
-              </div>
-
-              <div className="row">
-                <div className="col-6">
-                  <span className="item-se">Items:</span>
-                </div>
-                <div className="col-6">
-                  <span className="item-se">(2) Loop, Cloudball</span>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-6">
-                  <span className="item-se">SubTotal:</span>
-                </div>
-                <div className="col-6">
-                  <span className="item-se">6.5667 ETH</span>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-6">
-                  <span className="item-se">Paid with:</span>
-                </div>
-                <div className="col-6">
-                  <span className="item-se">Credit or debit card</span>
-                </div>
-              </div>
-
-              <div className="row py-5 px-4">
-                <div className="hhun">
-                  <span className="check-out122">Back to Explore page</span>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </Grid>
       </Grid>
     </>
   );
 }
 
-  export default Navbar;
+export default Navbar;

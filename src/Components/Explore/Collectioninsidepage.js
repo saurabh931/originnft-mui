@@ -12,7 +12,6 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 import ShareIcon from "@mui/icons-material/Share";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-// import { FaDiscord } from "react-icons/fa";
 import Discord from "./Collection-images/discord-img.png";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
@@ -131,10 +130,7 @@ export default function Collectioninsidepage() {
         </div>
         <div className="container-fluid ">
           <div className="row g-0">
-            <div
-              className="col-lg-8 col-md-8 col-sm-12 col-12"
-              // style={{ marginLeft: "90px" }}
-            >
+            <div className="col-lg-8 col-md-8 col-sm-12 col-12">
               <span>Items 3 </span>
               <span style={{ marginLeft: "10px" }}>Created Sep 2022</span>
               <span style={{ marginLeft: "10px" }}>Creator Fee 10%</span>
@@ -273,12 +269,6 @@ export default function Collectioninsidepage() {
                     >
                       <Typography className="price-ac">Price</Typography>
                     </AccordionSummary>
-                    {/* <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails> */}
                   </Accordion>
                   <Accordion>
                     <AccordionSummary
@@ -289,12 +279,6 @@ export default function Collectioninsidepage() {
                     >
                       <Typography className="price-ac">Quantity</Typography>
                     </AccordionSummary>
-                    {/* <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails> */}
                   </Accordion>
                   <Accordion>
                     <AccordionSummary
@@ -305,12 +289,6 @@ export default function Collectioninsidepage() {
                     >
                       <Typography className="price-ac">Currency</Typography>
                     </AccordionSummary>
-                    {/* <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails> */}
                   </Accordion>
                   <hr />
                   <Accordion>
@@ -322,12 +300,6 @@ export default function Collectioninsidepage() {
                     >
                       <Typography className="price-ac">category</Typography>
                     </AccordionSummary>
-                    {/* <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails> */}
                   </Accordion>
                   <Accordion>
                     <AccordionSummary
@@ -338,12 +310,6 @@ export default function Collectioninsidepage() {
                     >
                       <Typography className="price-ac">category</Typography>
                     </AccordionSummary>
-                    {/* <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails> */}
                   </Accordion>
                   <Accordion>
                     <AccordionSummary
@@ -354,12 +320,6 @@ export default function Collectioninsidepage() {
                     >
                       <Typography className="price-ac">category</Typography>
                     </AccordionSummary>
-                    {/* <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails> */}
                   </Accordion>
                 </div>
               </div>

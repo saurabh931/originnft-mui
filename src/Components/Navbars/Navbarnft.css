@@ -8,73 +8,79 @@
   font-weight: 600;
   margin-top: 10px;
 }
+
 .nav-list li,
 .nav-icon li {
   margin-right: 2rem;
   font-size: 1.5rem;
   color: var(--white);
   font-weight: 600;
-  /* color: white !important; */
 }
+
 .origin-logo {
   margin-top: 11px;
 }
+
 .offcanvas-logo {
   padding-inline-start: 0;
 }
+
 .navbar {
-  /* background: rgba(166, 166, 166, 0.5) !important; */
   position: fixed !important;
   top: 0;
   z-index: 2;
   background-image: url();
 }
+
 .toggle-btn {
   float: right;
   font-size: 2rem !important;
 }
+
 .dropdown-item {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 15px;
-  /* display: flex; */
   align-items: center;
-  /* color: #353535; */
 }
+
 .li-section {
   border-bottom: 0.5px solid rgb(169, 168, 168);
   padding: 5px 0px;
   margin-right: 0px !important;
 }
+
 .ic {
   margin-right: 5px;
 }
+
 .discord {
-  /* color: grey; */
   font-size: 25px;
 }
+
 .tele {
-  /* color: grey; */
   font-size: 25px;
 }
+
 .face {
   color: rgb(6, 6, 6);
   font-size: 25px;
 }
+
 .insta {
-  /* color: grey; */
   font-size: 25px;
 }
+
 .twitter {
-  /* color: grey; */
   font-size: 25px;
 }
+
 .tik {
-  /* color: grey; */
   font-size: 25px;
 }
+
 .cart-menu {
   font-family: "Futura Maxi CG Bold" !important;
   font-style: normal;
@@ -83,9 +89,9 @@
   line-height: 20px;
   display: flex;
   align-items: center;
-  /* color: #6a6a6a; */
   padding: 10px !important;
 }
+
 .para-li {
   font-family: "Futura Maxi CG Book" !important;
   font-style: normal;
@@ -93,49 +99,55 @@
   font-size: 10px !important;
   line-height: 15px;
   align-items: center;
-  /* color: #6a6a6a !important; */
   margin-left: 10px;
 }
+
 .dropdown-menu.card-section {
   margin-left: -180px;
   width: 200px;
   height: 220px;
 }
+
 .imgback {
   width: 198px;
 }
+
 .dropdown-menu.card-section.image-bg {
   background-image: url("./Navimg/Rectangle 684.png");
   background-repeat: no-repeat;
-  /* width: 340px; */
 }
+
 .form-switch {
   padding-left: 1.5rem !important;
 }
-.navbar{
+
+.navbar {
   background-color: rgba(166, 166, 166, 0.5);
 }
 
-.navbar.colorChange{
+.navbar.colorChange {
   background-color: rgba(28, 28, 28, 0.8);
 }
+
 #list-text {
   color: white !important;
 }
+
 .card-section-button {
   height: 32px;
   left: 39.34px;
   top: 267.78px;
-  /* background: #e6e6e6; */
   border-radius: 10px;
   font-size: 12px;
   margin-left: 25px;
   margin-top: 65px;
   border: none;
 }
+
 a.dropdown-item {
   margin: 0.3rem 0rem;
 }
+
 #offcanvas-button-toggle {
   background-color: transparent !important;
   border: none !important;
@@ -143,47 +155,53 @@ a.dropdown-item {
   float: right;
   margin-right: 1rem;
 }
+
 .offcanvas-header .btn-close {
   font-size: 1rem;
 }
+
 .create-offcanvas a {
   color: black;
   font-size: 1rem;
 }
+
 .create-offcanvas a:active {
   color: black;
 }
+
 ul.dropdown-menu.show-profile.show {
   margin-left: -40px;
   padding: 0px;
 }
-/* .dropdown-menu[data-bs-popper]{
-  top: 40% !important;
-} */
+
 .ios-switch {
   margin-top: 0px !important;
 }
+
 .form-check.form-switch.text-light {
   padding-left: 0px;
 }
+
 .cart-box-section {
   width: 30%;
   height: 100%;
   background: white;
   border-radius: 15px;
 }
+
 .num-redco {
   border: 0.5px solid black;
   border-radius: 100px;
-  /* padding: 5px; */
   font-size: 1rem;
   padding: 5px 10px 5px 10px !important;
   background: #fec200;
   border: none;
 }
+
 .loop-section {
   font-size: 1rem;
 }
+
 .amount-cart-item {
   font-size: 1rem;
   color: #535353;
@@ -191,6 +209,7 @@ ul.dropdown-menu.show-profile.show {
   font-weight: 600;
   float: right;
 }
+
 .loop-section1 {
   font-size: 0.7rem;
   font-family: "Poppins";
@@ -199,6 +218,7 @@ ul.dropdown-menu.show-profile.show {
   color: #535353;
   line-height: 23px;
 }
+
 .beg-section {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -208,22 +228,23 @@ ul.dropdown-menu.show-profile.show {
   align-items: center;
   color: #000000;
 }
+
 .section-eth-amount {
-  background: linear-gradient(
-    130.18deg,
-    rgba(188, 188, 188, 0.21) 54.86%,
-    rgba(71, 71, 72, 0.12) 97.18%
-  );
+  background: linear-gradient(130.18deg,
+      rgba(188, 188, 188, 0.21) 54.86%,
+      rgba(71, 71, 72, 0.12) 97.18%);
   border-radius: 15px;
   padding: 10px;
   display: flex;
 }
+
 .section-eth-amount1 {
   background: #000;
   border-radius: 15px;
   padding: 10px;
   text-align: center;
 }
+
 .check-out11 {
   font-family: "Futura Maxi CG Book";
   font-style: normal;
@@ -233,20 +254,22 @@ ul.dropdown-menu.show-profile.show {
   color: #ffffff;
   text-align: center;
 }
+
 .check-out122 {
   font-family: "Futura Maxi CG Book";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 126%;
-  /* identical to box height, or 23px */
   text-decoration-line: underline;
   text-align: center;
   color: #fec200;
 }
+
 .hhun {
   text-align: center;
 }
+
 .cor-dd {
   background: #fec200;
   border: 1px solid #fec200;
@@ -254,6 +277,7 @@ ul.dropdown-menu.show-profile.show {
   font-size: 7rem !important;
   color: #ffffff;
 }
+
 .purchse-com {
   font-family: "Century Gothic";
   font-style: normal;
@@ -262,10 +286,12 @@ ul.dropdown-menu.show-profile.show {
   line-height: 126%;
   color: #fec200;
 }
+
 .pur-div {
   text-align: center;
   margin-top: 20px !important;
 }
+
 .item-se {
   font-family: "Century Gothic";
   font-style: normal;
@@ -274,15 +300,19 @@ ul.dropdown-menu.show-profile.show {
   line-height: 126%;
   color: #202020;
 }
+
 .chek {
   text-align: center;
 }
+
 .icons-cross {
   margin-left: 130px;
 }
+
 .ethllo {
   text-align: end;
 }
+
 span.dropdown-item {
   margin: 0.3rem 0rem;
 }
@@ -332,11 +362,12 @@ span.dropdown-item {
   display: block;
 }
 
-.dropdown-offcanvas-link1:hover .dropbtn-offcanvas-link1 {
-}
+.dropdown-offcanvas-link1:hover .dropbtn-offcanvas-link1 {}
+
 .offcanvas {
   max-width: 90% !important;
 }
+
 .inputtext-navbar {
   background-color: transparent;
   width: 100%;
@@ -344,17 +375,20 @@ span.dropdown-item {
   outline: none;
   color: white;
 }
+
 .inputtext-navbar::placeholder {
   color: white;
 }
+
 .search-nav {
-  /* border: 1px solid white; */
   padding: 0.5rem;
   border-radius: 10px;
 }
+
 .input-nav {
   display: flex;
 }
+
 .search-icon {
   margin-right: 1rem;
 }
@@ -366,12 +400,15 @@ span.dropdown-item {
   color: white !important;
   border-radius: 10px !important;
 }
+
 .css-mnn31 {
   color: white !important;
 }
+
 .css-vubbuv {
   color: white;
 }
+
 .connect-wallet-button-nav {
   border: none;
   background-color: #fec200;
@@ -381,15 +418,19 @@ span.dropdown-item {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
 .connect-wallet-button {
   padding: 20px;
 }
+
 svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
   fill: var(--para-clr) !important;
 }
+
 input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input {
   color: white;
 }
+
 /* media query */
 
 @media screen and (max-width: 1200px) {
@@ -397,6 +438,7 @@ input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input {
     display: none;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .toggle-btn {
     display: none;

@@ -1,12 +1,9 @@
 .button-section990 {
-
-
   background-color: var(--profile-notification-switch);
   padding: 1rem;
   border-radius: 10px;
-
-  /* margin-left: 100px; */
 }
+
 .earning-content {
   font-family: "ITC Avant Garde Gothic Std" !important;
   font-style: normal !important;
@@ -15,6 +12,7 @@
   line-height: 120% !important;
   letter-spacing: 0.005em !important;
 }
+
 .earnigs-head {
   font-family: "Futura Maxi CG Bold";
   font-style: normal;
@@ -22,11 +20,13 @@
   font-size: 30px;
   line-height: 35px;
 }
+
 .earning-box {
   margin-top: 40px;
   margin-left: 30px;
   width: 80%;
 }
+
 .earning-content1102 {
   font-family: "Poppins" !important;
   font-style: normal !important;
@@ -36,39 +36,21 @@
   text-align: center !important;
 
 }
+
 @media screen and (max-width:1200px) {
-  .earning-box{
+  .earning-box {
     width: 100%;
   }
 }
+
 @media screen and (max-width:767px) {
-  .earning-box{
+  .earning-box {
     width: 95%;
   }
 }
+
 @media screen and (max-width:980px) {
-  .earning-box{
+  .earning-box {
     margin: 20px;
   }
 }
-
-/* @media screen and (max-width:1037px) {
-  .button-section990{
-    max-height: 70px;
-  }
-}
-@media screen and (max-width: 1072px) {
-  .earning-content1102 {
-    padding: 15px;
-  }
-}
-@media screen and (max-width:853px) {
-  .button-section990{
-    max-height: 85px;
-  }
-}
-@media screen and (max-width:756px) {
-  .earning-content1102 {
-    padding: 0px;
-  }
-} */

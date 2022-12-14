@@ -111,18 +111,6 @@ export default function Nftscards() {
                     </Paper>
                   </div>
                 </div>
-                {/*               <div>
-         <Search>
-              <SearchIconWrapper>
-                <SearchIcon />
-              </SearchIconWrapper>
-              <StyledInputBase
-                className="search-input"
-                placeholder="Search…"
-                inputProps={{ "aria-label": "search" }}
-              />
-            </Search>
-            </div> */}
               </Grid>
               <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
                 <div>
@@ -161,7 +149,6 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      {/* <span className="text32">Mohammad Ali</span> */}
                     </Card.Title>
                     <ul className="card-section1">
                       <div className="row">
@@ -196,7 +183,6 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      {/* <span className="text32">Mohammad Ali</span> */}
                     </Card.Title>
                     <ul className="card-section1">
                       <div className="row">
@@ -231,7 +217,6 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      {/* <span className="text32">Mohammad Ali</span> */}
                     </Card.Title>
                     <ul className="card-section1">
                       <div className="row">
@@ -266,7 +251,6 @@ export default function Nftscards() {
                           className="card-image1"
                         />{" "}
                       </span>
-                      {/* <span className="text32">Mohammad Ali</span> */}
                     </Card.Title>
                     <ul className="card-section1">
                       <div className="row">

@@ -8,34 +8,42 @@ button#simple-tab-2 {
   align-items: center;
   color: var(--para-clr);
 }
+
 .filter-button {
   height: 48px !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
   color: #6A6A6A !important;
 }
-#form-search-input{
-  border:none !important;
+
+#form-search-input {
+  border: none !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
 }
-.search-text-field{
+
+.search-text-field {
   margin-top: 0.5rem !important;
 }
-#search-icon-text{
+
+#search-icon-text {
   color: #6A6A6A !important;
 }
-#search-icon{
+
+#search-icon {
   fill: #6A6A6A !important;
   font-size: 1.8rem;
 }
+
 .input-nav {
   display: flex;
   height: 3rem;
 }
+
 p.explore-para {
   padding-left: 2px;
 }
+
 .filter-tab {
   font-family: "Futura Maxi CG Book" !important;
   font-style: normal;
@@ -45,35 +53,39 @@ p.explore-para {
   color: #6a6a6a !important;
   margin-left: 10px;
 }
+
 form.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1vm0r4s-MuiPaper-root {
-width: 100%;
-margin-top: 8px;
+  width: 100%;
+  margin-top: 8px;
 }
+
 .refresh-button {
   width: 46px !important;
   height: 48px !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
 }
+
 .search-input {
-  /* width: 700px; */
-  /* width: 90% !important; */
   height: 48px;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
 }
+
 .recent-button {
 
   height: 48px !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
 }
+
 .view-button {
   width: 92px !important;
   height: 48px !important;
   background: rgba(246, 246, 246, 0.5) !important;
   border-radius: 15px !important;
 }
+
 .recent {
   font-family: "Futura Maxi CG Book";
   font-style: normal;
@@ -82,6 +94,7 @@ margin-top: 8px;
   line-height: 126%;
   color: #6a6a6a;
 }
+
 .grid {
   background: white;
   width: 32px;
@@ -90,80 +103,85 @@ margin-top: 8px;
   padding: 2px;
   height: 30px;
 }
+
 .css-1nx0jaf {
   width: 0px !important;
 }
-.card{
-    /* max-width: 25rem; */
-    /* margin-top: 50px; */
-    margin: 0.5rem;
-    border-radius: 1rem !important;
-    box-shadow:  0px 4px 4px var(--box-shadow-clr);
+
+.card {
+  margin: 0.5rem;
+  border-radius: 1rem !important;
+  box-shadow: 0px 4px 4px var(--box-shadow-clr);
 }
-.card-title{
+
+.card-title {
   font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-align-items: center;
-color: var(--para-clr);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  align-items: center;
+  color: var(--para-clr);
 }
-.card-text{
+
+.card-text {
   font-family: 'Futura Maxi CG Bold' !important;
-font-style: normal;
-font-weight: 400;
-font-size: 16px !important;
-line-height: 17px;
-/* identical to box height */
-align-items: center;
-color: var(--para-clr) !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 17px;
+  align-items: center;
+  color: var(--para-clr) !important;
 }
-.explore-nft-card-price{
-display: flex;
-/* color: black; */
-justify-content: space-between;
-background-color: var(--background-nft-card);
-padding: 1rem;
-/* margin: 0rem 1rem 1rem 1rem; */
-border-radius: 10px;
-/* background: rgb(243 243 243); */
-}
-.explore-collection-card-price{
+
+.explore-nft-card-price {
   display: flex;
-  /* color: black; */
+  justify-content: space-between;
+  background-color: var(--background-nft-card);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.explore-collection-card-price {
+  display: flex;
   justify-content: space-between;
   padding: 1rem;
   margin: 1rem 0rem;
   border-radius: 10px;
-  /* background: rgb(243 243 243); */
-  }
-.price-exlore-nft{
+}
+
+.price-exlore-nft {
   font-size: 10px;
- font-family: 'Futura Maxi CG Bold';
+  font-family: 'Futura Maxi CG Bold';
 
 }
+
 .css-19kzrtu {
   padding: 0rem !important;
 }
-.search-input{
+
+.search-input {
   width: 100%;
   min-width: 10rem;
   margin: 1rem;
   padding: 1rem;
 }
+
 @media screen and (min-width:1200px) {
-  .filter-button{
+  .filter-button {
     width: 55%;
-    margin: 1rem !important; 
+    margin: 1rem !important;
   }
-  .recent-button{
+
+  .recent-button {
     width: 60%;
     margin: 1rem !important;
   }
 }
+
 @media screen and (max-width:1200px) {
-  .filter-button , .recent-button{
+  .filter-button,
+  .recent-button {
     width: 60%;
     margin: 1rem !important;
   }

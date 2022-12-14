@@ -1,185 +1,185 @@
-.background-images-collections{
+.background-images-collections {
     background-image: url(./Collection-images/Rectangle719.png);
-    width: 1440px ;
+    width: 1440px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 485px;
 }
-.profile-setting-img{
+
+.profile-setting-img {
     margin-top: -170px;
-    /* margin-left: 100px; */
 }
-.profile-name-inside{
-    /* margin-left: 100px; */
+
+.profile-name-inside {
     margin-top: 10px;
     font-family: 'Futura Maxi CG Bold';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 26px;
-    /* color: #000000; */
 }
-.icons-collections-inside{
+
+.icons-collections-inside {
     float: right;
     margin-top: 30px;
 }
-.icons-setting-width{
+
+.icons-setting-width {
     margin-left: 15px;
     fill: var(--para-clr);
 }
-.icons-setting-width11{
+
+.icons-setting-width11 {
     margin-left: 15px;
     margin-right: 30px;
 }
-/* .sub-title-profile{
-    margin-left: 100px;
-} */
-.collection-inside-bio{
+
+.collection-inside-bio {
     font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 25px;
-align-items: center;
-/* color: #6A6A6A !important; */
-margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    align-items: center;
+    margin-top: 20px;
 }
+
 @media screen and (max-width:1200px) {
-    #collection-inside-margin{
-        margin:0px !important;
+    #collection-inside-margin {
+        margin: 0px !important;
     }
 }
-.collection-container{
+
+.collection-container {
     width: 95% !important;
     margin: auto;
     margin-bottom: 5rem;
 }
 
-.see-button{
-    /* background: linear-gradient(130.18deg, rgba(188, 188, 188, 0.21) 54.86%, rgba(71, 71, 72, 0.12) 97.18%); */
+.see-button {
     border-radius: 13.8265px;
     border: none;
     padding: 0.5rem 1rem;
     color: var(--para-clr);
-    border:1px solid var(--para-clr);
-    background-color:var(--bg-clr);
+    border: 1px solid var(--para-clr);
+    background-color: var(--bg-clr);
 }
-.content-collection-data{
-    /* margin-left: 80px !important; */
+
+.content-collection-data {
     margin-top: 40px !important;
 }
-.eth-section{
-font-family: 'Futura Maxi CG Bold';
-font-style: normal;
-font-weight: 400 ;
-font-size: 18px;
-line-height: 19px;
-align-items: center;
-/* color: #000000; */
+
+.eth-section {
+    font-family: 'Futura Maxi CG Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    align-items: center;
 }
-.co-volume-section{
+
+.co-volume-section {
     font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-align-items: center;
-/* color: #6A6A6A; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
 }
-/* .section-collec{
-    margin-left: 80px !important;
-} */
-.reload-bu{
-width: 46.74px;
-height: 48px;
-background: rgba(246, 246, 246, 0.5);
-border-radius: 15px;
-margin-left: 1rem;
-text-align: center;
+
+.reload-bu {
+    width: 46.74px;
+    height: 48px;
+    background: rgba(246, 246, 246, 0.5);
+    border-radius: 15px;
+    margin-left: 1rem;
+    text-align: center;
 }
-.reolad-tfi-bu{
+
+.reolad-tfi-bu {
     margin-top: 15px;
-    /* color: #6A6A6A; */
+
     font-size: 20px;
     font-weight: 900;
 }
-.filterlist-icons{
+
+.filterlist-icons {
     margin-top: 10px;
 }
-.view-bu-collection{
+
+.view-bu-collection {
     width: 91.72px;
-height: 48px;
-background:  rgba(246, 246, 246, 0.5) !important;
-border-radius: 15px;
-padding: 15px;
+    height: 48px;
+    background: rgba(246, 246, 246, 0.5) !important;
+    border-radius: 15px;
+    padding: 15px;
 }
-.vv-bu1{
+
+.vv-bu1 {
     background: #fff;
     border-radius: 5px;
     margin-right: 15px;
     padding: 5px;
 }
-/* .price-ac{
-    color: #000000 !important;
-} */
-.accordion-collect{
+
+.accordion-collect {
     border-bottom: none !important;
 }
-/* .side-bar-collection{
-    margin-left: 80px !important;
-} */
-/* .coll-accordion-section{
-    margin-left: -14px !important;
-} */
-.bu-toggle{
+
+.bu-toggle {
     display: flex;
     justify-content: space-between;
 }
-.check-box-bu{
+
+.check-box-bu {
     margin-top: -7px;
 }
-.status-tag{
+
+.status-tag {
     font-family: 'Futura Maxi CG Book' !important;
     font-style: normal !important;
     font-weight: 500 !important;
     font-size: 16px !important;
     line-height: 18px !important;
-    /* color: #000000 !important; */
-    margin-bottom: 25px ;
+    margin-bottom: 25px;
 }
-.bu-nw-tag{
+
+.bu-nw-tag {
     font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-/* color: #6A6A6A; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
 }
-.end-time-card{
+
+.end-time-card {
     font-family: 'Futura Maxi CG Book';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 15px;
-/* color: #6A6A6A; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
 }
-.cards-title-name{
+
+.cards-title-name {
     font-family: 'Futura Maxi CG Book' !important;
-font-style: normal !important;
-font-weight: 400 !important;
-font-size: 14px !important;
-line-height: 15px !important;
-color: #353535 !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 15px !important;
+    color: #353535 !important;
 }
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before{
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
     background-color: transparent !important;
 }
-.css-vubbuv{
+
+.css-vubbuv {
     fill: var(--para-clr) !important;
-    color :var(--para-clr) !important;
+    color: var(--para-clr) !important;
 }
+
 @media screen and (max-width:768px) {
-    .icons-collections-inside{
+    .icons-collections-inside {
         float: left;
         margin: 2rem 0rem;
     }

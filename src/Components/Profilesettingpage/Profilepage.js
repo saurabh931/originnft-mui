@@ -13,7 +13,6 @@ import "./Profilepage.css";
 export default function Profilesettingslide() {
   return (
     <>
-
       <div className="container-fluid background-profile-setting"></div>
       <div>
         <div className="container-fluid">

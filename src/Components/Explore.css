@@ -1,13 +1,13 @@
-.background-image{
+.background-image {
     background-image: url("../Images/Rectangle 720.png");
-    width: 1440px ;
+    width: 1440px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 485px;
-    
 }
-.explore-header{
-    padding-top: 130px!important;
+
+.explore-header {
+    padding-top: 130px !important;
     padding-left: 30px;
     color: #fff;
 }

@@ -22,7 +22,6 @@ import Profileimg from "./Imagesprofile/profileimg.png";
 export default function Profilesettingslide() {
   return (
     <>
-
       <div className="container-fluid background-profile-setting "></div>
       <div>
         <div className="container-fluid">
@@ -170,7 +169,6 @@ export default function Profilesettingslide() {
                     <p className="profile-section-banner">Wallet address</p>
                     <div>
                       <InputGroup className="mb-3 inputgrp">
-                        {/* <InputGroup.Text>$</InputGroup.Text> */}
                         <Form.Control
                           aria-label="Amount (to the nearest dollar)"
                           style={{ borderRight: "none" }}
@@ -181,10 +179,9 @@ export default function Profilesettingslide() {
                       </InputGroup>
                     </div>
                   </div>
-                  
                 </div>
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12">
-                  <div className="profile-section-content" >
+                  <div className="profile-section-content">
                     <span className="user-section-img">Profile image</span>
                     <div style={{ marginTop: "10px" }}>
                       <img src={Profileimg} alt="" />
@@ -201,8 +198,8 @@ export default function Profilesettingslide() {
                   </div>
                 </div>
                 <div>
-                    <button className="save-bu-pro my-4">Save</button>
-                  </div>
+                  <button className="save-bu-pro my-4">Save</button>
+                </div>
                 <div className="col-lg-2 col-md-2 col-sm-0 col-0"></div>
               </div>
             </div>

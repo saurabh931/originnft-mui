@@ -7,13 +7,12 @@ import { TfiWorld } from "react-icons/tfi";
 import { FiUpload } from "react-icons/fi";
 import { MdOutlineMoreHoriz } from "react-icons/md";
 
-import Profiletabs from "./Profiletabs"
+import Profiletabs from "./Profiletabs";
 import Footer from "../Footer";
 
 function Profile() {
   return (
     <>
-
       <div className="container-fluid background-profile"></div>
       <div className="container-fluid">
         <div className="row">
@@ -50,9 +49,9 @@ function Profile() {
         </div>
       </div>
       <div className="container-fluid">
-      <Profiletabs/>
+        <Profiletabs />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

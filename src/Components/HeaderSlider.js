@@ -27,46 +27,45 @@ export default class Responsive extends Component {
             infinite: true,
             dots: true,
             arrows: true,
-          }
+          },
         },
         {
           breakpoint: 600,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            initialSlide: 2
-          }
+            initialSlide: 2,
+          },
         },
         {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
     return (
       <div>
-     
         <Slider {...settings}>
           <div>
-          <img src={Image1} alt="" className="slider1" />
+            <img src={Image1} alt="" className="slider1" />
           </div>
           <div>
-          <img src={Image2} alt="" className="slider1" />
+            <img src={Image2} alt="" className="slider1" />
           </div>
           <div>
-          <img src={Image3} alt="" className="slider1" />
+            <img src={Image3} alt="" className="slider1" />
           </div>
           <div>
-          <img src={Image4} alt="" className="slider1" />
+            <img src={Image4} alt="" className="slider1" />
           </div>
           <div>
-          <img src={Image5} alt="" className="slider1" />
+            <img src={Image5} alt="" className="slider1" />
           </div>
           <div>
-          <img src={Image6} alt="" className="slider1" />
+            <img src={Image6} alt="" className="slider1" />
           </div>
         </Slider>
       </div>
