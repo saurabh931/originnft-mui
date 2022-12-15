@@ -12,9 +12,10 @@
 .nav-list li,
 .nav-icon li {
   margin-right: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--white);
   font-weight: 600;
+  color: white !important ;
 }
 
 .origin-logo {
@@ -450,4 +451,7 @@ input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input {
 }
 svg#search-icon-nav {
   fill: white !important;
+}
+.home-button a{
+  color:white !important;
 }

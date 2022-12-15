@@ -191,7 +191,6 @@ function Navbar(props) {
               ></button>
             </div>
             <div className="mobile-side-bar">
-         
               <div className="dropdown1">
                 <button className="dropbtn1">
                   <a className="navItem-icons">
@@ -381,7 +380,7 @@ function Navbar(props) {
         </Grid>
         <Grid
           item
-          xl={3}
+          xl={2}
           lg={2}
           md={3}
           sm={3}
@@ -416,7 +415,7 @@ function Navbar(props) {
         </Grid>
         <Grid
           item
-          xl={6}
+          xl={7}
           lg={7}
           md={3}
           sm={3}
@@ -511,16 +510,15 @@ function Navbar(props) {
             </div>
           </ul>
           <ul className="nav-list">
-    {/*       <div className="dropdown">  
-          <li
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-          id="list-text"
-        >
-        <Link to="/">Home</Link>  
-        </li>
-        </div> */}
+            <div className="dropdown">
+              <li
+             
+                id="list-text"
+                className="home-button"
+              >
+                <Link to="/">Home</Link>
+              </li>
+            </div>
             <div className="dropdown">
               <li
                 type="button"
