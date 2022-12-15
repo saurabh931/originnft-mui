@@ -404,7 +404,7 @@ function Navbar(props) {
                   sx={{ p: "10px" }}
                   aria-label="search"
                 >
-                  <SearchIcon />
+                  <SearchIcon id="search-icon-nav" />
                 </IconButton>
                 <InputBase
                   sx={{ ml: 1, flex: 1 }}

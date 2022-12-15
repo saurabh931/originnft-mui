@@ -229,9 +229,6 @@ ul.dropdown-menu.show-profile.show {
   color: #000000;
 }
 
-.css-vubbuv {
-  fill: white !important;
-}
 
 .section-eth-amount {
   background: linear-gradient(130.18deg,
@@ -447,4 +444,7 @@ input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input {
   .toggle-btn {
     display: none;
   }
+}
+.css-vubbuv {
+  fill: white !important;
 }
