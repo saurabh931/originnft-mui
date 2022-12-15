@@ -202,13 +202,48 @@ function Navbar(props) {
                   </a>
                 </button>
                 <div className="dropdown-content1">
-                  <a href="/">All NFTs</a>
-                  <a href="/">Recordions</a>
-                  <a href="/">Art</a>
-                  <a href="/">Collectibles</a>
-                  <a href="/">Music</a>
-                  <a href="/">Photography</a>
-                  <a href="/">Videos</a>
+                  <span className="li-section">
+                    <a className="dropdown-item" href="#">
+                      <img src={Nft} alt="" />
+                      All NFTs
+                    </a>
+                  </span>
+                  <span className="li-section">
+                    <a className="dropdown-item" href="#">
+                      <img src={Recordian} alt="" />
+                      Recordian
+                    </a>
+                  </span>
+                  <span className="li-section">
+                    <a className="dropdown-item" href="#">
+                      <img src={Art} alt="" />
+                      Art
+                    </a>
+                  </span>
+                  <span className="li-section">
+                    <a className="dropdown-item" href="#">
+                      <img src={Collectibles} alt="" />
+                      Collectibles
+                    </a>
+                  </span>
+                  <span className="li-section">
+                    <a className="dropdown-item" href="#">
+                      <img src={Music} alt="" />
+                      Music
+                    </a>
+                  </span>
+                  <span className="li-section">
+                    <a className="dropdown-item" href="#">
+                      <img src={Photography} alt="" />
+                      Photography
+                    </a>
+                  </span>
+                  <span className="li-section">
+                    <a className="dropdown-item" href="#">
+                      <img src={Videos} alt="" />
+                      Videos
+                    </a>
+                  </span>
                 </div>
               </div>
 
@@ -220,14 +255,18 @@ function Navbar(props) {
                   </a>
                   <a
                     className="navItem-icons navmobile-subarrow-icons"
-                    href="/"
+                    href="#"
                   >
                     <MdKeyboardArrowRight />
                   </a>
                 </button>
                 <div className="dropdown-content1">
-                  <a href="/">Rankings</a>
-                  <a href="/">Activities</a>
+                  <Link className="dropdown-item" to="/collectionsstate">
+                    Rankings
+                  </Link>
+                  <Link className="dropdown-item" to="#">
+                    Activities
+                  </Link>
                 </div>
               </div>
               <div className="dropdown1">
@@ -238,16 +277,30 @@ function Navbar(props) {
                   </a>
                   <a
                     className="navItem-icons navmobile-subarrow-icons"
-                    href="/"
+                    href="#"
                   >
                     <MdKeyboardArrowRight />
                   </a>
                 </button>
                 <div className="dropdown-content1">
-                  <a href="/">Docs</a>
-                  <a href="/">Partners</a>
-                  <a href="/">Advertisement</a>
-                  <a href="/">Newsletters</a>
+                  <Link className="dropdown-item" to="/resourceshelpcenter">
+                    Help Center
+                  </Link>
+                  <Link className="dropdown-item" to="/collectioninsidepage">
+                    Collection-inside-page
+                  </Link>
+                  <Link className="dropdown-item" to="#">
+                    Docs{" "}
+                  </Link>
+                  <Link className="dropdown-item" to="#">
+                    Partners{" "}
+                  </Link>
+                  <Link className="dropdown-item" to="#">
+                    Advertisement{" "}
+                  </Link>
+                  <Link className="dropdown-item" to="#">
+                    Newsletters{" "}
+                  </Link>
                 </div>
               </div>
               <div className="dropdown1">
@@ -258,7 +311,7 @@ function Navbar(props) {
                   </a>
                   <a
                     className="navItem-icons navmobile-subarrow-icons"
-                    href="/"
+                    href="#"
                   >
                     <MdKeyboardArrowRight />
                   </a>
@@ -272,7 +325,7 @@ function Navbar(props) {
                   </a>
                   <a
                     className="navItem-icons navmobile-subarrow-icons"
-                    href="/"
+                    href="#"
                   >
                     <FormControlLabel
                       control={<IOSSwitch sx={{ m: 1 }} />}
@@ -383,13 +436,13 @@ function Navbar(props) {
                   </Link>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     {" "}
                     Favourites
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     {" "}
                     Watchlist
                   </a>
@@ -468,43 +521,43 @@ function Navbar(props) {
               </li>
               <ul className="dropdown-menu">
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <img src={Nft} alt="" />
                     All NFTs
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <img src={Recordian} alt="" />
                     Recordian
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <img src={Art} alt="" />
                     Art
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <img src={Collectibles} alt="" />
                     Collectibles
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <img src={Music} alt="" />
                     Music
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <img src={Photography} alt="" />
                     Photography
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <img src={Videos} alt="" />
                     Videos
                   </a>
@@ -527,7 +580,7 @@ function Navbar(props) {
                   </Link>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     Activities
                   </a>
                 </li>
@@ -554,17 +607,17 @@ function Navbar(props) {
                   </Link>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     Docs
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     Partners
                   </a>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     Advertisement
                   </a>
                 </li>
@@ -574,7 +627,7 @@ function Navbar(props) {
                   </Link>
                 </li>
                 <li className="li-section">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="#">
                     <span className="ic">
                       <FaDiscord className="discord" />
                     </span>

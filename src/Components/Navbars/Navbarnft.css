@@ -229,6 +229,10 @@ ul.dropdown-menu.show-profile.show {
   color: #000000;
 }
 
+.css-vubbuv {
+  fill: white !important;
+}
+
 .section-eth-amount {
   background: linear-gradient(130.18deg,
       rgba(188, 188, 188, 0.21) 54.86%,

@@ -154,7 +154,7 @@ label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-
 }
 
 .navItem-icons {
-  color: var(--para-clr);
+  color: var(--para-clr) !important;
   text-decoration: none;
   float: left !important;
 }
