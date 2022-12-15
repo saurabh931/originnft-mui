@@ -160,6 +160,26 @@
     line-height: 15px;
 }
 
+#form-search-input-collection {
+    border: none !important;
+    border-radius: 15px !important;
+    background-color: var(--background-collection-filter) !important;
+}
+
+.filter-icon-collection {
+    margin-left: 0px !important;
+}
+
+.collection-filter {
+    background-color: var(--background-collection-filter) !important;
+}
+
+.status-tag {
+    font-weight: 800 !important;
+    font-size: 1.5rem !important;
+    margin-top: 1rem;
+}
+
 .cards-title-name {
     font-family: 'Futura Maxi CG Book' !important;
     font-style: normal !important;

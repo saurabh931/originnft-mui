@@ -45,6 +45,12 @@ import Cardimgcoll from "./Collection-images/Rectangle10.png";
 import Cardimgcoll1 from "./Collection-images/Rectangle11.png";
 import Cardimgcoll2 from "./Collection-images/Rectangle12.png";
 import Cardimgcoll3 from "./Collection-images/Rectangle13.png";
+import { Grid, IconButton, Paper } from "@mui/material";
+import { IoMdArrowDropdown } from "react-icons/io";
+import Viewgrid from "../..//Images/view-grid.png";
+import Viewgrid2 from "../../Images/Group8926.png";
+import Filtericon from "../../Images/filter-vector.png";
+import Refresh from "../../Images/Reload-vector.png";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -184,58 +190,67 @@ export default function Collectioninsidepage() {
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-12"></div>
           </div>
-          <div className="container-fluid ">
-            <div className="row section-collec py-3 pb-5">
-              <div className="col-lg-1 col-md-1 col-sm-1 col-12 py-3 d-flex">
-                <span>
-                  <FilterListIcon className="filterlist-icons" />
-                </span>
-
-                <div className="reload-bu">
-                  <TfiReload className="reolad-tfi-bu" />
+          <Grid container>
+            <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+              <div>
+                <Button className="filter-button filter-icon-collection collection-filter">
+                  <img src={Filtericon} alt="" />
+                  <span className="filter-tab">Filters</span>
+                </Button>
+                <Button className="refresh-button collection-filter">
+                  <img src={Refresh} alt="" />
+                </Button>
+              </div>
+            </Grid>
+            <Grid item xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+              <div className="search-nav search-text-field ">
+                <div className="input-nav ">
+                  <Paper
+                    component="form"
+                    sx={{
+                      p: "2px 4px",
+                      display: "flex",
+                      alignItems: "center",
+                      width: 400,
+                    }}
+                    className="collection-filter"
+                    id="form-search-input-collection"
+                  >
+                    <IconButton
+                      type="button"
+                      sx={{ p: "10px" }}
+                      aria-label="search"
+                    >
+                      <SearchIcon id="search-icon" />
+                    </IconButton>
+                    <InputBase
+                      sx={{ ml: 1, flex: 1 }}
+                      placeholder="Search by NFTs"
+                      id="search-icon-text"
+                    />
+                  </Paper>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-10 col-sm-10 col-10  py-3">
-                <Search className="search-00">
-                  <SearchIconWrapper>
-                    <SearchIcon />
-                  </SearchIconWrapper>
-                  <StyledInputBase
-                    placeholder="Search by name"
-                    inputProps={{ "aria-label": "search" }}
-                  />
-                </Search>
+            </Grid>
+            <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
+              <div>
+                <Button className="recent-button collection-filter">
+                  <span className="recent">Recently Listed </span>
+                  <span>
+                    <IoMdArrowDropdown className="recent" />
+                  </span>
+                </Button>
+                <Button className="view-button collection-filter">
+                  <span>
+                    <img src={Viewgrid} alt="" className="grid" />
+                  </span>
+                  <span>
+                    <img src={Viewgrid2} alt="" />
+                  </span>
+                </Button>
               </div>
-              <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
-                {" "}
-                <Dropdown>
-                  <Dropdown.Toggle
-                    variant="success"
-                    id="dropdown-basic recently-listed-dropdown"
-                    className="profile-recently"
-                  >
-                    Recently Listed
-                  </Dropdown.Toggle>
-
-                  <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">
-                      Another action
-                    </Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
-                      Something else
-                    </Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>
-              </div>
-              <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-4  ">
-                <span className="view-bu-collection">
-                  <img src={View} alt="" className="vv-bu1" />
-                  <img src={View2} alt="" />
-                </span>
-              </div>
-            </div>
-          </div>
+            </Grid>
+          </Grid>
         </div>
         <div className="container-fluid ">
           <div className="row side-bar-collection">

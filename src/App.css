@@ -37,6 +37,7 @@
   --profile-notification-switch: rgba(81, 81, 81, 0.4);
   --secondary-para-clr: white;
   --background-nft-card: rgb(74, 74, 74);
+  --background-collection-filter: rgba(246, 246, 246, 0.8);
 }
 
 .light-theme {
@@ -50,6 +51,7 @@
   --bg-profile-box-clr: #f6f6f6;
   --profile-notification-switch: #f6f6f6;
   --background-nft-card: #f6f6f6;
+  --background-collection-filter: rgba(246, 246, 246, 0.5);
 }
 
 .Section {
