@@ -52,7 +52,8 @@ import { MdOutlineExplore } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoIosStats } from "react-icons/io";
 import { MdOutlineLibraryBooks } from "react-icons/md";
-import { MdOutlineCreate } from "react-icons/md";
+import { MdOutlineCreate, MdOutlineHome } from "react-icons/md";
+import { CgProfile } from "react-icons/cg";
 import { BsFillMoonFill } from "react-icons/bs";
 import { SiDiscord } from "react-icons/si";
 
@@ -192,6 +193,22 @@ function Navbar(props) {
             </div>
             <div className="mobile-side-bar">
               <div className="dropdown1">
+                <Link to="/">
+                  <button className="dropbtn1">
+                    <a className="navItem-icons">
+                      <MdOutlineHome className="navItem-icons tagIcons" />
+                      Home
+                    </a>
+                    <a
+                      className="navItem-icons navmobile-subarrow-icons"
+                      href="#"
+                    >
+                      <MdKeyboardArrowRight />
+                    </a>
+                  </button>
+                </Link>
+              </div>
+              <div className="dropdown1">
                 <button className="dropbtn1">
                   <a className="navItem-icons">
                     <MdOutlineExplore className="navItem-icons tagIcons" />
@@ -210,7 +227,11 @@ function Navbar(props) {
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Recordian} alt="" className="explore-list-section" />
+                      <img
+                        src={Recordian}
+                        alt=""
+                        className="explore-list-section"
+                      />
                       Recordian
                     </a>
                   </span>
@@ -222,25 +243,41 @@ function Navbar(props) {
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Collectibles} alt="" className="explore-list-section" />
+                      <img
+                        src={Collectibles}
+                        alt=""
+                        className="explore-list-section"
+                      />
                       Collectibles
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Music} alt="" className="explore-list-section" />
+                      <img
+                        src={Music}
+                        alt=""
+                        className="explore-list-section"
+                      />
                       Music
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Photography} alt="" className="explore-list-section" />
+                      <img
+                        src={Photography}
+                        alt=""
+                        className="explore-list-section"
+                      />
                       Photography
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Videos} alt="" className="explore-list-section" />
+                      <img
+                        src={Videos}
+                        alt=""
+                        className="explore-list-section"
+                      />
                       Videos
                     </a>
                   </span>
@@ -306,6 +343,37 @@ function Navbar(props) {
               <div className="dropdown1">
                 <button className="dropbtn1">
                   <a className="navItem-icons">
+                    <CgProfile className="navItem-icons tagIcons" />
+                    Profile
+                  </a>
+                  <a
+                    className="navItem-icons navmobile-subarrow-icons"
+                    href="#"
+                  >
+                    <MdKeyboardArrowRight />
+                  </a>
+                </button>
+                <div className="dropdown-content1">
+                  <Link className="dropdown-item" to="/profile">
+                    Profile
+                  </Link>
+                  <Link className="dropdown-item" to="#">
+                    Favourites
+                  </Link>
+                  <Link className="dropdown-item" to="#">
+                    Watchlist
+                  </Link>
+                  <Link className="dropdown-item" to="/mycollections">
+                    My Collections
+                  </Link>
+                  <Link className="dropdown-item" to="/profilesetting">
+                    Settings
+                  </Link>
+                </div>
+              </div>
+              <div className="dropdown1">
+                <button className="dropbtn1">
+                  <a className="navItem-icons">
                     <MdOutlineCreate className="navItem-icons tagIcons" />
                     Create
                   </a>
@@ -317,6 +385,7 @@ function Navbar(props) {
                   </a>
                 </button>
               </div>
+
               <div className="dropdown1">
                 <button className="dropbtn1">
                   <a className="navItem-icons">
@@ -533,37 +602,49 @@ function Navbar(props) {
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Recordian} alt="" className="explore-list-section"  />
+                    <img
+                      src={Recordian}
+                      alt=""
+                      className="explore-list-section"
+                    />
                     Recordian
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Art} alt="" className="explore-list-section"  />
+                    <img src={Art} alt="" className="explore-list-section" />
                     Art
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Collectibles} alt="" className="explore-list-section"  />
+                    <img
+                      src={Collectibles}
+                      alt=""
+                      className="explore-list-section"
+                    />
                     Collectibles
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Music} alt="" className="explore-list-section"  />
+                    <img src={Music} alt="" className="explore-list-section" />
                     Music
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Photography} alt="" className="explore-list-section"  />
+                    <img
+                      src={Photography}
+                      alt=""
+                      className="explore-list-section"
+                    />
                     Photography
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Videos} alt="" className="explore-list-section"  />
+                    <img src={Videos} alt="" className="explore-list-section" />
                     Videos
                   </a>
                 </li>
