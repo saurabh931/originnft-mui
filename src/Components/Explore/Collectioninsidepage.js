@@ -110,7 +110,7 @@ export default function Collectioninsidepage() {
               Gamefi Legends <img src={Checkvector} alt="" />
             </h6>
             <h6 className="sub-title-profile mx-2">
-              by Crypto Khem
+              by Crypto Khem&nbsp;
               <img src={Checkvector} alt="" />
             </h6>
           </div>
