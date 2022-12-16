@@ -54,11 +54,19 @@
 }
 
 .ic {
-  margin-right: 5px;
+  margin-right: 1rem;
+}
+
+.explore-list-section {
+  margin-right: 0.7rem;
 }
 
 .discord {
   font-size: 25px;
+}
+
+.offcanvas-logo{
+  background-color: var(--background-logo-color);
 }
 
 .tele {
@@ -230,11 +238,12 @@ ul.dropdown-menu.show-profile.show {
   color: #000000;
 }
 
-
 .section-eth-amount {
-  background: linear-gradient(130.18deg,
-      rgba(188, 188, 188, 0.21) 54.86%,
-      rgba(71, 71, 72, 0.12) 97.18%);
+  background: linear-gradient(
+    130.18deg,
+    rgba(188, 188, 188, 0.21) 54.86%,
+    rgba(71, 71, 72, 0.12) 97.18%
+  );
   border-radius: 15px;
   padding: 10px;
   display: flex;
@@ -364,7 +373,8 @@ span.dropdown-item {
   display: block;
 }
 
-.dropdown-offcanvas-link1:hover .dropbtn-offcanvas-link1 {}
+.dropdown-offcanvas-link1:hover .dropbtn-offcanvas-link1 {
+}
 
 .offcanvas {
   max-width: 90% !important;
@@ -452,6 +462,6 @@ input.MuiInputBase-input.css-yz9k0d-MuiInputBase-input {
 svg#search-icon-nav {
   fill: white !important;
 }
-.home-button a{
-  color:white !important;
+.home-button a {
+  color: white !important;
 }

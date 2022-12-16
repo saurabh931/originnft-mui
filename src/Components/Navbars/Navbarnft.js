@@ -180,7 +180,7 @@ function Navbar(props) {
               <h5 className="offcanvas-title" id="offcanvasExampleLabel">
                 <span>
                   <img src={logo} alt="" />
-                  <img src={logo21} alt="" />
+                  <img src={logo21} alt="" className="offcanvas-logo" />
                 </span>
               </h5>
               <button
@@ -204,43 +204,43 @@ function Navbar(props) {
                 <div className="dropdown-content1">
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Nft} alt="" />
+                      <img src={Nft} alt="" className="explore-list-section" />
                       All NFTs
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Recordian} alt="" />
+                      <img src={Recordian} alt="" className="explore-list-section" />
                       Recordian
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Art} alt="" />
+                      <img src={Art} alt="" className="explore-list-section" />
                       Art
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Collectibles} alt="" />
+                      <img src={Collectibles} alt="" className="explore-list-section" />
                       Collectibles
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Music} alt="" />
+                      <img src={Music} alt="" className="explore-list-section" />
                       Music
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Photography} alt="" />
+                      <img src={Photography} alt="" className="explore-list-section" />
                       Photography
                     </a>
                   </span>
                   <span className="li-section">
                     <a className="dropdown-item" href="#">
-                      <img src={Videos} alt="" />
+                      <img src={Videos} alt="" className="explore-list-section" />
                       Videos
                     </a>
                   </span>
@@ -511,11 +511,7 @@ function Navbar(props) {
           </ul>
           <ul className="nav-list">
             <div className="dropdown">
-              <li
-             
-                id="list-text"
-                className="home-button"
-              >
+              <li id="list-text" className="home-button">
                 <Link to="/">Home</Link>
               </li>
             </div>
@@ -531,43 +527,43 @@ function Navbar(props) {
               <ul className="dropdown-menu">
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Nft} alt="" />
+                    <img src={Nft} alt="" className="explore-list-section" />
                     All NFTs
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Recordian} alt="" />
+                    <img src={Recordian} alt="" className="explore-list-section"  />
                     Recordian
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Art} alt="" />
+                    <img src={Art} alt="" className="explore-list-section"  />
                     Art
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Collectibles} alt="" />
+                    <img src={Collectibles} alt="" className="explore-list-section"  />
                     Collectibles
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Music} alt="" />
+                    <img src={Music} alt="" className="explore-list-section"  />
                     Music
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Photography} alt="" />
+                    <img src={Photography} alt="" className="explore-list-section"  />
                     Photography
                   </a>
                 </li>
                 <li className="li-section">
                   <a className="dropdown-item" href="#">
-                    <img src={Videos} alt="" />
+                    <img src={Videos} alt="" className="explore-list-section"  />
                     Videos
                   </a>
                 </li>

@@ -1,5 +1,5 @@
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
   background-color: transparent !important;
   color: var(--para-clr) !important;
   border-bottom: 3px solid var(--para-clr) !important;

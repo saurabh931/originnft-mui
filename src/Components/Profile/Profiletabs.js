@@ -17,6 +17,13 @@ import InputBase from "@mui/material/InputBase";
 //IMAGES
 import View from "../../Images/view-grid.png";
 import View2 from "../../Images/Group8926.png";
+import { Grid, IconButton, Paper } from "@mui/material";
+import { Button } from "react-bootstrap";
+import Filtericon from "../../Images/filter-vector.png";
+import Refresh from "../../Images/Reload-vector.png";
+import Viewgrid from "../../Images/view-grid.png";
+import Viewgrid2 from "../../Images/Group8926.png";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -91,217 +98,273 @@ export default function LabTabs() {
               <ProfileSelector />
             </TabPanel>
             <TabPanel value="2">
-              <div className="container-fluid">
-                <div className="row py-3 pb-5">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-7 col-sm-11 col-11  py-3">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-sm-6 col-6 py-3">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic recently-listed-dropdown"
-                        className="profile-recently"
+              <div className="">
+              <Grid container>
+              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="filter-button">
+                    <img src={Filtericon} alt="" />
+                    <span className="filter-tab">Filters</span>
+                  </Button>
+                  <Button className="refresh-button">
+                    <img src={Refresh} alt="" />
+                  </Button>
+                </div>
+              </Grid>
+              <Grid item xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+                <div className="search-nav search-text-field">
+                  <div className="input-nav">
+                    <Paper
+                      component="form"
+                      sx={{
+                        p: "2px 4px",
+                        display: "flex",
+                        alignItems: "center",
+                        width: 400,
+                      }}
+                      id="form-search-input"
+                    >
+                      <IconButton
+                        type="button"
+                        sx={{ p: "10px" }}
+                        aria-label="search"
                       >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
+                        <SearchIcon id="search-icon" />
+                      </IconButton>
+                      <InputBase
+                        sx={{ ml: 1, flex: 1 }}
+                        placeholder="Search by NFTs"
+                        id="search-icon-text"
+                      />
+                    </Paper>
                   </div>
                 </div>
+              </Grid>
+              <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="recent-button">
+                    <span className="recent">Recently Listed </span>
+                    <span>
+                      <IoMdArrowDropdown className="recent" />
+                    </span>
+                  </Button>
+                  <Button className="view-button">
+                    <span>
+                      <img src={Viewgrid} alt="" className="grid" />
+                    </span>
+                    <span>
+                      <img src={Viewgrid2} alt="" />
+                    </span>
+                  </Button>
+                </div>
+              </Grid>
+            </Grid>
                 <div className="row setting-page">
                   <h5 className="content-text">No items to display</h5>
                 </div>
               </div>
             </TabPanel>
             <TabPanel value="3">
-              <div className="container-fluid">
-                <div className="row py-3 pb-5">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic recently-listed-dropdown"
-                        className="profile-recently"
+            <div className="">
+              <Grid container>
+              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="filter-button">
+                    <img src={Filtericon} alt="" />
+                    <span className="filter-tab">Filters</span>
+                  </Button>
+                  <Button className="refresh-button">
+                    <img src={Refresh} alt="" />
+                  </Button>
+                </div>
+              </Grid>
+              <Grid item xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+                <div className="search-nav search-text-field">
+                  <div className="input-nav">
+                    <Paper
+                      component="form"
+                      sx={{
+                        p: "2px 4px",
+                        display: "flex",
+                        alignItems: "center",
+                        width: 400,
+                      }}
+                      id="form-search-input"
+                    >
+                      <IconButton
+                        type="button"
+                        sx={{ p: "10px" }}
+                        aria-label="search"
                       >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
+                        <SearchIcon id="search-icon" />
+                      </IconButton>
+                      <InputBase
+                        sx={{ ml: 1, flex: 1 }}
+                        placeholder="Search by NFTs"
+                        id="search-icon-text"
+                      />
+                    </Paper>
                   </div>
                 </div>
-              </div>
-              <div className="row setting-page">
-                <h5 className="content-text">No items to display</h5>
+              </Grid>
+              <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="recent-button">
+                    <span className="recent">Recently Listed </span>
+                    <span>
+                      <IoMdArrowDropdown className="recent" />
+                    </span>
+                  </Button>
+                  <Button className="view-button">
+                    <span>
+                      <img src={Viewgrid} alt="" className="grid" />
+                    </span>
+                    <span>
+                      <img src={Viewgrid2} alt="" />
+                    </span>
+                  </Button>
+                </div>
+              </Grid>
+            </Grid>
+                <div className="row setting-page">
+                  <h5 className="content-text">No items to display</h5>
+                </div>
               </div>
             </TabPanel>
             <TabPanel value="4">
               {" "}
-              <div className="container-fluid">
-                <div className="row py-3 pb-5">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic recently-listed-dropdown"
-                        className="profile-recently"
+              <div className="">
+              <Grid container>
+              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="filter-button">
+                    <img src={Filtericon} alt="" />
+                    <span className="filter-tab">Filters</span>
+                  </Button>
+                  <Button className="refresh-button">
+                    <img src={Refresh} alt="" />
+                  </Button>
+                </div>
+              </Grid>
+              <Grid item xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+                <div className="search-nav search-text-field">
+                  <div className="input-nav">
+                    <Paper
+                      component="form"
+                      sx={{
+                        p: "2px 4px",
+                        display: "flex",
+                        alignItems: "center",
+                        width: 400,
+                      }}
+                      id="form-search-input"
+                    >
+                      <IconButton
+                        type="button"
+                        sx={{ p: "10px" }}
+                        aria-label="search"
                       >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
+                        <SearchIcon id="search-icon" />
+                      </IconButton>
+                      <InputBase
+                        sx={{ ml: 1, flex: 1 }}
+                        placeholder="Search by NFTs"
+                        id="search-icon-text"
+                      />
+                    </Paper>
                   </div>
                 </div>
-              </div>
-              <div className="row setting-page">
-                <h5 className="content-text">No items to display</h5>
+              </Grid>
+              <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="recent-button">
+                    <span className="recent">Recently Listed </span>
+                    <span>
+                      <IoMdArrowDropdown className="recent" />
+                    </span>
+                  </Button>
+                  <Button className="view-button">
+                    <span>
+                      <img src={Viewgrid} alt="" className="grid" />
+                    </span>
+                    <span>
+                      <img src={Viewgrid2} alt="" />
+                    </span>
+                  </Button>
+                </div>
+              </Grid>
+            </Grid>
+                <div className="row setting-page">
+                  <h5 className="content-text">No items to display</h5>
+                </div>
               </div>
             </TabPanel>
             <TabPanel value="5">
               {" "}
-              <div className="container-fluid">
-                <div className="row py-3 pb-5">
-                  <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
-                    <span>
-                      <FilterListIcon />
-                    </span>
-                  </div>
-                  <div className="col-lg-7 col-md-11 col-sm-11 col-11  py-3">
-                    <Search className="search-00">
-                      <SearchIconWrapper>
-                        <SearchIcon />
-                      </SearchIconWrapper>
-                      <StyledInputBase
-                        placeholder="Search by name"
-                        inputProps={{ "aria-label": "search" }}
-                      />
-                    </Search>
-                  </div>
-                  <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
-                    {" "}
-                    <Dropdown>
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic recently-listed-dropdown"
-                        className="profile-recently"
+              <div className="">
+              <Grid container>
+              <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="filter-button">
+                    <img src={Filtericon} alt="" />
+                    <span className="filter-tab">Filters</span>
+                  </Button>
+                  <Button className="refresh-button">
+                    <img src={Refresh} alt="" />
+                  </Button>
+                </div>
+              </Grid>
+              <Grid item xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+                <div className="search-nav search-text-field">
+                  <div className="input-nav">
+                    <Paper
+                      component="form"
+                      sx={{
+                        p: "2px 4px",
+                        display: "flex",
+                        alignItems: "center",
+                        width: 400,
+                      }}
+                      id="form-search-input"
+                    >
+                      <IconButton
+                        type="button"
+                        sx={{ p: "10px" }}
+                        aria-label="search"
                       >
-                        Recently Listed
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                          Something else
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </div>
-                  <div className="col-lg-2 col-md-6 col-sm-6 col-6 py-2  py-3  ">
-                    <span className="view-bu">
-                      <img src={View} alt="" className="vv-bu" />
-                      <img src={View2} alt="" />
-                    </span>
+                        <SearchIcon id="search-icon" />
+                      </IconButton>
+                      <InputBase
+                        sx={{ ml: 1, flex: 1 }}
+                        placeholder="Search by NFTs"
+                        id="search-icon-text"
+                      />
+                    </Paper>
                   </div>
                 </div>
-              </div>
-              <div className="row setting-page">
-                <h5 className="content-text">No items to display</h5>
+              </Grid>
+              <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
+                <div>
+                  <Button className="recent-button">
+                    <span className="recent">Recently Listed </span>
+                    <span>
+                      <IoMdArrowDropdown className="recent" />
+                    </span>
+                  </Button>
+                  <Button className="view-button">
+                    <span>
+                      <img src={Viewgrid} alt="" className="grid" />
+                    </span>
+                    <span>
+                      <img src={Viewgrid2} alt="" />
+                    </span>
+                  </Button>
+                </div>
+              </Grid>
+            </Grid>
+                <div className="row setting-page">
+                  <h5 className="content-text">No items to display</h5>
+                </div>
               </div>
             </TabPanel>
           </TabContext>

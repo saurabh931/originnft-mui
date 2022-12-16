@@ -12,11 +12,17 @@ import View2 from "../../Images/Group8926.png";
 import Cards1img from "../../Images/Rectangle10.png";
 import Cards2img from "../../Images/Rectangle11.png";
 import Cards3img from "../../Images/Rectangle12.png";
+import Filtericon from "../../Images/filter-vector.png";
+import Refresh from "../../Images/Reload-vector.png";
+import Viewgrid from "../../Images/view-grid.png";
+import Viewgrid2 from "../../Images/Group8926.png";
 
 //IMPORT CARDS
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { Grid, IconButton, Paper } from "@mui/material";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -65,8 +71,68 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 function ProfileSelector() {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row py-3 pb-5">
+
+      <Grid container>
+      <Grid item xxl={2} xl={2} lg={2} md={12} sm={12} xs={12}>
+        <div>
+          <Button className="filter-button">
+            <img src={Filtericon} alt="" />
+            <span className="filter-tab">Filters</span>
+          </Button>
+          <Button className="refresh-button">
+            <img src={Refresh} alt="" />
+          </Button>
+        </div>
+      </Grid>
+      <Grid item xxl={7} xl={7} lg={7} md={12} sm={12} xs={12}>
+        <div className="search-nav search-text-field">
+          <div className="input-nav">
+            <Paper
+              component="form"
+              sx={{
+                p: "2px 4px",
+                display: "flex",
+                alignItems: "center",
+                width: 400,
+              }}
+              id="form-search-input"
+            >
+              <IconButton
+                type="button"
+                sx={{ p: "10px" }}
+                aria-label="search"
+              >
+                <SearchIcon id="search-icon" />
+              </IconButton>
+              <InputBase
+                sx={{ ml: 1, flex: 1 }}
+                placeholder="Search by NFTs"
+                id="search-icon-text"
+              />
+            </Paper>
+          </div>
+        </div>
+      </Grid>
+      <Grid item xxl={3} xl={3} lg={3} md={12} sm={12} xs={12}>
+        <div>
+          <Button className="recent-button">
+            <span className="recent">Recently Listed </span>
+            <span>
+              <IoMdArrowDropdown className="recent" />
+            </span>
+          </Button>
+          <Button className="view-button">
+            <span>
+              <img src={Viewgrid} alt="" className="grid" />
+            </span>
+            <span>
+              <img src={Viewgrid2} alt="" />
+            </span>
+          </Button>
+        </div>
+      </Grid>
+    </Grid>
+        {/* <div className="row py-3 pb-5">
           <div className="col-lg-1 col-md-1 col-sm-1 col-1 py-3">
             <span>
               <FilterListIcon />
@@ -107,8 +173,8 @@ function ProfileSelector() {
               <img src={View2} alt="" />
             </span>
           </div>
-        </div>
-      </div>
+        </div> */}
+  
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
