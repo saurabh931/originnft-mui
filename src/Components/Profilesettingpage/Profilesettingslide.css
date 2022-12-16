@@ -293,8 +293,16 @@ span.input-group-text {
 a {
   text-decoration: none !important;
 }
+@media screen and (min-width:768px) {
+  .user-bio-section{
+    margin-top: 3.5rem;
+  }
+}
 
 @media screen and (max-width: 767px) {
+  .input-bio{
+    width: 100%;
+  }
   .place-input-profile {
     /* margin-left: 20px; */
   }

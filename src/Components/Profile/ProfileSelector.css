@@ -38,6 +38,10 @@
     line-height: 15px !important;
 }
 
+.profile-card{
+    width: 100% !important;
+}
+
 @media screen and (max-width:650px) {
     .MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller {
         overflow: scroll !important;

@@ -176,9 +176,9 @@ function ProfileSelector() {
         </div> */}
   
       <div className="container-fluid">
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-            <Card>
+            <Card className="profile-card">
               <Card.Img variant="top" src={Cards1img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
@@ -187,7 +187,7 @@ function ProfileSelector() {
             </Card>
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-            <Card>
+            <Card className="profile-card">
               <Card.Img variant="top" src={Cards2img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
@@ -196,7 +196,7 @@ function ProfileSelector() {
             </Card>
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-            <Card>
+            <Card className="profile-card">
               <Card.Img variant="top" src={Cards3img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>
@@ -205,7 +205,7 @@ function ProfileSelector() {
             </Card>
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-            <Card>
+            <Card className="profile-card">
               <Card.Img variant="top" src={Cards1img} />
               <Card.Body>
                 <Card.Title className="card-head">Red Angrybol</Card.Title>

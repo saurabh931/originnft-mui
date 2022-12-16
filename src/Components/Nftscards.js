@@ -131,7 +131,7 @@ export default function Nftscards() {
                 </div>
               </Grid>
             </Grid>
-            <Grid container>
+            <Grid container className="mb-5">
               <Grid item xxl={3} xl={3} lg={4} md={4} sm={6} xs={12}>
                 <div className="card">
                   <img
