@@ -28,7 +28,7 @@ function Profile() {
             <br />
             <br />
             <span className="www">
-              <TfiWorld />
+              <TfiWorld />&nbsp;
               janedoe.com
             </span>
             <br />
