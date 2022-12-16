@@ -89,9 +89,9 @@ export default function Profilesettingslide() {
               </div>
             </div>
 
-            <div className="col-lg-9 col-md-12 col-sm-12 col-12 mb-5">
+            <div className="col-lg-9 col-md-12 col-sm-12 col-12 mb-5 notification-padding">
               <div className="section-offers">
-                <h1 className="offer-head">Offer settings</h1>
+                <h1 className="profile-setting-heading">Offer settings</h1>
                 <p className="set-para">
                   Set a minimum after for collective to ignore low offers.
                 </p>

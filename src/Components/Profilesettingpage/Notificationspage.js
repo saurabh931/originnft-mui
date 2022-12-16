@@ -139,10 +139,10 @@ export default function Profilesettingslide() {
               </div>
             </div>
             <div className="col-lg-9 col-md-12 col-sm-12 col-12">
-              <div className="row">
+              <div className="row notification-padding">
                 <div className="col-lg-7 col-md-7 col-sm-9 co-12 mb-5">
                   <div className="head-notification">
-                    <h1 className="notification-head">Notification Settings</h1>
+                    <h1 className="profile-setting-heading">Notification Settings</h1>
                     <p className="notification-para">
                       Activate which notifications you would like to receive
                     </p>

@@ -79,9 +79,9 @@ export default function Profilesettingslide() {
           </div>
           <div className="col-lg-9 col-md-12 col-sm-12 col-12">
             <div className="row">
-              <div className="col-lg-9 col-md-9 col-sm-12 col-12">
-                <div className="earning-box">
-                  <h6 className="earnigs-head">Earnings</h6>
+              <div className="col-lg-9 col-md-9 col-sm-12 col-12 my-5 notification-padding">
+                <div className="">
+                  <h6 className="profile-setting-heading">Earnings</h6>
                   <p className="earning-content">
                     To access your 2021 Creator Earnings from NFT sales with
                     this wallet using Origins NFT, see below.

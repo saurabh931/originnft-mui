@@ -48,15 +48,15 @@
 }
 
 .notifiactions-sections-cards {
-  width: 100%;
+  /* width: 100%; */
   background: var(--profile-notification-switch);
   border-radius: 15px;
-  margin-left: 25px !important;
+  /* margin-left: 25px !important; */
   margin-top: 8px !important;
 }
 
 .cards-notifiactions-element {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   padding-top: 20px;
 }
 
@@ -70,17 +70,17 @@
 }
 
 .section-mini {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   width: 100%;
 }
 
 .input-notification-section-eth {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   margin-top: 20px;
 }
 
 .save-button-notification {
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .turn-all-ele {
@@ -138,7 +138,7 @@
 
 .head-notification {
   margin-top: 40px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .input-notification-eth {
@@ -177,14 +177,13 @@ textarea.form-control::placeholder {
 span.input-group-text {
   background: #fff;
 }
+.notification-padding{
+  padding: 0rem 3rem !important ;
+}
 
 @media screen and (max-width:576px) {
-
-  .notifiactions-sections-cards,
-  .head-notification,
-  .section-mini,
-  .input-notification-section-eth,
-  .save-button-notification {
-    margin-left: 10px !important;
+  .notification-padding{
+    padding: 0rem 1rem !important;
   }
+  
 }

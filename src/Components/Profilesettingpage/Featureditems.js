@@ -83,17 +83,17 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className=" col-lg-9 col-md-12 col-sm-12 col-12">
+            <div className=" col-lg-9 col-md-12 col-sm-12 col-12 notification-padding">
               <div className="row">
                 <div className="col-lg-8 col-md-8 col-sm-12 col-12 mb-5">
                   <div className="section-feature-content">
-                    <h1 className="featured-head">Featured Items</h1>
+                    <h1 className="profile-setting-heading">Featured Items</h1>
                     <p className="para-featured">
                       Featured items will appear on your profile’s “Featured”
                       tab. You can feature up to 10 items per section.
                     </p>
                   </div>
-                  <div className="buttons-section-ddd">
+                  <div className="buttons-section-ddd d-flex">
                     <button className="create-bu">Create Section</button>
                     <button className="view-section-button">
                       View on profile

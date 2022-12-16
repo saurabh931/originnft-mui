@@ -94,7 +94,6 @@ ul {
   height: 43px;
   background: var(--bg-clr);
   border-radius: 15px;
-  margin-left: 40px;
   padding: 10px;
   margin-top: 20px;
   font-family: "Futura Maxi CG Book";
@@ -105,6 +104,7 @@ ul {
   align-items: center;
   color: var(--para-clr);
   border: 1px solid var(--para-clr);
+  margin-left: 3rem;
 }
 
 .profile-section-banner {
@@ -115,16 +115,23 @@ ul {
   line-height: 19px !important;
   color: var(--para-clr) !important;
   margin-top: 40px;
-  margin-left: 40px;
 }
-
 .section-profile-line {
-  width: 50%;
+  width: 100%;
   height: 175px;
   border: 3px dashed #c5c5c5;
   border-radius: 30px;
-  margin-left: 40px;
 }
+@media screen and (min-width:768px) {
+  .section-profile-line {
+    width: 40%;
+    height: 175px;
+    border: 3px dashed #c5c5c5;
+    border-radius: 30px;
+
+  }
+}
+
 
 .drop-section-image {
   text-align: center;
@@ -145,7 +152,6 @@ ul {
 
 .profile-head-section {
   margin-top: 40px;
-  margin-left: 40px;
 }
 
 .icons-eye {
@@ -158,7 +164,6 @@ ul {
   font-weight: 400;
   font-size: 18px;
   line-height: 19px;
-  margin-left: 40px;
 }
 
 .user-section-img {
@@ -172,7 +177,6 @@ ul {
 .place-input-profile {
   width: 100%;
   height: 53px;
-  margin-left: 40px;
   margin-top: 10px;
   border: 1px solid #d9d9d9;
   border-radius: 10px;
@@ -195,7 +199,6 @@ ul {
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 22px !important;
-  margin-left: 40px;
 }
 
 .twit {
@@ -208,8 +211,8 @@ ul {
 }
 
 .section-twitter {
-  margin-left: 40px;
   margin-top: 7px;
+  display: flex;
 }
 
 .connect-bu {
@@ -234,7 +237,6 @@ ul {
   background: var(--bg-profile-box-clr);
   border: 1px solid #d9d9d9;
   border-radius: 9.92153px;
-  margin-left: 40px;
 }
 
 input.form-control,
@@ -261,7 +263,6 @@ span.input-group-text {
   line-height: 20px;
   align-items: center;
   color: #101010;
-  margin-left: 40px;
 }
 
 .input-bio {
@@ -283,11 +284,9 @@ span.input-group-text {
 }
 
 .profile-section-content {
-  margin-left: 40px;
 }
 
 .user-bio-section {
-  margin-left: 40px;
   margin-top: 20px;
 }
 
@@ -297,47 +296,47 @@ a {
 
 @media screen and (max-width: 767px) {
   .place-input-profile {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .section-profile-line {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .profile-head-section {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .profile-section-banner {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .user-section {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .profile-line {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .section-twitter {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .profile-section-content {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .user-bio-section {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .inputgrp {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .save-bu-pro {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 }
 

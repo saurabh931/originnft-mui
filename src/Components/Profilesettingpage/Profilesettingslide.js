@@ -86,7 +86,7 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className=" col-lg-9 col-md-12 col-sm-12 col-12">
+            <div className=" col-lg-9 col-md-12 col-sm-12 col-12 notification-padding">
               <div className="profile-head-section">
                 <span className="profile-heading">Profile details</span>
                 <span className="preview-profile-button">

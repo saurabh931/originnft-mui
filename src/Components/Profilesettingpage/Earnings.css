@@ -21,6 +21,11 @@
   line-height: 35px;
 }
 
+.profile-setting-heading{
+  font-size: 2rem !important;
+  font-family: "Futura Maxi CG Bold" !important;
+  margin-bottom: 2rem !important;
+}
 .earning-box {
   margin-top: 40px;
   margin-left: 30px;

@@ -136,12 +136,12 @@ export default function Profilesettingslide() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-9 col-md-12 col-sm-12 col-12 mb-5">
-              <div className="section-fit">
+            <div className="col-lg-9 col-md-12 col-sm-12 col-12 mb-5 mt-5 notification-padding">
+              <div className="">
                 <div className="row">
                   <div className="col-lg-8 col-md-9 col-sm-12 col-12">
                     <div>
-                      <span className="account-head">Account support </span>
+                      <span className="profile-setting-heading">Account support </span>
                       <p className="account-sec">
                         We got you the help you need with your account.
                       </p>

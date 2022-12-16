@@ -68,12 +68,12 @@
 }
 
 .card-create-section {
-  width: 96% !important;
+ 
 
   background: var(--profile-notification-switch) !important;
   border-radius: 15px !important;
   margin-top: 10px !important;
-  margin-left: 40px !important;
+
 }
 
 .icons-featured {
@@ -101,12 +101,10 @@
 
 .section-feature-content {
   margin-top: 40px;
-  margin-left: 40px;
+
 }
 
-.buttons-section-ddd {
-  margin-left: 42px;
-}
+
 
 .featured-save-button {
   width: 118.94px;
@@ -128,41 +126,23 @@
   margin-top: 40px;
 }
 
-@media screen and (max-width: 991px) {
-  .card-create-section {
-    width: 80% !important;
-  }
-}
+
 
 @media screen and (max-width: 782px) {
-  .card-create-section {
-    width: 85% !important;
-  }
+
 
   .view-section-button {
     margin-left: 12px;
   }
 }
 
-@media screen and (max-width: 615px) {
-  .card-create-section {
-    width: 90% !important;
-  }
-}
 
-@media screen and (max-width: 428px) {
-  .buttons-section-ddd {
-    margin-left: 30px;
-  }
 
-  .card-create-section {
-    margin-left: 30px !important;
-  }
-}
+
 
 @media screen and (max-width: 767px) {
   .section-button-featured {
-    margin-left: 40px;
+
     text-align: left;
   }
 }
