@@ -79,6 +79,10 @@ ul {
   box-shadow: 3px 0px 10px var(--box-shadow-clr);
 }
 
+#twitter-profile-icon{
+  fill: #fec200 !important;
+}
+
 /* PROFILE SECTION */
 .profile-heading {
   font-family: "Futura Maxi CG Bold" !important;

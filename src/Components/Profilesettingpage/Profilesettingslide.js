@@ -137,7 +137,7 @@ export default function Profilesettingslide() {
                   <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                       <div className="section-twitter">
-                        <TwitterIcon style={{ color: "#6A6A6A" }} />
+                        <TwitterIcon id="twitter-profile-icon"/>
                         <span className="twit">Twitter</span>
                       </div>
                     </div>
@@ -148,7 +148,7 @@ export default function Profilesettingslide() {
                   <div className="row my-2">
                     <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                       <div className="section-twitter">
-                        <InstagramIcon style={{ color: "#6A6A6A" }} />
+                        <InstagramIcon id="twitter-profile-icon"/>
                         <span className="twit">Instagram</span>
                       </div>
                     </div>
