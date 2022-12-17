@@ -73,6 +73,8 @@
   font-size: 25px;
 }
 
+
+
 .face {
   color: rgb(6, 6, 6);
   font-size: 25px;
@@ -464,4 +466,15 @@ svg#search-icon-nav {
 }
 .home-button a {
   color: white !important;
+}
+
+@media screen and (max-width:1200px) {
+  .search-nav{
+    padding: 0rem;
+  }
+  .search-text-field{
+    margin-top: 0rem !important;
+    width: 60%;
+
+  }
 }

@@ -170,7 +170,7 @@ form.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1
 @media screen and (min-width:1200px) {
   .filter-button {
     width: 55%;
-    margin: 1rem !important;
+    margin: 1rem  !important;
   }
 
   .recent-button {
@@ -183,6 +183,6 @@ form.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1
   .filter-button,
   .recent-button {
     width: 60%;
-    margin: 1rem !important;
+    margin: 1rem 1rem 1rem 0rem !important;
   }
 }
