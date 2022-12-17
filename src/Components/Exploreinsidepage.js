@@ -21,7 +21,7 @@ function ExploreInsidepage() {
               <h1 className="explore-art">Explore Art</h1>
               <p className="explore-para">
                 Lorem Ipsum dolor sit amet Lorem Ipsum dolor
-                <br /> sit amet Lorem Ipsum dolor sit amet{" "}
+               sit amet Lorem Ipsum dolor sit amet{" "}
               </p>
             </div>
           </div>

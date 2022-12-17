@@ -83,11 +83,11 @@
 .explore-art-text {
   position: absolute;
   top: 65%;
-  left: 40%;
+  left: 37%;
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .explore-art-text {
     position: absolute;
     top: 50%;
