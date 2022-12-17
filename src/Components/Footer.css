@@ -178,7 +178,7 @@ ul.footer2-list li {
 @media screen and (max-width: 512px) {
   .icon {
     padding-inline-start: 0px;
-    justify-content: space-evenly;
+
   }
 }
 
@@ -206,6 +206,9 @@ ul.footer2-list li {
 @media screen and (max-width:992px) {
   .footer-section{
     margin-bottom: 3rem;
+  }
+  .icon li{
+    margin: 10px 10px 10px 0px;
   }
   
 }
