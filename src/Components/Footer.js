@@ -68,7 +68,7 @@ function Footer(props) {
           </div>
           <div>
             <div className="row">
-              <div className="col-lg-5 col-md-12 col-sm-12 col-12 footer-opensea">
+              <div className="col-lg-5 col-md-12 col-sm-12 col-12 footer-opensea footer-section">
                 <h5 className="list-heading">Origins Marketplace</h5>
 
                 <p className="origins-para">
@@ -79,7 +79,7 @@ function Footer(props) {
                   profits from endeavours they are passionate about.
                 </p>
               </div>
-              <div className="col-lg col-md col-sm-12 col-12">
+              <div className="col-lg col-md col-sm-12 col-12 footer-section">
                 {" "}
                 <h5 className="list-heading">Marketplace</h5>
                 <ul className="footer2-list">
@@ -94,7 +94,7 @@ function Footer(props) {
                   <li>Trending</li>
                 </ul>
               </div>
-              <div className="col-lg col-md col-sm-12 col-12 profile-fo">
+              <div className="col-lg col-md col-sm-12 col-12 profile-fo footer-section">
                 {" "}
                 <h5 className="list-heading">My Profile</h5>
                 <ul className="footer2-list">
@@ -105,7 +105,7 @@ function Footer(props) {
                   <li>Settings</li>
                 </ul>
               </div>
-              <div className="col-lg col-md col-sm-12 col-12">
+              <div className="col-lg col-md col-sm-12 col-12 footer-section">
                 {" "}
                 <h5 className="list-heading">Resources</h5>
                 <ul className="footer2-list">
