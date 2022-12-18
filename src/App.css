@@ -302,6 +302,10 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignRight.MuiTableCell-size
   text-align: left !important;
 }
 
+.css-13xy2my{
+  background-color: none !important;
+}
+
 @media screen and (max-width: 768px) {
   #footer-posted-margin-bottom {
     margin-bottom: 2.5rem;
